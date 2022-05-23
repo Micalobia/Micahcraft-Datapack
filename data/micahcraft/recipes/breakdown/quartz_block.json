@@ -2,7 +2,7 @@
 	"type": "stonecutting",
 	"ingredient": 
 	{
-		"item": "minecraft:quartz_block"
+		"tag": "micahcraft:variants/quartz_block"
 	},
 	"result": "minecraft:quartz",
 	"count": 4

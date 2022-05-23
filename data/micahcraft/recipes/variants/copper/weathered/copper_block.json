@@ -1,7 +1,7 @@
 {
     "type": "stonecutting",
     "ingredient": {
-        "tag": "micahcraft:variants/exposed_copper"
+        "tag": "micahcraft:variants/weathered_copper"
     },
     "count": 1,
     "result": "weathered_copper"

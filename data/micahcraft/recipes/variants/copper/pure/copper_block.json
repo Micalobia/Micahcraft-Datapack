@@ -1,7 +1,7 @@
 {
     "type": "stonecutting",
     "ingredient": {
-        "tag": "micahcraft:variants/exposed_copper"
+        "tag": "micahcraft:variants/copper_block"
     },
     "count": 1,
     "result": "copper_block"

@@ -1,8 +1,7 @@
 {
 	"type": "stonecutting",
-	"ingredient": 
-	{
-		"item": "minecraft:nether_bricks"
+	"ingredient": {
+		"tag": "micahcraft:variants/nether_bricks"
 	},
 	"result": "minecraft:nether_brick",
 	"count": 4

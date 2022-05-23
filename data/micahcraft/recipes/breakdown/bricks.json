@@ -2,7 +2,7 @@
 	"type": "stonecutting",
 	"ingredient": 
 	{
-		"item": "minecraft:bricks"
+		"tag": "micahcraft:variants/bricks"
 	},
 	"result": "minecraft:brick",
 	"count": 4
