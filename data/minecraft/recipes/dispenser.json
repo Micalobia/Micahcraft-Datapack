@@ -1,0 +1,24 @@
+{
+    "type":"crafting_shaped",
+    "group":"dispenser",
+    "pattern":[
+        "CCC",
+        "CBC",
+        "CRC"
+    ],
+    "key": {
+        "C": {
+            "tag":"minecraft:stone_tool_materials"
+        },
+        "B": {
+            "item":"minecraft:bow"
+        },
+        "R": {
+            "item":"minecraft:redstone"
+        }
+    },
+    "result": {
+		"item":"minecraft:dispenser",
+		"count":1
+	}
+}

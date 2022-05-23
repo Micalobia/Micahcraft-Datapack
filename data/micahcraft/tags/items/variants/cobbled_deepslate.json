@@ -1,0 +1,10 @@
+{
+    "replace": false,
+    "values": [
+        "cobbled_deepslate",
+        "deepslate_bricks",
+        "deepslate_tiles",
+        "chiseled_deepslate",
+        "polished_deepslate"
+    ]
+}

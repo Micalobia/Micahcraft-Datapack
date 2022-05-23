@@ -1,0 +1,8 @@
+{
+    "type": "stonecutting",
+    "ingredient": {
+        "tag": "micahcraft:variants/oxidized_copper"
+    },
+    "count": 2,
+    "result": "oxidized_cut_copper_slab"
+}

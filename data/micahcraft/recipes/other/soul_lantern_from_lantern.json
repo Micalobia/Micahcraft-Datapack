@@ -1,0 +1,31 @@
+{
+	"type": "crafting_shapeless",
+	"ingredients": 
+	[
+		{
+			"item": "minecraft:lantern"
+		},
+		{
+			"item": "minecraft:lantern"
+		},
+		{
+			"item": "minecraft:lantern"
+		},
+		{
+			"item": "minecraft:lantern"
+		},
+		[
+			{
+				"item": "minecraft:soul_soil"
+			},
+			{
+				"item": "minecraft:soul_sand"
+			}
+		]
+	],
+	"result": 
+	{
+		"item": "minecraft:soul_lantern",
+		"count": 4
+	}
+}

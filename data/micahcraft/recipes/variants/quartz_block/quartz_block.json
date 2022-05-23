@@ -1,0 +1,8 @@
+{
+    "type": "stonecutting",
+    "ingredient": {
+        "tag": "micahcraft:variants/quartz_block"
+    },
+    "count": 1,
+    "result": "quartz_block"
+}

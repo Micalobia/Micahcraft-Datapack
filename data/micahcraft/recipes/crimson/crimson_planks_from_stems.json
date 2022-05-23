@@ -1,0 +1,9 @@
+{
+	"type": "stonecutting",
+	"ingredient": 
+	{
+		"tag": "minecraft:crimson_stems"
+	},
+	"result": "minecraft:crimson_planks",
+	"count": 4
+}

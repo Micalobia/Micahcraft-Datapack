@@ -1,0 +1,8 @@
+{
+    "type": "stonecutting",
+    "ingredient": {
+        "tag": "micahcraft:variants/waxed_weathered_copper"
+    },
+    "count": 2,
+    "result": "waxed_weathered_cut_copper_slab"
+}

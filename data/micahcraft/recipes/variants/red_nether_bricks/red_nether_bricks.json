@@ -1,0 +1,8 @@
+{
+    "type": "stonecutting",
+    "ingredient": {
+        "tag": "micahcraft:variants/red_nether_bricks"
+    },
+    "count": 1,
+    "result": "red_nether_bricks"
+}

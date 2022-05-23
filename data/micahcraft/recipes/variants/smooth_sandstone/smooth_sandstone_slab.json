@@ -1,0 +1,8 @@
+{
+    "type": "stonecutting",
+    "ingredient": {
+        "tag": "micahcraft:variants/smooth_sandstone"
+    },
+    "count": 2,
+    "result": "smooth_sandstone_slab"
+}

@@ -1,0 +1,8 @@
+{
+    "type": "stonecutting",
+    "ingredient": {
+        "tag": "micahcraft:variants/purpur_block"
+    },
+    "count": 2,
+    "result": "purpur_slab"
+}

@@ -1,0 +1,23 @@
+
+{
+	"type": "crafting_shapeless",
+	"ingredients": 
+	[
+		[
+			{
+				"item": "minecraft:grass_block"
+			},
+			{
+				"item": "minecraft:podzol"
+			},
+			{
+				"item": "minecraft:mycelium"
+			}
+		]
+	],
+	"result": 
+	{
+		"item": "minecraft:dirt_path",
+		"count": 1
+	}
+}

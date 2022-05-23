@@ -1,0 +1,23 @@
+{
+    "type":"crafting_shaped",
+    "pattern":[
+        "CCC",
+        "RRQ",
+        "CCC"
+    ],
+    "key": {
+        "C": {
+            "tag":"minecraft:stone_tool_materials"
+        },
+        "R": {
+            "item":"minecraft:redstone"
+        },
+        "Q": {
+            "item":"minecraft:quartz"
+        }
+    },
+    "result": {
+		"item":"minecraft:observer",
+		"count":1
+	}
+}

@@ -1,0 +1,28 @@
+{
+	"type": "crafting_shapeless",
+	"ingredients": 
+	[
+		{
+			"item": "minecraft:dirt"
+		},
+		[
+			{
+				"item": "minecraft:wheat_seeds"
+			},
+			{
+				"item": "minecraft:pumpkin_seeds"
+			},
+			{
+				"item": "minecraft:melon_seeds"
+			},
+			{
+				"item": "minecraft:beetroot_seeds"
+			}
+		]
+	],
+	"result": 
+	{
+		"item": "minecraft:dirt_path",
+		"count": 1
+	}
+}

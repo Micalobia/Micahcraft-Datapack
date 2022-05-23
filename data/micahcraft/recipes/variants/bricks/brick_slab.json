@@ -1,0 +1,8 @@
+{
+    "type": "stonecutting",
+    "ingredient": {
+        "tag": "micahcraft:variants/bricks"
+    },
+    "count": 2,
+    "result": "brick_slab"
+}

@@ -1,0 +1,8 @@
+{
+    "type": "stonecutting",
+    "ingredient": {
+        "tag": "micahcraft:variants/granite"
+    },
+    "count": 1,
+    "result": "polished_granite_stairs"
+}

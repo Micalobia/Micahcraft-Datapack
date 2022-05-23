@@ -1,0 +1,8 @@
+{
+    "type": "stonecutting",
+    "ingredient": {
+        "tag": "micahcraft:variants/mossy_cobblestone"
+    },
+    "count": 1,
+    "result": "mossy_cobblestone_wall"
+}

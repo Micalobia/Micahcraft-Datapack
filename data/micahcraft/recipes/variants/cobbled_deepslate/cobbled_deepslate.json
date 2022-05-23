@@ -1,0 +1,8 @@
+{
+    "type": "stonecutting",
+    "ingredient": {
+        "tag": "micahcraft:variants/cobbled_deepslate"
+    },
+    "count": 1,
+    "result": "cobbled_deepslate"
+}

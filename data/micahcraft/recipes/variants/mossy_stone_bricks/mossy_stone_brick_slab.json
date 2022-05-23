@@ -1,0 +1,8 @@
+{
+    "type": "stonecutting",
+    "ingredient": {
+        "tag": "micahcraft:variants/mossy_stone_bricks"
+    },
+    "count": 2,
+    "result": "mossy_stone_brick_slab"
+}

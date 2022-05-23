@@ -1,0 +1,8 @@
+{
+    "type": "stonecutting",
+    "ingredient": {
+        "tag": "micahcraft:variants/sandstone"
+    },
+    "count": 2,
+    "result": "sandstone_slab"
+}

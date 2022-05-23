@@ -1,0 +1,9 @@
+{
+    "replace": false,
+    "values": [
+        "quartz_block",
+        "chiseled_quartz_block",
+        "quartz_bricks",
+        "quartz_pillar"
+    ]
+}
