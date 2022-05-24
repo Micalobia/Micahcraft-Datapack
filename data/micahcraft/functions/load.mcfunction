@@ -5,6 +5,7 @@ scoreboard objectives add SeeHUD trigger
 scoreboard objectives add SetSpawn trigger
 scoreboard objectives add SeeHelp trigger
 scoreboard objectives add SeeHorseJump trigger
+scoreboard objectives add SeeHorseSpeed trigger
 
 # Teams
 team add SeeDeaths "See Deaths"
@@ -29,6 +30,8 @@ scoreboard players set $5007 Math 5007
 scoreboard players set $9113 Math 9113
 scoreboard players set $2000 Math 2000
 scoreboard players set $1367 Math 1367
+scoreboard players set $4317 Math 4317
+
 
 # Display
 scoreboard objectives setdisplay sidebar.team.red Deaths

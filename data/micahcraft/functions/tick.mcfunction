@@ -4,3 +4,4 @@ function micahcraft:checks/xp
 function micahcraft:checks/spawn
 function micahcraft:checks/hud
 function micahcraft:checks/horse_jump
+function micahcraft:checks/horse_speed
