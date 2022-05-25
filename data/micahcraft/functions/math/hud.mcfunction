@@ -1,6 +1,4 @@
-execute store result score $X Math run data get entity @s Pos[0]
-execute store result score $Y Math run data get entity @s Pos[1]
-execute store result score $Z Math run data get entity @s Pos[2]
+function micahcraft:getters/coords
 execute store result score $SatInt Math run data get entity @s foodSaturationLevel
 execute store result score $SatDec Math run data get entity @s foodSaturationLevel 10
 scoreboard players operation $SatDec Math %= $10 Math
