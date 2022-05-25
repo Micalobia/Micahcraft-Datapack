@@ -32,8 +32,6 @@ scoreboard players set $2000 Math 2000
 scoreboard players set $1367 Math 1367
 scoreboard players set $42158 Math 42158
 
-
-
 # Display
 scoreboard objectives setdisplay sidebar.team.red Deaths
 scoreboard objectives setdisplay sidebar.team.green XP
