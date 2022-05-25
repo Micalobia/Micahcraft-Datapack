@@ -30,7 +30,8 @@ scoreboard players set $5007 Math 5007
 scoreboard players set $9113 Math 9113
 scoreboard players set $2000 Math 2000
 scoreboard players set $1367 Math 1367
-scoreboard players set $4317 Math 4317
+scoreboard players set $42158 Math 42158
+
 
 
 # Display
