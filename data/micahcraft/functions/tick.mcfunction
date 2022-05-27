@@ -6,3 +6,4 @@ function micahcraft:checks/hud
 function micahcraft:checks/horse_jump
 function micahcraft:checks/horse_speed
 function micahcraft:checks/nether
+function micahcraft:checks/afk

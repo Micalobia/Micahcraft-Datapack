@@ -13,14 +13,30 @@ team add SeeDeaths "See Deaths"
 team modify SeeDeaths color red
 team add SeeXP "See XP Level"
 team modify SeeXP color green
+team add Afk "AFK"
+team modify Afk color gray
 
 # Real Scoreboards
 scoreboard objectives add Deaths deathCount "Deaths"
 scoreboard objectives add XP level "XP Level"
 scoreboard objectives add Health health "Health"
+scoreboard objectives add Aviate minecraft.custom:minecraft.aviate_one_cm
+scoreboard objectives add Boat minecraft.custom:minecraft.boat_one_cm
+scoreboard objectives add Climb minecraft.custom:minecraft.climb_one_cm
+scoreboard objectives add Crouch minecraft.custom:minecraft.crouch_one_cm
+scoreboard objectives add Fly minecraft.custom:minecraft.fly_one_cm
+scoreboard objectives add Horse minecraft.custom:minecraft.horse_one_cm
+scoreboard objectives add Sprint minecraft.custom:minecraft.sprint_one_cm
+scoreboard objectives add Swim minecraft.custom:minecraft.swim_one_cm
+scoreboard objectives add WalkOnWater minecraft.custom:minecraft.walk_on_water_one_cm
+scoreboard objectives add Walk minecraft.custom:minecraft.walk_one_cm
+scoreboard objectives add WalkUnderWater minecraft.custom:minecraft.walk_under_water_one_cm
+scoreboard objectives add TicksAfk minecraft.custom:minecraft.play_time
+scoreboard objectives add Jump minecraft.custom:minecraft.jump
 
 # Dummies
 scoreboard objectives add Math dummy
+scoreboard objectives add Moving dummy
 
 # Constants
 scoreboard players set $10 Math 10
