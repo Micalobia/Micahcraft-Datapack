@@ -7,7 +7,7 @@
 			"item": "minecraft:minecart"
 		},
 		{
-			"item": "minecraft:chest"
+			"item": "minecraft:hopper"
 		}
 	],
   "result": {
