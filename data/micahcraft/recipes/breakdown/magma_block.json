@@ -1,0 +1,9 @@
+{
+	"type": "stonecutting",
+	"ingredient": 
+	{
+		"item": "minecraft:magma_block"
+	},
+	"result": "minecraft:magma_cream",
+	"count": 4
+}
