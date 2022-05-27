@@ -38,4 +38,4 @@ scoreboard players operation $JInt Math /= $100 Math
 scoreboard players operation $JDec Math = $JEnd Math
 scoreboard players operation $JDec Math %= $100 Math
 
-tellraw @s [{"text":"Jump Height: ","color":"blue"},{"score":{"name":"$JInt","objective":"Math"},"color":"blue"},".",{"score":{"name":"$JDec","objective":"Math"},"color":"blue"}]
+tellraw @s [{"text":"Jump Height: ","color":"light_purple"},{"score":{"name":"$JInt","objective":"Math"},"color":"light_purple"},".",{"score":{"name":"$JDec","objective":"Math"},"color":"light_purple"}]

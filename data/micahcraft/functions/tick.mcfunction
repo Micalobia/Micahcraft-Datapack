@@ -7,3 +7,4 @@ function micahcraft:checks/horse_jump
 function micahcraft:checks/horse_speed
 function micahcraft:checks/nether
 function micahcraft:checks/afk
+function micahcraft:checks/time_played

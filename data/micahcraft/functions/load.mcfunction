@@ -7,6 +7,7 @@ scoreboard objectives add SeeHelp trigger
 scoreboard objectives add SeeHorseJump trigger
 scoreboard objectives add SeeHorseSpeed trigger
 scoreboard objectives add SeeNetherCoords trigger
+scoreboard objectives add SeePlaytime trigger
 
 # Teams
 team add SeeDeaths "See Deaths"
@@ -15,11 +16,14 @@ team add SeeXP "See XP Level"
 team modify SeeXP color green
 team add Afk "AFK"
 team modify Afk color gray
+team add SeePlaytime "See Playtime"
+team modify SeePlaytime color blue
 
 # Real Scoreboards
 scoreboard objectives add Deaths deathCount "Deaths"
 scoreboard objectives add XP level "XP Level"
 scoreboard objectives add Health health "Health"
+scoreboard objectives add Playtime minecraft.custom:minecraft.play_time
 scoreboard objectives add Aviate minecraft.custom:minecraft.aviate_one_cm
 scoreboard objectives add Boat minecraft.custom:minecraft.boat_one_cm
 scoreboard objectives add Climb minecraft.custom:minecraft.climb_one_cm
@@ -37,6 +41,7 @@ scoreboard objectives add Jump minecraft.custom:minecraft.jump
 # Dummies
 scoreboard objectives add Math dummy
 scoreboard objectives add Moving dummy
+scoreboard objectives add PlaytimeDisplay dummy "Playtime"
 
 # Constants
 scoreboard players set $10 Math 10
@@ -49,10 +54,12 @@ scoreboard players set $2000 Math 2000
 scoreboard players set $1367 Math 1367
 scoreboard players set $42158 Math 42158
 scoreboard players set $8 Math 8
+scoreboard players set $72000 Math 72000
 
 # Display
 scoreboard objectives setdisplay sidebar.team.red Deaths
 scoreboard objectives setdisplay sidebar.team.green XP
+scoreboard objectives setdisplay sidebar.team.blue PlaytimeDisplay
 scoreboard objectives setdisplay list Health
 
 tellraw @a {"text":"Successfully loaded Micahcraft","color":"green"}
