@@ -1,15 +1,4 @@
-scoreboard players operation @a Moving = @a Aviate
-scoreboard players operation @a Moving += @a Boat
-scoreboard players operation @a Moving += @a Climb
-scoreboard players operation @a Moving += @a Crouch
-scoreboard players operation @a Moving += @a Fly
-scoreboard players operation @a Moving += @a Horse
-scoreboard players operation @a Moving += @a Sprint
-scoreboard players operation @a Moving += @a Swim
-scoreboard players operation @a Moving += @a WalkOnWater
-scoreboard players operation @a Moving += @a Walk
-scoreboard players operation @a Moving += @a WalkUnderWater
-scoreboard players operation @a Moving += @a Jump
+execute as @a run function micahcraft:math/afk
 tag @a[tag=Moving] remove Moving
 tag @a[scores={Moving=1..}] add Moving
 scoreboard players set @a[tag=Moving] Aviate 0
@@ -30,3 +19,4 @@ tag @a[tag=Afk] remove Afk
 tag @a[scores={TicksAfk=12000..}] add Afk
 execute as @a[scores={TicksAfk=12000}] run tellraw @a [{"selector":"@s","color":"gray","italic":true},{"text":" is now AFK","color":"gray","italic":true}]
 team join Afk @a[tag=Afk]
+team leave @a[team=Afk,tag=!Afk]

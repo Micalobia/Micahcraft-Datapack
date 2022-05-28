@@ -1,2 +1,2 @@
-scoreboard players operation @a PlaytimeDisplay = @a Playtime
-scoreboard players operation @a PlaytimeDisplay /= $72000 Math
+scoreboard players operation @s PlaytimeDisplay = @s Playtime
+scoreboard players operation @s PlaytimeDisplay /= $72000 Math
