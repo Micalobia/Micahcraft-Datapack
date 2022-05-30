@@ -1,5 +1,5 @@
 {
-	"type":"minecraft:crafting_shaped",
+	"type": "minecraft:crafting_shaped",
 	"pattern": [
 		"DDD",
 		"DSD",
@@ -8,23 +8,12 @@
 	"key": {
 		"D":
 		{
-			"item": "minecraft:dirt"
+			"tag": "minecraft:dirt"
 		},
 		"S":
-		[
-			{
-				"item": "minecraft:wheat_seeds"
-			},
-			{
-				"item": "minecraft:pumpkin_seeds"
-			},
-			{
-				"item": "minecraft:melon_seeds"
-			},
-			{
-				"item": "minecraft:beetroot_seeds"
-			}
-		]
+		{
+			"tag": "micahcraft:seeds"
+		}
 	},
 	"result": {
 		"item": "minecraft:dirt_path",
