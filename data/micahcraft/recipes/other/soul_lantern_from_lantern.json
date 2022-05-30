@@ -14,14 +14,9 @@
 		{
 			"item": "minecraft:lantern"
 		},
-		[
-			{
-				"item": "minecraft:soul_soil"
-			},
-			{
-				"item": "minecraft:soul_sand"
-			}
-		]
+		{
+			"tag": "minecraft:soul_fire_base_blocks"
+		}
 	],
 	"result": 
 	{
