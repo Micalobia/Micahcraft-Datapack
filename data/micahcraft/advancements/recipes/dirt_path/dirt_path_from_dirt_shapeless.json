@@ -1,0 +1,32 @@
+{
+    "parent": "minecraft:recipes/root",
+    "criteria": {
+        "has_the_item": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "tag": "micahcraft:seeds"
+                    }
+                ]
+            }
+        },
+        "has_the_recipe": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "micahcraft:dirt_path/dirt_path_from_dirt_shapeless"
+            }
+        }
+    },
+    "requirements": [
+        [
+            "has_the_item",
+            "has_the_recipe"
+        ]
+    ],
+    "rewards": {
+        "recipes": [
+            "micahcraft:dirt_path/dirt_path_from_dirt_shapeless"
+        ]
+    }
+}
