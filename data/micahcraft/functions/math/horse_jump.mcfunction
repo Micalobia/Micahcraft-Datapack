@@ -1,6 +1,4 @@
-data modify storage micahcraft:get_attribute Attribute set value "minecraft:horse.jump_strength"
-execute as @e[type=horse,sort=nearest,distance=..10,limit=1] run function micahcraft:getters/attribute
-execute store result score $JVal Math run data get storage micahcraft:get_attribute Value 100
+execute store result score $JVal Math run attribute @e[type=horse,sort=nearest,distance=..10,limit=1] minecraft:horse.jump_strength get 100
 scoreboard players operation $JVal2 Math = $JVal Math
 scoreboard players operation $JVal2 Math *= $JVal Math
 scoreboard players operation $JVal3 Math = $JVal Math

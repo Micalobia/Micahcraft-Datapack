@@ -1,6 +1,4 @@
-data modify storage micahcraft:get_attribute Attribute set value "minecraft:generic.movement_speed"
-execute as @e[type=horse,sort=nearest,distance=..10,limit=1] run function micahcraft:getters/attribute
-execute store result score $SVal Math run data get storage micahcraft:get_attribute Value 1000
+execute store result score $SVal Math run attribute @e[type=horse,limit=1,sort=nearest,distance=..10] minecraft:generic.movement_speed get 1000
 # Wiki says 43.17, tests say 42.1584649991
 scoreboard players operation $SVal Math *= $42158 Math
 scoreboard players add $SVal Math 500
