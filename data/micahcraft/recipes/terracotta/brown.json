@@ -1,0 +1,19 @@
+{
+	"type":"minecraft:crafting_shaped",
+	"pattern": [
+		"TTT",
+		"TDT",
+		"TTT"
+	],
+	"key": {
+		"T": {
+			"tag":"minecraft:terracotta"
+		},
+		"D": {
+			"item":"minecraft:brown_dye"
+		}
+	},
+	"result": {
+		"item":"minecraft:brown_terracotta"
+	}
+}
