@@ -1,0 +1,19 @@
+{
+	"type":"minecraft:crafting_shaped",
+	"pattern": [
+		"TTT",
+		"TDT",
+		"TTT"
+	],
+	"key": {
+		"T": {
+			"tag":"minecraft:carpets"
+		},
+		"D": {
+			"item":"minecraft:yellow_dye"
+		}
+	},
+	"result": {
+		"item":"minecraft:yellow_carpet"
+	}
+}
