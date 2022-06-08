@@ -2,6 +2,7 @@
     "replace":false,
     "values": [
         "glass",
+        "tinted_glass",
         "#micahcraft:stained_glass_blocks"
     ]
 }
