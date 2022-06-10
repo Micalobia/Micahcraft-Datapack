@@ -14,6 +14,7 @@
 		}
 	},
 	"result": {
-		"item":"minecraft:white_carpet"
+		"item":"minecraft:white_carpet",
+		"count": 8
 	}
 }

@@ -14,6 +14,7 @@
 		}
 	},
 	"result": {
-		"item":"minecraft:magenta_terracotta"
+		"item":"minecraft:magenta_terracotta",
+		"count": 8
 	}
 }

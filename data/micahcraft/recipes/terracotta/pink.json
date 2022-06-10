@@ -14,6 +14,7 @@
 		}
 	},
 	"result": {
-		"item":"minecraft:pink_terracotta"
+		"item":"minecraft:pink_terracotta",
+		"count": 8
 	}
 }
