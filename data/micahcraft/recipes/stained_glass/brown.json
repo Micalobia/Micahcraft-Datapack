@@ -1,0 +1,20 @@
+{
+	"type":"minecraft:crafting_shaped",
+	"pattern": [
+		"TTT",
+		"TDT",
+		"TTT"
+	],
+	"key": {
+		"T": {
+			"tag":"micahcraft:dyeable_glass_blocks"
+		},
+		"D": {
+			"item":"minecraft:brown_dye"
+		}
+	},
+	"result": {
+		"item":"minecraft:brown_stained_glass",
+		"count": 8
+	}
+}
