@@ -1,0 +1,9 @@
+{
+	"type": "stonecutting",
+	"ingredient": 
+	{
+		"tag": "minecraft:cherry_logs"
+	},
+	"result": "minecraft:cherry_trapdoor",
+	"count": 2
+}
