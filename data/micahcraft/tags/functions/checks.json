@@ -1,0 +1,15 @@
+{
+    "replace": false,
+    "values": [
+        "micahcraft:checks/afk",
+        "micahcraft:checks/deaths",
+        "micahcraft:checks/help",
+        "micahcraft:checks/horse_jump",
+        "micahcraft:checks/horse_speed",
+        "micahcraft:checks/hud",
+        "micahcraft:checks/nether",
+        "micahcraft:checks/spawn",
+        "micahcraft:checks/time_played",
+        "micahcraft:checks/xp"
+    ]
+}
