@@ -14,7 +14,7 @@
         "has_the_recipe": {
             "trigger": "minecraft:recipe_unlocked",
             "conditions": {
-                "recipe": "micahcraft:other/sticks_from_logs"
+                "recipe": "micahcraft:woodcutter/sticks_from_logs"
             }
         }
     },
@@ -26,7 +26,7 @@
     ],
     "rewards": {
         "recipes": [
-            "micahcraft:other/sticks_from_logs"
+            "micahcraft:woodcutter/sticks_from_logs"
         ]
     }
 }

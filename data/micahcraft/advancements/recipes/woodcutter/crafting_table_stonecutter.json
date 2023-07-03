@@ -6,7 +6,7 @@
             "conditions": {
                 "items": [
                     {
-                        "tag": "minecraft:planks"
+                        "tag": "minecraft:logs"
                     }
                 ]
             }
@@ -14,7 +14,7 @@
         "has_the_recipe": {
             "trigger": "minecraft:recipe_unlocked",
             "conditions": {
-                "recipe": "micahcraft:other/sticks_from_planks"
+                "recipe": "micahcraft:woodcutter/crafting_table_stonecutter"
             }
         }
     },
@@ -26,7 +26,7 @@
     ],
     "rewards": {
         "recipes": [
-            "micahcraft:other/sticks_from_planks"
+            "micahcraft:woodcutter/crafting_table_stonecutter"
         ]
     }
 }
