@@ -14,7 +14,7 @@
         "has_the_recipe": {
             "trigger": "minecraft:recipe_unlocked",
             "conditions": {
-                "recipe": "micahcraft:boats/jungle"
+                "recipe": "micahcraft:woodcutter/jungle/jungle_boat_from_log"
             }
         }
     },
@@ -26,7 +26,7 @@
     ],
     "rewards": {
         "recipes": [
-            "micahcraft:boats/jungle"
+            "micahcraft:woodcutter/jungle/jungle_boat_from_log"
         ]
     }
 }

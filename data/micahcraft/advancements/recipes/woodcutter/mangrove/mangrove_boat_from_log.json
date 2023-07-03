@@ -6,7 +6,7 @@
             "conditions": {
                 "items": [
                     {
-                        "tag": "minecraft:cherry_logs"
+                        "tag": "minecraft:mangrove_logs"
                     }
                 ]
             }
@@ -14,7 +14,7 @@
         "has_the_recipe": {
             "trigger": "minecraft:recipe_unlocked",
             "conditions": {
-                "recipe": "micahcraft:boats/cherry"
+                "recipe": "micahcraft:woodcutter/mangrove/mangrove_boat_from_log"
             }
         }
     },
@@ -26,7 +26,7 @@
     ],
     "rewards": {
         "recipes": [
-            "micahcraft:boats/cherry"
+            "micahcraft:woodcutter/mangrove/mangrove_boat_from_log"
         ]
     }
 }

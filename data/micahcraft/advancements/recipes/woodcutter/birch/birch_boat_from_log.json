@@ -6,7 +6,7 @@
             "conditions": {
                 "items": [
                     {
-                        "tag": "minecraft:oak_logs"
+                        "tag": "minecraft:birch_logs"
                     }
                 ]
             }
@@ -14,7 +14,7 @@
         "has_the_recipe": {
             "trigger": "minecraft:recipe_unlocked",
             "conditions": {
-                "recipe": "micahcraft:boats/oak"
+                "recipe": "micahcraft:woodcutter/birch/birch_boat_from_log"
             }
         }
     },
@@ -26,7 +26,7 @@
     ],
     "rewards": {
         "recipes": [
-            "micahcraft:boats/oak"
+            "micahcraft:woodcutter/birch/birch_boat_from_log"
         ]
     }
 }

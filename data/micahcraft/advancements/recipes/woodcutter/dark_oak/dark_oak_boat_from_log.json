@@ -6,7 +6,7 @@
             "conditions": {
                 "items": [
                     {
-                        "tag": "minecraft:birch_logs"
+                        "tag": "minecraft:dark_oak_logs"
                     }
                 ]
             }
@@ -14,7 +14,7 @@
         "has_the_recipe": {
             "trigger": "minecraft:recipe_unlocked",
             "conditions": {
-                "recipe": "micahcraft:boats/birch"
+                "recipe": "micahcraft:woodcutter/dark_oak/dark_oak_boat_from_log"
             }
         }
     },
@@ -26,7 +26,7 @@
     ],
     "rewards": {
         "recipes": [
-            "micahcraft:boats/birch"
+            "micahcraft:woodcutter/dark_oak/dark_oak_boat_from_log"
         ]
     }
 }

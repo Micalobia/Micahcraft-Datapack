@@ -6,7 +6,7 @@
             "conditions": {
                 "items": [
                     {
-                        "tag": "minecraft:bamboo_blocks"
+                        "tag": "minecraft:acacia_logs"
                     }
                 ]
             }
@@ -14,7 +14,7 @@
         "has_the_recipe": {
             "trigger": "minecraft:recipe_unlocked",
             "conditions": {
-                "recipe": "micahcraft:boats/bamboo"
+                "recipe": "micahcraft:woodcutter/acacia/acacia_boat_from_log"
             }
         }
     },
@@ -26,7 +26,7 @@
     ],
     "rewards": {
         "recipes": [
-            "micahcraft:boats/bamboo"
+            "micahcraft:woodcutter/acacia/acacia_boat_from_log"
         ]
     }
 }

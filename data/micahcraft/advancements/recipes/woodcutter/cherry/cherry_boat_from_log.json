@@ -6,7 +6,7 @@
             "conditions": {
                 "items": [
                     {
-                        "tag": "minecraft:acacia_logs"
+                        "tag": "minecraft:cherry_logs"
                     }
                 ]
             }
@@ -14,7 +14,7 @@
         "has_the_recipe": {
             "trigger": "minecraft:recipe_unlocked",
             "conditions": {
-                "recipe": "micahcraft:boats/acacia"
+                "recipe": "micahcraft:woodcutter/cherry/cherry_boat_from_log"
             }
         }
     },
@@ -26,7 +26,7 @@
     ],
     "rewards": {
         "recipes": [
-            "micahcraft:boats/acacia"
+            "micahcraft:woodcutter/cherry/cherry_boat_from_log"
         ]
     }
 }

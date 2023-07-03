@@ -1,9 +1,0 @@
-{
-	"type": "stonecutting",
-	"ingredient": 
-	{
-		"tag":"minecraft:bamboo_blocks"
-	},
-	"result": "minecraft:bamboo_raft",
-	"count": 1
-}
