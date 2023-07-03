@@ -7,7 +7,7 @@
 	],
 	"key": {
 		"T": {
-			"tag":"minecraft:carpets"
+			"tag":"minecraft:wool_carpets"
 		},
 		"D": {
 			"item":"minecraft:orange_dye"
