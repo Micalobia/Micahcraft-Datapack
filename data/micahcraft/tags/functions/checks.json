@@ -10,6 +10,7 @@
         "micahcraft:checks/nether",
         "micahcraft:checks/spawn",
         "micahcraft:checks/time_played",
-        "micahcraft:checks/xp"
+        "micahcraft:checks/xp",
+        "micahcraft:checks/death_location"
     ]
 }

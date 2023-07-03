@@ -8,6 +8,7 @@ scoreboard objectives add SeeHorseJump trigger
 scoreboard objectives add SeeHorseSpeed trigger
 scoreboard objectives add SeeNetherCoords trigger
 scoreboard objectives add SeePlaytime trigger
+scoreboard objectives add SeeDeathLocation trigger
 
 # Teams
 team add SeeDeaths "See Deaths"
