@@ -1,0 +1,32 @@
+{
+    "parent": "minecraft:recipes/root",
+    "criteria": {
+        "has_the_item": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "tag": "micahcraft:variants/bamboo"
+                    }
+                ]
+            }
+        },
+        "has_the_recipe": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "micahcraft:woodcutter/bamboo/mosaic_from_planks"
+            }
+        }
+    },
+    "requirements": [
+        [
+            "has_the_item",
+            "has_the_recipe"
+        ]
+    ],
+    "rewards": {
+        "recipes": [
+            "micahcraft:woodcutter/bamboo/mosaic_from_planks"
+        ]
+    }
+}

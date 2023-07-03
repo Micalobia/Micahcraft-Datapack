@@ -1,0 +1,34 @@
+{
+    "parent": "minecraft:recipes/root",
+    "criteria": {
+        "has_the_item": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:warped_planks"
+                        ]
+                    }
+                ]
+            }
+        },
+        "has_the_recipe": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "micahcraft:woodcutter/warped/slabs_from_planks"
+            }
+        }
+    },
+    "requirements": [
+        [
+            "has_the_item",
+            "has_the_recipe"
+        ]
+    ],
+    "rewards": {
+        "recipes": [
+            "micahcraft:woodcutter/warped/slabs_from_planks"
+        ]
+    }
+}
