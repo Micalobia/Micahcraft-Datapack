@@ -1,16 +1,9 @@
 {
-	"type":"minecraft:crafting_shaped",
-	"pattern": [
-		"L L",
-		"LLL"
-	],
-	"key": {
-		"L": {
-			"tag":"minecraft:acacia_logs"
-		}
+	"type": "stonecutting",
+	"ingredient": 
+	{
+		"tag":"minecraft:acacia_logs"
 	},
-	"result": {
-		"item":"minecraft:acacia_boat",
-		"count":4
-	}
+	"result": "minecraft:acacia_boat",
+	"count": 1
 }

@@ -1,16 +1,9 @@
 {
-	"type":"minecraft:crafting_shaped",
-	"pattern": [
-		"L L",
-		"LLL"
-	],
-	"key": {
-		"L": {
-			"tag":"minecraft:jungle_logs"
-		}
+	"type": "stonecutting",
+	"ingredient": 
+	{
+		"tag":"minecraft:jungle_logs"
 	},
-	"result": {
-		"item":"minecraft:jungle_boat",
-		"count":4
-	}
+	"result": "minecraft:jungle_boat",
+	"count": 1
 }

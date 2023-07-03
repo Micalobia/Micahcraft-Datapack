@@ -1,16 +1,9 @@
 {
-	"type":"minecraft:crafting_shaped",
-	"pattern": [
-		"L L",
-		"LLL"
-	],
-	"key": {
-		"L": {
-			"tag":"minecraft:dark_oak_logs"
-		}
+	"type": "stonecutting",
+	"ingredient": 
+	{
+		"tag":"minecraft:dark_oak_logs"
 	},
-	"result": {
-		"item":"minecraft:dark_oak_boat",
-		"count":4
-	}
+	"result": "minecraft:dark_oak_boat",
+	"count": 1
 }

@@ -1,16 +1,9 @@
 {
-	"type":"minecraft:crafting_shaped",
-	"pattern": [
-		"L L",
-		"LLL"
-	],
-	"key": {
-		"L": {
-			"tag":"minecraft:spruce_logs"
-		}
+	"type": "stonecutting",
+	"ingredient": 
+	{
+		"tag":"minecraft:spruce_logs"
 	},
-	"result": {
-		"item":"minecraft:spruce_boat",
-		"count":4
-	}
+	"result": "minecraft:spruce_boat",
+	"count": 1
 }

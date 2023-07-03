@@ -1,0 +1,9 @@
+{
+	"type": "stonecutting",
+	"ingredient": 
+	{
+		"tag":"minecraft:mangrove_logs"
+	},
+	"result": "minecraft:mangrove_boat",
+	"count": 1
+}
