@@ -1,0 +1,32 @@
+{
+    "parent": "minecraft:recipes/root",
+    "criteria": {
+        "has_the_item": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "tag": "minecraft:oak_logs"
+                    }
+                ]
+            }
+        },
+        "has_the_recipe": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "micahcraft:woodcutter/oak/oak_planks_from_logs"
+            }
+        }
+    },
+    "requirements": [
+        [
+            "has_the_item",
+            "has_the_recipe"
+        ]
+    ],
+    "rewards": {
+        "recipes": [
+            "micahcraft:woodcutter/oak/oak_planks_from_logs"
+        ]
+    }
+}
