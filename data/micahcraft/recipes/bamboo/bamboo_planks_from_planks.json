@@ -1,0 +1,9 @@
+{
+	"type": "stonecutting",
+	"ingredient": 
+	{
+		"tag": "micahcraft:variants/bamboo"
+	},
+	"result": "minecraft:bamboo_planks",
+	"count": 1
+}
