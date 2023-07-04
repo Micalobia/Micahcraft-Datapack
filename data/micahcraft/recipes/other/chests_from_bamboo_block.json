@@ -1,0 +1,17 @@
+{
+	"type":"minecraft:crafting_shaped",
+	"pattern": [
+		"GGG",
+		"G G",
+		"GGG"
+	],
+	"key": {
+		"G": {
+			"tag":"minecraft:bamboo_blocks"
+		}
+	},
+	"result": {
+		"item":"minecraft:chest",
+		"count":2
+	}
+}
