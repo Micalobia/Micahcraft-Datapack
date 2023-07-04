@@ -1,0 +1,9 @@
+{
+	"type": "stonecutting",
+	"ingredient": 
+	{
+		"tag":"micahcraft:woods/spruce"
+	},
+	"result": "minecraft:spruce_fence",
+	"count": 1
+}
