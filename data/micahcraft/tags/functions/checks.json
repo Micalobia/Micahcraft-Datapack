@@ -1,7 +1,6 @@
 {
     "replace": false,
     "values": [
-        "micahcraft:checks/afk",
         "micahcraft:checks/deaths",
         "micahcraft:checks/help",
         "micahcraft:checks/horse_jump",
@@ -11,6 +10,7 @@
         "micahcraft:checks/spawn",
         "micahcraft:checks/time_played",
         "micahcraft:checks/xp",
+        "micahcraft:checks/afk",
         "micahcraft:checks/death_location"
     ]
 }
