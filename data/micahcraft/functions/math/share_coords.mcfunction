@@ -1,0 +1,2 @@
+function micahcraft:getters/coords
+tellraw @a [{"selector":"@s","color":"#7F00FF"},{"text":"'s position: ","color":"#7F00FF"},{"score":{"name":"$X","objective":"Math"},"color":"red"}," ",{"score":{"name":"$Y","objective":"Math"},"color":"green"}," ",{"score":{"name":"$Z","objective":"Math"},"color":"blue"}]

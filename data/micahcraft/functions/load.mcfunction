@@ -1,15 +1,16 @@
 # Triggers
-    scoreboard objectives add SeeDeaths trigger
-    scoreboard objectives add SeeXP trigger
-    scoreboard objectives add SeeHUD trigger
-    scoreboard objectives add SetSpawn trigger
-    scoreboard objectives add SeeHelp trigger
-    scoreboard objectives add SeeHorseJump trigger
-    scoreboard objectives add SeeHorseSpeed trigger
-    scoreboard objectives add SeeNetherCoords trigger
-    scoreboard objectives add SeePlaytime trigger
-    scoreboard objectives add SeeDeathLocation trigger
-    scoreboard objectives add Afk trigger
+scoreboard objectives add SeeDeaths trigger
+scoreboard objectives add SeeXP trigger
+scoreboard objectives add SeeHUD trigger
+scoreboard objectives add SetSpawn trigger
+scoreboard objectives add SeeHelp trigger
+scoreboard objectives add SeeHorseJump trigger
+scoreboard objectives add SeeHorseSpeed trigger
+scoreboard objectives add SeeNetherCoords trigger
+scoreboard objectives add SeePlaytime trigger
+scoreboard objectives add SeeDeathLocation trigger
+scoreboard objectives add Afk trigger
+scoreboard objectives add ShareCoords trigger
 
 # Teams
     team add SeeDeaths "See Deaths"
