@@ -10,3 +10,4 @@ scoreboard players operation @s Moving += @s WalkOnWater
 scoreboard players operation @s Moving += @s Walk
 scoreboard players operation @s Moving += @s WalkUnderWater
 scoreboard players operation @s Moving += @s Jump
+scoreboard players operation @s Moving += @s Strider

@@ -9,6 +9,7 @@ scoreboard objectives add SeeHorseSpeed trigger
 scoreboard objectives add SeeNetherCoords trigger
 scoreboard objectives add SeePlaytime trigger
 scoreboard objectives add SeeDeathLocation trigger
+scoreboard objectives add Afk trigger
 
 # Teams
 team add SeeDeaths "See Deaths"
@@ -38,6 +39,7 @@ scoreboard objectives add Walk minecraft.custom:minecraft.walk_one_cm
 scoreboard objectives add WalkUnderWater minecraft.custom:minecraft.walk_under_water_one_cm
 scoreboard objectives add TicksAfk minecraft.custom:minecraft.play_time
 scoreboard objectives add Jump minecraft.custom:minecraft.jump
+scoreboard objectives add Strider minecraft.custom:minecraft.strider_one_cm
 
 # Dummies
 scoreboard objectives add Math dummy
