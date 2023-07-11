@@ -1,8 +1,7 @@
 {
 	"type": "stonecutting",
-	"ingredient": 
-	{
-		"tag":"minecraft:oak_logs"
+	"ingredient": {
+		"tag": "minecraft:oak_logs"
 	},
 	"result": "minecraft:oak_boat",
 	"count": 1

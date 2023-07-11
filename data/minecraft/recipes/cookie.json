@@ -1,7 +1,6 @@
 {
 	"type": "crafting_shapeless",
-	"ingredients": 
-	[
+	"ingredients": [
 		{
 			"item": "minecraft:wheat"
 		},
@@ -12,8 +11,7 @@
 			"item": "minecraft:wheat"
 		}
 	],
-	"result": 
-	{
+	"result": {
 		"item": "minecraft:cookie",
 		"count": 8
 	}

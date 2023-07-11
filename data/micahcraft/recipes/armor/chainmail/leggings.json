@@ -1,5 +1,5 @@
 {
-	"type":"minecraft:crafting_shaped",
+	"type": "minecraft:crafting_shaped",
 	"pattern": [
 		"###",
 		"# #",
@@ -7,11 +7,11 @@
 	],
 	"key": {
 		"#": {
-			"item":"minecraft:chain"
+			"item": "minecraft:chain"
 		}
 	},
 	"result": {
-		"item":"minecraft:chainmail_leggings",
-		"count":1
+		"item": "minecraft:chainmail_leggings",
+		"count": 1
 	}
 }

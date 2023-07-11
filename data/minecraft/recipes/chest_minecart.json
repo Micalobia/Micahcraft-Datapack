@@ -1,8 +1,7 @@
 {
-  "type": "minecraft:crafting_shapeless",
-  "group": "chest_minecart",
-  "ingredients": 
-	[
+	"type": "minecraft:crafting_shapeless",
+	"group": "chest_minecart",
+	"ingredients": [
 		{
 			"item": "minecraft:minecart"
 		},
@@ -10,7 +9,7 @@
 			"item": "minecraft:chest"
 		}
 	],
-  "result": {
-    "item": "minecraft:chest_minecart"
-  }
+	"result": {
+		"item": "minecraft:chest_minecart"
+	}
 }

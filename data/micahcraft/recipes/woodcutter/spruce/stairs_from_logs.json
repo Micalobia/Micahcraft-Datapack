@@ -1,7 +1,6 @@
 {
 	"type": "stonecutting",
-	"ingredient": 
-	{
+	"ingredient": {
 		"tag": "minecraft:spruce_logs"
 	},
 	"result": "minecraft:spruce_stairs",

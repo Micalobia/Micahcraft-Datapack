@@ -1,5 +1,5 @@
 {
-	"type":"minecraft:crafting_shaped",
+	"type": "minecraft:crafting_shaped",
 	"pattern": [
 		"TTT",
 		"TDT",
@@ -7,14 +7,14 @@
 	],
 	"key": {
 		"T": {
-			"tag":"micahcraft:dyeable_glass_blocks"
+			"tag": "micahcraft:dyeable_glass_blocks"
 		},
 		"D": {
-			"item":"minecraft:black_dye"
+			"item": "minecraft:black_dye"
 		}
 	},
 	"result": {
-		"item":"minecraft:black_stained_glass",
+		"item": "minecraft:black_stained_glass",
 		"count": 8
 	}
 }

@@ -1,8 +1,7 @@
 {
 	"type": "stonecutting",
-	"ingredient": 
-	{
-		"tag":"micahcraft:woods/jungle"
+	"ingredient": {
+		"tag": "micahcraft:woods/jungle"
 	},
 	"result": "minecraft:jungle_fence",
 	"count": 3

@@ -1,7 +1,6 @@
 {
 	"type": "stonecutting",
-	"ingredient": 
-	{
+	"ingredient": {
 		"tag": "minecraft:dark_oak_logs"
 	},
 	"result": "minecraft:dark_oak_trapdoor",

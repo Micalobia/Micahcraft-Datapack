@@ -1,5 +1,5 @@
 {
-	"type":"minecraft:crafting_shaped",
+	"type": "minecraft:crafting_shaped",
 	"pattern": [
 		"TTT",
 		"TDT",
@@ -7,14 +7,14 @@
 	],
 	"key": {
 		"T": {
-			"tag":"micahcraft:glass_panes"
+			"tag": "micahcraft:glass_panes"
 		},
 		"D": {
-			"item":"minecraft:orange_dye"
+			"item": "minecraft:orange_dye"
 		}
 	},
 	"result": {
-		"item":"minecraft:orange_stained_glass_pane",
+		"item": "minecraft:orange_stained_glass_pane",
 		"count": 8
 	}
 }

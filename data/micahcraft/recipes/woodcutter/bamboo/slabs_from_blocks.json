@@ -1,7 +1,6 @@
 {
 	"type": "stonecutting",
-	"ingredient": 
-	{
+	"ingredient": {
 		"tag": "minecraft:bamboo_blocks"
 	},
 	"result": "minecraft:bamboo_slab",

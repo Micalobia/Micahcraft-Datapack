@@ -6,12 +6,10 @@
 		"DDD"
 	],
 	"key": {
-		"D":
-		{
+		"D": {
 			"tag": "minecraft:dirt"
 		},
-		"S":
-		{
+		"S": {
 			"tag": "micahcraft:seeds"
 		}
 	},

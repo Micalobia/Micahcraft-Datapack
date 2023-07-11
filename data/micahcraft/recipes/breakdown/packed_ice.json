@@ -1,7 +1,6 @@
 {
 	"type": "stonecutting",
-	"ingredient": 
-	{
+	"ingredient": {
 		"item": "minecraft:packed_ice"
 	},
 	"result": "minecraft:ice",

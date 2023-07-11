@@ -1,7 +1,6 @@
 {
 	"type": "stonecutting",
-	"ingredient": 
-	{
+	"ingredient": {
 		"item": "minecraft:cherry_wood"
 	},
 	"result": "minecraft:stripped_cherry_wood",

@@ -1,7 +1,6 @@
 {
 	"type": "stonecutting",
-	"ingredient": 
-	{
+	"ingredient": {
 		"item": "minecraft:warped_hyphae"
 	},
 	"result": "minecraft:stripped_warped_hyphae",

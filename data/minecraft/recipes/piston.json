@@ -1,26 +1,26 @@
 {
-    "type":"crafting_shaped",
-    "pattern":[
+    "type": "crafting_shaped",
+    "pattern": [
         "PPP",
         "CIC",
         "CRC"
     ],
     "key": {
         "P": {
-            "tag":"minecraft:planks"
+            "tag": "minecraft:planks"
         },
         "C": {
-            "tag":"minecraft:stone_tool_materials"
+            "tag": "minecraft:stone_tool_materials"
         },
         "I": {
-            "item":"minecraft:iron_ingot"
+            "item": "minecraft:iron_ingot"
         },
         "R": {
-            "item":"minecraft:redstone"
+            "item": "minecraft:redstone"
         }
     },
     "result": {
-		"item":"minecraft:piston",
-		"count":1
-	}
+        "item": "minecraft:piston",
+        "count": 1
+    }
 }

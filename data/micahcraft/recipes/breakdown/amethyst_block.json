@@ -1,7 +1,6 @@
 {
 	"type": "stonecutting",
-	"ingredient": 
-	{
+	"ingredient": {
 		"item": "minecraft:amethyst_block"
 	},
 	"result": "minecraft:amethyst_shard",

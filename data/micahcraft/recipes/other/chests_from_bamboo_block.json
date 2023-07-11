@@ -1,5 +1,5 @@
 {
-	"type":"minecraft:crafting_shaped",
+	"type": "minecraft:crafting_shaped",
 	"pattern": [
 		"GGG",
 		"G G",
@@ -7,11 +7,11 @@
 	],
 	"key": {
 		"G": {
-			"tag":"minecraft:bamboo_blocks"
+			"tag": "minecraft:bamboo_blocks"
 		}
 	},
 	"result": {
-		"item":"minecraft:chest",
-		"count":2
+		"item": "minecraft:chest",
+		"count": 2
 	}
 }

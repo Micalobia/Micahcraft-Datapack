@@ -1,5 +1,5 @@
 {
-	"type":"minecraft:crafting_shaped",
+	"type": "minecraft:crafting_shaped",
 	"pattern": [
 		"TTT",
 		"TDT",
@@ -7,14 +7,14 @@
 	],
 	"key": {
 		"T": {
-			"tag":"minecraft:wool_carpets"
+			"tag": "minecraft:wool_carpets"
 		},
 		"D": {
-			"item":"minecraft:black_dye"
+			"item": "minecraft:black_dye"
 		}
 	},
 	"result": {
-		"item":"minecraft:black_carpet",
+		"item": "minecraft:black_carpet",
 		"count": 8
 	}
 }

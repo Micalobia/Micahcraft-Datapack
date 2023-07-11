@@ -1,7 +1,6 @@
 {
 	"type": "crafting_shapeless",
-	"ingredients": 
-	[
+	"ingredients": [
 		[
 			{
 				"item": "minecraft:grass_block"
@@ -14,8 +13,7 @@
 			}
 		]
 	],
-	"result": 
-	{
+	"result": {
 		"item": "minecraft:dirt_path",
 		"count": 1
 	}

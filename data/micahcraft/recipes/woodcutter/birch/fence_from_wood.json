@@ -1,8 +1,7 @@
 {
 	"type": "stonecutting",
-	"ingredient": 
-	{
-		"tag":"micahcraft:woods/birch"
+	"ingredient": {
+		"tag": "micahcraft:woods/birch"
 	},
 	"result": "minecraft:birch_fence",
 	"count": 3

@@ -1,7 +1,6 @@
 {
 	"type": "stonecutting",
-	"ingredient": 
-	{
+	"ingredient": {
 		"item": "minecraft:warped_planks"
 	},
 	"result": "minecraft:warped_stairs",

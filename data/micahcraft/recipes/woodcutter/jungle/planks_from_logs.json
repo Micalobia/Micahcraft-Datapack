@@ -1,7 +1,6 @@
 {
 	"type": "stonecutting",
-	"ingredient": 
-	{
+	"ingredient": {
 		"tag": "minecraft:jungle_logs"
 	},
 	"result": "minecraft:jungle_planks",

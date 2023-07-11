@@ -1,5 +1,5 @@
 {
-	"type":"minecraft:crafting_shaped",
+	"type": "minecraft:crafting_shaped",
 	"pattern": [
 		"TTT",
 		"TDT",
@@ -7,14 +7,14 @@
 	],
 	"key": {
 		"T": {
-			"tag":"minecraft:terracotta"
+			"tag": "minecraft:terracotta"
 		},
 		"D": {
-			"item":"minecraft:blue_dye"
+			"item": "minecraft:blue_dye"
 		}
 	},
 	"result": {
-		"item":"minecraft:blue_terracotta",
+		"item": "minecraft:blue_terracotta",
 		"count": 8
 	}
 }

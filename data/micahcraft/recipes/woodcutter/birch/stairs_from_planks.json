@@ -1,7 +1,6 @@
 {
 	"type": "stonecutting",
-	"ingredient": 
-	{
+	"ingredient": {
 		"item": "minecraft:birch_planks"
 	},
 	"result": "minecraft:birch_stairs",

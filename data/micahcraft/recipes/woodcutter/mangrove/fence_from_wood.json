@@ -1,8 +1,7 @@
 {
 	"type": "stonecutting",
-	"ingredient": 
-	{
-		"tag":"micahcraft:woods/mangrove"
+	"ingredient": {
+		"tag": "micahcraft:woods/mangrove"
 	},
 	"result": "minecraft:mangrove_fence",
 	"count": 3

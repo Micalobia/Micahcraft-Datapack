@@ -1,7 +1,6 @@
 {
 	"type": "crafting_shapeless",
-	"ingredients": 
-	[
+	"ingredients": [
 		{
 			"tag": "minecraft:dirt"
 		},
@@ -9,8 +8,7 @@
 			"tag": "micahcraft:seeds"
 		}
 	],
-	"result": 
-	{
+	"result": {
 		"item": "minecraft:dirt_path",
 		"count": 1
 	}

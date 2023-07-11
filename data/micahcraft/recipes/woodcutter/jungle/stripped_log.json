@@ -1,7 +1,6 @@
 {
 	"type": "stonecutting",
-	"ingredient": 
-	{
+	"ingredient": {
 		"item": "minecraft:jungle_log"
 	},
 	"result": "minecraft:stripped_jungle_log",

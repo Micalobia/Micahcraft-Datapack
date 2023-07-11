@@ -1,7 +1,6 @@
 {
 	"type": "stonecutting",
-	"ingredient": 
-	{
+	"ingredient": {
 		"tag": "minecraft:acacia_logs"
 	},
 	"result": "minecraft:acacia_slab",

@@ -1,8 +1,7 @@
 {
 	"type": "stonecutting",
-	"ingredient": 
-	{
-		"tag":"micahcraft:woods/dark_oak"
+	"ingredient": {
+		"tag": "micahcraft:woods/dark_oak"
 	},
 	"result": "minecraft:dark_oak_fence",
 	"count": 3
