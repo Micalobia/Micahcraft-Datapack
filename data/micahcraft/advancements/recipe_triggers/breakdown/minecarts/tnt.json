@@ -1,0 +1,13 @@
+{
+    "criteria": {
+        "unlocked": {
+            "trigger": "minecraft:recipe_crafted",
+            "conditions": {
+                "recipe_id": "micahcraft:breakdown/minecarts/tnt"
+            }
+        }
+    },
+    "rewards": {
+        "function": "micahcraft:recipes/breakdown/minecarts/tnt"
+    }
+}
