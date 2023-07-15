@@ -24,6 +24,7 @@ scoreboard objectives add ShareCoords trigger
 
 # Real Scoreboards
     scoreboard objectives add Deaths deathCount "Deaths"
+    scoreboard objectives add Death deathCount
     scoreboard objectives add XP level "XP Level"
     scoreboard objectives add Health health "Health"
     scoreboard objectives add Playtime minecraft.custom:minecraft.play_time
@@ -46,6 +47,7 @@ scoreboard objectives add ShareCoords trigger
     scoreboard objectives add Math dummy
     scoreboard objectives add Moving dummy
     scoreboard objectives add PlaytimeDisplay dummy "Playtime"
+    scoreboard objectives add GraveID dummy
 
 # Constants
     scoreboard players set $10 Math 10
@@ -65,5 +67,8 @@ scoreboard objectives add ShareCoords trigger
     scoreboard objectives setdisplay sidebar.team.green XP
     scoreboard objectives setdisplay sidebar.team.blue PlaytimeDisplay
     scoreboard objectives setdisplay list Health
+
+# Misc
+    scoreboard players add #ID GraveID 0
 
 tellraw @a {"text":"Successfully loaded Micahcraft","color":"green"}

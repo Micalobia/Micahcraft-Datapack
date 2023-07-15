@@ -12,6 +12,7 @@
         "micahcraft:checks/xp",
         "micahcraft:checks/afk",
         "micahcraft:checks/death_location",
-        "micahcraft:checks/share_coords"
+        "micahcraft:checks/share_coords",
+        "micahcraft:checks/grave"
     ]
 }
