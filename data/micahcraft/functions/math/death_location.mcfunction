@@ -1,3 +1,2 @@
-execute store result score $X Math run data get entity @s LastDeathLocation.pos[0]
-execute store result score $Y Math run data get entity @s LastDeathLocation.pos[1]
-execute store result score $Z Math run data get entity @s LastDeathLocation.pos[2]
+function micahcraft:fetch/death_location
+tellraw @s [{"text":"Last Death: ","color":"dark_red"},{"score":{"name":"#X","objective":"Math"},"color":"dark_red"},{"text":" "},{"score":{"name":"#Y","objective":"Math"},"color":"dark_red"},{"text":" "},{"score":{"name":"#Z","objective":"Math"},"color":"dark_red"}]

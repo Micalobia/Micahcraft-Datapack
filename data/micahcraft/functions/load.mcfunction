@@ -1,16 +1,16 @@
 # Triggers
+    scoreboard objectives add SeeHelp trigger
     scoreboard objectives add SeeDeaths trigger
     scoreboard objectives add SeeXP trigger
+    scoreboard objectives add SeePlaytime trigger
     scoreboard objectives add SeeHUD trigger
     scoreboard objectives add SetSpawn trigger
-    scoreboard objectives add SeeHelp trigger
     scoreboard objectives add SeeHorseJump trigger
     scoreboard objectives add SeeHorseSpeed trigger
     scoreboard objectives add SeeNetherCoords trigger
-    scoreboard objectives add SeePlaytime trigger
+    scoreboard objectives add ShareCoords trigger
     scoreboard objectives add SeeDeathLocation trigger
     scoreboard objectives add Afk trigger
-    scoreboard objectives add ShareCoords trigger
 
 # Teams
     team add SeeDeaths "See Deaths"
@@ -48,19 +48,20 @@
     scoreboard objectives add Moving dummy
     scoreboard objectives add PlaytimeDisplay dummy "Playtime"
     scoreboard objectives add GraveID dummy
+    scoreboard objectives add TeamID dummy
 
 # Constants
-    scoreboard players set $10 Math 10
-    scoreboard players set $_1 Math -1
-    scoreboard players set $100 Math 100
-    scoreboard players set $1000 Math 1000
-    scoreboard players set $5007 Math 5007
-    scoreboard players set $9113 Math 9113
-    scoreboard players set $2000 Math 2000
-    scoreboard players set $1367 Math 1367
-    scoreboard players set $42158 Math 42158
-    scoreboard players set $8 Math 8
-    scoreboard players set $72000 Math 72000
+    scoreboard players set #-1 Math -1
+    scoreboard players set #8 Math 8
+    scoreboard players set #10 Math 10
+    scoreboard players set #100 Math 100
+    scoreboard players set #1000 Math 1000
+    scoreboard players set #1367 Math 1367
+    scoreboard players set #2000 Math 2000
+    scoreboard players set #5007 Math 5007
+    scoreboard players set #9113 Math 9113
+    scoreboard players set #42158 Math 42158
+    scoreboard players set #72000 Math 72000
 
 # Display
     scoreboard objectives setdisplay sidebar.team.red Deaths
