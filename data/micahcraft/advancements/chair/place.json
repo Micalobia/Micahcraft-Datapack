@@ -1,0 +1,21 @@
+{
+    "criteria": {
+        "unlocked": {
+            "trigger": "minecraft:placed_block",
+            "conditions": {
+                "location": [
+                    {
+                        "condition": "match_tool",
+                        "predicate": {
+                            "tag": "minecraft:stairs",
+                            "nbt": "{display:{Name:'{\"text\":\"Chair\"}'}}"
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "function": "micahcraft:triggers/chair/place"
+    }
+}

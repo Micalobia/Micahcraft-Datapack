@@ -49,6 +49,7 @@
     scoreboard objectives add PlaytimeDisplay dummy "Playtime"
     scoreboard objectives add GraveID dummy
     scoreboard objectives add TeamID dummy
+    scoreboard objectives add ChairID dummy
 
 # Constants
     scoreboard players set #-1 Math -1
@@ -71,5 +72,6 @@
 
 # Misc
     scoreboard players add #ID GraveID 0
+    scoreboard players add #ID ChairID 0
 
 tellraw @a {"text":"Successfully loaded Micahcraft","color":"green"}
