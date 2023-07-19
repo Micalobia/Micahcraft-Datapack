@@ -3,6 +3,7 @@
     "values": [
         "#micahcraft:glass_blocks",
         "#micahcraft:glass_panes",
-        "minecraft:beacon"
+        "minecraft:beacon",
+        "minecraft:glowstone"
     ]
 }
