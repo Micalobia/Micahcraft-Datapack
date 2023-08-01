@@ -15,6 +15,7 @@
         "micahcraft:tick/general/hud",
         "micahcraft:tick/general/death_location",
         "micahcraft:tick/general/coords",
-        "micahcraft:tick/general/teams/finish_team"
+        "micahcraft:tick/general/teams/finish_team",
+        "micahcraft:tick/general/scan_villager"
     ]
 }

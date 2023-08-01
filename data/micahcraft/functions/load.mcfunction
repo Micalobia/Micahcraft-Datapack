@@ -10,6 +10,7 @@
     scoreboard objectives add SeeNetherCoords trigger
     scoreboard objectives add ShareCoords trigger
     scoreboard objectives add SeeDeathLocation trigger
+    scoreboard objectives add ScanVillager trigger
     scoreboard objectives add Afk trigger
 
 # Teams
