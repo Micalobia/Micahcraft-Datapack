@@ -22,6 +22,8 @@
     team modify Afk color gray
     team add SeePlaytime "See Playtime"
     team modify SeePlaytime color blue
+    team add Lime
+    team modify Lime color green
 
 # Real Scoreboards
     scoreboard objectives add Deaths deathCount "Deaths"
@@ -50,12 +52,14 @@
     scoreboard objectives add PlaytimeDisplay dummy "Playtime"
     scoreboard objectives add GraveID dummy
     scoreboard objectives add TeamID dummy
+    scoreboard objectives add Lifetime dummy
 
 # Constants
     scoreboard players set #-1 Math -1
     scoreboard players set #8 Math 8
     scoreboard players set #10 Math 10
     scoreboard players set #100 Math 100
+    scoreboard players set #256 Math 256
     scoreboard players set #1000 Math 1000
     scoreboard players set #1367 Math 1367
     scoreboard players set #2000 Math 2000
