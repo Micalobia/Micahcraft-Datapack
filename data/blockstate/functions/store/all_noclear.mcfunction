@@ -1,0 +1,1 @@
+execute unless block ~ ~ ~ #blockstate:none run function blockstate:tree/all
