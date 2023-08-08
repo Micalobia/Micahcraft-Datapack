@@ -1,0 +1,1 @@
+tellraw @s {"text":"Wrong dimension, wingding!","color":"dark_purple"}
