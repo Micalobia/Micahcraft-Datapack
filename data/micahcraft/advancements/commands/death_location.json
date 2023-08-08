@@ -19,6 +19,6 @@
         }
     },
     "rewards": {
-        "function": "micahcraft:triggers/commands/death_location"
+        "function": "micahcraft:commands/death_location"
     }
 }
