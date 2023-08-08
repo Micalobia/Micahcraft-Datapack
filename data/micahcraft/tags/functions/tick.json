@@ -1,21 +1,5 @@
 {
     "replace": false,
     "values": [
-        "micahcraft:tick/general/teams/reset_team",
-        "micahcraft:tick/leaderboards/death",
-        "micahcraft:tick/leaderboards/xp",
-        "micahcraft:tick/leaderboards/playtime",
-        "micahcraft:tick/calculations/playtime",
-        "micahcraft:tick/calculations/afk",
-        "micahcraft:tick/general/afk",
-        "micahcraft:tick/general/grave",
-        "micahcraft:tick/general/help",
-        "micahcraft:tick/calculations/horses",
-        "micahcraft:tick/calculations/nether",
-        "micahcraft:tick/general/hud",
-        "micahcraft:tick/general/death_location",
-        "micahcraft:tick/general/coords",
-        "micahcraft:tick/general/teams/finish_team",
-        "micahcraft:tick/general/scan_villager"
     ]
 }

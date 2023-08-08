@@ -1,2 +1,0 @@
-function micahcraft:fetch/death_location
-tellraw @s [{"text":"Last Death: ","color":"dark_red"},{"score":{"name":"#X","objective":"Math"},"color":"dark_red"},{"text":" "},{"score":{"name":"#Y","objective":"Math"},"color":"dark_red"},{"text":" "},{"score":{"name":"#Z","objective":"Math"},"color":"dark_red"}]
