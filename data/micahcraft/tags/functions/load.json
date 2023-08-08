@@ -1,6 +1,7 @@
 {
     "replace": false,
     "values": [
-        "micahcraft:load/loaded"
+        "micahcraft:load/loaded",
+        "micahcraft:load/death_location"
     ]
 }
