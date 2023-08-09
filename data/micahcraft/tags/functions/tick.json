@@ -2,6 +2,7 @@
     "replace": false,
     "values": [
         "micahcraft:tick/death_location",
-        "micahcraft:tick/nether_location"
+        "micahcraft:tick/nether_location",
+        "micahcraft:tick/share_location"
     ]
 }

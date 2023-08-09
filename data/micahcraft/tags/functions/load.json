@@ -3,6 +3,7 @@
     "values": [
         "micahcraft:load/loaded",
         "micahcraft:load/death_location",
-        "micahcraft:load/nether_location"
+        "micahcraft:load/nether_location",
+        "micahcraft:load/share_location"
     ]
 }
