@@ -1,4 +1,4 @@
-scoreboard objectives add AFK trigger
+scoreboard objectives add AFK trigger {"text":"Go AFK","color":"#A8A8FF","clickEvent":{"action":"run_command","value":"/trigger AFK"}}
 scoreboard objectives add TicksAFK minecraft.custom:minecraft.play_time
 team add AFK {"text":"AFK","color":"gray","bold":true,"underlined":true} 
 team modify AFK color gray 
