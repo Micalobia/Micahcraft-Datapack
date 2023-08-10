@@ -6,6 +6,7 @@
         "micahcraft:tick/share_location",
         "micahcraft:tick/show_deaths",
         "micahcraft:tick/show_xp",
-        "micahcraft:tick/show_playtime"
+        "micahcraft:tick/show_playtime",
+        "micahcraft:tick/afk"
     ]
 }

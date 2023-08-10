@@ -1,0 +1,16 @@
+scoreboard players set @s Climb 0 
+scoreboard players set @s Crouch 0 
+scoreboard players set @s Fall 0 
+scoreboard players set @s Fly 0 
+scoreboard players set @s Sprint 0 
+scoreboard players set @s Swim 0 
+scoreboard players set @s Walk 0 
+scoreboard players set @s WalkOnWater 0 
+scoreboard players set @s WalkUnderWater 0 
+scoreboard players set @s Boat 0 
+scoreboard players set @s Aviate 0 
+scoreboard players set @s Horse 0 
+scoreboard players set @s Minecart 0 
+scoreboard players set @s Pig 0 
+scoreboard players set @s Strider 0 
+scoreboard players set @s Jump 0
