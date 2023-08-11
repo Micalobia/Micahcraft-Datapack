@@ -11,6 +11,6 @@
         }
     },
     "rewards": {
-        "function": "micahcraft:triggers/open_grave"
+        "function": "micahcraft:events/grave/open_grave"
     }
 }

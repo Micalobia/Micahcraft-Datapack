@@ -10,6 +10,7 @@
         "micahcraft:load/show_playtime",
         "micahcraft:load/afk",
         "micahcraft:load/scan_horse",
-        "micahcraft:load/hud"
+        "micahcraft:load/hud",
+        "micahcraft:load/grave"
     ]
 }

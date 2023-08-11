@@ -9,6 +9,7 @@
         "micahcraft:tick/show_playtime",
         "micahcraft:tick/afk",
         "micahcraft:tick/scan_horse",
-        "micahcraft:tick/hud"
+        "micahcraft:tick/hud",
+        "micahcraft:tick/grave"
     ]
 }
