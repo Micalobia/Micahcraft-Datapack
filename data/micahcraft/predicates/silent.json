@@ -1,0 +1,33 @@
+{
+    "condition": "any_of",
+    "terms": [
+        {
+            "condition": "entity_properties",
+            "entity": "this",
+            "predicate": {
+                "nbt": "{CustomName:'{\"text\":\"Quiet\"}'}"
+            }
+        },
+        {
+            "condition": "entity_properties",
+            "entity": "this",
+            "predicate": {
+                "nbt": "{CustomName:'{\"text\":\"quiet\"}'}"
+            }
+        },
+        {
+            "condition": "entity_properties",
+            "entity": "this",
+            "predicate": {
+                "nbt": "{CustomName:'{\"text\":\"silent\"}'}"
+            }
+        },
+        {
+            "condition": "entity_properties",
+            "entity": "this",
+            "predicate": {
+                "nbt": "{CustomName:'{\"text\":\"Silent\"}'}"
+            }
+        }
+    ]
+}

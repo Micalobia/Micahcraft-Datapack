@@ -12,6 +12,6 @@
         }
     },
     "rewards": {
-        "function": "micahcraft:triggers/silence"
+        "function": "micahcraft:events/silence"
     }
 }
