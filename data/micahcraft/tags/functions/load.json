@@ -8,6 +8,7 @@
         "micahcraft:load/show_deaths",
         "micahcraft:load/show_xp",
         "micahcraft:load/show_playtime",
-        "micahcraft:load/afk"
+        "micahcraft:load/afk",
+        "micahcraft:load/scan_horse"
     ]
 }

@@ -7,6 +7,7 @@
         "micahcraft:tick/show_deaths",
         "micahcraft:tick/show_xp",
         "micahcraft:tick/show_playtime",
-        "micahcraft:tick/afk"
+        "micahcraft:tick/afk",
+        "micahcraft:tick/scan_horse"
     ]
 }
