@@ -1,0 +1,1 @@
+data modify entity @s data.Inventory set from entity @p Inventory
