@@ -3,21 +3,8 @@
         "pack_format": 15,
         "description": [
             {
-                "text":"Adds some vanilla+ recipes and features\n",
+                "text":"Adds some vanilla+ recipes and features",
                 "color": "green"
-            },
-            {
-                "text":"Integrates a blockstate library, found ",
-                "color": "red"
-            },
-            {
-                "text":"here",
-                "bold": true,
-                "color": "red",
-                "clickEvent": {
-                    "action": "open_url",
-                    "value": "https://github.com/OliTheHoodieBoi/Blockstate-Reader"
-                }
             }
         ]
     }
