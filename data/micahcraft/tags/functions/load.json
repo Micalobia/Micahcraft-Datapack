@@ -11,6 +11,7 @@
         "micahcraft:load/afk",
         "micahcraft:load/scan_horse",
         "micahcraft:load/hud",
-        "micahcraft:load/grave"
+        "micahcraft:load/grave",
+        "micahcraft:load/day_counter"
     ]
 }
