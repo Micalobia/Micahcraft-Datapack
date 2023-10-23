@@ -1,0 +1,17 @@
+{
+    "replace": false,
+    "values": [
+        "micahcraft:load/loaded",
+        "micahcraft:load/death_location",
+        "micahcraft:load/nether_location",
+        "micahcraft:load/share_location",
+        "micahcraft:load/show_deaths",
+        "micahcraft:load/show_xp",
+        "micahcraft:load/show_playtime",
+        "micahcraft:load/afk",
+        "micahcraft:load/scan_horse",
+        "micahcraft:load/hud",
+        "micahcraft:load/grave",
+        "micahcraft:load/day_counter"
+    ]
+}

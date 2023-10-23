@@ -1,0 +1,16 @@
+scoreboard objectives add Climb minecraft.custom:minecraft.climb_one_cm 
+scoreboard objectives add Crouch minecraft.custom:minecraft.crouch_one_cm 
+scoreboard objectives add Fall minecraft.custom:minecraft.fall_one_cm 
+scoreboard objectives add Fly minecraft.custom:minecraft.fly_one_cm 
+scoreboard objectives add Sprint minecraft.custom:minecraft.sprint_one_cm 
+scoreboard objectives add Swim minecraft.custom:minecraft.swim_one_cm 
+scoreboard objectives add Walk minecraft.custom:minecraft.walk_one_cm 
+scoreboard objectives add WalkOnWater minecraft.custom:minecraft.walk_on_water_one_cm 
+scoreboard objectives add WalkUnderWater minecraft.custom:minecraft.walk_under_water_one_cm 
+scoreboard objectives add Boat minecraft.custom:minecraft.boat_one_cm 
+scoreboard objectives add Aviate minecraft.custom:minecraft.aviate_one_cm 
+scoreboard objectives add Horse minecraft.custom:minecraft.horse_one_cm 
+scoreboard objectives add Minecart minecraft.custom:minecraft.minecart_one_cm 
+scoreboard objectives add Pig minecraft.custom:minecraft.pig_one_cm 
+scoreboard objectives add Strider minecraft.custom:minecraft.strider_one_cm 
+scoreboard objectives add Jump minecraft.custom:minecraft.jump

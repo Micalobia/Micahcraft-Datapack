@@ -1,0 +1,16 @@
+{
+    "criteria": {
+        "unlocked": {
+            "trigger": "minecraft:player_hurt_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:interaction",
+                    "nbt": "{Tags:[\"Grave\"]}"
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "micahcraft:events/grave/open_grave"
+    }
+}

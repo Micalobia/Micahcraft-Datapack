@@ -1,0 +1,17 @@
+{
+    "criteria": {
+        "unlocked": {
+            "trigger": "minecraft:player_interacted_with_entity",
+            "conditions": {
+                "item": {
+                    "items": [
+                        "minecraft:name_tag"
+                    ]
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "micahcraft:events/silence"
+    }
+}
