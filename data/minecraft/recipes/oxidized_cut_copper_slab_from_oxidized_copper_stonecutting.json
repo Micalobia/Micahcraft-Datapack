@@ -1,8 +1,3 @@
 {
-    "type": "crafting_shapeless",
-    "ingredients": [],
-    "result": {
-        "item": "minecraft:air",
-        "count": 0
-    }
+    "type": "better_datapacks:empty"
 }
