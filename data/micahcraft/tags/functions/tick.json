@@ -11,6 +11,7 @@
         "micahcraft:tick/scan_horse",
         "micahcraft:tick/hud",
         "micahcraft:tick/grave",
-        "micahcraft:tick/day_counter"
+        "micahcraft:tick/day_counter",
+        "micahcraft:tick/chair"
     ]
 }
