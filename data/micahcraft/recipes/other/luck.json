@@ -1,0 +1,6 @@
+{
+    "type": "better_datapacks:potion",
+    "input": "minecraft:awkward",
+    "ingredient": "minecraft:honeycomb",
+    "output": "minecraft:luck"
+}
