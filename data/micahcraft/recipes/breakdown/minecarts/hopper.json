@@ -6,7 +6,14 @@
 		}
 	],
 	"result": {
-		"item": "minecraft:knowledge_book",
-		"count": 2
+		"item": "minecraft:hopper_minecart",
+		"count": 1,
+		"tag": {
+			"display": {
+				"Name":"\"Minecart and hopper\"",
+				"Lore": ["{\"text\":\"Will split the hopper minecart into its parts\",\"color\":\"gold\"}"]
+			},
+			"Enchantments": [{}]
+		}
 	}
 }

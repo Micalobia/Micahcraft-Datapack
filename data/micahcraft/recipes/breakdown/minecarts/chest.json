@@ -6,7 +6,14 @@
 		}
 	],
 	"result": {
-		"item": "minecraft:knowledge_book",
-		"count": 2
+		"item": "minecraft:chest_minecart",
+		"count": 1,
+		"tag": {
+			"display": {
+				"Name":"\"Minecart and chest\"",
+				"Lore": ["{\"text\":\"Will split the chest minecart into its parts\",\"color\":\"gold\"}"]
+			},
+			"Enchantments": [{}]
+		}
 	}
 }

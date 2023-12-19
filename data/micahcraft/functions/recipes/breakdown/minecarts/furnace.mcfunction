@@ -1,4 +1,4 @@
 advancement revoke @s only micahcraft:recipe_triggers/breakdown/minecarts/furnace
-clear @s knowledge_book 2
+clear @s furnace_minecart{Enchantments:[{}]}
 give @s minecart
 give @s furnace

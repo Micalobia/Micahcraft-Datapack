@@ -6,7 +6,14 @@
 		}
 	],
 	"result": {
-		"item": "minecraft:knowledge_book",
-		"count": 2
+		"item": "minecraft:furnace_minecart",
+		"count": 1,
+		"tag": {
+			"display": {
+				"Name":"\"Minecart and furnace\"",
+				"Lore": ["{\"text\":\"Will split the furnace minecart into its parts\",\"color\":\"gold\"}"]
+			},
+			"Enchantments": [{}]
+		}
 	}
 }
