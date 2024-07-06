@@ -1,1 +1,0 @@
-title @a[tag=!NoTime] actionbar ["— ",{"storage":"micahcraft:time","nbt":"Month"}," ",{"storage":"micahcraft:time","nbt":"DayOfMonth"},", Year ",{"storage":"micahcraft:time","nbt":"Year"}," —"]

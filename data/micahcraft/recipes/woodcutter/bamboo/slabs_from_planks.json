@@ -1,8 +1,0 @@
-{
-	"type": "stonecutting",
-	"ingredient": {
-		"tag": "micahcraft:variants/bamboo"
-	},
-	"result": "minecraft:bamboo_slab",
-	"count": 2
-}

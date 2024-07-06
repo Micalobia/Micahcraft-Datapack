@@ -1,8 +1,0 @@
-{
-    "type": "stonecutting",
-    "ingredient": {
-        "tag": "micahcraft:variants/weathered_copper"
-    },
-    "count": 1,
-    "result": "weathered_cut_copper_stairs"
-}

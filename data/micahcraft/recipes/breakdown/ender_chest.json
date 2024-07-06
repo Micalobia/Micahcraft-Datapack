@@ -1,8 +1,0 @@
-{
-	"type": "stonecutting",
-	"ingredient": {
-		"item": "minecraft:ender_chest"
-	},
-	"result": "minecraft:obsidian",
-	"count": 8
-}

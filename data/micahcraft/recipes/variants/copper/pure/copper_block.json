@@ -1,8 +1,0 @@
-{
-    "type": "stonecutting",
-    "ingredient": {
-        "tag": "micahcraft:variants/copper_block"
-    },
-    "count": 1,
-    "result": "copper_block"
-}

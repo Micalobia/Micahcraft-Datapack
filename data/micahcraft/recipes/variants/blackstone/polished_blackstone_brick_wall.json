@@ -1,8 +1,0 @@
-{
-    "type": "stonecutting",
-    "ingredient": {
-        "tag": "micahcraft:variants/blackstone"
-    },
-    "count": 1,
-    "result": "polished_blackstone_brick_wall"
-}
