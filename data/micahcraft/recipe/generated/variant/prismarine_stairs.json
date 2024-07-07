@@ -1,0 +1,10 @@
+{
+    "type": "stonecutting",
+    "ingredient": {
+        "tag": "micahcraft:generated/variant/prismarine"
+    },
+    "result": {
+        "id": "minecraft:prismarine_stairs",
+        "count": 1
+    }
+}

@@ -1,0 +1,10 @@
+{
+    "type": "stonecutting",
+    "ingredient": {
+        "tag": "micahcraft:generated/variant/end_stone"
+    },
+    "result": {
+        "id": "minecraft:end_stone_bricks",
+        "count": 1
+    }
+}

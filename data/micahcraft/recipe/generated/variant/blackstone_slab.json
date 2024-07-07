@@ -1,0 +1,10 @@
+{
+    "type": "stonecutting",
+    "ingredient": {
+        "tag": "micahcraft:generated/variant/blackstone"
+    },
+    "result": {
+        "id": "minecraft:blackstone_slab",
+        "count": 2
+    }
+}

@@ -1,0 +1,10 @@
+{
+    "type": "stonecutting",
+    "ingredient": {
+        "tag": "micahcraft:generated/variant/copper_block"
+    },
+    "result": {
+        "id": "minecraft:copper_grate",
+        "count": 1
+    }
+}

@@ -1,0 +1,10 @@
+{
+    "replace": false,
+    "values": [
+        "minecraft:chiseled_deepslate",
+        "minecraft:cobbled_deepslate",
+        "minecraft:deepslate_bricks",
+        "minecraft:deepslate_tiles",
+        "minecraft:polished_deepslate"
+    ]
+}

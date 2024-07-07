@@ -1,0 +1,10 @@
+{
+    "type": "stonecutting",
+    "ingredient": {
+        "tag": "micahcraft:generated/variant/smooth_red_sandstone"
+    },
+    "result": {
+        "id": "minecraft:smooth_red_sandstone_stairs",
+        "count": 1
+    }
+}

@@ -1,0 +1,10 @@
+{
+    "type": "stonecutting",
+    "ingredient": {
+        "tag": "micahcraft:generated/variant/smooth_quartz"
+    },
+    "result": {
+        "id": "minecraft:smooth_quartz_slab",
+        "count": 2
+    }
+}

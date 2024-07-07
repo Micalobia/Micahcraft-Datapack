@@ -1,0 +1,10 @@
+{
+    "type": "stonecutting",
+    "ingredient": {
+        "tag": "micahcraft:generated/variant/nether_bricks"
+    },
+    "result": {
+        "id": "minecraft:nether_brick_slab",
+        "count": 2
+    }
+}

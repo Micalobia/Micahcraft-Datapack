@@ -1,0 +1,10 @@
+{
+    "type": "stonecutting",
+    "ingredient": {
+        "tag": "micahcraft:generated/variant/waxed_oxidized_copper"
+    },
+    "result": {
+        "id": "minecraft:waxed_oxidized_copper",
+        "count": 1
+    }
+}

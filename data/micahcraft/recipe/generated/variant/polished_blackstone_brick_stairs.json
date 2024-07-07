@@ -1,0 +1,10 @@
+{
+    "type": "stonecutting",
+    "ingredient": {
+        "tag": "micahcraft:generated/variant/blackstone"
+    },
+    "result": {
+        "id": "minecraft:polished_blackstone_brick_stairs",
+        "count": 1
+    }
+}

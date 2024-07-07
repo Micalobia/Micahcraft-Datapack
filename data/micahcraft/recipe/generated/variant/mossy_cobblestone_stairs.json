@@ -1,0 +1,10 @@
+{
+    "type": "stonecutting",
+    "ingredient": {
+        "tag": "micahcraft:generated/variant/mossy_cobblestone"
+    },
+    "result": {
+        "id": "minecraft:mossy_cobblestone_stairs",
+        "count": 1
+    }
+}

@@ -1,0 +1,10 @@
+{
+    "type": "stonecutting",
+    "ingredient": {
+        "tag": "micahcraft:generated/variant/mossy_stone_bricks"
+    },
+    "result": {
+        "id": "minecraft:mossy_stone_brick_wall",
+        "count": 1
+    }
+}

@@ -1,0 +1,10 @@
+{
+    "type": "stonecutting",
+    "ingredient": {
+        "tag": "micahcraft:generated/variant/basalt"
+    },
+    "result": {
+        "id": "minecraft:basalt",
+        "count": 1
+    }
+}

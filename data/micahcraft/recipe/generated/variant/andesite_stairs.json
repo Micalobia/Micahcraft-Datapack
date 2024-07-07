@@ -1,0 +1,10 @@
+{
+    "type": "stonecutting",
+    "ingredient": {
+        "tag": "micahcraft:generated/variant/andesite"
+    },
+    "result": {
+        "id": "minecraft:andesite_stairs",
+        "count": 1
+    }
+}

@@ -1,0 +1,10 @@
+{
+    "type": "stonecutting",
+    "ingredient": {
+        "tag": "micahcraft:generated/variant/stone"
+    },
+    "result": {
+        "id": "minecraft:stone_brick_stairs",
+        "count": 1
+    }
+}

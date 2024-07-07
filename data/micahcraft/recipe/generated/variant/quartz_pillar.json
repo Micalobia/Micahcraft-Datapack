@@ -1,0 +1,10 @@
+{
+    "type": "stonecutting",
+    "ingredient": {
+        "tag": "micahcraft:generated/variant/quartz_block"
+    },
+    "result": {
+        "id": "minecraft:quartz_pillar",
+        "count": 1
+    }
+}

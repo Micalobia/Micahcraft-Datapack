@@ -1,0 +1,10 @@
+{
+    "type": "stonecutting",
+    "ingredient": {
+        "tag": "micahcraft:generated/variant/exposed_copper"
+    },
+    "result": {
+        "id": "minecraft:exposed_copper",
+        "count": 1
+    }
+}

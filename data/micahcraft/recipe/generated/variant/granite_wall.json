@@ -1,0 +1,10 @@
+{
+    "type": "stonecutting",
+    "ingredient": {
+        "tag": "micahcraft:generated/variant/granite"
+    },
+    "result": {
+        "id": "minecraft:granite_wall",
+        "count": 1
+    }
+}

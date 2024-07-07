@@ -1,0 +1,10 @@
+{
+    "type": "stonecutting",
+    "ingredient": {
+        "tag": "micahcraft:generated/variant/dark_prismarine"
+    },
+    "result": {
+        "id": "minecraft:dark_prismarine",
+        "count": 1
+    }
+}

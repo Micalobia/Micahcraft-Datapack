@@ -1,0 +1,10 @@
+{
+    "type": "stonecutting",
+    "ingredient": {
+        "tag": "micahcraft:generated/variant/waxed_weathered_copper"
+    },
+    "result": {
+        "id": "minecraft:waxed_weathered_cut_copper",
+        "count": 1
+    }
+}

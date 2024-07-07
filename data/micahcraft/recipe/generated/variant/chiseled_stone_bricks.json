@@ -1,0 +1,10 @@
+{
+    "type": "stonecutting",
+    "ingredient": {
+        "tag": "micahcraft:generated/variant/stone"
+    },
+    "result": {
+        "id": "minecraft:chiseled_stone_bricks",
+        "count": 1
+    }
+}

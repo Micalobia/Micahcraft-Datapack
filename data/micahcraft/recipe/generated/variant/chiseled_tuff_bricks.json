@@ -1,0 +1,10 @@
+{
+    "type": "stonecutting",
+    "ingredient": {
+        "tag": "micahcraft:generated/variant/tuff"
+    },
+    "result": {
+        "id": "minecraft:chiseled_tuff_bricks",
+        "count": 1
+    }
+}
