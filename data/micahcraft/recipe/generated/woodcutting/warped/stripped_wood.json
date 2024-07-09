@@ -1,0 +1,10 @@
+{
+    "type": "stonecutting",
+    "ingredient": {
+        "item": "warped_hyphae"
+    },
+    "result": {
+        "id": "stripped_warped_hyphae",
+        "count": 1
+    }
+}

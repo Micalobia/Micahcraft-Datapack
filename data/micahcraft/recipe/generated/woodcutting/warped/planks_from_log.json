@@ -1,0 +1,10 @@
+{
+    "type": "stonecutting",
+    "ingredient": {
+        "tag": "warped_stems"
+    },
+    "result": {
+        "id": "warped_planks",
+        "count": 4
+    }
+}

@@ -1,0 +1,10 @@
+{
+    "type": "stonecutting",
+    "ingredient": {
+        "tag": "cherry_logs"
+    },
+    "result": {
+        "id": "cherry_slab",
+        "count": 8
+    }
+}

@@ -1,0 +1,10 @@
+{
+    "type": "stonecutting",
+    "ingredient": {
+        "tag": "jungle_logs"
+    },
+    "result": {
+        "id": "jungle_slab",
+        "count": 8
+    }
+}

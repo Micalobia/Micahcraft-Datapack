@@ -1,0 +1,10 @@
+{
+    "type": "stonecutting",
+    "ingredient": {
+        "item": "birch_planks"
+    },
+    "result": {
+        "id": "birch_stairs",
+        "count": 1
+    }
+}

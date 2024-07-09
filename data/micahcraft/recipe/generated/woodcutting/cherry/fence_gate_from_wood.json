@@ -1,0 +1,10 @@
+{
+    "type": "stonecutting",
+    "ingredient": {
+        "tag": "micahcraft:generated/wood/cherry"
+    },
+    "result": {
+        "id": "cherry_fence_gate",
+        "count": 1
+    }
+}

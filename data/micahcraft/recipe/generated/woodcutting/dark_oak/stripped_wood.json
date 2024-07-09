@@ -1,0 +1,10 @@
+{
+    "type": "stonecutting",
+    "ingredient": {
+        "item": "dark_oak_wood"
+    },
+    "result": {
+        "id": "stripped_dark_oak_wood",
+        "count": 1
+    }
+}

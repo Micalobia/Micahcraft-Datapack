@@ -1,0 +1,10 @@
+{
+    "type": "stonecutting",
+    "ingredient": {
+        "item": "jungle_planks"
+    },
+    "result": {
+        "id": "jungle_stairs",
+        "count": 1
+    }
+}

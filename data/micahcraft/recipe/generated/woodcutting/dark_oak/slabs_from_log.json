@@ -1,0 +1,10 @@
+{
+    "type": "stonecutting",
+    "ingredient": {
+        "tag": "dark_oak_logs"
+    },
+    "result": {
+        "id": "dark_oak_slab",
+        "count": 8
+    }
+}

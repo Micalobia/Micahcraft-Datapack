@@ -1,0 +1,10 @@
+{
+    "type": "stonecutting",
+    "ingredient": {
+        "item": "dark_oak_planks"
+    },
+    "result": {
+        "id": "dark_oak_stairs",
+        "count": 1
+    }
+}

@@ -1,0 +1,10 @@
+{
+    "type": "stonecutting",
+    "ingredient": {
+        "item": "acacia_planks"
+    },
+    "result": {
+        "id": "acacia_stairs",
+        "count": 1
+    }
+}

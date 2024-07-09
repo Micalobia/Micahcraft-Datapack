@@ -1,0 +1,10 @@
+{
+    "type": "stonecutting",
+    "ingredient": {
+        "tag": "crimson_stems"
+    },
+    "result": {
+        "id": "crimson_stairs",
+        "count": 4
+    }
+}
