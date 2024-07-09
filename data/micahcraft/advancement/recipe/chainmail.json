@@ -26,6 +26,9 @@
     ],
     "rewards": {
         "recipes": [
+            "micahcraft:armor/chainmail/helmet",
+            "micahcraft:armor/chainmail/chestplate",
+            "micahcraft:armor/chainmail/leggings",
             "micahcraft:armor/chainmail/boots"
         ]
     }

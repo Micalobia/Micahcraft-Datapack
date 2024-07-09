@@ -6,7 +6,7 @@
             "conditions": {
                 "items": [
                     {
-                        "tag": "micahcraft:variants/bricks"
+                        "items": "micahcraft:variants/bricks"
                     }
                 ]
             }
