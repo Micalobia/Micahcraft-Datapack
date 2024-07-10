@@ -1,0 +1,64 @@
+{
+    "parent": "minecraft:recipes/root",
+    "criteria": {
+        "has_the_item": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "#micahcraft:generated/variant/prismarine"
+                    }
+                ]
+            }
+        },
+        "has_the_recipe_1": {
+            "conditions": {
+                "recipe": "micahcraft:breakdown/prismarine"
+            },
+            "trigger": "minecraft:recipe_unlocked"
+        },
+        "has_the_recipe_2": {
+            "conditions": {
+                "recipe": "micahcraft:generated/variant/prismarine_wall"
+            },
+            "trigger": "minecraft:recipe_unlocked"
+        },
+        "has_the_recipe_3": {
+            "conditions": {
+                "recipe": "micahcraft:generated/variant/prismarine_stairs"
+            },
+            "trigger": "minecraft:recipe_unlocked"
+        },
+        "has_the_recipe_4": {
+            "conditions": {
+                "recipe": "micahcraft:generated/variant/prismarine_slab"
+            },
+            "trigger": "minecraft:recipe_unlocked"
+        },
+        "has_the_recipe_5": {
+            "conditions": {
+                "recipe": "micahcraft:generated/variant/prismarine"
+            },
+            "trigger": "minecraft:recipe_unlocked"
+        }
+    },
+    "requirements": [
+        [
+            "has_the_item",
+            "has_the_recipe_1",
+            "has_the_recipe_2",
+            "has_the_recipe_3",
+            "has_the_recipe_4",
+            "has_the_recipe_5"
+        ]
+    ],
+    "rewards": {
+        "recipes": [
+            "micahcraft:breakdown/prismarine",
+            "micahcraft:generated/variant/prismarine",
+            "micahcraft:generated/variant/prismarine_slab",
+            "micahcraft:generated/variant/prismarine_stairs",
+            "micahcraft:generated/variant/prismarine_wall"
+        ]
+    }
+}

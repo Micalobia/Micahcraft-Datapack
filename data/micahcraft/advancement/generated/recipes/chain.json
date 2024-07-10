@@ -1,0 +1,56 @@
+{
+    "parent": "minecraft:recipes/root",
+    "criteria": {
+        "has_the_item": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:chain"
+                    }
+                ]
+            }
+        },
+        "has_the_recipe_1": {
+            "conditions": {
+                "recipe": "micahcraft:armor/chainmail/chestplate"
+            },
+            "trigger": "minecraft:recipe_unlocked"
+        },
+        "has_the_recipe_2": {
+            "conditions": {
+                "recipe": "micahcraft:armor/chainmail/boots"
+            },
+            "trigger": "minecraft:recipe_unlocked"
+        },
+        "has_the_recipe_3": {
+            "conditions": {
+                "recipe": "micahcraft:armor/chainmail/leggings"
+            },
+            "trigger": "minecraft:recipe_unlocked"
+        },
+        "has_the_recipe_4": {
+            "conditions": {
+                "recipe": "micahcraft:armor/chainmail/helmet"
+            },
+            "trigger": "minecraft:recipe_unlocked"
+        }
+    },
+    "requirements": [
+        [
+            "has_the_item",
+            "has_the_recipe_1",
+            "has_the_recipe_2",
+            "has_the_recipe_3",
+            "has_the_recipe_4"
+        ]
+    ],
+    "rewards": {
+        "recipes": [
+            "micahcraft:armor/chainmail/boots",
+            "micahcraft:armor/chainmail/chestplate",
+            "micahcraft:armor/chainmail/helmet",
+            "micahcraft:armor/chainmail/leggings"
+        ]
+    }
+}

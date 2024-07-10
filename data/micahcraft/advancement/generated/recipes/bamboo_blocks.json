@@ -1,0 +1,32 @@
+{
+    "parent": "minecraft:recipes/root",
+    "criteria": {
+        "has_the_item": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "#minecraft:bamboo_blocks"
+                    }
+                ]
+            }
+        },
+        "has_the_recipe_1": {
+            "conditions": {
+                "recipe": "micahcraft:breakdown/bamboo"
+            },
+            "trigger": "minecraft:recipe_unlocked"
+        }
+    },
+    "requirements": [
+        [
+            "has_the_item",
+            "has_the_recipe_1"
+        ]
+    ],
+    "rewards": {
+        "recipes": [
+            "micahcraft:breakdown/bamboo"
+        ]
+    }
+}

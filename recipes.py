@@ -61,6 +61,27 @@ for file in files:
     with open(file, "r") as f:
         recipes[file] = json.load(f)
 
+print("Reading advancement config")
+with open("./recipe_advancements.json", "r") as f:
+    advancements = json.load(f)
+
+advancements: dict[str, set[str]] = {k: set(v) for k, v in advancements.items()}
+
+
+def add_advancement(item: str, recipe: str):
+    if recipe.endswith(".json"):
+        backslash = "\\"
+        recipe = f"micahcraft:{recipe.split('recipe')[-1].replace(backslash,'/')[1:-5]}"
+    if ":" not in item:
+        t = item.split("#")
+        t[-1] = f"minecraft:{t[-1]}"
+        item = "#".join(t)
+    if item in advancements:
+        advancements[item].add(recipe)
+    else:
+        advancements[item] = {recipe}
+
+
 stonecutter: list[Stonecutter] = [
     Stonecutter.parse_obj(_)
     for _ in recipes.values()
@@ -106,9 +127,6 @@ for k, v in tags.items():
     tags[k] = n
 
 
-print(json.dumps(all_outputs, indent=4, default=sorted_list))
-
-
 def tag_path(t, *s):
     return os.path.join(
         f"./data/micahcraft/tags/{t}/generated", *s[:-1], f"{s[-1]}.json"
@@ -133,17 +151,40 @@ def cutting_recipe(ingredient, result, count=1, is_item=False):
     }
 
 
+def recipe_advancement(item, recipes):
+    criteria = {
+        "has_the_item": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {"items": [{"items": item}]},
+        }
+    }
+    for i, recipe in enumerate(recipes):
+        criteria[f"has_the_recipe_{i + 1}"] = {
+            "conditions": {"recipe": recipe},
+            "trigger": "minecraft:recipe_unlocked",
+        }
+    return {
+        "parent": "minecraft:recipes/root",
+        "criteria": criteria,
+        "requirements": [["has_the_item", *[f"has_the_recipe_{_ + 1}" for _ in range(len(recipes))]]],
+        "rewards": {"recipes": recipes},
+    }
+
+
 print("Writing variant tags and stonecutting recipes...")
 for tag, values in tags.items():
     name = tag.split(":")[-1]
+    i = f"micahcraft:generated/variant/{name}"
     with opend(tag_path("item", "variant", name), "w") as f:
         j = {"replace": False, "values": values}
         json.dump(j, f, indent=4, default=sorted_list)
     for item in all_outputs[tag]:
         iname = item.split(":")[-1]
-        with opend(recipe_path("variant", iname), "w") as f:
+        path = recipe_path("variant", iname)
+        add_advancement(f"#{i}", path)
+        with opend(path, "w") as f:
             j = cutting_recipe(
-                f"micahcraft:generated/variant/{name}",
+                i,
                 item,
                 2 if iname.endswith("_slab") else 1,
             )
@@ -261,9 +302,22 @@ for wood in woods:
         "stripped_wood": cutting_recipe(wood.wood, wood.stripped_wood, 1, True),
         "trapdoor_from_log": cutting_recipe(wood.logs, wood.trapdoor),
     }
-    for k,v in r.items():
-        with opend(recipe_path("woodcutting", wood.name, k), "w") as f:
+    for k, v in r.items():
+        path = recipe_path("woodcutting", wood.name, k)
+        add_advancement(f"#{wood.logs}", path)
+        add_advancement(wood.planks, path)
+        with opend(path, "w") as f:
             json.dump(v, f, indent=4)
-    
+
+print("Generating advancement recipes...")
+s = set()
+for item, recipe in advancements.items():
+    a = recipe_advancement(item, recipe)
+    p = item.replace(":", "/").split("/")[-1]
+    if p in s:
+        raise Exception(f"Duplicate thingy {p}")
+    s.add(p)
+    with opend(advancement_path("recipes", p), "w") as f:
+        json.dump(a, f, indent=4, default=sorted_list)
 
 print("Finished")

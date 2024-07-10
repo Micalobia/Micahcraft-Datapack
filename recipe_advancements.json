@@ -1,0 +1,50 @@
+{
+    "minecraft:chain": [
+        "micahcraft:armor/chainmail/helmet",
+        "micahcraft:armor/chainmail/chestplate",
+        "micahcraft:armor/chainmail/leggings",
+        "micahcraft:armor/chainmail/boots"
+    ],
+    "minecraft:amethyst_block": [
+        "micahcraft:breakdown/amethyst_block"
+    ],
+    "#minecraft:bamboo_blocks": [
+        "micahcraft:breakdown/bamboo"
+    ],
+    "minecraft:blue_ice": [
+        "micahcraft:breakdown/blue_ice"
+    ],
+    "minecraft:bookshelf": [
+        "micahcraft:breakdown/bookshelf"
+    ],
+    "#micahcraft:generated/variant/bricks": [
+        "micahcraft:breakdown/bricks"
+    ],
+    "minecraft:ender_chest": [
+        "micahcraft:breakdown/ender_chest"
+    ],
+    "minecraft:honeycomb_block": [
+        "micahcraft:breakdown/honeycomb_block"
+    ],
+    "minecraft:magma_block": [
+        "micahcraft:breakdown/magma_block"
+    ],
+    "#micahcraft:generated/variant/nether_bricks": [
+        "micahcraft:breakdown/nether_bricks"
+    ],
+    "minecraft:packed_ice": [
+        "micahcraft:breakdown/packed_ice"
+    ],
+    "#micahcraft:generated/variant/prismarine_bricks": [
+        "micahcraft:breakdown/prismarine_bricks"
+    ],
+    "#micahcraft:generated/variant/prismarine": [
+        "micahcraft:breakdown/prismarine"
+    ],
+    "#micahcraft:generated/variant/quartz_block": [
+        "micahcraft:breakdown/quartz_block"
+    ],
+    "minecraft:string": [
+        "micahcraft:breakdown/string_from_wool"
+    ]
+}
