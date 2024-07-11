@@ -6,5 +6,13 @@
             "inverted": true
         },
         "function": "micahcraft:commands/show_xp/trigger"
+    },
+    "show_deaths": {
+        "scoreboard": "ShowDeaths",
+        "value": {
+            "range": 0,
+            "inverted": true
+        },
+        "function": "micahcraft:commands/show_deaths/trigger"
     }
 }
