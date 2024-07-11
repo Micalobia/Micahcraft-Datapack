@@ -1,0 +1,20 @@
+{
+    "type": "crafting_shaped",
+    "pattern": [
+        "###",
+        "#D#",
+        "###"
+    ],
+    "key": {
+        "#": {
+            "tag": "minecraft:wool_carpets"
+        },
+        "D": {
+            "item": "gray_dye"
+        }
+    },
+    "result": {
+        "id": "minecraft:gray_carpet",
+        "count": 8
+    }
+}

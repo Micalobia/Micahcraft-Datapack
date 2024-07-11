@@ -1,0 +1,20 @@
+{
+    "type": "crafting_shaped",
+    "pattern": [
+        "###",
+        "#D#",
+        "###"
+    ],
+    "key": {
+        "#": {
+            "tag": "micahcraft:dyeable/concrete"
+        },
+        "D": {
+            "item": "magenta_dye"
+        }
+    },
+    "result": {
+        "id": "minecraft:magenta_concrete",
+        "count": 8
+    }
+}

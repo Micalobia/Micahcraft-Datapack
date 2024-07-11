@@ -1,0 +1,20 @@
+{
+    "type": "crafting_shaped",
+    "pattern": [
+        "###",
+        "#D#",
+        "###"
+    ],
+    "key": {
+        "#": {
+            "tag": "micahcraft:dyeable/concrete_powder"
+        },
+        "D": {
+            "item": "pink_dye"
+        }
+    },
+    "result": {
+        "id": "minecraft:pink_concrete_powder",
+        "count": 8
+    }
+}

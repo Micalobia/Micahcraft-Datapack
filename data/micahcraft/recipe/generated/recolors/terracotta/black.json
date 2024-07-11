@@ -1,0 +1,20 @@
+{
+    "type": "crafting_shaped",
+    "pattern": [
+        "###",
+        "#D#",
+        "###"
+    ],
+    "key": {
+        "#": {
+            "tag": "minecraft:terracotta"
+        },
+        "D": {
+            "item": "black_dye"
+        }
+    },
+    "result": {
+        "id": "minecraft:black_terracotta",
+        "count": 8
+    }
+}

@@ -1,0 +1,20 @@
+{
+    "type": "crafting_shaped",
+    "pattern": [
+        "###",
+        "#D#",
+        "###"
+    ],
+    "key": {
+        "#": {
+            "tag": "micahcraft:dyeable/glass"
+        },
+        "D": {
+            "item": "blue_dye"
+        }
+    },
+    "result": {
+        "id": "minecraft:blue_stained_glass",
+        "count": 8
+    }
+}

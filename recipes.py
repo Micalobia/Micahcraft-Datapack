@@ -65,6 +65,7 @@ print("Reading advancement config")
 with open("./recipe_advancements.json", "r") as f:
     advancements: dict[str, list[str]] = json.load(f)
 
+
 def add_advancement(item: str, recipe: str):
     if recipe.endswith(".json"):
         backslash = "\\"
@@ -308,6 +309,64 @@ for wood in woods:
         add_advancement(wood.planks, path)
         with opend(path, "w") as f:
             json.dump(v, f, indent=4)
+
+colors = [
+    "white",
+    "orange",
+    "magenta",
+    "light_blue",
+    "yellow",
+    "lime",
+    "pink",
+    "gray",
+    "light_gray",
+    "cyan",
+    "purple",
+    "blue",
+    "brown",
+    "green",
+    "red",
+    "black",
+]
+
+
+class Colorable(BaseModel):
+    name: str
+    tag: str
+
+    def id(self, color=None):
+        return f"minecraft:{self.full(color)}"
+
+    def full(self, color=None):
+        return f"{color}_{self.name}"
+
+    def recipe(self, color):
+        return {
+            "type": "crafting_shaped",
+            "pattern": ["###", "#D#", "###"],
+            "key": {"#": {"tag": self.tag}, "D": {"item": f"{color}_dye"}},
+            "result": {"id": self.id(color), "count": 8},
+        }
+
+
+colored = [
+    Colorable(name="wool", tag="minecraft:wool"),
+    Colorable(name="carpet", tag="minecraft:wool_carpets"),
+    Colorable(name="stained_glass", tag="micahcraft:dyeable/glass"),
+    Colorable(name="stained_glass_pane", tag="micahcraft:dyeable/glass_panes"),
+    Colorable(name="terracotta", tag="minecraft:terracotta"),
+    Colorable(name="concrete", tag="micahcraft:dyeable/concrete"),
+    Colorable(name="concrete_powder", tag="micahcraft:dyeable/concrete_powder"),
+]
+
+print("Generating color recipes...")
+for item in colored:
+    for color in colors:
+        path = recipe_path("recolors", item.name, color)
+        add_advancement(f"#{item.tag}", path)
+        with opend(path, "w") as f:
+            json.dump(item.recipe(color), f, indent=4)
+
 
 print("Generating advancement recipes...")
 s = set()

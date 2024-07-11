@@ -1,0 +1,20 @@
+{
+    "type": "crafting_shaped",
+    "pattern": [
+        "###",
+        "#D#",
+        "###"
+    ],
+    "key": {
+        "#": {
+            "tag": "micahcraft:dyeable/glass_panes"
+        },
+        "D": {
+            "item": "orange_dye"
+        }
+    },
+    "result": {
+        "id": "minecraft:orange_stained_glass_pane",
+        "count": 8
+    }
+}
