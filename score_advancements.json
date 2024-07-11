@@ -38,5 +38,13 @@
             "inverted": true
         },
         "function": "micahcraft:commands/death_location/trigger"
+    },
+    "nether_location": {
+        "scoreboard": "NetherLocation",
+        "value": {
+            "range": 0,
+            "inverted": true
+        },
+        "function": "micahcraft:commands/nether_location/trigger"
     }
 }
