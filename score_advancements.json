@@ -46,5 +46,13 @@
             "inverted": true
         },
         "function": "micahcraft:commands/nether_location/trigger"
+    },
+    "scan_horse": {
+        "scoreboard": "ScanHorse",
+        "value": {
+            "range": 0,
+            "inverted": true
+        },
+        "function": "micahcraft:commands/scan_horse/trigger"
     }
 }
