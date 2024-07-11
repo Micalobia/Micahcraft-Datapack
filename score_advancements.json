@@ -96,5 +96,30 @@
             }
         },
         "function": "micahcraft:commands/afk/stop_playtime"
+    },
+    "hud/dark": {
+        "scoreboard": "HUD",
+        "value": {
+            "range": 1
+        },
+        "function": "micahcraft:commands/hud/dark"
+    },
+    "hud/light": {
+        "scoreboard": "HUD",
+        "value": {
+            "range": 2
+        },
+        "function": "micahcraft:commands/hud/light"
+    },
+    "hud/off": {
+        "scoreboard": "HUD",
+        "value": {
+            "range": {
+                "min": 0,
+                "max": 2
+            },
+            "inverted": true
+        },
+        "function": "micahcraft:commands/hud/off"
     }
 }

@@ -8,6 +8,7 @@
         "micahcraft:commands/death_location/tick",
         "micahcraft:commands/nether_location/tick",
         "micahcraft:commands/scan_horse/tick",
-        "micahcraft:commands/afk/tick"
+        "micahcraft:commands/afk/tick",
+        "micahcraft:commands/hud/tick"
     ]
 }
