@@ -17,7 +17,8 @@
         "micahcraft:bamboo/slabs_from_blocks",
         "micahcraft:bamboo/stairs_from_blocks",
         "micahcraft:bamboo/sticks_from_blocks",
-        "micahcraft:bamboo/trapdoor_from_blocks"
+        "micahcraft:bamboo/trapdoor_from_blocks",
+        "micahcraft:misc/chests_from_bamboo_block"
     ],
     "minecraft:blue_ice": [
         "micahcraft:breakdown/blue_ice"
@@ -70,5 +71,18 @@
         "micahcraft:dirt_path/from_dirt_shaped",
         "micahcraft:dirt_path/from_dirt_shapeless",
         "micahcraft:dirt_path/from_grass"
+    ],
+    "#minecraft:logs": [
+        "micahcraft:misc/chests_from_log"
+    ],
+    "#minecraft:coals": [
+        "micahcraft:misc/coal_block"
+    ],
+    "minecraft:gold_ingot": [
+        "micahcraft:misc/enchanted_golden_apple"
+    ],
+    "#minecraft:soul_fire_base_blocks": [
+        "micahcraft:misc/soul_lantern_from_lantern",
+        "micahcraft:misc/soul_torch_from_torch"
     ]
 }

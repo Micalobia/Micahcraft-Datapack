@@ -1,0 +1,17 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"GGG",
+		"G G",
+		"GGG"
+	],
+	"key": {
+		"G": {
+			"tag": "minecraft:logs"
+		}
+	},
+	"result": {
+		"id": "minecraft:chest",
+		"count": 4
+	}
+}

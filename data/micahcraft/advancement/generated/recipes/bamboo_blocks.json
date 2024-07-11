@@ -64,6 +64,12 @@
                 "recipe": "micahcraft:breakdown/bamboo"
             },
             "trigger": "minecraft:recipe_unlocked"
+        },
+        "has_the_recipe_10": {
+            "conditions": {
+                "recipe": "micahcraft:misc/chests_from_bamboo_block"
+            },
+            "trigger": "minecraft:recipe_unlocked"
         }
     },
     "requirements": [
@@ -77,7 +83,8 @@
             "has_the_recipe_6",
             "has_the_recipe_7",
             "has_the_recipe_8",
-            "has_the_recipe_9"
+            "has_the_recipe_9",
+            "has_the_recipe_10"
         ]
     ],
     "rewards": {
@@ -90,7 +97,8 @@
             "micahcraft:bamboo/stairs_from_blocks",
             "micahcraft:bamboo/sticks_from_blocks",
             "micahcraft:bamboo/trapdoor_from_blocks",
-            "micahcraft:breakdown/bamboo"
+            "micahcraft:breakdown/bamboo",
+            "micahcraft:misc/chests_from_bamboo_block"
         ]
     }
 }
