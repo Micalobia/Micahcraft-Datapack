@@ -13,25 +13,25 @@
         },
         "has_the_recipe_1": {
             "conditions": {
-                "recipe": "micahcraft:generated/variant/cobblestone_wall"
+                "recipe": "micahcraft:generated/variant/cobblestone_stairs"
             },
             "trigger": "minecraft:recipe_unlocked"
         },
         "has_the_recipe_2": {
             "conditions": {
-                "recipe": "micahcraft:generated/variant/cobblestone_slab"
+                "recipe": "micahcraft:generated/variant/cobblestone"
             },
             "trigger": "minecraft:recipe_unlocked"
         },
         "has_the_recipe_3": {
             "conditions": {
-                "recipe": "micahcraft:generated/variant/cobblestone_stairs"
+                "recipe": "micahcraft:generated/variant/cobblestone_slab"
             },
             "trigger": "minecraft:recipe_unlocked"
         },
         "has_the_recipe_4": {
             "conditions": {
-                "recipe": "micahcraft:generated/variant/cobblestone"
+                "recipe": "micahcraft:generated/variant/cobblestone_wall"
             },
             "trigger": "minecraft:recipe_unlocked"
         }
@@ -47,9 +47,9 @@
     ],
     "rewards": {
         "recipes": [
+            "micahcraft:generated/variant/cobblestone_stairs",
             "micahcraft:generated/variant/cobblestone",
             "micahcraft:generated/variant/cobblestone_slab",
-            "micahcraft:generated/variant/cobblestone_stairs",
             "micahcraft:generated/variant/cobblestone_wall"
         ]
     }

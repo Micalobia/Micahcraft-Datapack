@@ -13,13 +13,13 @@
         },
         "has_the_recipe_1": {
             "conditions": {
-                "recipe": "micahcraft:armor/chainmail/chestplate"
+                "recipe": "micahcraft:armor/chainmail/helmet"
             },
             "trigger": "minecraft:recipe_unlocked"
         },
         "has_the_recipe_2": {
             "conditions": {
-                "recipe": "micahcraft:armor/chainmail/boots"
+                "recipe": "micahcraft:armor/chainmail/chestplate"
             },
             "trigger": "minecraft:recipe_unlocked"
         },
@@ -31,7 +31,7 @@
         },
         "has_the_recipe_4": {
             "conditions": {
-                "recipe": "micahcraft:armor/chainmail/helmet"
+                "recipe": "micahcraft:armor/chainmail/boots"
             },
             "trigger": "minecraft:recipe_unlocked"
         }
@@ -47,10 +47,10 @@
     ],
     "rewards": {
         "recipes": [
-            "micahcraft:armor/chainmail/boots",
-            "micahcraft:armor/chainmail/chestplate",
             "micahcraft:armor/chainmail/helmet",
-            "micahcraft:armor/chainmail/leggings"
+            "micahcraft:armor/chainmail/chestplate",
+            "micahcraft:armor/chainmail/leggings",
+            "micahcraft:armor/chainmail/boots"
         ]
     }
 }

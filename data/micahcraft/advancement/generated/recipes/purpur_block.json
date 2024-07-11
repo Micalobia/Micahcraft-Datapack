@@ -13,13 +13,13 @@
         },
         "has_the_recipe_1": {
             "conditions": {
-                "recipe": "micahcraft:generated/variant/purpur_stairs"
+                "recipe": "micahcraft:generated/variant/purpur_slab"
             },
             "trigger": "minecraft:recipe_unlocked"
         },
         "has_the_recipe_2": {
             "conditions": {
-                "recipe": "micahcraft:generated/variant/purpur_block"
+                "recipe": "micahcraft:generated/variant/purpur_stairs"
             },
             "trigger": "minecraft:recipe_unlocked"
         },
@@ -31,7 +31,7 @@
         },
         "has_the_recipe_4": {
             "conditions": {
-                "recipe": "micahcraft:generated/variant/purpur_slab"
+                "recipe": "micahcraft:generated/variant/purpur_block"
             },
             "trigger": "minecraft:recipe_unlocked"
         }
@@ -47,10 +47,10 @@
     ],
     "rewards": {
         "recipes": [
-            "micahcraft:generated/variant/purpur_block",
-            "micahcraft:generated/variant/purpur_pillar",
             "micahcraft:generated/variant/purpur_slab",
-            "micahcraft:generated/variant/purpur_stairs"
+            "micahcraft:generated/variant/purpur_stairs",
+            "micahcraft:generated/variant/purpur_pillar",
+            "micahcraft:generated/variant/purpur_block"
         ]
     }
 }

@@ -13,7 +13,7 @@
         },
         "has_the_recipe_1": {
             "conditions": {
-                "recipe": "micahcraft:generated/variant/mossy_cobblestone_stairs"
+                "recipe": "micahcraft:generated/variant/mossy_cobblestone"
             },
             "trigger": "minecraft:recipe_unlocked"
         },
@@ -25,13 +25,13 @@
         },
         "has_the_recipe_3": {
             "conditions": {
-                "recipe": "micahcraft:generated/variant/mossy_cobblestone"
+                "recipe": "micahcraft:generated/variant/mossy_cobblestone_slab"
             },
             "trigger": "minecraft:recipe_unlocked"
         },
         "has_the_recipe_4": {
             "conditions": {
-                "recipe": "micahcraft:generated/variant/mossy_cobblestone_slab"
+                "recipe": "micahcraft:generated/variant/mossy_cobblestone_stairs"
             },
             "trigger": "minecraft:recipe_unlocked"
         }
@@ -48,9 +48,9 @@
     "rewards": {
         "recipes": [
             "micahcraft:generated/variant/mossy_cobblestone",
+            "micahcraft:generated/variant/mossy_cobblestone_wall",
             "micahcraft:generated/variant/mossy_cobblestone_slab",
-            "micahcraft:generated/variant/mossy_cobblestone_stairs",
-            "micahcraft:generated/variant/mossy_cobblestone_wall"
+            "micahcraft:generated/variant/mossy_cobblestone_stairs"
         ]
     }
 }

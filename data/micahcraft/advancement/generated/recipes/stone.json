@@ -13,49 +13,49 @@
         },
         "has_the_recipe_1": {
             "conditions": {
-                "recipe": "micahcraft:generated/variant/chiseled_stone_bricks"
+                "recipe": "micahcraft:generated/variant/stone_brick_slab"
             },
             "trigger": "minecraft:recipe_unlocked"
         },
         "has_the_recipe_2": {
             "conditions": {
-                "recipe": "micahcraft:generated/variant/stone_bricks"
+                "recipe": "micahcraft:generated/variant/stone_slab"
             },
             "trigger": "minecraft:recipe_unlocked"
         },
         "has_the_recipe_3": {
             "conditions": {
-                "recipe": "micahcraft:generated/variant/stone_slab"
+                "recipe": "micahcraft:generated/variant/stone_brick_wall"
             },
             "trigger": "minecraft:recipe_unlocked"
         },
         "has_the_recipe_4": {
             "conditions": {
-                "recipe": "micahcraft:generated/variant/stone_stairs"
+                "recipe": "micahcraft:generated/variant/chiseled_stone_bricks"
             },
             "trigger": "minecraft:recipe_unlocked"
         },
         "has_the_recipe_5": {
             "conditions": {
-                "recipe": "micahcraft:generated/variant/stone_brick_slab"
+                "recipe": "micahcraft:generated/variant/stone_stairs"
             },
             "trigger": "minecraft:recipe_unlocked"
         },
         "has_the_recipe_6": {
             "conditions": {
-                "recipe": "micahcraft:generated/variant/stone_brick_wall"
+                "recipe": "micahcraft:generated/variant/stone_bricks"
             },
             "trigger": "minecraft:recipe_unlocked"
         },
         "has_the_recipe_7": {
             "conditions": {
-                "recipe": "micahcraft:generated/variant/stone_brick_stairs"
+                "recipe": "micahcraft:generated/variant/stone"
             },
             "trigger": "minecraft:recipe_unlocked"
         },
         "has_the_recipe_8": {
             "conditions": {
-                "recipe": "micahcraft:generated/variant/stone"
+                "recipe": "micahcraft:generated/variant/stone_brick_stairs"
             },
             "trigger": "minecraft:recipe_unlocked"
         }
@@ -75,14 +75,14 @@
     ],
     "rewards": {
         "recipes": [
-            "micahcraft:generated/variant/chiseled_stone_bricks",
-            "micahcraft:generated/variant/stone",
             "micahcraft:generated/variant/stone_brick_slab",
-            "micahcraft:generated/variant/stone_brick_stairs",
-            "micahcraft:generated/variant/stone_brick_wall",
-            "micahcraft:generated/variant/stone_bricks",
             "micahcraft:generated/variant/stone_slab",
-            "micahcraft:generated/variant/stone_stairs"
+            "micahcraft:generated/variant/stone_brick_wall",
+            "micahcraft:generated/variant/chiseled_stone_bricks",
+            "micahcraft:generated/variant/stone_stairs",
+            "micahcraft:generated/variant/stone_bricks",
+            "micahcraft:generated/variant/stone",
+            "micahcraft:generated/variant/stone_brick_stairs"
         ]
     }
 }

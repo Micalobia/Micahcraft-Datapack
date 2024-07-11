@@ -13,13 +13,13 @@
         },
         "has_the_recipe_1": {
             "conditions": {
-                "recipe": "micahcraft:generated/variant/quartz_block"
+                "recipe": "micahcraft:breakdown/quartz_block"
             },
             "trigger": "minecraft:recipe_unlocked"
         },
         "has_the_recipe_2": {
             "conditions": {
-                "recipe": "micahcraft:breakdown/quartz_block"
+                "recipe": "micahcraft:generated/variant/quartz_pillar"
             },
             "trigger": "minecraft:recipe_unlocked"
         },
@@ -31,25 +31,25 @@
         },
         "has_the_recipe_4": {
             "conditions": {
-                "recipe": "micahcraft:generated/variant/quartz_slab"
+                "recipe": "micahcraft:generated/variant/quartz_block"
             },
             "trigger": "minecraft:recipe_unlocked"
         },
         "has_the_recipe_5": {
             "conditions": {
-                "recipe": "micahcraft:generated/variant/quartz_pillar"
+                "recipe": "micahcraft:generated/variant/quartz_slab"
             },
             "trigger": "minecraft:recipe_unlocked"
         },
         "has_the_recipe_6": {
             "conditions": {
-                "recipe": "micahcraft:generated/variant/quartz_stairs"
+                "recipe": "micahcraft:generated/variant/chiseled_quartz_block"
             },
             "trigger": "minecraft:recipe_unlocked"
         },
         "has_the_recipe_7": {
             "conditions": {
-                "recipe": "micahcraft:generated/variant/chiseled_quartz_block"
+                "recipe": "micahcraft:generated/variant/quartz_stairs"
             },
             "trigger": "minecraft:recipe_unlocked"
         }
@@ -69,11 +69,11 @@
     "rewards": {
         "recipes": [
             "micahcraft:breakdown/quartz_block",
-            "micahcraft:generated/variant/chiseled_quartz_block",
-            "micahcraft:generated/variant/quartz_block",
-            "micahcraft:generated/variant/quartz_bricks",
             "micahcraft:generated/variant/quartz_pillar",
+            "micahcraft:generated/variant/quartz_bricks",
+            "micahcraft:generated/variant/quartz_block",
             "micahcraft:generated/variant/quartz_slab",
+            "micahcraft:generated/variant/chiseled_quartz_block",
             "micahcraft:generated/variant/quartz_stairs"
         ]
     }

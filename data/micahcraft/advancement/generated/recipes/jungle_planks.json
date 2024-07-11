@@ -13,49 +13,49 @@
         },
         "has_the_recipe_1": {
             "conditions": {
-                "recipe": "micahcraft:generated/woodcutting/jungle/planks_from_log"
+                "recipe": "micahcraft:generated/woodcutting/jungle/fence_from_wood"
             },
             "trigger": "minecraft:recipe_unlocked"
         },
         "has_the_recipe_2": {
             "conditions": {
-                "recipe": "micahcraft:generated/woodcutting/jungle/stairs_from_log"
+                "recipe": "micahcraft:generated/woodcutting/jungle/fence_gate_from_wood"
             },
             "trigger": "minecraft:recipe_unlocked"
         },
         "has_the_recipe_3": {
             "conditions": {
-                "recipe": "micahcraft:generated/woodcutting/jungle/fence_from_wood"
+                "recipe": "micahcraft:generated/woodcutting/jungle/planks_from_log"
             },
             "trigger": "minecraft:recipe_unlocked"
         },
         "has_the_recipe_4": {
             "conditions": {
-                "recipe": "micahcraft:generated/woodcutting/jungle/trapdoor_from_log"
+                "recipe": "micahcraft:generated/woodcutting/jungle/slabs_from_log"
             },
             "trigger": "minecraft:recipe_unlocked"
         },
         "has_the_recipe_5": {
             "conditions": {
-                "recipe": "micahcraft:generated/woodcutting/jungle/slabs_from_log"
+                "recipe": "micahcraft:generated/woodcutting/jungle/slabs_from_planks"
             },
             "trigger": "minecraft:recipe_unlocked"
         },
         "has_the_recipe_6": {
             "conditions": {
-                "recipe": "micahcraft:generated/woodcutting/jungle/fence_gate_from_wood"
+                "recipe": "micahcraft:generated/woodcutting/jungle/stairs_from_log"
             },
             "trigger": "minecraft:recipe_unlocked"
         },
         "has_the_recipe_7": {
             "conditions": {
-                "recipe": "micahcraft:generated/woodcutting/jungle/stripped_log"
+                "recipe": "micahcraft:generated/woodcutting/jungle/stairs_from_planks"
             },
             "trigger": "minecraft:recipe_unlocked"
         },
         "has_the_recipe_8": {
             "conditions": {
-                "recipe": "micahcraft:generated/woodcutting/jungle/stairs_from_planks"
+                "recipe": "micahcraft:generated/woodcutting/jungle/stripped_log"
             },
             "trigger": "minecraft:recipe_unlocked"
         },
@@ -67,7 +67,7 @@
         },
         "has_the_recipe_10": {
             "conditions": {
-                "recipe": "micahcraft:generated/woodcutting/jungle/slabs_from_planks"
+                "recipe": "micahcraft:generated/woodcutting/jungle/trapdoor_from_log"
             },
             "trigger": "minecraft:recipe_unlocked"
         }

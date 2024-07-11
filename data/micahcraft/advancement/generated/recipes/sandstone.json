@@ -13,43 +13,43 @@
         },
         "has_the_recipe_1": {
             "conditions": {
-                "recipe": "micahcraft:generated/variant/sandstone_stairs"
+                "recipe": "micahcraft:generated/variant/sandstone_wall"
             },
             "trigger": "minecraft:recipe_unlocked"
         },
         "has_the_recipe_2": {
             "conditions": {
-                "recipe": "micahcraft:generated/variant/sandstone_slab"
+                "recipe": "micahcraft:generated/variant/sandstone_stairs"
             },
             "trigger": "minecraft:recipe_unlocked"
         },
         "has_the_recipe_3": {
             "conditions": {
-                "recipe": "micahcraft:generated/variant/cut_sandstone"
+                "recipe": "micahcraft:generated/variant/sandstone_slab"
             },
             "trigger": "minecraft:recipe_unlocked"
         },
         "has_the_recipe_4": {
             "conditions": {
-                "recipe": "micahcraft:generated/variant/sandstone"
+                "recipe": "micahcraft:generated/variant/cut_sandstone_slab"
             },
             "trigger": "minecraft:recipe_unlocked"
         },
         "has_the_recipe_5": {
             "conditions": {
-                "recipe": "micahcraft:generated/variant/cut_sandstone_slab"
+                "recipe": "micahcraft:generated/variant/sandstone"
             },
             "trigger": "minecraft:recipe_unlocked"
         },
         "has_the_recipe_6": {
             "conditions": {
-                "recipe": "micahcraft:generated/variant/chiseled_sandstone"
+                "recipe": "micahcraft:generated/variant/cut_sandstone"
             },
             "trigger": "minecraft:recipe_unlocked"
         },
         "has_the_recipe_7": {
             "conditions": {
-                "recipe": "micahcraft:generated/variant/sandstone_wall"
+                "recipe": "micahcraft:generated/variant/chiseled_sandstone"
             },
             "trigger": "minecraft:recipe_unlocked"
         }
@@ -68,13 +68,13 @@
     ],
     "rewards": {
         "recipes": [
-            "micahcraft:generated/variant/chiseled_sandstone",
-            "micahcraft:generated/variant/cut_sandstone",
+            "micahcraft:generated/variant/sandstone_wall",
+            "micahcraft:generated/variant/sandstone_stairs",
+            "micahcraft:generated/variant/sandstone_slab",
             "micahcraft:generated/variant/cut_sandstone_slab",
             "micahcraft:generated/variant/sandstone",
-            "micahcraft:generated/variant/sandstone_slab",
-            "micahcraft:generated/variant/sandstone_stairs",
-            "micahcraft:generated/variant/sandstone_wall"
+            "micahcraft:generated/variant/cut_sandstone",
+            "micahcraft:generated/variant/chiseled_sandstone"
         ]
     }
 }

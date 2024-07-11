@@ -13,19 +13,19 @@
         },
         "has_the_recipe_1": {
             "conditions": {
-                "recipe": "micahcraft:generated/variant/nether_brick_stairs"
+                "recipe": "micahcraft:breakdown/nether_bricks"
             },
             "trigger": "minecraft:recipe_unlocked"
         },
         "has_the_recipe_2": {
             "conditions": {
-                "recipe": "micahcraft:generated/variant/chiseled_nether_bricks"
+                "recipe": "micahcraft:generated/variant/nether_brick_wall"
             },
             "trigger": "minecraft:recipe_unlocked"
         },
         "has_the_recipe_3": {
             "conditions": {
-                "recipe": "micahcraft:generated/variant/nether_brick_wall"
+                "recipe": "micahcraft:generated/variant/chiseled_nether_bricks"
             },
             "trigger": "minecraft:recipe_unlocked"
         },
@@ -43,7 +43,7 @@
         },
         "has_the_recipe_6": {
             "conditions": {
-                "recipe": "micahcraft:breakdown/nether_bricks"
+                "recipe": "micahcraft:generated/variant/nether_brick_stairs"
             },
             "trigger": "minecraft:recipe_unlocked"
         }
@@ -62,11 +62,11 @@
     "rewards": {
         "recipes": [
             "micahcraft:breakdown/nether_bricks",
+            "micahcraft:generated/variant/nether_brick_wall",
             "micahcraft:generated/variant/chiseled_nether_bricks",
             "micahcraft:generated/variant/nether_brick_slab",
-            "micahcraft:generated/variant/nether_brick_stairs",
-            "micahcraft:generated/variant/nether_brick_wall",
-            "micahcraft:generated/variant/nether_bricks"
+            "micahcraft:generated/variant/nether_bricks",
+            "micahcraft:generated/variant/nether_brick_stairs"
         ]
     }
 }

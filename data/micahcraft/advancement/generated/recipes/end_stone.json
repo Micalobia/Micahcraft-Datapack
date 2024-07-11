@@ -13,7 +13,7 @@
         },
         "has_the_recipe_1": {
             "conditions": {
-                "recipe": "micahcraft:generated/variant/end_stone_brick_slab"
+                "recipe": "micahcraft:generated/variant/end_stone_brick_stairs"
             },
             "trigger": "minecraft:recipe_unlocked"
         },
@@ -25,19 +25,19 @@
         },
         "has_the_recipe_3": {
             "conditions": {
-                "recipe": "micahcraft:generated/variant/end_stone_bricks"
+                "recipe": "micahcraft:generated/variant/end_stone_brick_wall"
             },
             "trigger": "minecraft:recipe_unlocked"
         },
         "has_the_recipe_4": {
             "conditions": {
-                "recipe": "micahcraft:generated/variant/end_stone_brick_wall"
+                "recipe": "micahcraft:generated/variant/end_stone_bricks"
             },
             "trigger": "minecraft:recipe_unlocked"
         },
         "has_the_recipe_5": {
             "conditions": {
-                "recipe": "micahcraft:generated/variant/end_stone_brick_stairs"
+                "recipe": "micahcraft:generated/variant/end_stone_brick_slab"
             },
             "trigger": "minecraft:recipe_unlocked"
         }
@@ -54,11 +54,11 @@
     ],
     "rewards": {
         "recipes": [
-            "micahcraft:generated/variant/end_stone",
-            "micahcraft:generated/variant/end_stone_brick_slab",
             "micahcraft:generated/variant/end_stone_brick_stairs",
+            "micahcraft:generated/variant/end_stone",
             "micahcraft:generated/variant/end_stone_brick_wall",
-            "micahcraft:generated/variant/end_stone_bricks"
+            "micahcraft:generated/variant/end_stone_bricks",
+            "micahcraft:generated/variant/end_stone_brick_slab"
         ]
     }
 }

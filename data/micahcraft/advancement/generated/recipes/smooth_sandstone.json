@@ -13,19 +13,19 @@
         },
         "has_the_recipe_1": {
             "conditions": {
-                "recipe": "micahcraft:generated/variant/smooth_sandstone"
+                "recipe": "micahcraft:generated/variant/smooth_sandstone_stairs"
             },
             "trigger": "minecraft:recipe_unlocked"
         },
         "has_the_recipe_2": {
             "conditions": {
-                "recipe": "micahcraft:generated/variant/smooth_sandstone_stairs"
+                "recipe": "micahcraft:generated/variant/smooth_sandstone_slab"
             },
             "trigger": "minecraft:recipe_unlocked"
         },
         "has_the_recipe_3": {
             "conditions": {
-                "recipe": "micahcraft:generated/variant/smooth_sandstone_slab"
+                "recipe": "micahcraft:generated/variant/smooth_sandstone"
             },
             "trigger": "minecraft:recipe_unlocked"
         }
@@ -40,9 +40,9 @@
     ],
     "rewards": {
         "recipes": [
-            "micahcraft:generated/variant/smooth_sandstone",
+            "micahcraft:generated/variant/smooth_sandstone_stairs",
             "micahcraft:generated/variant/smooth_sandstone_slab",
-            "micahcraft:generated/variant/smooth_sandstone_stairs"
+            "micahcraft:generated/variant/smooth_sandstone"
         ]
     }
 }

@@ -13,7 +13,7 @@
         },
         "has_the_recipe_1": {
             "conditions": {
-                "recipe": "micahcraft:generated/variant/cut_copper"
+                "recipe": "micahcraft:generated/variant/chiseled_copper"
             },
             "trigger": "minecraft:recipe_unlocked"
         },
@@ -25,25 +25,25 @@
         },
         "has_the_recipe_3": {
             "conditions": {
-                "recipe": "micahcraft:generated/variant/cut_copper_stairs"
+                "recipe": "micahcraft:generated/variant/copper_grate"
             },
             "trigger": "minecraft:recipe_unlocked"
         },
         "has_the_recipe_4": {
             "conditions": {
-                "recipe": "micahcraft:generated/variant/copper_block"
+                "recipe": "micahcraft:generated/variant/cut_copper_stairs"
             },
             "trigger": "minecraft:recipe_unlocked"
         },
         "has_the_recipe_5": {
             "conditions": {
-                "recipe": "micahcraft:generated/variant/chiseled_copper"
+                "recipe": "micahcraft:generated/variant/copper_block"
             },
             "trigger": "minecraft:recipe_unlocked"
         },
         "has_the_recipe_6": {
             "conditions": {
-                "recipe": "micahcraft:generated/variant/copper_grate"
+                "recipe": "micahcraft:generated/variant/cut_copper"
             },
             "trigger": "minecraft:recipe_unlocked"
         }
@@ -62,11 +62,11 @@
     "rewards": {
         "recipes": [
             "micahcraft:generated/variant/chiseled_copper",
-            "micahcraft:generated/variant/copper_block",
-            "micahcraft:generated/variant/copper_grate",
-            "micahcraft:generated/variant/cut_copper",
             "micahcraft:generated/variant/cut_copper_slab",
-            "micahcraft:generated/variant/cut_copper_stairs"
+            "micahcraft:generated/variant/copper_grate",
+            "micahcraft:generated/variant/cut_copper_stairs",
+            "micahcraft:generated/variant/copper_block",
+            "micahcraft:generated/variant/cut_copper"
         ]
     }
 }

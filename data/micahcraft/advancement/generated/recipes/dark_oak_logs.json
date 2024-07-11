@@ -13,19 +13,19 @@
         },
         "has_the_recipe_1": {
             "conditions": {
-                "recipe": "micahcraft:generated/woodcutting/dark_oak/stairs_from_log"
+                "recipe": "micahcraft:generated/woodcutting/dark_oak/fence_from_wood"
             },
             "trigger": "minecraft:recipe_unlocked"
         },
         "has_the_recipe_2": {
             "conditions": {
-                "recipe": "micahcraft:generated/woodcutting/dark_oak/slabs_from_planks"
+                "recipe": "micahcraft:generated/woodcutting/dark_oak/fence_gate_from_wood"
             },
             "trigger": "minecraft:recipe_unlocked"
         },
         "has_the_recipe_3": {
             "conditions": {
-                "recipe": "micahcraft:generated/woodcutting/dark_oak/trapdoor_from_log"
+                "recipe": "micahcraft:generated/woodcutting/dark_oak/planks_from_log"
             },
             "trigger": "minecraft:recipe_unlocked"
         },
@@ -37,25 +37,25 @@
         },
         "has_the_recipe_5": {
             "conditions": {
-                "recipe": "micahcraft:generated/woodcutting/dark_oak/stripped_log"
+                "recipe": "micahcraft:generated/woodcutting/dark_oak/slabs_from_planks"
             },
             "trigger": "minecraft:recipe_unlocked"
         },
         "has_the_recipe_6": {
             "conditions": {
-                "recipe": "micahcraft:generated/woodcutting/dark_oak/planks_from_log"
+                "recipe": "micahcraft:generated/woodcutting/dark_oak/stairs_from_log"
             },
             "trigger": "minecraft:recipe_unlocked"
         },
         "has_the_recipe_7": {
             "conditions": {
-                "recipe": "micahcraft:generated/woodcutting/dark_oak/fence_from_wood"
+                "recipe": "micahcraft:generated/woodcutting/dark_oak/stairs_from_planks"
             },
             "trigger": "minecraft:recipe_unlocked"
         },
         "has_the_recipe_8": {
             "conditions": {
-                "recipe": "micahcraft:generated/woodcutting/dark_oak/stairs_from_planks"
+                "recipe": "micahcraft:generated/woodcutting/dark_oak/stripped_log"
             },
             "trigger": "minecraft:recipe_unlocked"
         },
@@ -67,7 +67,7 @@
         },
         "has_the_recipe_10": {
             "conditions": {
-                "recipe": "micahcraft:generated/woodcutting/dark_oak/fence_gate_from_wood"
+                "recipe": "micahcraft:generated/woodcutting/dark_oak/trapdoor_from_log"
             },
             "trigger": "minecraft:recipe_unlocked"
         }

@@ -13,7 +13,7 @@
         },
         "has_the_recipe_1": {
             "conditions": {
-                "recipe": "micahcraft:generated/variant/prismarine_bricks"
+                "recipe": "micahcraft:breakdown/prismarine_bricks"
             },
             "trigger": "minecraft:recipe_unlocked"
         },
@@ -31,7 +31,7 @@
         },
         "has_the_recipe_4": {
             "conditions": {
-                "recipe": "micahcraft:breakdown/prismarine_bricks"
+                "recipe": "micahcraft:generated/variant/prismarine_bricks"
             },
             "trigger": "minecraft:recipe_unlocked"
         }

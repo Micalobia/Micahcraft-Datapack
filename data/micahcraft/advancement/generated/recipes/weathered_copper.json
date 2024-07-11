@@ -25,13 +25,13 @@
         },
         "has_the_recipe_3": {
             "conditions": {
-                "recipe": "micahcraft:generated/variant/weathered_chiseled_copper"
+                "recipe": "micahcraft:generated/variant/weathered_copper_grate"
             },
             "trigger": "minecraft:recipe_unlocked"
         },
         "has_the_recipe_4": {
             "conditions": {
-                "recipe": "micahcraft:generated/variant/weathered_cut_copper"
+                "recipe": "micahcraft:generated/variant/weathered_chiseled_copper"
             },
             "trigger": "minecraft:recipe_unlocked"
         },
@@ -43,7 +43,7 @@
         },
         "has_the_recipe_6": {
             "conditions": {
-                "recipe": "micahcraft:generated/variant/weathered_copper_grate"
+                "recipe": "micahcraft:generated/variant/weathered_cut_copper"
             },
             "trigger": "minecraft:recipe_unlocked"
         }
@@ -61,12 +61,12 @@
     ],
     "rewards": {
         "recipes": [
-            "micahcraft:generated/variant/weathered_chiseled_copper",
             "micahcraft:generated/variant/weathered_copper",
-            "micahcraft:generated/variant/weathered_copper_grate",
-            "micahcraft:generated/variant/weathered_cut_copper",
             "micahcraft:generated/variant/weathered_cut_copper_slab",
-            "micahcraft:generated/variant/weathered_cut_copper_stairs"
+            "micahcraft:generated/variant/weathered_copper_grate",
+            "micahcraft:generated/variant/weathered_chiseled_copper",
+            "micahcraft:generated/variant/weathered_cut_copper_stairs",
+            "micahcraft:generated/variant/weathered_cut_copper"
         ]
     }
 }

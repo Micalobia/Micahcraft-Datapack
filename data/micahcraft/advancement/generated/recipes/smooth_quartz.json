@@ -40,9 +40,9 @@
     ],
     "rewards": {
         "recipes": [
-            "micahcraft:generated/variant/smooth_quartz",
             "micahcraft:generated/variant/smooth_quartz_slab",
-            "micahcraft:generated/variant/smooth_quartz_stairs"
+            "micahcraft:generated/variant/smooth_quartz_stairs",
+            "micahcraft:generated/variant/smooth_quartz"
         ]
     }
 }

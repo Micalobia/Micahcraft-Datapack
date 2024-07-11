@@ -63,10 +63,7 @@ for file in files:
 
 print("Reading advancement config")
 with open("./recipe_advancements.json", "r") as f:
-    advancements = json.load(f)
-
-advancements: dict[str, set[str]] = {k: set(v) for k, v in advancements.items()}
-
+    advancements: dict[str, list[str]] = json.load(f)
 
 def add_advancement(item: str, recipe: str):
     if recipe.endswith(".json"):
@@ -77,9 +74,9 @@ def add_advancement(item: str, recipe: str):
         t[-1] = f"minecraft:{t[-1]}"
         item = "#".join(t)
     if item in advancements:
-        advancements[item].add(recipe)
+        advancements[item].append(recipe)
     else:
-        advancements[item] = {recipe}
+        advancements[item] = [recipe]
 
 
 stonecutter: list[Stonecutter] = [
@@ -166,7 +163,9 @@ def recipe_advancement(item, recipes):
     return {
         "parent": "minecraft:recipes/root",
         "criteria": criteria,
-        "requirements": [["has_the_item", *[f"has_the_recipe_{_ + 1}" for _ in range(len(recipes))]]],
+        "requirements": [
+            ["has_the_item", *[f"has_the_recipe_{_ + 1}" for _ in range(len(recipes))]]
+        ],
         "rewards": {"recipes": recipes},
     }
 

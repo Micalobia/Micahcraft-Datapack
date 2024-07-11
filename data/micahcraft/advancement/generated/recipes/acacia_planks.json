@@ -19,49 +19,49 @@
         },
         "has_the_recipe_2": {
             "conditions": {
-                "recipe": "micahcraft:generated/woodcutting/acacia/stairs_from_planks"
+                "recipe": "micahcraft:generated/woodcutting/acacia/fence_gate_from_wood"
             },
             "trigger": "minecraft:recipe_unlocked"
         },
         "has_the_recipe_3": {
             "conditions": {
-                "recipe": "micahcraft:generated/woodcutting/acacia/stairs_from_log"
+                "recipe": "micahcraft:generated/woodcutting/acacia/planks_from_log"
             },
             "trigger": "minecraft:recipe_unlocked"
         },
         "has_the_recipe_4": {
             "conditions": {
-                "recipe": "micahcraft:generated/woodcutting/acacia/slabs_from_planks"
+                "recipe": "micahcraft:generated/woodcutting/acacia/slabs_from_log"
             },
             "trigger": "minecraft:recipe_unlocked"
         },
         "has_the_recipe_5": {
             "conditions": {
-                "recipe": "micahcraft:generated/woodcutting/acacia/stripped_wood"
+                "recipe": "micahcraft:generated/woodcutting/acacia/slabs_from_planks"
             },
             "trigger": "minecraft:recipe_unlocked"
         },
         "has_the_recipe_6": {
             "conditions": {
-                "recipe": "micahcraft:generated/woodcutting/acacia/fence_gate_from_wood"
+                "recipe": "micahcraft:generated/woodcutting/acacia/stairs_from_log"
             },
             "trigger": "minecraft:recipe_unlocked"
         },
         "has_the_recipe_7": {
             "conditions": {
-                "recipe": "micahcraft:generated/woodcutting/acacia/slabs_from_log"
+                "recipe": "micahcraft:generated/woodcutting/acacia/stairs_from_planks"
             },
             "trigger": "minecraft:recipe_unlocked"
         },
         "has_the_recipe_8": {
             "conditions": {
-                "recipe": "micahcraft:generated/woodcutting/acacia/planks_from_log"
+                "recipe": "micahcraft:generated/woodcutting/acacia/stripped_log"
             },
             "trigger": "minecraft:recipe_unlocked"
         },
         "has_the_recipe_9": {
             "conditions": {
-                "recipe": "micahcraft:generated/woodcutting/acacia/stripped_log"
+                "recipe": "micahcraft:generated/woodcutting/acacia/stripped_wood"
             },
             "trigger": "minecraft:recipe_unlocked"
         },

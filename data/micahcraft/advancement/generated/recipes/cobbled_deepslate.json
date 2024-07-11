@@ -13,43 +13,43 @@
         },
         "has_the_recipe_1": {
             "conditions": {
-                "recipe": "micahcraft:generated/variant/deepslate_tile_slab"
+                "recipe": "micahcraft:generated/variant/cobbled_deepslate_wall"
             },
             "trigger": "minecraft:recipe_unlocked"
         },
         "has_the_recipe_2": {
             "conditions": {
-                "recipe": "micahcraft:generated/variant/deepslate_brick_stairs"
+                "recipe": "micahcraft:generated/variant/deepslate_brick_wall"
             },
             "trigger": "minecraft:recipe_unlocked"
         },
         "has_the_recipe_3": {
             "conditions": {
-                "recipe": "micahcraft:generated/variant/cobbled_deepslate_wall"
+                "recipe": "micahcraft:generated/variant/deepslate_tile_slab"
             },
             "trigger": "minecraft:recipe_unlocked"
         },
         "has_the_recipe_4": {
             "conditions": {
-                "recipe": "micahcraft:generated/variant/cobbled_deepslate_stairs"
+                "recipe": "micahcraft:generated/variant/polished_deepslate_wall"
             },
             "trigger": "minecraft:recipe_unlocked"
         },
         "has_the_recipe_5": {
             "conditions": {
-                "recipe": "micahcraft:generated/variant/polished_deepslate_wall"
+                "recipe": "micahcraft:generated/variant/polished_deepslate_slab"
             },
             "trigger": "minecraft:recipe_unlocked"
         },
         "has_the_recipe_6": {
             "conditions": {
-                "recipe": "micahcraft:generated/variant/polished_deepslate_stairs"
+                "recipe": "micahcraft:generated/variant/deepslate_tiles"
             },
             "trigger": "minecraft:recipe_unlocked"
         },
         "has_the_recipe_7": {
             "conditions": {
-                "recipe": "micahcraft:generated/variant/cobbled_deepslate_slab"
+                "recipe": "micahcraft:generated/variant/polished_deepslate"
             },
             "trigger": "minecraft:recipe_unlocked"
         },
@@ -61,7 +61,7 @@
         },
         "has_the_recipe_9": {
             "conditions": {
-                "recipe": "micahcraft:generated/variant/cobbled_deepslate"
+                "recipe": "micahcraft:generated/variant/deepslate_brick_slab"
             },
             "trigger": "minecraft:recipe_unlocked"
         },
@@ -73,43 +73,43 @@
         },
         "has_the_recipe_11": {
             "conditions": {
-                "recipe": "micahcraft:generated/variant/deepslate_tile_wall"
+                "recipe": "micahcraft:generated/variant/cobbled_deepslate"
             },
             "trigger": "minecraft:recipe_unlocked"
         },
         "has_the_recipe_12": {
             "conditions": {
-                "recipe": "micahcraft:generated/variant/deepslate_brick_slab"
+                "recipe": "micahcraft:generated/variant/deepslate_brick_stairs"
             },
             "trigger": "minecraft:recipe_unlocked"
         },
         "has_the_recipe_13": {
             "conditions": {
-                "recipe": "micahcraft:generated/variant/polished_deepslate"
+                "recipe": "micahcraft:generated/variant/polished_deepslate_stairs"
             },
             "trigger": "minecraft:recipe_unlocked"
         },
         "has_the_recipe_14": {
             "conditions": {
-                "recipe": "micahcraft:generated/variant/deepslate_brick_wall"
+                "recipe": "micahcraft:generated/variant/cobbled_deepslate_slab"
             },
             "trigger": "minecraft:recipe_unlocked"
         },
         "has_the_recipe_15": {
             "conditions": {
-                "recipe": "micahcraft:generated/variant/deepslate_tiles"
+                "recipe": "micahcraft:generated/variant/deepslate_tile_wall"
             },
             "trigger": "minecraft:recipe_unlocked"
         },
         "has_the_recipe_16": {
             "conditions": {
-                "recipe": "micahcraft:generated/variant/deepslate_bricks"
+                "recipe": "micahcraft:generated/variant/cobbled_deepslate_stairs"
             },
             "trigger": "minecraft:recipe_unlocked"
         },
         "has_the_recipe_17": {
             "conditions": {
-                "recipe": "micahcraft:generated/variant/polished_deepslate_slab"
+                "recipe": "micahcraft:generated/variant/deepslate_bricks"
             },
             "trigger": "minecraft:recipe_unlocked"
         }
@@ -138,23 +138,23 @@
     ],
     "rewards": {
         "recipes": [
-            "micahcraft:generated/variant/chiseled_deepslate",
-            "micahcraft:generated/variant/cobbled_deepslate",
-            "micahcraft:generated/variant/cobbled_deepslate_slab",
-            "micahcraft:generated/variant/cobbled_deepslate_stairs",
             "micahcraft:generated/variant/cobbled_deepslate_wall",
-            "micahcraft:generated/variant/deepslate_brick_slab",
-            "micahcraft:generated/variant/deepslate_brick_stairs",
             "micahcraft:generated/variant/deepslate_brick_wall",
-            "micahcraft:generated/variant/deepslate_bricks",
             "micahcraft:generated/variant/deepslate_tile_slab",
-            "micahcraft:generated/variant/deepslate_tile_stairs",
-            "micahcraft:generated/variant/deepslate_tile_wall",
+            "micahcraft:generated/variant/polished_deepslate_wall",
+            "micahcraft:generated/variant/polished_deepslate_slab",
             "micahcraft:generated/variant/deepslate_tiles",
             "micahcraft:generated/variant/polished_deepslate",
-            "micahcraft:generated/variant/polished_deepslate_slab",
+            "micahcraft:generated/variant/chiseled_deepslate",
+            "micahcraft:generated/variant/deepslate_brick_slab",
+            "micahcraft:generated/variant/deepslate_tile_stairs",
+            "micahcraft:generated/variant/cobbled_deepslate",
+            "micahcraft:generated/variant/deepslate_brick_stairs",
             "micahcraft:generated/variant/polished_deepslate_stairs",
-            "micahcraft:generated/variant/polished_deepslate_wall"
+            "micahcraft:generated/variant/cobbled_deepslate_slab",
+            "micahcraft:generated/variant/deepslate_tile_wall",
+            "micahcraft:generated/variant/cobbled_deepslate_stairs",
+            "micahcraft:generated/variant/deepslate_bricks"
         ]
     }
 }

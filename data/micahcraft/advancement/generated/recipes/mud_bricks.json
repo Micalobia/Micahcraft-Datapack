@@ -13,7 +13,7 @@
         },
         "has_the_recipe_1": {
             "conditions": {
-                "recipe": "micahcraft:generated/variant/mud_bricks"
+                "recipe": "micahcraft:generated/variant/mud_brick_wall"
             },
             "trigger": "minecraft:recipe_unlocked"
         },
@@ -25,7 +25,7 @@
         },
         "has_the_recipe_3": {
             "conditions": {
-                "recipe": "micahcraft:generated/variant/mud_brick_wall"
+                "recipe": "micahcraft:generated/variant/mud_bricks"
             },
             "trigger": "minecraft:recipe_unlocked"
         },
@@ -47,10 +47,10 @@
     ],
     "rewards": {
         "recipes": [
-            "micahcraft:generated/variant/mud_brick_slab",
-            "micahcraft:generated/variant/mud_brick_stairs",
             "micahcraft:generated/variant/mud_brick_wall",
-            "micahcraft:generated/variant/mud_bricks"
+            "micahcraft:generated/variant/mud_brick_stairs",
+            "micahcraft:generated/variant/mud_bricks",
+            "micahcraft:generated/variant/mud_brick_slab"
         ]
     }
 }

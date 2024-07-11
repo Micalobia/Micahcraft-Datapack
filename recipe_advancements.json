@@ -9,7 +9,15 @@
         "micahcraft:breakdown/amethyst_block"
     ],
     "#minecraft:bamboo_blocks": [
-        "micahcraft:breakdown/bamboo"
+        "micahcraft:breakdown/bamboo",
+        "micahcraft:bamboo/mosaic_from_blocks",
+        "micahcraft:bamboo/mosaic_slabs_from_blocks",
+        "micahcraft:bamboo/mosaic_stairs_from_blocks",
+        "micahcraft:bamboo/planks_from_blocks",
+        "micahcraft:bamboo/slabs_from_blocks",
+        "micahcraft:bamboo/stairs_from_blocks",
+        "micahcraft:bamboo/sticks_from_blocks",
+        "micahcraft:bamboo/trapdoor_from_blocks"
     ],
     "minecraft:blue_ice": [
         "micahcraft:breakdown/blue_ice"
@@ -46,5 +54,16 @@
     ],
     "minecraft:string": [
         "micahcraft:breakdown/string_from_wool"
+    ],
+    "#micahcraft:bamboo": [
+        "micahcraft:bamboo/mosaic_slabs_from_planks",
+        "micahcraft:bamboo/mosaic_from_planks",
+        "micahcraft:bamboo/mosaic_stairs_from_planks",
+        "micahcraft:bamboo/planks_from_planks",
+        "micahcraft:bamboo/slabs_from_planks",
+        "micahcraft:bamboo/stairs_from_planks"
+    ],
+    "minecraft:bamboo_block": [
+        "micahcraft:bamboo/stripped_block"
     ]
 }
