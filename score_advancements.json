@@ -14,5 +14,13 @@
             "inverted": true
         },
         "function": "micahcraft:commands/show_deaths/trigger"
+    },
+    "show_playtime": {
+        "scoreboard": "ShowPlaytime",
+        "value": {
+            "range": 0,
+            "inverted": true
+        },
+        "function": "micahcraft:commands/show_playtime/trigger"
     }
 }

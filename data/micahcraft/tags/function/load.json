@@ -1,7 +1,9 @@
 {
     "replace": false,
     "values": [
+        "micahcraft:load",
         "micahcraft:commands/show_xp/load",
-        "micahcraft:commands/show_deaths/load"
+        "micahcraft:commands/show_deaths/load",
+        "micahcraft:commands/show_playtime/load"
     ]
 }

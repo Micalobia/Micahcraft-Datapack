@@ -1,0 +1,1 @@
+execute as @a run function micahcraft:commands/show_playtime/calculate/individual
