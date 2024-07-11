@@ -30,5 +30,13 @@
             "inverted": true
         },
         "function": "micahcraft:commands/share_location/trigger"
+    },
+    "death_location": {
+        "scoreboard": "DeathLocation",
+        "value": {
+            "range": 0,
+            "inverted": true
+        },
+        "function": "micahcraft:commands/death_location/trigger"
     }
 }

@@ -4,6 +4,7 @@
         "micahcraft:commands/show_xp/tick",
         "micahcraft:commands/show_deaths/tick",
         "micahcraft:commands/show_playtime/tick",
-        "micahcraft:commands/share_location/tick"
+        "micahcraft:commands/share_location/tick",
+        "micahcraft:commands/death_location/tick"
     ]
 }
