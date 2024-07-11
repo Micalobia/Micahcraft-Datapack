@@ -8,6 +8,7 @@
         "micahcraft:commands/share_location/load",
         "micahcraft:commands/death_location/load",
         "micahcraft:commands/nether_location/load",
-        "micahcraft:commands/scan_horse/load"
+        "micahcraft:commands/scan_horse/load",
+        "micahcraft:commands/afk/load"
     ]
 }

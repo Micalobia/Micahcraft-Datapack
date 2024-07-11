@@ -54,5 +54,47 @@
             "inverted": true
         },
         "function": "micahcraft:commands/scan_horse/trigger"
+    },
+    "afk": {
+        "scoreboard": "AFK",
+        "value": {
+            "range": 0,
+            "inverted": true
+        },
+        "function": "micahcraft:commands/afk/trigger"
+    },
+    "afk/moving": {
+        "predicates": [
+            "micahcraft:player/is_moving"
+        ],
+        "function": "micahcraft:commands/afk/moving"
+    },
+    "afk/start_afk": {
+        "scoreboard": "mk.ticks_afk",
+        "value": {
+            "range": 6000
+        },
+        "function": "micahcraft:commands/afk/start_afk"
+    },
+    "afk/start_moving": {
+        "scoreboard": "mk.ticks_afk",
+        "value": {
+            "range": {
+                "min": 6000
+            }
+        },
+        "predicates": [
+            "micahcraft:player/is_moving"
+        ],
+        "function": "micahcraft:commands/afk/start_moving"
+    },
+    "afk/stop_playtime": {
+        "scoreboard": "mk.ticks_afk",
+        "value": {
+            "range": {
+                "min": 6000
+            }
+        },
+        "function": "micahcraft:commands/afk/stop_playtime"
     }
 }

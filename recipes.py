@@ -60,17 +60,29 @@ class ScoreValue(BaseModel):
 
 
 class ScoreAdvancement(BaseModel):
-    scoreboard: str
-    value: ScoreValue
+    scoreboard: Optional[str] = None
+    value: Optional[ScoreValue] = None
     function: str
+    predicates: list[str] = []
 
     @property
     def json(self):
+        j = []
+        if self.scoreboard is not None and self.value is not None:
+            j = [self.value.json(self.scoreboard)]
         return {
             "criteria": {
                 "unlocked": {
                     "trigger": "minecraft:tick",
-                    "conditions": {"player": [self.value.json(self.scoreboard)]},
+                    "conditions": {
+                        "player": [
+                            *j,
+                            *[
+                                {"condition": "reference", "name": _}
+                                for _ in self.predicates
+                            ],
+                        ]
+                    },
                 }
             },
             "rewards": {"function": self.function},
