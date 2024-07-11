@@ -13,25 +13,25 @@
         },
         "has_the_recipe_1": {
             "conditions": {
-                "recipe": "micahcraft:generated/variant/polished_diorite_stairs"
+                "recipe": "micahcraft:generated/variant/diorite"
             },
             "trigger": "minecraft:recipe_unlocked"
         },
         "has_the_recipe_2": {
             "conditions": {
-                "recipe": "micahcraft:generated/variant/diorite_stairs"
+                "recipe": "micahcraft:generated/variant/diorite_slab"
             },
             "trigger": "minecraft:recipe_unlocked"
         },
         "has_the_recipe_3": {
             "conditions": {
-                "recipe": "micahcraft:generated/variant/diorite_wall"
+                "recipe": "micahcraft:generated/variant/diorite_stairs"
             },
             "trigger": "minecraft:recipe_unlocked"
         },
         "has_the_recipe_4": {
             "conditions": {
-                "recipe": "micahcraft:generated/variant/diorite"
+                "recipe": "micahcraft:generated/variant/diorite_wall"
             },
             "trigger": "minecraft:recipe_unlocked"
         },
@@ -43,13 +43,13 @@
         },
         "has_the_recipe_6": {
             "conditions": {
-                "recipe": "micahcraft:generated/variant/diorite_slab"
+                "recipe": "micahcraft:generated/variant/polished_diorite_slab"
             },
             "trigger": "minecraft:recipe_unlocked"
         },
         "has_the_recipe_7": {
             "conditions": {
-                "recipe": "micahcraft:generated/variant/polished_diorite_slab"
+                "recipe": "micahcraft:generated/variant/polished_diorite_stairs"
             },
             "trigger": "minecraft:recipe_unlocked"
         }
@@ -68,13 +68,13 @@
     ],
     "rewards": {
         "recipes": [
-            "micahcraft:generated/variant/polished_diorite_stairs",
+            "micahcraft:generated/variant/diorite",
+            "micahcraft:generated/variant/diorite_slab",
             "micahcraft:generated/variant/diorite_stairs",
             "micahcraft:generated/variant/diorite_wall",
-            "micahcraft:generated/variant/diorite",
             "micahcraft:generated/variant/polished_diorite",
-            "micahcraft:generated/variant/diorite_slab",
-            "micahcraft:generated/variant/polished_diorite_slab"
+            "micahcraft:generated/variant/polished_diorite_slab",
+            "micahcraft:generated/variant/polished_diorite_stairs"
         ]
     }
 }

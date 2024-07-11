@@ -13,55 +13,55 @@
         },
         "has_the_recipe_1": {
             "conditions": {
-                "recipe": "micahcraft:breakdown/bamboo"
+                "recipe": "micahcraft:bamboo/mosaic_from_blocks"
             },
             "trigger": "minecraft:recipe_unlocked"
         },
         "has_the_recipe_2": {
             "conditions": {
-                "recipe": "micahcraft:bamboo/mosaic_from_blocks"
+                "recipe": "micahcraft:bamboo/mosaic_slabs_from_blocks"
             },
             "trigger": "minecraft:recipe_unlocked"
         },
         "has_the_recipe_3": {
             "conditions": {
-                "recipe": "micahcraft:bamboo/mosaic_slabs_from_blocks"
+                "recipe": "micahcraft:bamboo/mosaic_stairs_from_blocks"
             },
             "trigger": "minecraft:recipe_unlocked"
         },
         "has_the_recipe_4": {
             "conditions": {
-                "recipe": "micahcraft:bamboo/mosaic_stairs_from_blocks"
+                "recipe": "micahcraft:bamboo/planks_from_blocks"
             },
             "trigger": "minecraft:recipe_unlocked"
         },
         "has_the_recipe_5": {
             "conditions": {
-                "recipe": "micahcraft:bamboo/planks_from_blocks"
+                "recipe": "micahcraft:bamboo/slabs_from_blocks"
             },
             "trigger": "minecraft:recipe_unlocked"
         },
         "has_the_recipe_6": {
             "conditions": {
-                "recipe": "micahcraft:bamboo/slabs_from_blocks"
+                "recipe": "micahcraft:bamboo/stairs_from_blocks"
             },
             "trigger": "minecraft:recipe_unlocked"
         },
         "has_the_recipe_7": {
             "conditions": {
-                "recipe": "micahcraft:bamboo/stairs_from_blocks"
+                "recipe": "micahcraft:bamboo/sticks_from_blocks"
             },
             "trigger": "minecraft:recipe_unlocked"
         },
         "has_the_recipe_8": {
             "conditions": {
-                "recipe": "micahcraft:bamboo/sticks_from_blocks"
+                "recipe": "micahcraft:bamboo/trapdoor_from_blocks"
             },
             "trigger": "minecraft:recipe_unlocked"
         },
         "has_the_recipe_9": {
             "conditions": {
-                "recipe": "micahcraft:bamboo/trapdoor_from_blocks"
+                "recipe": "micahcraft:breakdown/bamboo"
             },
             "trigger": "minecraft:recipe_unlocked"
         }
@@ -82,7 +82,6 @@
     ],
     "rewards": {
         "recipes": [
-            "micahcraft:breakdown/bamboo",
             "micahcraft:bamboo/mosaic_from_blocks",
             "micahcraft:bamboo/mosaic_slabs_from_blocks",
             "micahcraft:bamboo/mosaic_stairs_from_blocks",
@@ -90,7 +89,8 @@
             "micahcraft:bamboo/slabs_from_blocks",
             "micahcraft:bamboo/stairs_from_blocks",
             "micahcraft:bamboo/sticks_from_blocks",
-            "micahcraft:bamboo/trapdoor_from_blocks"
+            "micahcraft:bamboo/trapdoor_from_blocks",
+            "micahcraft:breakdown/bamboo"
         ]
     }
 }

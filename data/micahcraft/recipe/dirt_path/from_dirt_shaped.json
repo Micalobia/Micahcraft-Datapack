@@ -1,0 +1,20 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"DDD",
+		"DSD",
+		"DDD"
+	],
+	"key": {
+		"D": {
+			"tag": "minecraft:dirt"
+		},
+		"S": {
+			"tag": "minecraft:chicken_food"
+		}
+	},
+	"result": {
+		"id": "minecraft:dirt_path",
+		"count": 8
+	}
+}

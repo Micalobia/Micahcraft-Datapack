@@ -13,19 +13,19 @@
         },
         "has_the_recipe_1": {
             "conditions": {
-                "recipe": "micahcraft:generated/variant/polished_andesite_slab"
+                "recipe": "micahcraft:generated/variant/andesite"
             },
             "trigger": "minecraft:recipe_unlocked"
         },
         "has_the_recipe_2": {
             "conditions": {
-                "recipe": "micahcraft:generated/variant/andesite"
+                "recipe": "micahcraft:generated/variant/andesite_slab"
             },
             "trigger": "minecraft:recipe_unlocked"
         },
         "has_the_recipe_3": {
             "conditions": {
-                "recipe": "micahcraft:generated/variant/polished_andesite_stairs"
+                "recipe": "micahcraft:generated/variant/andesite_stairs"
             },
             "trigger": "minecraft:recipe_unlocked"
         },
@@ -37,19 +37,19 @@
         },
         "has_the_recipe_5": {
             "conditions": {
-                "recipe": "micahcraft:generated/variant/andesite_slab"
+                "recipe": "micahcraft:generated/variant/polished_andesite"
             },
             "trigger": "minecraft:recipe_unlocked"
         },
         "has_the_recipe_6": {
             "conditions": {
-                "recipe": "micahcraft:generated/variant/polished_andesite"
+                "recipe": "micahcraft:generated/variant/polished_andesite_slab"
             },
             "trigger": "minecraft:recipe_unlocked"
         },
         "has_the_recipe_7": {
             "conditions": {
-                "recipe": "micahcraft:generated/variant/andesite_stairs"
+                "recipe": "micahcraft:generated/variant/polished_andesite_stairs"
             },
             "trigger": "minecraft:recipe_unlocked"
         }
@@ -68,13 +68,13 @@
     ],
     "rewards": {
         "recipes": [
-            "micahcraft:generated/variant/polished_andesite_slab",
             "micahcraft:generated/variant/andesite",
-            "micahcraft:generated/variant/polished_andesite_stairs",
-            "micahcraft:generated/variant/andesite_wall",
             "micahcraft:generated/variant/andesite_slab",
+            "micahcraft:generated/variant/andesite_stairs",
+            "micahcraft:generated/variant/andesite_wall",
             "micahcraft:generated/variant/polished_andesite",
-            "micahcraft:generated/variant/andesite_stairs"
+            "micahcraft:generated/variant/polished_andesite_slab",
+            "micahcraft:generated/variant/polished_andesite_stairs"
         ]
     }
 }

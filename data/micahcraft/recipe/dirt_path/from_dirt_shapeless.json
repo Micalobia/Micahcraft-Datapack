@@ -1,0 +1,15 @@
+{
+	"type": "crafting_shapeless",
+	"ingredients": [
+		{
+			"tag": "minecraft:dirt"
+		},
+		{
+			"tag": "minecraft:chicken_food"
+		}
+	],
+	"result": {
+		"id": "minecraft:dirt_path",
+		"count": 1
+	}
+}

@@ -13,19 +13,19 @@
         },
         "has_the_recipe_1": {
             "conditions": {
-                "recipe": "micahcraft:generated/variant/dark_prismarine_stairs"
+                "recipe": "micahcraft:generated/variant/dark_prismarine"
             },
             "trigger": "minecraft:recipe_unlocked"
         },
         "has_the_recipe_2": {
             "conditions": {
-                "recipe": "micahcraft:generated/variant/dark_prismarine"
+                "recipe": "micahcraft:generated/variant/dark_prismarine_slab"
             },
             "trigger": "minecraft:recipe_unlocked"
         },
         "has_the_recipe_3": {
             "conditions": {
-                "recipe": "micahcraft:generated/variant/dark_prismarine_slab"
+                "recipe": "micahcraft:generated/variant/dark_prismarine_stairs"
             },
             "trigger": "minecraft:recipe_unlocked"
         }
@@ -40,9 +40,9 @@
     ],
     "rewards": {
         "recipes": [
-            "micahcraft:generated/variant/dark_prismarine_stairs",
             "micahcraft:generated/variant/dark_prismarine",
-            "micahcraft:generated/variant/dark_prismarine_slab"
+            "micahcraft:generated/variant/dark_prismarine_slab",
+            "micahcraft:generated/variant/dark_prismarine_stairs"
         ]
     }
 }

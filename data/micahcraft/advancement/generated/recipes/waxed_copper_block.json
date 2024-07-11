@@ -13,7 +13,7 @@
         },
         "has_the_recipe_1": {
             "conditions": {
-                "recipe": "micahcraft:generated/variant/waxed_cut_copper_slab"
+                "recipe": "micahcraft:generated/variant/waxed_chiseled_copper"
             },
             "trigger": "minecraft:recipe_unlocked"
         },
@@ -31,19 +31,19 @@
         },
         "has_the_recipe_4": {
             "conditions": {
-                "recipe": "micahcraft:generated/variant/waxed_cut_copper_stairs"
+                "recipe": "micahcraft:generated/variant/waxed_cut_copper"
             },
             "trigger": "minecraft:recipe_unlocked"
         },
         "has_the_recipe_5": {
             "conditions": {
-                "recipe": "micahcraft:generated/variant/waxed_chiseled_copper"
+                "recipe": "micahcraft:generated/variant/waxed_cut_copper_slab"
             },
             "trigger": "minecraft:recipe_unlocked"
         },
         "has_the_recipe_6": {
             "conditions": {
-                "recipe": "micahcraft:generated/variant/waxed_cut_copper"
+                "recipe": "micahcraft:generated/variant/waxed_cut_copper_stairs"
             },
             "trigger": "minecraft:recipe_unlocked"
         }
@@ -61,12 +61,12 @@
     ],
     "rewards": {
         "recipes": [
-            "micahcraft:generated/variant/waxed_cut_copper_slab",
+            "micahcraft:generated/variant/waxed_chiseled_copper",
             "micahcraft:generated/variant/waxed_copper_block",
             "micahcraft:generated/variant/waxed_copper_grate",
-            "micahcraft:generated/variant/waxed_cut_copper_stairs",
-            "micahcraft:generated/variant/waxed_chiseled_copper",
-            "micahcraft:generated/variant/waxed_cut_copper"
+            "micahcraft:generated/variant/waxed_cut_copper",
+            "micahcraft:generated/variant/waxed_cut_copper_slab",
+            "micahcraft:generated/variant/waxed_cut_copper_stairs"
         ]
     }
 }

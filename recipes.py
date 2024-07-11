@@ -149,6 +149,7 @@ def cutting_recipe(ingredient, result, count=1, is_item=False):
 
 
 def recipe_advancement(item, recipes):
+    recipes = sorted(recipes)
     criteria = {
         "has_the_item": {
             "trigger": "minecraft:inventory_changed",

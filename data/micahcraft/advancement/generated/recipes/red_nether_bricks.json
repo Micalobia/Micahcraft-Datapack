@@ -13,19 +13,19 @@
         },
         "has_the_recipe_1": {
             "conditions": {
-                "recipe": "micahcraft:generated/variant/red_nether_brick_stairs"
+                "recipe": "micahcraft:generated/variant/red_nether_brick_slab"
             },
             "trigger": "minecraft:recipe_unlocked"
         },
         "has_the_recipe_2": {
             "conditions": {
-                "recipe": "micahcraft:generated/variant/red_nether_brick_wall"
+                "recipe": "micahcraft:generated/variant/red_nether_brick_stairs"
             },
             "trigger": "minecraft:recipe_unlocked"
         },
         "has_the_recipe_3": {
             "conditions": {
-                "recipe": "micahcraft:generated/variant/red_nether_brick_slab"
+                "recipe": "micahcraft:generated/variant/red_nether_brick_wall"
             },
             "trigger": "minecraft:recipe_unlocked"
         },
@@ -47,9 +47,9 @@
     ],
     "rewards": {
         "recipes": [
+            "micahcraft:generated/variant/red_nether_brick_slab",
             "micahcraft:generated/variant/red_nether_brick_stairs",
             "micahcraft:generated/variant/red_nether_brick_wall",
-            "micahcraft:generated/variant/red_nether_brick_slab",
             "micahcraft:generated/variant/red_nether_bricks"
         ]
     }

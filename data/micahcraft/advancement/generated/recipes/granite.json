@@ -13,31 +13,31 @@
         },
         "has_the_recipe_1": {
             "conditions": {
-                "recipe": "micahcraft:generated/variant/polished_granite_stairs"
+                "recipe": "micahcraft:generated/variant/granite"
             },
             "trigger": "minecraft:recipe_unlocked"
         },
         "has_the_recipe_2": {
             "conditions": {
-                "recipe": "micahcraft:generated/variant/granite_stairs"
+                "recipe": "micahcraft:generated/variant/granite_slab"
             },
             "trigger": "minecraft:recipe_unlocked"
         },
         "has_the_recipe_3": {
             "conditions": {
-                "recipe": "micahcraft:generated/variant/granite"
+                "recipe": "micahcraft:generated/variant/granite_stairs"
             },
             "trigger": "minecraft:recipe_unlocked"
         },
         "has_the_recipe_4": {
             "conditions": {
-                "recipe": "micahcraft:generated/variant/polished_granite"
+                "recipe": "micahcraft:generated/variant/granite_wall"
             },
             "trigger": "minecraft:recipe_unlocked"
         },
         "has_the_recipe_5": {
             "conditions": {
-                "recipe": "micahcraft:generated/variant/granite_wall"
+                "recipe": "micahcraft:generated/variant/polished_granite"
             },
             "trigger": "minecraft:recipe_unlocked"
         },
@@ -49,7 +49,7 @@
         },
         "has_the_recipe_7": {
             "conditions": {
-                "recipe": "micahcraft:generated/variant/granite_slab"
+                "recipe": "micahcraft:generated/variant/polished_granite_stairs"
             },
             "trigger": "minecraft:recipe_unlocked"
         }
@@ -68,13 +68,13 @@
     ],
     "rewards": {
         "recipes": [
-            "micahcraft:generated/variant/polished_granite_stairs",
-            "micahcraft:generated/variant/granite_stairs",
             "micahcraft:generated/variant/granite",
-            "micahcraft:generated/variant/polished_granite",
+            "micahcraft:generated/variant/granite_slab",
+            "micahcraft:generated/variant/granite_stairs",
             "micahcraft:generated/variant/granite_wall",
+            "micahcraft:generated/variant/polished_granite",
             "micahcraft:generated/variant/polished_granite_slab",
-            "micahcraft:generated/variant/granite_slab"
+            "micahcraft:generated/variant/polished_granite_stairs"
         ]
     }
 }

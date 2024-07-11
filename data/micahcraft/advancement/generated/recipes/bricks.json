@@ -19,19 +19,19 @@
         },
         "has_the_recipe_2": {
             "conditions": {
-                "recipe": "micahcraft:generated/variant/brick_stairs"
+                "recipe": "micahcraft:generated/variant/brick_slab"
             },
             "trigger": "minecraft:recipe_unlocked"
         },
         "has_the_recipe_3": {
             "conditions": {
-                "recipe": "micahcraft:generated/variant/brick_wall"
+                "recipe": "micahcraft:generated/variant/brick_stairs"
             },
             "trigger": "minecraft:recipe_unlocked"
         },
         "has_the_recipe_4": {
             "conditions": {
-                "recipe": "micahcraft:generated/variant/brick_slab"
+                "recipe": "micahcraft:generated/variant/brick_wall"
             },
             "trigger": "minecraft:recipe_unlocked"
         },
@@ -55,9 +55,9 @@
     "rewards": {
         "recipes": [
             "micahcraft:breakdown/bricks",
+            "micahcraft:generated/variant/brick_slab",
             "micahcraft:generated/variant/brick_stairs",
             "micahcraft:generated/variant/brick_wall",
-            "micahcraft:generated/variant/brick_slab",
             "micahcraft:generated/variant/bricks"
         ]
     }

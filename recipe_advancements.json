@@ -65,5 +65,10 @@
     ],
     "minecraft:bamboo_block": [
         "micahcraft:bamboo/stripped_block"
+    ],
+    "#minecraft:chicken_food": [
+        "micahcraft:dirt_path/from_dirt_shaped",
+        "micahcraft:dirt_path/from_dirt_shapeless",
+        "micahcraft:dirt_path/from_grass"
     ]
 }

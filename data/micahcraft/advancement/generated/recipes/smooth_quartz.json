@@ -13,19 +13,19 @@
         },
         "has_the_recipe_1": {
             "conditions": {
-                "recipe": "micahcraft:generated/variant/smooth_quartz_slab"
+                "recipe": "micahcraft:generated/variant/smooth_quartz"
             },
             "trigger": "minecraft:recipe_unlocked"
         },
         "has_the_recipe_2": {
             "conditions": {
-                "recipe": "micahcraft:generated/variant/smooth_quartz_stairs"
+                "recipe": "micahcraft:generated/variant/smooth_quartz_slab"
             },
             "trigger": "minecraft:recipe_unlocked"
         },
         "has_the_recipe_3": {
             "conditions": {
-                "recipe": "micahcraft:generated/variant/smooth_quartz"
+                "recipe": "micahcraft:generated/variant/smooth_quartz_stairs"
             },
             "trigger": "minecraft:recipe_unlocked"
         }
@@ -40,9 +40,9 @@
     ],
     "rewards": {
         "recipes": [
+            "micahcraft:generated/variant/smooth_quartz",
             "micahcraft:generated/variant/smooth_quartz_slab",
-            "micahcraft:generated/variant/smooth_quartz_stairs",
-            "micahcraft:generated/variant/smooth_quartz"
+            "micahcraft:generated/variant/smooth_quartz_stairs"
         ]
     }
 }

@@ -13,13 +13,13 @@
         },
         "has_the_recipe_1": {
             "conditions": {
-                "recipe": "micahcraft:bamboo/mosaic_slabs_from_planks"
+                "recipe": "micahcraft:bamboo/mosaic_from_planks"
             },
             "trigger": "minecraft:recipe_unlocked"
         },
         "has_the_recipe_2": {
             "conditions": {
-                "recipe": "micahcraft:bamboo/mosaic_from_planks"
+                "recipe": "micahcraft:bamboo/mosaic_slabs_from_planks"
             },
             "trigger": "minecraft:recipe_unlocked"
         },
@@ -61,8 +61,8 @@
     ],
     "rewards": {
         "recipes": [
-            "micahcraft:bamboo/mosaic_slabs_from_planks",
             "micahcraft:bamboo/mosaic_from_planks",
+            "micahcraft:bamboo/mosaic_slabs_from_planks",
             "micahcraft:bamboo/mosaic_stairs_from_planks",
             "micahcraft:bamboo/planks_from_planks",
             "micahcraft:bamboo/slabs_from_planks",

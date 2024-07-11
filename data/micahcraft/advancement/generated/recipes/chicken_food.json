@@ -6,32 +6,26 @@
             "conditions": {
                 "items": [
                     {
-                        "items": "#micahcraft:generated/variant/mud_bricks"
+                        "items": "#minecraft:chicken_food"
                     }
                 ]
             }
         },
         "has_the_recipe_1": {
             "conditions": {
-                "recipe": "micahcraft:generated/variant/mud_brick_slab"
+                "recipe": "micahcraft:dirt_path/from_dirt_shaped"
             },
             "trigger": "minecraft:recipe_unlocked"
         },
         "has_the_recipe_2": {
             "conditions": {
-                "recipe": "micahcraft:generated/variant/mud_brick_stairs"
+                "recipe": "micahcraft:dirt_path/from_dirt_shapeless"
             },
             "trigger": "minecraft:recipe_unlocked"
         },
         "has_the_recipe_3": {
             "conditions": {
-                "recipe": "micahcraft:generated/variant/mud_brick_wall"
-            },
-            "trigger": "minecraft:recipe_unlocked"
-        },
-        "has_the_recipe_4": {
-            "conditions": {
-                "recipe": "micahcraft:generated/variant/mud_bricks"
+                "recipe": "micahcraft:dirt_path/from_grass"
             },
             "trigger": "minecraft:recipe_unlocked"
         }
@@ -41,16 +35,14 @@
             "has_the_item",
             "has_the_recipe_1",
             "has_the_recipe_2",
-            "has_the_recipe_3",
-            "has_the_recipe_4"
+            "has_the_recipe_3"
         ]
     ],
     "rewards": {
         "recipes": [
-            "micahcraft:generated/variant/mud_brick_slab",
-            "micahcraft:generated/variant/mud_brick_stairs",
-            "micahcraft:generated/variant/mud_brick_wall",
-            "micahcraft:generated/variant/mud_bricks"
+            "micahcraft:dirt_path/from_dirt_shaped",
+            "micahcraft:dirt_path/from_dirt_shapeless",
+            "micahcraft:dirt_path/from_grass"
         ]
     }
 }
