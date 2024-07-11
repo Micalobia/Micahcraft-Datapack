@@ -84,5 +84,10 @@
     "#minecraft:soul_fire_base_blocks": [
         "micahcraft:misc/soul_lantern_from_lantern",
         "micahcraft:misc/soul_torch_from_torch"
+    ],
+    "minecraft:redstone": [
+        "micahcraft:redstone/dispenser_bow",
+        "micahcraft:redstone/dispenser_bowless",
+        "micahcraft:redstone/repeater_torchless"
     ]
 }
