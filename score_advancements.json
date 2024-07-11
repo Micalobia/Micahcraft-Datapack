@@ -1,0 +1,10 @@
+{
+    "show_xp": {
+        "scoreboard": "ShowXP",
+        "value": {
+            "range": 0,
+            "inverted": true
+        },
+        "function": "micahcraft:commands/show_xp/trigger"
+    }
+}

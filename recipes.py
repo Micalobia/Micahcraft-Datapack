@@ -27,6 +27,56 @@ class Stonecutter(BaseModel):
     result: Result
 
 
+class Range(BaseModel):
+    min: Optional[int] = None
+    max: Optional[int] = None
+
+    def json(self):
+        r = {}
+        if self.min:
+            r["min"] = self.min
+        if self.max:
+            r["max"] = self.max
+        return r
+
+
+class ScoreValue(BaseModel):
+    range: int | Range
+    inverted: bool = False
+
+    def json(self, scoreboard):
+        r = {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+                scoreboard: (
+                    self.range if isinstance(self.range, int) else self.range.json()
+                )
+            },
+        }
+        if self.inverted:
+            r = {"condition": "minecraft:inverted", "term": r}
+        return r
+
+
+class ScoreAdvancement(BaseModel):
+    scoreboard: str
+    value: ScoreValue
+    function: str
+
+    @property
+    def json(self):
+        return {
+            "criteria": {
+                "unlocked": {
+                    "trigger": "minecraft:tick",
+                    "conditions": {"player": [self.value.json(self.scoreboard)]},
+                }
+            },
+            "rewards": {"function": self.function},
+        }
+
+
 def opend(path, mode):
     pathlib.Path(os.path.dirname(path)).mkdir(parents=True, exist_ok=True)
     return open(path, mode)
@@ -34,6 +84,26 @@ def opend(path, mode):
 
 def sorted_list(obj):
     return sorted(list(obj))
+
+
+def tag_path(t, *s):
+    return os.path.join(
+        f"./data/micahcraft/tags/{t}/generated", *s[:-1], f"{s[-1]}.json"
+    )
+
+
+def advancement_path(*s):
+    return os.path.join(
+        "./data/micahcraft/advancement/generated", *s[:-1], f"{s[-1]}.json"
+    )
+
+
+def cutting_recipe(ingredient, result, count=1, is_item=False):
+    return {
+        "type": "stonecutting",
+        "ingredient": {"item" if is_item else "tag": ingredient},
+        "result": {"id": result, "count": count},
+    }
 
 
 root = tk.Tk()
@@ -44,6 +114,7 @@ recipe_path = os.path.join(minecraft, "minecraft/recipe")
 
 if not recipe_path:
     exit()
+
 
 files = [
     os.path.join(dirpath, f)
@@ -56,6 +127,11 @@ files = [_ for _ in files if _.endswith("json")]
 
 recipes = {}
 
+
+def recipe_path(*s):
+    return os.path.join("./data/micahcraft/recipe/generated", *s[:-1], f"{s[-1]}.json")
+
+
 print("Reading all recipes")
 for file in files:
     with open(file, "r") as f:
@@ -64,6 +140,17 @@ for file in files:
 print("Reading advancement config")
 with open("./recipe_advancements.json", "r") as f:
     advancements: dict[str, list[str]] = json.load(f)
+
+with open("./score_advancements.json", "r") as f:
+    s = json.load(f)
+    score_advancements: dict[str, ScoreAdvancement] = {
+        k: ScoreAdvancement.parse_obj(v) for k, v in s.items()
+    }
+
+print("Writing score advancements...")
+for k, v in score_advancements.items():
+    with opend(advancement_path("score_triggers", k), "w") as f:
+        json.dump(v.json, f, indent=4)
 
 
 def add_advancement(item: str, recipe: str):
@@ -123,30 +210,6 @@ for k, v in tags.items():
             continue
         n.add(block)
     tags[k] = n
-
-
-def tag_path(t, *s):
-    return os.path.join(
-        f"./data/micahcraft/tags/{t}/generated", *s[:-1], f"{s[-1]}.json"
-    )
-
-
-def recipe_path(*s):
-    return os.path.join("./data/micahcraft/recipe/generated", *s[:-1], f"{s[-1]}.json")
-
-
-def advancement_path(*s):
-    return os.path.join(
-        "./data/micahcraft/advancement/generated", *s[:-1], f"{s[-1]}.json"
-    )
-
-
-def cutting_recipe(ingredient, result, count=1, is_item=False):
-    return {
-        "type": "stonecutting",
-        "ingredient": {"item" if is_item else "tag": ingredient},
-        "result": {"id": result, "count": count},
-    }
 
 
 def recipe_advancement(item, recipes):
