@@ -11,6 +11,7 @@
         "micahcraft:commands/scan_horse/load",
         "micahcraft:commands/afk/load",
         "micahcraft:commands/hud/load",
-        "micahcraft:commands/day_counter/load"
+        "micahcraft:commands/day_counter/load",
+        "micahcraft:grave/load"
     ]
 }
