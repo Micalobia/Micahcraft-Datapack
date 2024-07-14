@@ -1,0 +1,12 @@
+{
+    "condition": "match_tool",
+    "predicate": {
+        "predicates": {
+            "enchantments": [
+                {
+                    "enchantments": "silk_touch"
+                }
+            ]
+        }
+    }
+}
