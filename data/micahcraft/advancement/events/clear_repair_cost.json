@@ -1,0 +1,46 @@
+{
+    "parent": "minecraft:recipes/root",
+    "criteria": {
+        "has_repair_cost": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "components": {
+                            "repair_cost": 1
+                        }
+                    }
+                ]
+            }
+        },
+        "holding": {
+            "trigger": "tick",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "slots": {
+                                "player.cursor": {
+                                    "components": {
+                                        "repair_cost": 1
+                                    }
+                                }
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "has_repair_cost",
+            "holding"
+        ]
+    ],
+    "rewards": {
+        "function": "micahcraft:clear_repair_cost"
+    }
+}
