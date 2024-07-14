@@ -1,4 +1,4 @@
-advancement revoke @a only micahcraft:generated/score_triggers/create_grave
+advancement revoke @s only micahcraft:generated/score_triggers/create_grave
 scoreboard players set @s mk.grave_deaths 0
 execute store result score #KeepInventory mk.math run gamerule keepInventory
 execute if score #KeepInventory mk.math matches 0 run return fail
