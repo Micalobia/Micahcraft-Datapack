@@ -10,7 +10,7 @@
         "micahcraft:commands/scan_horse/tick",
         "micahcraft:commands/afk/tick",
         "micahcraft:commands/hud/tick",
-        "micahcraft:commands/day_counter/tick".
+        "micahcraft:commands/day_counter/tick",
         "micahcraft:grave/tick"
     ]
 }
