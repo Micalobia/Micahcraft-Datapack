@@ -1,0 +1,1 @@
+clear @s *[!minecraft:enchantments={"micahcraft:soulbound":1}]

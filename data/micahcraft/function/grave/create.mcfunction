@@ -16,4 +16,4 @@ tag @s add Copying
 execute as @n[type=marker,tag=Fresh] run function micahcraft:grave/copy_player_data
 tag @s remove Copying
 tag @n[tag=Fresh,limit=4] remove Fresh
-clear @s
+function micahcraft:grave/clear_player_data
