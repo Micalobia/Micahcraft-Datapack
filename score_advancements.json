@@ -121,5 +121,13 @@
             "inverted": true
         },
         "function": "micahcraft:commands/hud/off"
+    },
+    "day_counter": {
+        "scoreboard": "DayCounter",
+        "value": {
+            "range": 0,
+            "inverted": true
+        },
+        "function": "micahcraft:commands/day_counter/trigger"
     }
 }

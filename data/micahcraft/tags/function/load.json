@@ -10,6 +10,7 @@
         "micahcraft:commands/nether_location/load",
         "micahcraft:commands/scan_horse/load",
         "micahcraft:commands/afk/load",
-        "micahcraft:commands/hud/load"
+        "micahcraft:commands/hud/load",
+        "micahcraft:commands/day_counter/load"
     ]
 }

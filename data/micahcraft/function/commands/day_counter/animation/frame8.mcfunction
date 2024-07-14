@@ -1,0 +1,1 @@
+title @a[tag=!mk.no_day_counter] actionbar ["— ",{"storage":"micahcraft:time","nbt":"date.month"}," ",{"storage":"micahcraft:time","nbt":"date.day_of_month"},", Year ",{"storage":"micahcraft:time","nbt":"date.year"}," —"]
