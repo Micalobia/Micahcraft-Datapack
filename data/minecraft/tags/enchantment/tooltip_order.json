@@ -1,6 +1,7 @@
 {
     "replace": false,
     "values": [
+        "micahcraft:interrogate",
         "micahcraft:soulbound"
     ]
 }

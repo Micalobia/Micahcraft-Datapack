@@ -1,6 +1,7 @@
 {
     "replace": false,
     "values": [
-        "micahcraft:soulbound"
+        "micahcraft:soulbound",
+        "micahcraft:interrogate"
     ]
 }
