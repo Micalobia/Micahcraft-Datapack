@@ -1,1 +1,1 @@
-clear @s *[!minecraft:enchantments={"micahcraft:soulbound":1}]
+clear @s *[!minecraft:enchantments~[{enchantments:["micahcraft:soulbound"]}]]
