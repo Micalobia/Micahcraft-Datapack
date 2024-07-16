@@ -1,0 +1,45 @@
+{
+    "anvil_cost": 8,
+    "description": {
+        "translate": "enchantment.micahcraft.plummeting_curse",
+        "fallback": "Curse of Plummeting"
+    },
+    "effects": {
+        "minecraft:attributes": [
+            {
+                "amount": {
+                    "type": "minecraft:linear",
+                    "base": 0.08,
+                    "per_level_above_first": 0.08
+                },
+                "attribute": "minecraft:generic.gravity",
+                "id": "micahcraft:enchantment.plummeting_curse",
+                "operation": "add_value"
+            },
+            {
+                "amount": {
+                    "type": "minecraft:linear",
+                    "base": -2.5,
+                    "per_level_above_first": -6
+                },
+                "attribute": "minecraft:generic.safe_fall_distance",
+                "id": "micahcraft:enchantment.plummeting_curse",
+                "operation": "add_value"
+            }
+        ]
+    },
+    "max_cost": {
+        "base": 50,
+        "per_level_above_first": 0
+    },
+    "max_level": 1,
+    "min_cost": {
+        "base": 25,
+        "per_level_above_first": 0
+    },
+    "slots": [
+        "armor"
+    ],
+    "supported_items": "#minecraft:enchantable/equippable",
+    "weight": 1
+}
