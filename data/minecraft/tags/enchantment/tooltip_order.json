@@ -1,8 +1,10 @@
 {
     "replace": false,
     "values": [
+        "micahcraft:satyr_step",
         "micahcraft:interrogate",
         "micahcraft:germination",
-        "micahcraft:soulbound"
+        "micahcraft:soulbound",
+        "micahcraft:plummeting_curse"
     ]
 }
