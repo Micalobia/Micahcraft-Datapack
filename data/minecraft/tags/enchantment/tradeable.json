@@ -2,6 +2,7 @@
     "replace": false,
     "values": [
         "micahcraft:soulbound",
-        "micahcraft:interrogate"
+        "micahcraft:interrogate",
+        "micahcraft:germination"
     ]
 }

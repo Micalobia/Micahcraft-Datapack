@@ -12,6 +12,7 @@
         "micahcraft:commands/afk/load",
         "micahcraft:commands/hud/load",
         "micahcraft:commands/day_counter/load",
-        "micahcraft:grave/load"
+        "micahcraft:grave/load",
+        "micahcraft:enchantments/germination/load"
     ]
 }

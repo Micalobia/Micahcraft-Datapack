@@ -137,5 +137,45 @@
             "inverted": true
         },
         "function": "micahcraft:grave/create"
+    },
+    "germination/mined_wheat": {
+        "scoreboard": "mk.germination.mined_wheat",
+        "value": {
+            "range": 0,
+            "inverted": true
+        },
+        "function": "micahcraft:enchantments/germination/mined/wheat"
+    },
+    "germination/mined_beetroots": {
+        "scoreboard": "mk.germination.mined_beetroots",
+        "value": {
+            "range": 0,
+            "inverted": true
+        },
+        "function": "micahcraft:enchantments/germination/mined/beetroots"
+    },
+    "germination/mined_carrots": {
+        "scoreboard": "mk.germination.mined_carrots",
+        "value": {
+            "range": 0,
+            "inverted": true
+        },
+        "function": "micahcraft:enchantments/germination/mined/carrots"
+    },
+    "germination/mined_potatoes": {
+        "scoreboard": "mk.germination.mined_potatoes",
+        "value": {
+            "range": 0,
+            "inverted": true
+        },
+        "function": "micahcraft:enchantments/germination/mined/potatoes"
+    },
+    "germination/mined_nether_wart": {
+        "scoreboard": "mk.germination.mined_nether_wart",
+        "value": {
+            "range": 0,
+            "inverted": true
+        },
+        "function": "micahcraft:enchantments/germination/mined/nether_wart"
     }
 }
