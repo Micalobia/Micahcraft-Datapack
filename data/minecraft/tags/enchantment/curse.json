@@ -1,6 +1,7 @@
 {
     "replace": false,
     "values": [
-        "micahcraft:plummeting_curse"
+        "micahcraft:plummeting_curse",
+        "micahcraft:tantalus_curse"
     ]
 }
