@@ -3,6 +3,7 @@
     "values": [
         "micahcraft:interrogate",
         "micahcraft:germination",
-        "micahcraft:satyr_step"
+        "micahcraft:satyr_step",
+        "micahcraft:ender_reach"
     ]
 }

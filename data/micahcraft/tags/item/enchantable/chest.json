@@ -1,0 +1,7 @@
+{
+    "replace": false,
+    "values": [
+        "#enchantable/chest_armor",
+        "elytra"
+    ]
+}
