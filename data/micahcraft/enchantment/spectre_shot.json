@@ -1,0 +1,69 @@
+{
+    "anvil_cost": 12,
+    "description": {
+        "translate": "enchantment.micahcraft.spectre_shot",
+        "fallback": "Spectre Shot"
+    },
+    "effects": {
+        "projectile_spawned": [
+            {
+                "effect": {
+                    "type": "run_function",
+                    "function": "micahcraft:enchantments/spectre_shot/shot"
+                },
+                "requirements": {
+                    "condition": "entity_properties",
+                    "entity": "this",
+                    "predicate": {
+                        "type": "spectral_arrow"
+                    }
+                }
+            }
+        ],
+        "damage": [
+            {
+                "effect": {
+                    "type": "minecraft:multiply",
+                    "factor": 1.5
+                },
+                "requirements": {
+                    "condition": "all_of",
+                    "terms": [
+                        {
+                            "condition": "entity_properties",
+                            "entity": "this",
+                            "predicate": {
+                                "effects": {
+                                    "glowing": {}
+                                }
+                            }
+                        },
+                        {
+                            "condition": "entity_properties",
+                            "entity": "direct_attacker",
+                            "predicate": {
+                                "type": "spectral_arrow",
+                                "nbt": "{Tags:[\"mk.spectre_arrow\"]}"
+                            }
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    "exclusive_set": "#micahcraft:exclusive_set/spectre_shot",
+    "max_cost": {
+        "base": 50,
+        "per_level_above_first": 0
+    },
+    "max_level": 1,
+    "min_cost": {
+        "base": 20,
+        "per_level_above_first": 0
+    },
+    "slots": [
+        "mainhand"
+    ],
+    "supported_items": "#micahcraft:enchantable/arrow",
+    "weight": 2
+}
