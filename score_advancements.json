@@ -273,5 +273,13 @@
             "inverted": true
         },
         "function": "micahcraft:enchantments/excavation/used/netherite"
+    },
+    "commands/creative/clear": {
+        "scoreboard": "Clear",
+        "value": {
+            "range": 0,
+            "inverted": true
+        },
+        "function": "micahcraft:commands/creative/clear/trigger"
     }
 }
