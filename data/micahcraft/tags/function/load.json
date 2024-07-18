@@ -15,6 +15,7 @@
         "micahcraft:grave/load",
         "micahcraft:enchantments/germination/load",
         "micahcraft:enchantments/spectre_shot/load",
-        "micahcraft:enchantments/quarry/load"
+        "micahcraft:enchantments/quarry/load",
+        "micahcraft:enchantments/excavation/load"
     ]
 }

@@ -225,5 +225,53 @@
             "inverted": true
         },
         "function": "micahcraft:enchantments/quarry/used/netherite"
+    },
+    "excavation/used/wooden": {
+        "scoreboard": "mk.excavation.used.wooden_shovel",
+        "value": {
+            "range": 0,
+            "inverted": true
+        },
+        "function": "micahcraft:enchantments/excavation/used/wooden"
+    },
+    "excavation/used/stone": {
+        "scoreboard": "mk.excavation.used.stone_shovel",
+        "value": {
+            "range": 0,
+            "inverted": true
+        },
+        "function": "micahcraft:enchantments/excavation/used/stone"
+    },
+    "excavation/used/iron": {
+        "scoreboard": "mk.excavation.used.iron_shovel",
+        "value": {
+            "range": 0,
+            "inverted": true
+        },
+        "function": "micahcraft:enchantments/excavation/used/iron"
+    },
+    "excavation/used/golden": {
+        "scoreboard": "mk.excavation.used.golden_shovel",
+        "value": {
+            "range": 0,
+            "inverted": true
+        },
+        "function": "micahcraft:enchantments/excavation/used/golden"
+    },
+    "excavation/used/diamond": {
+        "scoreboard": "mk.excavation.used.diamond_shovel",
+        "value": {
+            "range": 0,
+            "inverted": true
+        },
+        "function": "micahcraft:enchantments/excavation/used/diamond"
+    },
+    "excavation/used/netherite": {
+        "scoreboard": "mk.excavation.used.netherite_shovel",
+        "value": {
+            "range": 0,
+            "inverted": true
+        },
+        "function": "micahcraft:enchantments/excavation/used/netherite"
     }
 }

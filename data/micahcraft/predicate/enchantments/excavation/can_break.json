@@ -1,0 +1,83 @@
+{
+    "condition": "any_of",
+    "terms": [
+        {
+            "condition": "all_of",
+            "terms": [
+                {
+                    "condition": "reference",
+                    "name": "micahcraft:enchantments/excavation/holding/netherite"
+                },
+                {
+                    "condition": "reference",
+                    "name": "micahcraft:enchantments/excavation/mineable/netherite"
+                }
+            ]
+        },
+        {
+            "condition": "all_of",
+            "terms": [
+                {
+                    "condition": "reference",
+                    "name": "micahcraft:enchantments/excavation/holding/diamond"
+                },
+                {
+                    "condition": "reference",
+                    "name": "micahcraft:enchantments/excavation/mineable/diamond"
+                }
+            ]
+        },
+        {
+            "condition": "all_of",
+            "terms": [
+                {
+                    "condition": "reference",
+                    "name": "micahcraft:enchantments/excavation/holding/gold"
+                },
+                {
+                    "condition": "reference",
+                    "name": "micahcraft:enchantments/excavation/mineable/gold"
+                }
+            ]
+        },
+        {
+            "condition": "all_of",
+            "terms": [
+                {
+                    "condition": "reference",
+                    "name": "micahcraft:enchantments/excavation/holding/iron"
+                },
+                {
+                    "condition": "reference",
+                    "name": "micahcraft:enchantments/excavation/mineable/iron"
+                }
+            ]
+        },
+        {
+            "condition": "all_of",
+            "terms": [
+                {
+                    "condition": "reference",
+                    "name": "micahcraft:enchantments/excavation/holding/stone"
+                },
+                {
+                    "condition": "reference",
+                    "name": "micahcraft:enchantments/excavation/mineable/stone"
+                }
+            ]
+        },
+        {
+            "condition": "all_of",
+            "terms": [
+                {
+                    "condition": "reference",
+                    "name": "micahcraft:enchantments/excavation/holding/wooden"
+                },
+                {
+                    "condition": "reference",
+                    "name": "micahcraft:enchantments/excavation/mineable/wooden"
+                }
+            ]
+        }
+    ]
+}
