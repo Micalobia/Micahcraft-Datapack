@@ -14,6 +14,7 @@
         "micahcraft:commands/day_counter/load",
         "micahcraft:grave/load",
         "micahcraft:enchantments/germination/load",
-        "micahcraft:enchantments/spectre_shot/load"
+        "micahcraft:enchantments/spectre_shot/load",
+        "micahcraft:enchantments/quarry/load"
     ]
 }

@@ -1,0 +1,83 @@
+{
+    "condition": "any_of",
+    "terms": [
+        {
+            "condition": "all_of",
+            "terms": [
+                {
+                    "condition": "reference",
+                    "name": "micahcraft:enchantments/quarry/holding/netherite"
+                },
+                {
+                    "condition": "reference",
+                    "name": "micahcraft:enchantments/quarry/mineable/netherite"
+                }
+            ]
+        },
+        {
+            "condition": "all_of",
+            "terms": [
+                {
+                    "condition": "reference",
+                    "name": "micahcraft:enchantments/quarry/holding/diamond"
+                },
+                {
+                    "condition": "reference",
+                    "name": "micahcraft:enchantments/quarry/mineable/diamond"
+                }
+            ]
+        },
+        {
+            "condition": "all_of",
+            "terms": [
+                {
+                    "condition": "reference",
+                    "name": "micahcraft:enchantments/quarry/holding/gold"
+                },
+                {
+                    "condition": "reference",
+                    "name": "micahcraft:enchantments/quarry/mineable/gold"
+                }
+            ]
+        },
+        {
+            "condition": "all_of",
+            "terms": [
+                {
+                    "condition": "reference",
+                    "name": "micahcraft:enchantments/quarry/holding/iron"
+                },
+                {
+                    "condition": "reference",
+                    "name": "micahcraft:enchantments/quarry/mineable/iron"
+                }
+            ]
+        },
+        {
+            "condition": "all_of",
+            "terms": [
+                {
+                    "condition": "reference",
+                    "name": "micahcraft:enchantments/quarry/holding/stone"
+                },
+                {
+                    "condition": "reference",
+                    "name": "micahcraft:enchantments/quarry/mineable/stone"
+                }
+            ]
+        },
+        {
+            "condition": "all_of",
+            "terms": [
+                {
+                    "condition": "reference",
+                    "name": "micahcraft:enchantments/quarry/holding/wooden"
+                },
+                {
+                    "condition": "reference",
+                    "name": "micahcraft:enchantments/quarry/mineable/wooden"
+                }
+            ]
+        }
+    ]
+}

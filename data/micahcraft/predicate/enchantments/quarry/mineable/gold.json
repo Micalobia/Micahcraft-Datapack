@@ -1,0 +1,24 @@
+{
+    "condition": "all_of",
+    "terms": [
+        {
+            "condition": "location_check",
+            "predicate": {
+                "block": {
+                    "blocks": "#mineable/pickaxe"
+                }
+            }
+        },
+        {
+            "condition": "inverted",
+            "term": {
+                "condition": "location_check",
+                "predicate": {
+                    "block": {
+                        "blocks": "#incorrect_for_gold_tool"
+                    }
+                }
+            }
+        }
+    ]
+}

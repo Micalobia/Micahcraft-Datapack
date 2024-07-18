@@ -177,5 +177,53 @@
             "inverted": true
         },
         "function": "micahcraft:enchantments/germination/mined/nether_wart"
+    },
+    "quarry/used/wooden": {
+        "scoreboard": "mk.quarry.used.wooden_pickaxe",
+        "value": {
+            "range": 0,
+            "inverted": true
+        },
+        "function": "micahcraft:enchantments/quarry/used/wooden"
+    },
+    "quarry/used/stone": {
+        "scoreboard": "mk.quarry.used.stone_pickaxe",
+        "value": {
+            "range": 0,
+            "inverted": true
+        },
+        "function": "micahcraft:enchantments/quarry/used/stone"
+    },
+    "quarry/used/iron": {
+        "scoreboard": "mk.quarry.used.iron_pickaxe",
+        "value": {
+            "range": 0,
+            "inverted": true
+        },
+        "function": "micahcraft:enchantments/quarry/used/iron"
+    },
+    "quarry/used/golden": {
+        "scoreboard": "mk.quarry.used.golden_pickaxe",
+        "value": {
+            "range": 0,
+            "inverted": true
+        },
+        "function": "micahcraft:enchantments/quarry/used/golden"
+    },
+    "quarry/used/diamond": {
+        "scoreboard": "mk.quarry.used.diamond_pickaxe",
+        "value": {
+            "range": 0,
+            "inverted": true
+        },
+        "function": "micahcraft:enchantments/quarry/used/diamond"
+    },
+    "quarry/used/netherite": {
+        "scoreboard": "mk.quarry.used.netherite_pickaxe",
+        "value": {
+            "range": 0,
+            "inverted": true
+        },
+        "function": "micahcraft:enchantments/quarry/used/netherite"
     }
 }

@@ -2,6 +2,7 @@
     "replace": false,
     "values": [
         "micahcraft:soulbound",
+        "micahcraft:quarry",
         "micahcraft:plummeting_curse",
         "micahcraft:tantalus_curse"
     ]
