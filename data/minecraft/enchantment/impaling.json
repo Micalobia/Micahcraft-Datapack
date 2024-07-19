@@ -25,8 +25,19 @@
                             }
                         },
                         {
-                            "condition": "minecraft:weather_check",
-                            "raining": true
+                            "condition": "all_of",
+                            "terms": [
+                                {
+                                    "condition": "minecraft:weather_check",
+                                    "raining": true
+                                },
+                                {
+                                    "condition": "location_check",
+                                    "predicate": {
+                                        "can_see_sky": true
+                                    }
+                                }
+                            ]
                         },
                         {
                             "condition": "minecraft:entity_properties",
