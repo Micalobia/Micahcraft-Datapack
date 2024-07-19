@@ -1,35 +1,45 @@
 {
     "anvil_cost": 8,
     "description": {
-      "translate": "enchantment.micahcraft.ender_reach",
-      "fallback": "Ender Reach"
+        "translate": "enchantment.micahcraft.ender_reach",
+        "fallback": "Ender Reach"
     },
     "effects": {
-      "minecraft:attributes": [
-        {
-          "amount": {
-            "type": "minecraft:linear",
-            "base": 1.3333333333,
-            "per_level_above_first": 1.3333333333
-          },
-          "attribute": "minecraft:player.block_interaction_range",
-          "id": "micahcraft:enchantment.ender_reach",
-          "operation": "add_value"
-        }
-      ]
+        "minecraft:attributes": [
+            {
+                "amount": {
+                    "type": "minecraft:linear",
+                    "base": 1.3333333333,
+                    "per_level_above_first": 1.3333333333
+                },
+                "attribute": "minecraft:player.block_interaction_range",
+                "id": "micahcraft:enchantment.ender_reach",
+                "operation": "add_value"
+            },
+            {
+                "amount": {
+                    "type": "minecraft:linear",
+                    "base": 1.3333333333,
+                    "per_level_above_first": 1.3333333333
+                },
+                "attribute": "minecraft:player.entity_interaction_range",
+                "id": "micahcraft:enchantment.ender_reach",
+                "operation": "add_value"
+            }
+        ]
     },
     "max_cost": {
-      "base": 75,
-      "per_level_above_first": 25
+        "base": 75,
+        "per_level_above_first": 25
     },
     "max_level": 3,
     "min_cost": {
-      "base": 25,
-      "per_level_above_first": 25
+        "base": 25,
+        "per_level_above_first": 25
     },
     "slots": [
-      "chest"
+        "chest"
     ],
     "supported_items": "#micahcraft:enchantable/chest",
     "weight": 1
-  }
+}
