@@ -68,6 +68,8 @@ class ScoreAdvancement(BaseModel):
     @property
     def json(self):
         j = []
+        if self.scoreboard is not None and self.value is None:
+            self.value = ScoreValue(range=0, inverted=True)
         if self.scoreboard is not None and self.value is not None:
             j = [self.value.json(self.scoreboard)]
         return {

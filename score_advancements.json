@@ -1,66 +1,34 @@
 {
     "show_xp": {
         "scoreboard": "ShowXP",
-        "value": {
-            "range": 0,
-            "inverted": true
-        },
         "function": "micahcraft:commands/show_xp/trigger"
     },
     "show_deaths": {
         "scoreboard": "ShowDeaths",
-        "value": {
-            "range": 0,
-            "inverted": true
-        },
         "function": "micahcraft:commands/show_deaths/trigger"
     },
     "show_playtime": {
         "scoreboard": "ShowPlaytime",
-        "value": {
-            "range": 0,
-            "inverted": true
-        },
         "function": "micahcraft:commands/show_playtime/trigger"
     },
     "share_location": {
         "scoreboard": "ShareLocation",
-        "value": {
-            "range": 0,
-            "inverted": true
-        },
         "function": "micahcraft:commands/share_location/trigger"
     },
     "death_location": {
         "scoreboard": "DeathLocation",
-        "value": {
-            "range": 0,
-            "inverted": true
-        },
         "function": "micahcraft:commands/death_location/trigger"
     },
     "nether_location": {
         "scoreboard": "NetherLocation",
-        "value": {
-            "range": 0,
-            "inverted": true
-        },
         "function": "micahcraft:commands/nether_location/trigger"
     },
     "scan_horse": {
         "scoreboard": "ScanHorse",
-        "value": {
-            "range": 0,
-            "inverted": true
-        },
         "function": "micahcraft:commands/scan_horse/trigger"
     },
     "afk": {
         "scoreboard": "AFK",
-        "value": {
-            "range": 0,
-            "inverted": true
-        },
         "function": "micahcraft:commands/afk/trigger"
     },
     "afk/moving": {
@@ -124,162 +92,82 @@
     },
     "day_counter": {
         "scoreboard": "DayCounter",
-        "value": {
-            "range": 0,
-            "inverted": true
-        },
         "function": "micahcraft:commands/day_counter/trigger"
     },
     "create_grave": {
         "scoreboard": "mk.grave_deaths",
-        "value": {
-            "range": 0,
-            "inverted": true
-        },
         "function": "micahcraft:grave/create"
     },
     "germination/mined_wheat": {
         "scoreboard": "mk.germination.mined_wheat",
-        "value": {
-            "range": 0,
-            "inverted": true
-        },
         "function": "micahcraft:enchantments/germination/mined/wheat"
     },
     "germination/mined_beetroots": {
         "scoreboard": "mk.germination.mined_beetroots",
-        "value": {
-            "range": 0,
-            "inverted": true
-        },
         "function": "micahcraft:enchantments/germination/mined/beetroots"
     },
     "germination/mined_carrots": {
         "scoreboard": "mk.germination.mined_carrots",
-        "value": {
-            "range": 0,
-            "inverted": true
-        },
         "function": "micahcraft:enchantments/germination/mined/carrots"
     },
     "germination/mined_potatoes": {
         "scoreboard": "mk.germination.mined_potatoes",
-        "value": {
-            "range": 0,
-            "inverted": true
-        },
         "function": "micahcraft:enchantments/germination/mined/potatoes"
     },
     "germination/mined_nether_wart": {
         "scoreboard": "mk.germination.mined_nether_wart",
-        "value": {
-            "range": 0,
-            "inverted": true
-        },
         "function": "micahcraft:enchantments/germination/mined/nether_wart"
     },
     "quarry/used/wooden": {
         "scoreboard": "mk.quarry.used.wooden_pickaxe",
-        "value": {
-            "range": 0,
-            "inverted": true
-        },
         "function": "micahcraft:enchantments/quarry/used/wooden"
     },
     "quarry/used/stone": {
         "scoreboard": "mk.quarry.used.stone_pickaxe",
-        "value": {
-            "range": 0,
-            "inverted": true
-        },
         "function": "micahcraft:enchantments/quarry/used/stone"
     },
     "quarry/used/iron": {
         "scoreboard": "mk.quarry.used.iron_pickaxe",
-        "value": {
-            "range": 0,
-            "inverted": true
-        },
         "function": "micahcraft:enchantments/quarry/used/iron"
     },
     "quarry/used/golden": {
         "scoreboard": "mk.quarry.used.golden_pickaxe",
-        "value": {
-            "range": 0,
-            "inverted": true
-        },
         "function": "micahcraft:enchantments/quarry/used/golden"
     },
     "quarry/used/diamond": {
         "scoreboard": "mk.quarry.used.diamond_pickaxe",
-        "value": {
-            "range": 0,
-            "inverted": true
-        },
         "function": "micahcraft:enchantments/quarry/used/diamond"
     },
     "quarry/used/netherite": {
         "scoreboard": "mk.quarry.used.netherite_pickaxe",
-        "value": {
-            "range": 0,
-            "inverted": true
-        },
         "function": "micahcraft:enchantments/quarry/used/netherite"
     },
     "excavation/used/wooden": {
         "scoreboard": "mk.excavation.used.wooden_shovel",
-        "value": {
-            "range": 0,
-            "inverted": true
-        },
         "function": "micahcraft:enchantments/excavation/used/wooden"
     },
     "excavation/used/stone": {
         "scoreboard": "mk.excavation.used.stone_shovel",
-        "value": {
-            "range": 0,
-            "inverted": true
-        },
         "function": "micahcraft:enchantments/excavation/used/stone"
     },
     "excavation/used/iron": {
         "scoreboard": "mk.excavation.used.iron_shovel",
-        "value": {
-            "range": 0,
-            "inverted": true
-        },
         "function": "micahcraft:enchantments/excavation/used/iron"
     },
     "excavation/used/golden": {
         "scoreboard": "mk.excavation.used.golden_shovel",
-        "value": {
-            "range": 0,
-            "inverted": true
-        },
         "function": "micahcraft:enchantments/excavation/used/golden"
     },
     "excavation/used/diamond": {
         "scoreboard": "mk.excavation.used.diamond_shovel",
-        "value": {
-            "range": 0,
-            "inverted": true
-        },
         "function": "micahcraft:enchantments/excavation/used/diamond"
     },
     "excavation/used/netherite": {
         "scoreboard": "mk.excavation.used.netherite_shovel",
-        "value": {
-            "range": 0,
-            "inverted": true
-        },
         "function": "micahcraft:enchantments/excavation/used/netherite"
     },
     "commands/creative/clear": {
         "scoreboard": "Clear",
-        "value": {
-            "range": 0,
-            "inverted": true
-        },
         "function": "micahcraft:commands/creative/clear/trigger"
     }
 }
