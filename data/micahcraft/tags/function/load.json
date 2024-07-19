@@ -17,6 +17,7 @@
         "micahcraft:enchantments/spectre_shot/load",
         "micahcraft:enchantments/quarry/load",
         "micahcraft:enchantments/excavation/load",
-        "micahcraft:commands/creative/clear/load"
+        "micahcraft:commands/creative/clear/load",
+        "micahcraft:enchantments/shatter_bolts/load"
     ]
 }
