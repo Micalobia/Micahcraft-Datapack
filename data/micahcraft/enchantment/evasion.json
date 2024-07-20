@@ -1,0 +1,55 @@
+{
+    "anvil_cost": 8,
+    "description": {
+        "translate": "enchantment.micahcraft.evasion",
+        "fallback": "Evasion"
+    },
+    "effects": {
+        "damage_immunity": [
+            {
+                "effect": {},
+                "requirements": {
+                    "condition": "all_of",
+                    "terms": [
+                        {
+                            "condition": "random_chance",
+                            "chance": {
+                                "type": "enchantment_level",
+                                "amount": {
+                                    "type": "linear",
+                                    "base": 0.05,
+                                    "per_level_above_first": 0.05
+                                }
+                            }
+                        },
+                        {
+                            "condition": "damage_source_properties",
+                            "predicate": {
+                                "tags": [
+                                    {
+                                        "expected": false,
+                                        "id": "minecraft:bypasses_invulnerability"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    "max_cost": {
+        "base": 75,
+        "per_level_above_first": 25
+    },
+    "max_level": 4,
+    "min_cost": {
+        "base": 25,
+        "per_level_above_first": 25
+    },
+    "slots": [
+        "legs"
+    ],
+    "supported_items": "#minecraft:enchantable/leg_armor",
+    "weight": 1
+}
