@@ -13,6 +13,7 @@
         "micahcraft:commands/day_counter/tick",
         "micahcraft:grave/tick",
         "micahcraft:enchantments/spectre_shot/tick",
-        "micahcraft:commands/creative/clear/tick"
+        "micahcraft:commands/creative/clear/tick",
+        "micahcraft:trim_particles/tick"
     ]
 }

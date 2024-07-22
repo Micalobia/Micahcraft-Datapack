@@ -1,0 +1,1 @@
+scoreboard objectives add mk.trim_particles.emerald dummy

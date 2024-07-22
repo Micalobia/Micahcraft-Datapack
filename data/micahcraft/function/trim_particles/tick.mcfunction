@@ -1,0 +1,3 @@
+function micahcraft:trim_particles/emerald/tick
+function micahcraft:trim_particles/lapis/tick
+function micahcraft:trim_particles/redstone/tick
