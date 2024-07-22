@@ -18,6 +18,7 @@
         "micahcraft:enchantments/quarry/load",
         "micahcraft:enchantments/excavation/load",
         "micahcraft:commands/creative/clear/load",
+        "micahcraft:commands/creative/bind/load",
         "micahcraft:enchantments/shatter_bolts/load",
         "micahcraft:trim_particles/load"
     ]

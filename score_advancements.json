@@ -169,5 +169,9 @@
     "commands/creative/clear": {
         "scoreboard": "Clear",
         "function": "micahcraft:commands/creative/clear/trigger"
+    },
+    "commands/creative/bind": {
+        "scoreboard": "Bind",
+        "function": "micahcraft:commands/creative/bind/trigger"
     }
 }
