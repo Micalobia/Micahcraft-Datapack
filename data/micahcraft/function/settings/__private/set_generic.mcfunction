@@ -1,0 +1,1 @@
+$data modify storage micahcraft:settings users.user_$(id)."$(path)" set value $(value)

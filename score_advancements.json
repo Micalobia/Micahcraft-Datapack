@@ -173,5 +173,20 @@
     "commands/creative/bind": {
         "scoreboard": "Bind",
         "function": "micahcraft:commands/creative/bind/trigger"
+    },
+    "settings/command": {
+        "scoreboard": "Settings",
+        "function": "micahcraft:settings/command"
+    },
+    "settings/init": {
+        "scoreboard": "mk.settings.id",
+        "value": {
+            "range": {
+                "min": -2147483648,
+                "max": 2147483647
+            },
+            "inverted": true
+        },
+        "function": "micahcraft:settings/init"
     }
 }
