@@ -1,3 +1,5 @@
+function micahcraft:location/score
+function micahcraft:commands/hud/saturation
 $title @s actionbar [\
     {"text":"Coords: ","color":"$(base)"},\
     {"score":{"name":"#X","objective":"mk.math"},"color":"$(red)"},\

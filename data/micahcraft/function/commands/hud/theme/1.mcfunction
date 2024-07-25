@@ -1,0 +1,1 @@
+function micahcraft:commands/hud/title {base:"black",red:"dark_red",green:"dark_green",blue:"dark_blue",yellow:"gold"}

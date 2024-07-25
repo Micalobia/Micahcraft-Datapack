@@ -16,6 +16,6 @@
         }
     },
     "rewards": {
-        "function": "micahcraft:commands/hud/dark"
+        "function": "micahcraft:commands/hud/run"
     }
 }
