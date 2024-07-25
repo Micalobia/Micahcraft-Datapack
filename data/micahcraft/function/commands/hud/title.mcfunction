@@ -1,17 +1,11 @@
-function micahcraft:location/score
-function micahcraft:commands/hud/saturation
-$title @s actionbar [\
-    {"text":"Coords: ","color":"$(base)"},\
-    {"score":{"name":"#X","objective":"mk.math"},"color":"$(red)"},\
-    " ",\
-    {"score":{"name":"#Y","objective":"mk.math"},\
-    "color":"$(green)"},\
-    " ",\
-    {"score":{"name":"#Z","objective":"mk.math"},"color":"$(blue)"},\
-    " ",\
-    {"text":"Saturation: ","color":"$(yellow)","extra":[\
-        {"score":{"name":"#Integer","objective":"mk.math"}},\
-        ".",\
-        {"score":{"name":"#Decimal","objective":"mk.math"}}\
-    ]}\
-]
+data modify storage micahcraft:hud display set value []
+execute store result score #Coords mk.math run function micahcraft:settings/data/get_value {path:"hud.coords"}
+execute store result score #Saturation mk.math run function micahcraft:settings/data/get_value {path:"hud.saturation"}
+execute store result score #Phantom mk.math run function micahcraft:settings/data/get_value {path:"hud.phantom"}
+execute if score #Coords mk.math matches 1 run function micahcraft:commands/hud/title/coords with storage micahcraft:hud colors
+execute if score #Coords mk.math matches 1 if score #Saturation mk.math matches 1 run data modify storage micahcraft:hud display append value {"text":" "}
+execute if score #Coords mk.math matches 1 if score #Saturation mk.math matches 0 if score #Phantom mk.math matches 1 run data modify storage micahcraft:hud display append value {"text":" "}
+execute if score #Saturation mk.math matches 1 run function micahcraft:commands/hud/title/saturation with storage micahcraft:hud colors
+execute if score #Saturation mk.math matches 1 if score #Phantom mk.math matches 1 run data modify storage micahcraft:hud display append value {"text":" "}
+execute if score #Phantom mk.math matches 1 run function micahcraft:commands/hud/title/phantom with storage micahcraft:hud colors
+title @s actionbar {"storage":"micahcraft:hud","nbt":"display","interpret":true}
