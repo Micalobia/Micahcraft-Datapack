@@ -12,7 +12,7 @@
         "micahcraft:commands/scan_horse/load",
         "micahcraft:commands/afk/load",
         "micahcraft:commands/hud/load",
-        "micahcraft:commands/day_counter/load",
+        "micahcraft:events/day_counter/load",
         "micahcraft:grave/load",
         "micahcraft:enchantments/germination/load",
         "micahcraft:enchantments/spectre_shot/load",

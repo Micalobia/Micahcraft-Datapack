@@ -76,10 +76,6 @@
         },
         "function": "micahcraft:commands/hud/run"
     },
-    "day_counter": {
-        "scoreboard": "DayCounter",
-        "function": "micahcraft:commands/day_counter/trigger"
-    },
     "create_grave": {
         "scoreboard": "mk.grave_deaths",
         "function": "micahcraft:grave/create"
