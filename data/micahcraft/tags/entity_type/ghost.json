@@ -1,0 +1,11 @@
+{
+    "replace": false,
+    "values": [
+        "chest_minecart",
+        "hopper_minecart",
+        "chest_boat",
+        "donkey",
+        "mule",
+        "llama"
+    ]
+}
