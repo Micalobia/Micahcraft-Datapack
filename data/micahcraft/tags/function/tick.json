@@ -15,6 +15,7 @@
         "micahcraft:enchantments/spectre_shot/tick",
         "micahcraft:commands/creative/clear/tick",
         "micahcraft:commands/creative/bind/tick",
-        "micahcraft:trim_particles/tick"
+        "micahcraft:trim_particles/tick",
+        "micahcraft:settings/tick"
     ]
 }

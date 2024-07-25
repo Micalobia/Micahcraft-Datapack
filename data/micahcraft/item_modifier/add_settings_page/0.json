@@ -1,0 +1,11 @@
+{
+    "function": "set_written_book_pages",
+    "mode": "append",
+    "pages": [
+        {
+            "storage": "micahcraft:settings",
+            "nbt": "book[0]",
+            "interpret": true
+        }
+    ]
+}

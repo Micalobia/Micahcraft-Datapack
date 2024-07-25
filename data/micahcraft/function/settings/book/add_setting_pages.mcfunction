@@ -1,0 +1,1 @@
+function micahcraft:util/loop {nbt:"storage micahcraft:settings setup.pages.info",function:"micahcraft:settings/__private/add_setting_page"}
