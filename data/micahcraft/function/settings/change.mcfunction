@@ -1,6 +1,6 @@
 advancement revoke @s only micahcraft:generated/score_triggers/settings/change
-scoreboard players operation #Change mk.settings.id = @s mk.settings.change
-scoreboard players set @s mk.settings.change 0
+scoreboard players operation #Change mk.settings.id = @s Settings
+scoreboard players set @s Settings 0
 execute if score #Change mk.settings.id matches 1 run return fail
 
 scoreboard players remove #Change mk.settings.id 2
@@ -9,4 +9,3 @@ function micahcraft:settings/__private/change with storage micahcraft:settings m
 
 loot replace entity @s weapon.mainhand loot micahcraft:settings_book
 function micahcraft:settings/book/add_book_pages
-scoreboard players enable @s mk.settings.change

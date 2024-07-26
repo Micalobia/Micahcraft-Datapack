@@ -158,6 +158,9 @@
     },
     "settings/command": {
         "scoreboard": "Settings",
+        "value": {
+            "range": 1
+        },
         "function": "micahcraft:settings/command"
     },
     "settings/init": {
@@ -172,7 +175,12 @@
         "function": "micahcraft:settings/init"
     },
     "settings/change": {
-        "scoreboard": "mk.settings.change",
+        "scoreboard": "Settings",
+        "value": {
+            "range": {
+                "min": 2
+            }
+        },
         "function": "micahcraft:settings/change"
     }
 }

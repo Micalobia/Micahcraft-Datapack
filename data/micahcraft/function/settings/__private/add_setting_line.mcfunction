@@ -23,7 +23,7 @@ $data modify storage micahcraft:settings page append value \
             "clickEvent": \
             {\
                 "action":"run_command",\
-                "value":"/trigger mk.settings.change set $(trigger)",\
+                "value":"/trigger Settings set $(trigger)",\
             }\
         },\
         {"text":"]"},\
