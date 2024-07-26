@@ -117,3 +117,12 @@ function micahcraft:settings/add_setting {\
     formatter:"micahcraft:settings/format/boolean",\
     change:"micahcraft:settings/change/boolean",\
 }
+function micahcraft:settings/add_setting {\
+    key:"player.drop_head",\
+    name:"Drop Head",\
+    page:"world",\
+    description:"Whether or not to drop your player head when you're killed by another player",\
+    default:"1b",\
+    formatter:"micahcraft:settings/format/boolean",\
+    change:"micahcraft:settings/change/player_head",\
+}
