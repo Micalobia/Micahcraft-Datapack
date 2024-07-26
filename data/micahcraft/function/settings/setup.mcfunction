@@ -73,6 +73,24 @@ function micahcraft:settings/add_setting {\
     change:"micahcraft:settings/change/boolean",\
 }
 function micahcraft:settings/add_setting {\
+    key:"hud.clock.enabled",\
+    name:"Clock",\
+    page:"hud",\
+    description:"Whether or not to show the clock when using the HUD command",\
+    default:"0b",\
+    formatter:"micahcraft:settings/format/boolean",\
+    change:"micahcraft:settings/change/boolean",\
+}
+function micahcraft:settings/add_setting {\
+    key:"hud.clock.mode",\
+    name:"24H Clock",\
+    page:"hud",\
+    description:"Whether or not the clock is in 24 hour mode or not",\
+    default:"0b",\
+    formatter:"micahcraft:settings/format/boolean",\
+    change:"micahcraft:settings/change/boolean",\
+}
+function micahcraft:settings/add_setting {\
     key:"hud.theme",\
     name:"Theme",\
     page:"hud",\
