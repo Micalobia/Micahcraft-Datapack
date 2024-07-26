@@ -5,5 +5,6 @@ data modify storage micahcraft:hud colors set value \
     green:"dark_green",\
     blue:"dark_blue",\
     yellow:"gold",\
-    "purple":"dark_purple",\
+    purple:"dark_purple",\
+    cyan:"dark_aqua",\
 }

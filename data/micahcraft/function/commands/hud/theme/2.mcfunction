@@ -6,4 +6,5 @@ data modify storage micahcraft:hud colors set value \
     blue:"#268bd2",\
     yellow:"#b58900",\
     purple:"#6c71c4",\
+    cyan:"#2aa198",\
 }

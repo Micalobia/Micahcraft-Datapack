@@ -5,3 +5,4 @@ scoreboard players set #10 mk.math 10
 scoreboard players set #2 mk.math 2
 scoreboard players set #1200 mk.math 1200
 scoreboard players set #24 mk.math 24
+scoreboard players set #8 mk.math 8

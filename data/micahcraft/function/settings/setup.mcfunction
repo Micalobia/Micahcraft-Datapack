@@ -64,6 +64,15 @@ function micahcraft:settings/add_setting {\
     change:"micahcraft:settings/change/boolean",\
 }
 function micahcraft:settings/add_setting {\
+    key:"hud.moon",\
+    name:"Moon Phase",\
+    page:"hud",\
+    description:"Whether or not to show the moon phase when using the HUD command",\
+    default:"0b",\
+    formatter:"micahcraft:settings/format/boolean",\
+    change:"micahcraft:settings/change/boolean",\
+}
+function micahcraft:settings/add_setting {\
     key:"hud.theme",\
     name:"Theme",\
     page:"hud",\

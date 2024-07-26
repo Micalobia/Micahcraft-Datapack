@@ -6,4 +6,5 @@ $data modify storage micahcraft:hud colors set value \
     blue:"$(color)",\
     yellow:"$(color)",\
     purple:"$(color)",\
+    cyan:"$(color)",\
 }
