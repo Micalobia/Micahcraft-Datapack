@@ -16,3 +16,4 @@ $execute if score #Value mk.math matches 1..15 run \
 $execute if score #Value mk.math matches 1..15 run \
     data modify storage micahcraft:hud display append value \
     {"text":" minutes","color":"$(yellow)"}
+scoreboard players set #Element mk.math 1

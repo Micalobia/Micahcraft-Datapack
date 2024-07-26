@@ -11,3 +11,4 @@ $data modify storage micahcraft:hud display append value \
         {"score":{"name":"#Decimal","objective":"mk.math"}},\
     ]\
 }
+scoreboard players set #Element mk.math 1
