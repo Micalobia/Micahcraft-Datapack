@@ -37,19 +37,19 @@ function micahcraft:settings/add_setting {\
     change:"micahcraft:settings/change/boolean",\
 }
 function micahcraft:settings/add_setting {\
-    key:"hud.saturation",\
-    name:"Saturation",\
+    key:"hud.coords",\
+    name:"Coords",\
     page:"hud",\
-    description:"Whether or not to show the saturation when using the HUD command",\
+    description:"Whether or not to show the coordinates when using the HUD command",\
     default:"1b",\
     formatter:"micahcraft:settings/format/boolean",\
     change:"micahcraft:settings/change/boolean",\
 }
 function micahcraft:settings/add_setting {\
-    key:"hud.coords",\
-    name:"Coords",\
+    key:"hud.saturation",\
+    name:"Saturation",\
     page:"hud",\
-    description:"Whether or not to show the coordinates when using the HUD command",\
+    description:"Whether or not to show the saturation when using the HUD command",\
     default:"1b",\
     formatter:"micahcraft:settings/format/boolean",\
     change:"micahcraft:settings/change/boolean",\
