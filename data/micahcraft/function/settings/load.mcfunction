@@ -5,7 +5,7 @@ scoreboard players add #ID mk.settings.id 0
 scoreboard players set #Key mk.settings.id 0
 scoreboard players set #PageKey mk.settings.id 0
 
-scoreboard players set #4 mk.math 4
+scoreboard players set #5 mk.math 5
 
 function micahcraft:settings/setup
 function micahcraft:settings/book
