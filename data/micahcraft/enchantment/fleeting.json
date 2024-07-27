@@ -16,6 +16,75 @@
                 "id": "micahcraft:enchantment.fleeting",
                 "operation": "add_multiplied_base"
             }
+        ],
+        "location_changed": [
+            {
+                "effect": {
+                    "type": "minecraft:damage_item",
+                    "amount": 1.0
+                },
+                "requirements": {
+                    "condition": "minecraft:all_of",
+                    "terms": [
+                        {
+                            "condition": "random_chance",
+                            "chance": {
+                                "type": "minecraft:enchantment_level",
+                                "amount": 0.03333334
+                            }
+                        },
+                        {
+                            "condition": "minecraft:entity_properties",
+                            "entity": "this",
+                            "predicate": {
+                                "flags": {
+                                    "is_on_ground": true
+                                }
+                            }
+                        }
+                    ]
+                }
+            }
+        ],
+        "tick": [
+            {
+                "effect": {
+                    "type": "minecraft:spawn_particles",
+                    "horizontal_position": {
+                        "type": "in_bounding_box"
+                    },
+                    "horizontal_velocity": {
+                        "movement_scale": -0.2
+                    },
+                    "particle": {
+                        "type": "minecraft:glow"
+                    },
+                    "speed": 0.0,
+                    "vertical_position": {
+                        "type": "entity_position",
+                        "offset": 0.1
+                    },
+                    "vertical_velocity": {
+                        "base": 0.1
+                    }
+                },
+                "requirements": {
+                    "condition": "minecraft:entity_properties",
+                    "entity": "this",
+                    "predicate": {
+                        "flags": {
+                            "is_flying": false,
+                            "is_on_ground": true
+                        },
+                        "movement": {
+                            "horizontal_speed": {
+                                "min": 9.999999747378752E-6
+                            }
+                        },
+                        "periodic_tick": 4
+                    }
+                }
+            }
         ]
     },
     "max_cost": {
