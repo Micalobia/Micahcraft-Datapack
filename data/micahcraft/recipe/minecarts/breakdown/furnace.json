@@ -1,0 +1,19 @@
+{
+    "type": "crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "minecraft:furnace_minecart"
+        }
+    ],
+    "result": {
+        "id": "minecraft:furnace_minecart",
+        "count": 1,
+        "components": {
+            "enchantment_glint_override": true,
+            "custom_name": "\"Minecart and Furnace\"",
+            "lore": [
+                "{\"text\":\"Will split the furnace minecart into its parts\",\"color\":\"gold\"}"
+            ]
+        }
+    }
+}

@@ -1,0 +1,19 @@
+{
+    "type": "crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "minecraft:chest_minecart"
+        }
+    ],
+    "result": {
+        "id": "minecraft:chest_minecart",
+        "count": 1,
+        "components": {
+            "enchantment_glint_override": true,
+            "custom_name": "\"Minecart and Chest\"",
+            "lore": [
+                "{\"text\":\"Will split the chest minecart into its parts\",\"color\":\"gold\"}"
+            ]
+        }
+    }
+}
