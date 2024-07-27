@@ -1,0 +1,10 @@
+{
+    "replace": false,
+    "values": [
+        "sand",
+        "suspicious_sand",
+        "red_sand",
+        "gravel",
+        "suspicious_gravel"
+    ]
+}

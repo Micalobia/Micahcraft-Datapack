@@ -1,0 +1,20 @@
+{
+    "replace": false,
+    "values": [
+        "#micahcraft:note_block/banjo",
+        "#micahcraft:note_block/basedrum",
+        "#micahcraft:note_block/bass",
+        "#micahcraft:note_block/bell",
+        "#micahcraft:note_block/bit",
+        "#micahcraft:note_block/chime",
+        "#micahcraft:note_block/cow_bell",
+        "#micahcraft:note_block/didgeridoo",
+        "#micahcraft:note_block/flute",
+        "#micahcraft:note_block/guitar",
+        "#micahcraft:note_block/hat",
+        "#micahcraft:note_block/iron_xylophone",
+        "#micahcraft:note_block/pling",
+        "#micahcraft:note_block/snare",
+        "#micahcraft:note_block/xylophone"
+    ]
+}
