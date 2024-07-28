@@ -1,0 +1,50 @@
+{
+    "anvil_cost": 1,
+    "description": {
+        "translate": "enchantment.micahcraft.tension",
+        "fallback": "Tension"
+    },
+    "effects": {
+        "minecraft:damage": [
+            {
+                "effect": {
+                    "type": "minecraft:add",
+                    "value": {
+                        "type": "minecraft:linear",
+                        "base": 0.33333334,
+                        "per_level_above_first": 0.33333334
+                    }
+                },
+                "requirements": {
+                    "condition": "minecraft:entity_properties",
+                    "entity": "direct_attacker",
+                    "predicate": {
+                        "type": "#minecraft:arrows"
+                    }
+                }
+            }
+        ],
+        "projectile_spawned": [
+            {
+                "effect": {
+                    "type": "run_function",
+                    "function": "micahcraft:enchantments/tension/velocity"
+                }
+            }
+        ]
+    },
+    "max_cost": {
+        "base": 16,
+        "per_level_above_first": 10
+    },
+    "max_level": 5,
+    "min_cost": {
+        "base": 1,
+        "per_level_above_first": 10
+    },
+    "slots": [
+        "mainhand"
+    ],
+    "supported_items": "#minecraft:enchantable/crossbow",
+    "weight": 10
+}
