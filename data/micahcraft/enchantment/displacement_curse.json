@@ -1,0 +1,44 @@
+{
+    "anvil_cost": 8,
+    "description": {
+        "translate": "enchantment.micahcraft.displacement_curse",
+        "fallback": "Curse of Displacement"
+    },
+    "effects": {
+        "post_attack": [
+            {
+                "enchanted": "victim",
+                "affected": "victim",
+                "effect": {
+                    "type": "run_function",
+                    "function": "micahcraft:enchantments/displacement/hurt"
+                },
+                "requirements": {
+                    "condition": "random_chance",
+                    "chance": {
+                        "type": "enchantment_level",
+                        "amount": {
+                            "type": "linear",
+                            "base": 0.25,
+                            "per_level_above_first": 0.25
+                        }
+                    }
+                }
+            }
+        ]
+    },
+    "max_cost": {
+        "base": 50,
+        "per_level_above_first": 0
+    },
+    "max_level": 1,
+    "min_cost": {
+        "base": 25,
+        "per_level_above_first": 0
+    },
+    "slots": [
+        "armor"
+    ],
+    "supported_items": "#enchantable/armor",
+    "weight": 1
+}
