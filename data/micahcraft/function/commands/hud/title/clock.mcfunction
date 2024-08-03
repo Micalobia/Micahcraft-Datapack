@@ -1,12 +1,14 @@
 execute store result score #Value mk.math run time query daytime
 scoreboard players operation #Hours mk.math = #Value mk.math
 scoreboard players operation #Hours mk.math /= #1000 mk.math
+scoreboard players add #Hours mk.math 6
+scoreboard players operation #Hours mk.math %= #24 mk.math
 scoreboard players operation #Minutes mk.math = #Value mk.math
 scoreboard players operation #Minutes mk.math %= #1000 mk.math
 scoreboard players operation #Minutes mk.math *= #3 mk.math
 scoreboard players operation #Minutes mk.math /= #50 mk.math
-scoreboard players operation #PM mk.math = #Value mk.math
-scoreboard players operation #PM mk.math /= #12000 mk.math
+scoreboard players operation #PM mk.math = #Hours mk.math
+scoreboard players operation #PM mk.math /= #12 mk.math
 execute store result score #24H mk.math run function micahcraft:settings/data/get_value {path:"hud.clock.mode"}
 execute if score #24H mk.math matches 0 run scoreboard players operation #Hours mk.math %= #12 mk.math
 execute if score #24H mk.math matches 0 if score #Hours mk.math matches 0 run scoreboard players set #Hours mk.math 12

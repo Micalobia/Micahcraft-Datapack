@@ -19,6 +19,6 @@
         }
     },
     "rewards": {
-        "function": "micahcraft:enchantments/quarry/used/golden"
+        "function": "micahcraft:enchantments/quarry/used/gold"
     }
 }

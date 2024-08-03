@@ -114,7 +114,7 @@
     },
     "quarry/used/golden": {
         "scoreboard": "mk.quarry.used.golden_pickaxe",
-        "function": "micahcraft:enchantments/quarry/used/golden"
+        "function": "micahcraft:enchantments/quarry/used/gold"
     },
     "quarry/used/diamond": {
         "scoreboard": "mk.quarry.used.diamond_pickaxe",
