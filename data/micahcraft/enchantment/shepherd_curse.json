@@ -1,0 +1,53 @@
+{
+    "anvil_cost": 8,
+    "description": {
+        "translate": "enchantment.micahcraft.shepherd_curse",
+        "fallback": "Curse of the Shepherd"
+    },
+    "effects": {
+        "tick": [
+            {
+                "effect": {
+                    "type": "all_of",
+                    "effects": [
+                        {
+                            "type": "play_sound",
+                            "sound": "entity.sheep.hurt",
+                            "pitch": 1,
+                            "volume": 1
+                        },
+                        {
+                            "type": "run_function",
+                            "function": "micahcraft:enchantments/shepherd/cry"
+                        }
+                    ]
+                },
+                "requirements": {
+                    "condition": "random_chance",
+                    "chance": {
+                        "type": "enchantment_level",
+                        "amount": {
+                            "type": "linear",
+                            "base": 0.02,
+                            "per_level_above_first": 0.02
+                        }
+                    }
+                }
+            }
+        ]
+    },
+    "max_cost": {
+        "base": 50,
+        "per_level_above_first": 0
+    },
+    "max_level": 1,
+    "min_cost": {
+        "base": 25,
+        "per_level_above_first": 0
+    },
+    "slots": [
+        "head"
+    ],
+    "supported_items": "#enchantable/head_armor",
+    "weight": 1
+}
