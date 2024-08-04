@@ -1,5 +1,5 @@
 execute if score @s mk.quarry.face matches 0 run return fail
-$summon marker $(x) $(y).5 $(z) {Tags:["Fresh","Root"]}
+$execute positioned $(x) $(y) $(z) positioned ~ ~0.5 ~ run summon marker ~ ~ ~ {Tags:["Fresh","Root"]}
 execute if score @s mk.quarry.face matches 1 as @n[type=marker,tag=Fresh] at @s run tp @s ~ ~ ~ 0 0
 execute if score @s mk.quarry.face matches 2 as @n[type=marker,tag=Fresh] at @s run tp @s ~ ~ ~ 0 90
 execute if score @s mk.quarry.face matches 3 as @n[type=marker,tag=Fresh] at @s run tp @s ~ ~ ~ 90 90
