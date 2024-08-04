@@ -1,15 +1,15 @@
 {
     "anvil_cost": 4,
     "description": {
-      "translate": "enchantment.micahcraft.mining",
-      "fallback": "Mining"
+      "translate": "enchantment.micahcraft.glowing",
+      "fallback": "Glowing"
     },
     "effects": {
         "tick": [
             {
                 "effect": {
                     "type": "run_function",
-                    "function": "micahcraft:enchantments/mining/glow"
+                    "function": "micahcraft:enchantments/glowing/glow"
                 }
             }
         ]
