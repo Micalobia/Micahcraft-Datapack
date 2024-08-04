@@ -22,6 +22,7 @@
         "micahcraft:commands/creative/bind/load",
         "micahcraft:enchantments/shatter_bolts/load",
         "micahcraft:trim_particles/load",
-        "micahcraft:settings/load"
+        "micahcraft:settings/load",
+        "micahcraft:misc/load"
     ]
 }

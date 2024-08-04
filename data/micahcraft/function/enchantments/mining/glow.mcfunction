@@ -1,2 +1,2 @@
-function micahcraft:enchantments/spectre_shot/summon_glowing
-execute positioned ~ ~1 ~ run function micahcraft:enchantments/spectre_shot/summon_glowing
+function micahcraft:misc/glow
+execute positioned ~ ~1 ~ run function micahcraft:misc/glow

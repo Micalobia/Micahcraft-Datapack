@@ -1,0 +1,1 @@
+scoreboard objectives add mk.misc.lifetime dummy
