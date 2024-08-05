@@ -14,13 +14,6 @@
                         "base": 0.33333334,
                         "per_level_above_first": 0.33333334
                     }
-                },
-                "requirements": {
-                    "condition": "minecraft:entity_properties",
-                    "entity": "direct_attacker",
-                    "predicate": {
-                        "type": "#minecraft:arrows"
-                    }
                 }
             }
         ],
