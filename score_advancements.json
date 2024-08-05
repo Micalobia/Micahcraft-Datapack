@@ -182,5 +182,24 @@
             }
         },
         "function": "micahcraft:settings/change"
+    },
+    "measuring/used_carrot": {
+        "scoreboard": "mk.measuring.used_carrot",
+        "function": "micahcraft:enchantments/measuring/clear"
+    },
+    "measuring/used_warped": {
+        "scoreboard": "mk.measuring.used_warped",
+        "function": "micahcraft:enchantments/measuring/clear"
+    },
+    "measuring/id": {
+        "scoreboard": "mk.measuring.id",
+        "value": {
+            "range": {
+                "min": -2147483648,
+                "max": 2147483647
+            },
+            "inverted": true
+        },
+        "function": "micahcraft:enchantments/measuring/id"
     }
 }

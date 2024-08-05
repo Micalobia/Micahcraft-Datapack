@@ -23,6 +23,7 @@
         "micahcraft:enchantments/shatter_bolts/load",
         "micahcraft:trim_particles/load",
         "micahcraft:settings/load",
-        "micahcraft:misc/load"
+        "micahcraft:misc/load",
+        "micahcraft:enchantments/measuring/load"
     ]
 }
