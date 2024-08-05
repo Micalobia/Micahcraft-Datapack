@@ -1,0 +1,36 @@
+{
+    "anvil_cost": 5,
+    "description": {
+        "translate": "enchantment.micahcraft.pyrotechnic",
+        "fallback": "Pyrotechnic"
+    },
+    "effects": {
+        "damage_immunity": [
+            {
+                "effect": {},
+                "requirements": {
+                    "condition": "damage_source_properties",
+                    "predicate": {
+                        "direct_entity": {
+                            "type": "firework_rocket"
+                        }
+                    }
+                }
+            }
+        ]
+    },
+    "max_cost": {
+        "base": 75,
+        "per_level_above_first": 25
+    },
+    "max_level": 1,
+    "min_cost": {
+        "base": 25,
+        "per_level_above_first": 25
+    },
+    "slots": [
+        "chest"
+    ],
+    "supported_items": "elytra",
+    "weight": 2
+}
