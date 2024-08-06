@@ -96,8 +96,8 @@ function micahcraft:settings/add_setting {\
     page:"hud",\
     description:"Changes what the colors for the HUD are",\
     default:'0',\
-    formatter:"micahcraft:settings/format/hud_theme",\
-    change:"micahcraft:settings/change/hud_theme",\
+    formatter:"micahcraft:settings/format/enum",\
+    change:"micahcraft:settings/change/enum",\
 }
 function micahcraft:settings/add_setting {\
     key:"trim_particles.show",\
@@ -126,3 +126,11 @@ function micahcraft:settings/add_setting {\
     formatter:"micahcraft:settings/format/boolean",\
     change:"micahcraft:settings/change/player_head",\
 }
+
+data modify storage micahcraft:settings enums.'hud.theme' set value [\
+    "§7Light",\
+    "§8Dark",\
+    "§9Solar Light",\
+    "§1Solar Dark",\
+    "§cR§aG§9B",\
+]

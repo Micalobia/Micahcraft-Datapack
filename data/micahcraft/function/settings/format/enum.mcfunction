@@ -1,0 +1,2 @@
+$execute store result storage micahcraft:util loop.value.index int 1 run function micahcraft:settings/data/get_value {path:'$(key)'}
+function micahcraft:settings/__private/enum with storage micahcraft:util loop.value
