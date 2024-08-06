@@ -2,9 +2,20 @@
     "replace": false,
     "values": [
         "micahcraft:soulbound",
+        "micahcraft:measuring",
+        "micahcraft:veinmining",
+        "micahcraft:unbreakable",
         "micahcraft:quarry",
         "micahcraft:excavation",
+        "micahcraft:pyrotechnic",
+        "micahcraft:experienced",
         "micahcraft:plummeting_curse",
-        "micahcraft:tantalus_curse"
+        "micahcraft:tantalus_curse",
+        "micahcraft:beetle_curse",
+        "micahcraft:maestro_curse",
+        "micahcraft:shepherd_curse",
+        "micahcraft:fulmination_curse",
+        "micahcraft:phaethon_curse",
+        "micahcraft:displacement_curse"
     ]
 }

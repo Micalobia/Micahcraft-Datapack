@@ -1,9 +1,13 @@
 {
     "replace": false,
     "values": [
-        "micahcraft:plummeting_curse",
-        "micahcraft:tantalus_curse",
         "micahcraft:beetle_curse",
-        "micahcraft:maestro_curse"
+        "micahcraft:displacement_curse",
+        "micahcraft:fulmination_curse",
+        "micahcraft:maestro_curse",
+        "micahcraft:phaethon_curse",
+        "micahcraft:plummeting_curse",
+        "micahcraft:shepherd_curse",
+        "micahcraft:tantalus_curse"
     ]
 }

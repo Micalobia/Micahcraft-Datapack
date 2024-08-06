@@ -1,13 +1,10 @@
 {
     "replace": false,
     "values": [
-        "micahcraft:interrogate",
         "micahcraft:germination",
-        "micahcraft:satyr_step",
-        "micahcraft:ender_reach",
-        "micahcraft:spectre_shot",
-        "micahcraft:unbreakable",
-        "micahcraft:shatter_bolts",
-        "micahcraft:storm_strike"
+        "micahcraft:storm_strike",
+        "micahcraft:fleeting",
+        "micahcraft:tension",
+        "micahcraft:glowing"
     ]
 }
