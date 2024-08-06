@@ -1,0 +1,32 @@
+{
+    "anvil_cost": 8,
+    "description": {
+        "translate": "enchantment.micahcraft.veinmining",
+        "fallback": "Veinmining"
+    },
+    "effects": {
+        "tick": [
+            {
+                "effect": {
+                    "type": "run_function",
+                    "function": "micahcraft:enchantments/veinmining/holding"
+                }
+            }
+        ]
+    },
+    "max_cost": {
+        "base": 75,
+        "per_level_above_first": 25
+    },
+    "max_level": 1,
+    "min_cost": {
+        "base": 25,
+        "per_level_above_first": 25
+    },
+    "slots": [
+        "any"
+    ],
+    "supported_items": "#minecraft:enchantable/durability",
+    "weight": 2,
+    "exclusive_set": "#micahcraft:exclusive_set/soulbound"
+}

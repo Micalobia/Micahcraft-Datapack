@@ -24,6 +24,7 @@
         "micahcraft:trim_particles/load",
         "micahcraft:settings/load",
         "micahcraft:misc/load",
-        "micahcraft:enchantments/measuring/load"
+        "micahcraft:enchantments/measuring/load",
+        "micahcraft:enchantments/veinmining/load"
     ]
 }

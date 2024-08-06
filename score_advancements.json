@@ -201,5 +201,116 @@
             "inverted": true
         },
         "function": "micahcraft:enchantments/measuring/id"
+    },
+    "veinmining/used/pickaxe/wooden": {
+        "scoreboard": "mk.veinmining.used.wooden_pickaxe",
+        "function": "micahcraft:enchantments/veinmining/used/pickaxe/wooden"
+    },
+    "veinmining/used/pickaxe/stone": {
+        "scoreboard": "mk.veinmining.used.stone_pickaxe",
+        "function": "micahcraft:enchantments/veinmining/used/pickaxe/stone"
+    },
+    "veinmining/used/pickaxe/iron": {
+        "scoreboard": "mk.veinmining.used.iron_pickaxe",
+        "function": "micahcraft:enchantments/veinmining/used/pickaxe/iron"
+    },
+    "veinmining/used/pickaxe/golden": {
+        "scoreboard": "mk.veinmining.used.golden_pickaxe",
+        "function": "micahcraft:enchantments/veinmining/used/pickaxe/gold"
+    },
+    "veinmining/used/pickaxe/diamond": {
+        "scoreboard": "mk.veinmining.used.diamond_pickaxe",
+        "function": "micahcraft:enchantments/veinmining/used/pickaxe/diamond"
+    },
+    "veinmining/used/pickaxe/netherite": {
+        "scoreboard": "mk.veinmining.used.netherite_pickaxe",
+        "function": "micahcraft:enchantments/veinmining/used/pickaxe/netherite"
+    },
+    "veinmining/used/axe/wooden": {
+        "scoreboard": "mk.veinmining.used.wooden_axe",
+        "function": "micahcraft:enchantments/veinmining/used/axe/wooden"
+    },
+    "veinmining/used/axe/stone": {
+        "scoreboard": "mk.veinmining.used.stone_axe",
+        "function": "micahcraft:enchantments/veinmining/used/axe/stone"
+    },
+    "veinmining/used/axe/iron": {
+        "scoreboard": "mk.veinmining.used.iron_axe",
+        "function": "micahcraft:enchantments/veinmining/used/axe/iron"
+    },
+    "veinmining/used/axe/golden": {
+        "scoreboard": "mk.veinmining.used.golden_axe",
+        "function": "micahcraft:enchantments/veinmining/used/axe/gold"
+    },
+    "veinmining/used/axe/diamond": {
+        "scoreboard": "mk.veinmining.used.diamond_axe",
+        "function": "micahcraft:enchantments/veinmining/used/axe/diamond"
+    },
+    "veinmining/used/axe/netherite": {
+        "scoreboard": "mk.veinmining.used.netherite_axe",
+        "function": "micahcraft:enchantments/veinmining/used/axe/netherite"
+    },
+    "veinmining/used/shovel/wooden": {
+        "scoreboard": "mk.veinmining.used.wooden_shovel",
+        "function": "micahcraft:enchantments/veinmining/used/shovel/wooden"
+    },
+    "veinmining/used/shovel/stone": {
+        "scoreboard": "mk.veinmining.used.stone_shovel",
+        "function": "micahcraft:enchantments/veinmining/used/shovel/stone"
+    },
+    "veinmining/used/shovel/iron": {
+        "scoreboard": "mk.veinmining.used.iron_shovel",
+        "function": "micahcraft:enchantments/veinmining/used/shovel/iron"
+    },
+    "veinmining/used/shovel/golden": {
+        "scoreboard": "mk.veinmining.used.golden_shovel",
+        "function": "micahcraft:enchantments/veinmining/used/shovel/gold"
+    },
+    "veinmining/used/shovel/diamond": {
+        "scoreboard": "mk.veinmining.used.diamond_shovel",
+        "function": "micahcraft:enchantments/veinmining/used/shovel/diamond"
+    },
+    "veinmining/used/shovel/netherite": {
+        "scoreboard": "mk.veinmining.used.netherite_shovel",
+        "function": "micahcraft:enchantments/veinmining/used/shovel/netherite"
+    },
+    "veinmining/used/hoe/wooden": {
+        "scoreboard": "mk.veinmining.used.wooden_hoe",
+        "function": "micahcraft:enchantments/veinmining/used/hoe/wooden"
+    },
+    "veinmining/used/hoe/stone": {
+        "scoreboard": "mk.veinmining.used.stone_hoe",
+        "function": "micahcraft:enchantments/veinmining/used/hoe/stone"
+    },
+    "veinmining/used/hoe/iron": {
+        "scoreboard": "mk.veinmining.used.iron_hoe",
+        "function": "micahcraft:enchantments/veinmining/used/hoe/iron"
+    },
+    "veinmining/used/hoe/golden": {
+        "scoreboard": "mk.veinmining.used.golden_hoe",
+        "function": "micahcraft:enchantments/veinmining/used/hoe/gold"
+    },
+    "veinmining/used/hoe/diamond": {
+        "scoreboard": "mk.veinmining.used.diamond_hoe",
+        "function": "micahcraft:enchantments/veinmining/used/hoe/diamond"
+    },
+    "veinmining/used/hoe/netherite": {
+        "scoreboard": "mk.veinmining.used.netherite_hoe",
+        "function": "micahcraft:enchantments/veinmining/used/hoe/netherite"
+    },
+    "veinmining/used/shears": {
+        "scoreboard": "mk.veinmining.used.shears",
+        "function": "micahcraft:enchantments/veinmining/used/shears"
+    },
+    "veinmining/id": {
+        "scoreboard": "mk.veinmining.id",
+        "value": {
+            "range": {
+                "min": -2147483648,
+                "max": 2147483647
+            },
+            "inverted": true
+        },
+        "function": "micahcraft:enchantments/veinmining/id"
     }
 }

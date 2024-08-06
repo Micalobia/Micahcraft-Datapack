@@ -1,0 +1,18 @@
+{
+    "condition": "entity_properties",
+    "entity": "this",
+    "predicate": {
+        "type": "player",
+        "equipment": {
+            "mainhand": {
+                "predicates": {
+                    "enchantments": [
+                        {
+                            "enchantments": "micahcraft:veinmining"
+                        }
+                    ]
+                }
+            }
+        }
+    }
+}

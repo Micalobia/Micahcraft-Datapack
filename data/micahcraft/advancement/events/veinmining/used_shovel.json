@@ -1,0 +1,19 @@
+{
+    "criteria": {
+        "unlocked": {
+            "trigger": "minecraft:item_used_on_block",
+            "conditions": {
+                "player": {
+                    "equipment": {
+                        "mainhand": {
+                            "items": "#shovels"
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "micahcraft:enchantments/veinmining/scheduled/used_shovel"
+    }
+}

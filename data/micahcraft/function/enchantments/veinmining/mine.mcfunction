@@ -1,0 +1,10 @@
+scoreboard players set #Blocks mk.math 0
+$execute positioned $(x) $(y) $(z) positioned ~ ~0.5 ~ run function micahcraft:enchantments/veinmining/summon
+tag @s add CurrentPlayer
+execute as @e[type=marker,tag=mk.veinmining,tag=Checked] \
+    if score @s mk.veinmining.id = @p[tag=CurrentPlayer] mk.veinmining.id \
+    run tag @s add Mine
+tag @s remove CurrentPlayer
+scoreboard players set #Blocks mk.math 0
+execute at @n[type=marker,tag=Mine,limit=128] run function micahcraft:enchantments/veinmining/break
+kill @e[type=marker,tag=Mine]
