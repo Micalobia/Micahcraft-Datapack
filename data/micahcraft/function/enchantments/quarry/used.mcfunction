@@ -1,3 +1,6 @@
 execute unless predicate micahcraft:enchantments/quarry/holding run return fail
+execute store result score #Crouch mk.math run function micahcraft:settings/data/get_value {path:"enchantments.quarry.crouch"}
+execute if score #Crouch mk.math matches 1 unless entity @s[tag=mk.quarry.crouching] run return fail
+execute if score #Crouch mk.math matches 2 if entity @s[tag=mk.quarry.crouching] run return fail
 function micahcraft:enchantments/quarry/copy_position
 function micahcraft:enchantments/quarry/summon with storage micahcraft:quarry

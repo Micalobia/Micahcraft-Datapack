@@ -26,7 +26,6 @@
     "slots": [
         "any"
     ],
-    "supported_items": "#minecraft:enchantable/durability",
-    "weight": 2,
-    "exclusive_set": "#micahcraft:exclusive_set/soulbound"
+    "supported_items": "#minecraft:enchantable/mining",
+    "weight": 2
 }

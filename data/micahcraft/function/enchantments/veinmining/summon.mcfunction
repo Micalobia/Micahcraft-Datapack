@@ -9,3 +9,25 @@ execute positioned ~1 ~ ~ run function micahcraft:enchantments/veinmining/try_su
 execute positioned ~-1 ~ ~ run function micahcraft:enchantments/veinmining/try_summon
 execute positioned ~ ~ ~1 run function micahcraft:enchantments/veinmining/try_summon
 execute positioned ~ ~ ~-1 run function micahcraft:enchantments/veinmining/try_summon
+execute if score #Level mk.math matches ..0 run return 1
+execute positioned ~1 ~1 ~ run function micahcraft:enchantments/veinmining/try_summon
+execute positioned ~1 ~-1 ~ run function micahcraft:enchantments/veinmining/try_summon
+execute positioned ~-1 ~1 ~ run function micahcraft:enchantments/veinmining/try_summon
+execute positioned ~-1 ~-1 ~ run function micahcraft:enchantments/veinmining/try_summon
+execute positioned ~ ~1 ~1 run function micahcraft:enchantments/veinmining/try_summon
+execute positioned ~ ~1 ~-1 run function micahcraft:enchantments/veinmining/try_summon
+execute positioned ~ ~-1 ~1 run function micahcraft:enchantments/veinmining/try_summon
+execute positioned ~ ~-1 ~-1 run function micahcraft:enchantments/veinmining/try_summon
+execute positioned ~1 ~ ~1 run function micahcraft:enchantments/veinmining/try_summon
+execute positioned ~1 ~ ~-1 run function micahcraft:enchantments/veinmining/try_summon
+execute positioned ~-1 ~ ~1 run function micahcraft:enchantments/veinmining/try_summon
+execute positioned ~-1 ~ ~-1 run function micahcraft:enchantments/veinmining/try_summon
+execute if score #Level mk.math matches ..1 run return 1
+execute positioned ~1 ~1 ~1 run function micahcraft:enchantments/veinmining/try_summon
+execute positioned ~-1 ~1 ~1 run function micahcraft:enchantments/veinmining/try_summon
+execute positioned ~1 ~-1 ~1 run function micahcraft:enchantments/veinmining/try_summon
+execute positioned ~-1 ~-1 ~1 run function micahcraft:enchantments/veinmining/try_summon
+execute positioned ~1 ~1 ~-1 run function micahcraft:enchantments/veinmining/try_summon
+execute positioned ~-1 ~1 ~-1 run function micahcraft:enchantments/veinmining/try_summon
+execute positioned ~1 ~-1 ~-1 run function micahcraft:enchantments/veinmining/try_summon
+execute positioned ~-1 ~-1 ~-1 run function micahcraft:enchantments/veinmining/try_summon

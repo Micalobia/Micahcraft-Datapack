@@ -7,3 +7,6 @@ data modify storage micahcraft:veinmining macro.y set from storage retina:output
 data modify storage micahcraft:veinmining macro.z set from storage retina:output TargetedBlock[2]
 execute store result score @s mk.veinmining.group run \
     function micahcraft:enchantments/veinmining/data/macro_group with storage micahcraft:veinmining macro
+tag @s remove mk.veinmining.crouching
+tag @s[scores={mk.veinmining.crouching=1..}] add mk.veinmining.crouching
+scoreboard players set @s mk.veinmining.crouching 0

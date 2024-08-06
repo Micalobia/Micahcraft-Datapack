@@ -35,5 +35,6 @@
         "mainhand"
     ],
     "supported_items": "#pickaxes",
-    "weight": 1
+    "weight": 1,
+    "exclusive_set": "micahcraft:veinmining"
 }

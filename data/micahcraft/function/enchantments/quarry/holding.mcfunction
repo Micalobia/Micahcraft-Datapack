@@ -9,3 +9,6 @@ function micahcraft:enchantments/quarry/compare {face:"North",value:2}
 function micahcraft:enchantments/quarry/compare {face:"South",value:2}
 function micahcraft:enchantments/quarry/compare {face:"East",value:3}
 function micahcraft:enchantments/quarry/compare {face:"West",value:3}
+tag @s remove mk.quarry.crouching
+tag @s[scores={mk.quarry.crouching=1..}] add mk.quarry.crouching
+scoreboard players set @s mk.quarry.crouching 0

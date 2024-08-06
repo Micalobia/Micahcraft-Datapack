@@ -9,3 +9,6 @@ function micahcraft:enchantments/excavation/compare {face:"North",value:2}
 function micahcraft:enchantments/excavation/compare {face:"South",value:2}
 function micahcraft:enchantments/excavation/compare {face:"East",value:3}
 function micahcraft:enchantments/excavation/compare {face:"West",value:3}
+tag @s remove mk.excavation.crouching
+tag @s[scores={mk.excavation.crouching=1..}] add mk.excavation.crouching
+scoreboard players set @s mk.excavation.crouching 0

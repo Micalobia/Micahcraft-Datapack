@@ -1,4 +1,5 @@
 scoreboard players set #Blocks mk.math 0
+execute store result score #Level mk.math run function micahcraft:settings/data/get_value {path:"enchantments.veinmining.level"}
 $execute positioned $(x) $(y) $(z) positioned ~ ~0.5 ~ run function micahcraft:enchantments/veinmining/summon
 tag @s add CurrentPlayer
 execute as @e[type=marker,tag=mk.veinmining,tag=Checked] \

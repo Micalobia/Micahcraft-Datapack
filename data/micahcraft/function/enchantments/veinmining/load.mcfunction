@@ -28,6 +28,8 @@ scoreboard objectives add mk.veinmining.used.netherite_hoe minecraft.used:minecr
 
 scoreboard objectives add mk.veinmining.used.shears minecraft.used:minecraft.shears
 
+scoreboard objectives add mk.veinmining.crouching minecraft.custom:minecraft.sneak_time
+
 scoreboard objectives add mk.veinmining.x dummy
 scoreboard objectives add mk.veinmining.y dummy
 scoreboard objectives add mk.veinmining.z dummy

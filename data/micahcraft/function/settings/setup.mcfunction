@@ -16,6 +16,11 @@ function micahcraft:settings/add_page {\
     name:"World",\
     color:"dark_green",\
 }
+function micahcraft:settings/add_page {\
+    page:"enchantments",\
+    name:"Enchantments",\
+    color:"light_purple",\
+}
 
 
 function micahcraft:settings/add_setting {\
@@ -126,6 +131,42 @@ function micahcraft:settings/add_setting {\
     formatter:"micahcraft:settings/format/boolean",\
     change:"micahcraft:settings/change/player_head",\
 }
+function micahcraft:settings/add_setting {\
+    key:"enchantments.veinmining.level",\
+    name:"Vein Level",\
+    page:"enchantments",\
+    description:"How aggresively the veinmining algorithm tries to search for ore",\
+    default:"0",\
+    formatter:"micahcraft:settings/format/enum",\
+    change:"micahcraft:settings/change/enum",\
+}
+function micahcraft:settings/add_setting {\
+    key:"enchantments.veinmining.crouch",\
+    name:"Veinmining",\
+    page:"enchantments",\
+    description:"The behavior of veinmining when crouched",\
+    default:"0",\
+    formatter:"micahcraft:settings/format/enum",\
+    change:"micahcraft:settings/change/enum",\
+}
+function micahcraft:settings/add_setting {\
+    key:"enchantments.quarry.crouch",\
+    name:"Quarry",\
+    page:"enchantments",\
+    description:"The behavior of quarry when crouched",\
+    default:"0",\
+    formatter:"micahcraft:settings/format/enum",\
+    change:"micahcraft:settings/change/enum",\
+}
+function micahcraft:settings/add_setting {\
+    key:"enchantments.excavation.crouch",\
+    name:"Excavation",\
+    page:"enchantments",\
+    description:"The behavior of excavation when crouched",\
+    default:"0",\
+    formatter:"micahcraft:settings/format/enum",\
+    change:"micahcraft:settings/change/enum",\
+}
 
 data modify storage micahcraft:settings enums.'hud.theme' set value [\
     "§7Light",\
@@ -133,4 +174,28 @@ data modify storage micahcraft:settings enums.'hud.theme' set value [\
     "§9Solar Light",\
     "§1Solar Dark",\
     "§cR§aG§9B",\
+]
+
+data modify storage micahcraft:settings enums.'enchantments.veinmining.level' set value [\
+    "§2Face",\
+    "§6Edge",\
+    "§4Corner",\
+]
+
+data modify storage micahcraft:settings enums.'enchantments.veinmining.crouch' set value [\
+    "§8Nothing",\
+    "§2Required",\
+    "§4Inverted",\
+]
+
+data modify storage micahcraft:settings enums.'enchantments.quarry.crouch' set value [\
+    "§8Nothing",\
+    "§2Required",\
+    "§4Inverted",\
+]
+
+data modify storage micahcraft:settings enums.'enchantments.excavation.crouch' set value [\
+    "§8Nothing",\
+    "§2Required",\
+    "§4Inverted",\
 ]
