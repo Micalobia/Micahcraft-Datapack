@@ -167,6 +167,15 @@ function micahcraft:settings/add_setting {\
     formatter:"micahcraft:settings/format/enum",\
     change:"micahcraft:settings/change/enum",\
 }
+function micahcraft:settings/add_setting {\
+    key:"enchantments.displacement.safety",\
+    name:"Displacement",\
+    page:"enchantments",\
+    description:"Whether Curse of Displacement will avoid fluids",\
+    default:"0b",\
+    formatter:"micahcraft:settings/format/enum",\
+    change:"micahcraft:settings/change/boolean",\
+}
 
 data modify storage micahcraft:settings enums.'hud.theme' set value [\
     "§7Light",\
@@ -198,4 +207,9 @@ data modify storage micahcraft:settings enums.'enchantments.excavation.crouch' s
     "§8Nothing",\
     "§2Required",\
     "§4Inverted",\
+]
+
+data modify storage micahcraft:settings enums.'enchantments.displacement.safety' set value [\
+    "§2Safe",\
+    "§4Unsafe",\
 ]

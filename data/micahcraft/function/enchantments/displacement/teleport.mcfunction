@@ -16,7 +16,7 @@ execute store result storage micahcraft:displacement macro.x int 1 run scoreboar
 execute store result storage micahcraft:displacement macro.y int 1 run scoreboard players get #Y mk.math
 execute store result storage micahcraft:displacement macro.z int 1 run scoreboard players get #Z mk.math
 
-
+execute store result score #Unsafe mk.math run function micahcraft:settings/data/get_value {path:"enchantments.displacement.safety"}
 execute \
     store success score #Success mk.math run \
     function micahcraft:enchantments/displacement/__private/summon with storage micahcraft:displacement macro

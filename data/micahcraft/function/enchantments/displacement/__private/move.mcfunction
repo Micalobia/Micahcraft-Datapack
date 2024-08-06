@@ -6,6 +6,6 @@ execute \
     function micahcraft:enchantments/displacement/__private/move
 execute if score #Result mk.math matches 0 run return fail
 execute if score #Result mk.math matches 1 run return 1
-execute unless predicate micahcraft:enchantments/displacement/no_fluid run return fail
+execute if score #Unsafe mk.math matches 0 unless predicate micahcraft:enchantments/displacement/no_fluid run return fail
 summon marker ~ ~ ~ {Tags:["Fresh"]}
 return 1
