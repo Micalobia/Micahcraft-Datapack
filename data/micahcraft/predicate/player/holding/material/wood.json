@@ -1,0 +1,16 @@
+{
+    "condition": "entity_properties",
+    "entity": "this",
+    "predicate": {
+        "equipment": {
+            "mainhand": {
+                "items": [
+                    "wooden_shovel",
+                    "wooden_axe",
+                    "wooden_hoe",
+                    "wooden_pickaxe"
+                ]
+            }
+        }
+    }
+}

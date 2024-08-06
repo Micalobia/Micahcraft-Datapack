@@ -1,0 +1,22 @@
+{
+    "replace": false,
+    "values": [
+        "cobweb",
+        "dead_bush",
+        "fern",
+        "glow_lichen",
+        "hanging_roots",
+        "large_fern",
+        "#leaves",
+        "nether_sprouts",
+        "seagrass",
+        "short_grass",
+        "tall_grass",
+        "tall_seagrass",
+        "tripwire",
+        "twisting_vines",
+        "vine",
+        "weeping_vines",
+        "#wool"
+    ]
+}
