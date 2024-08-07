@@ -29,17 +29,17 @@
         ]
     },
     "max_cost": {
-        "base": 75,
-        "per_level_above_first": 25
+        "base": 39,
+        "per_level_above_first": 13
     },
     "max_level": 3,
     "min_cost": {
-        "base": 25,
-        "per_level_above_first": 25
+        "base": 13,
+        "per_level_above_first": 13
     },
     "slots": [
         "chest"
     ],
     "supported_items": "#micahcraft:enchantable/chest",
-    "weight": 1
+    "weight": 3
 }

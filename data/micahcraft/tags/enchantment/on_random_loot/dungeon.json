@@ -1,0 +1,8 @@
+{
+    "replace": false,
+    "values": [
+        "#on_random_loot",
+        "micahcraft:interrogate",
+        "micahcraft:dwarven_runes"
+    ]
+}

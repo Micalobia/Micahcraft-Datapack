@@ -1,0 +1,8 @@
+{
+    "replace": false,
+    "values": [
+        "#on_random_loot",
+        "micahcraft:shatter_bolts",
+        "micahcraft:spectre_shot"
+    ]
+}
