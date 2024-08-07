@@ -1,0 +1,8 @@
+{
+    "function": "set_components",
+    "components": {
+        "custom_data": {
+            "newline": "\n"
+        }
+    }
+}
