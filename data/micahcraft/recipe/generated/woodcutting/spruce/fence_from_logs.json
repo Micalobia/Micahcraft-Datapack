@@ -1,0 +1,10 @@
+{
+    "type": "stonecutting",
+    "ingredient": {
+        "tag": "micahcraft:generated/log/spruce"
+    },
+    "result": {
+        "id": "spruce_fence",
+        "count": 2
+    }
+}

@@ -1,7 +1,7 @@
 {
     "type": "stonecutting",
     "ingredient": {
-        "tag": "acacia_logs"
+        "tag": "micahcraft:generated/log/acacia"
     },
     "result": {
         "id": "acacia_slab",

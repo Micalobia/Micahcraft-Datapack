@@ -1,0 +1,10 @@
+{
+    "type": "stonecutting",
+    "ingredient": {
+        "tag": "oak_logs"
+    },
+    "result": {
+        "id": "oak_fence_gate",
+        "count": 1
+    }
+}

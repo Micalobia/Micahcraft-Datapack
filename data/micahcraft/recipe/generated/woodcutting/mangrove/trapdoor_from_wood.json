@@ -1,0 +1,10 @@
+{
+    "type": "stonecutting",
+    "ingredient": {
+        "tag": "micahcraft:generated/wood/mangrove"
+    },
+    "result": {
+        "id": "mangrove_trapdoor",
+        "count": 2
+    }
+}

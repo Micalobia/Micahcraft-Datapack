@@ -1,0 +1,10 @@
+{
+    "type": "stonecutting",
+    "ingredient": {
+        "tag": "micahcraft:logs"
+    },
+    "result": {
+        "id": "minecraft:ladder",
+        "count": 3
+    }
+}

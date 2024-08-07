@@ -1,7 +1,7 @@
 {
     "type": "stonecutting",
     "ingredient": {
-        "tag": "jungle_logs"
+        "tag": "micahcraft:generated/log/jungle"
     },
     "result": {
         "id": "jungle_planks",

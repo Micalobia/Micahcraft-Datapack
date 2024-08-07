@@ -5,7 +5,7 @@ import json
 from pydantic import BaseModel
 from typing import Optional
 import pathlib
-
+from shutil import rmtree
 
 class Ingredient(BaseModel):
     item: Optional[str] = None
@@ -100,10 +100,15 @@ def sorted_list(obj):
     return sorted(list(obj))
 
 
+rmtree("./data/micahcraft/advancement/generated")
+for pp in ["item",]:
+    rmtree(f"./data/micahcraft/tags/{pp}/generated")
+
 def tag_path(t, *s):
     return os.path.join(
         f"./data/micahcraft/tags/{t}/generated", *s[:-1], f"{s[-1]}.json"
     )
+
 
 
 def advancement_path(*s):
@@ -118,6 +123,7 @@ def cutting_recipe(ingredient, result, count=1, is_item=False):
         "ingredient": {"item" if is_item else "tag": ingredient},
         "result": {"id": result, "count": count},
     }
+
 
 
 root = tk.Tk()
@@ -310,6 +316,10 @@ class LogType(BaseModel):
     @property
     def woods(self):
         return f"micahcraft:generated/wood/{self.name}"
+    
+    @property
+    def just_logs(self):
+        return f"micahcraft:generated/log/{self.name}"
 
     @property
     def boat(self):
@@ -361,6 +371,9 @@ for wood in woods:
     tag = {"replace": False, "values": [wood.wood, wood.stripped_wood]}
     with opend(tag_path("item", "wood", wood.name), "w") as f:
         json.dump(tag, f, indent=4)
+    tag = {"replace": False, "values": [wood.log, wood.stripped_log]}
+    with opend(tag_path("item", "log", wood.name), "w") as f:
+        json.dump(tag, f, indent=4)
 
 
 print("Generating woodcutting recipes...")
@@ -369,16 +382,21 @@ for wood in woods:
         with opend(recipe_path("woodcutting", wood.name, "boat_from_wood"), "w") as f:
             json.dump(cutting_recipe(wood.woods, wood.boat), f, indent=4)
     r = {
-        "fence_from_wood": cutting_recipe(wood.woods, wood.fence, 3),
-        "fence_gate_from_wood": cutting_recipe(wood.woods, wood.gate),
-        "planks_from_log": cutting_recipe(wood.logs, wood.planks, 4),
-        "slabs_from_log": cutting_recipe(wood.logs, wood.slab, 8),
-        "slabs_from_planks": cutting_recipe(wood.planks, wood.slab, 2, True),
-        "stairs_from_log": cutting_recipe(wood.logs, wood.stairs, 4),
-        "stairs_from_planks": cutting_recipe(wood.planks, wood.stairs, 1, True),
+        "planks_from_log": cutting_recipe(wood.just_logs, wood.planks, 4),
+        "planks_from_wood": cutting_recipe(wood.woods, wood.planks, 5),
+        "slabs_from_log": cutting_recipe(wood.just_logs, wood.slab, 8),
+        "slabs_from_wood": cutting_recipe(wood.woods, wood.slab, 10),
+        "stairs_from_log": cutting_recipe(wood.just_logs, wood.stairs, 4),
+        "stairs_from_wood": cutting_recipe(wood.woods, wood.stairs, 5),
+        "trapdoor_from_log": cutting_recipe(wood.just_logs, wood.trapdoor, 1),
+        "trapdoor_from_wood": cutting_recipe(wood.woods, wood.trapdoor, 2),
         "stripped_log": cutting_recipe(wood.log, wood.stripped_log, 1, True),
         "stripped_wood": cutting_recipe(wood.wood, wood.stripped_wood, 1, True),
-        "trapdoor_from_log": cutting_recipe(wood.logs, wood.trapdoor),
+        "fence_from_wood": cutting_recipe(wood.woods, wood.fence, 3),
+        "fence_from_logs": cutting_recipe(wood.just_logs, wood.fence, 2),
+        "fence_gate_from_logs": cutting_recipe(wood.logs, wood.gate),
+        "slabs_from_planks": cutting_recipe(wood.planks, wood.slab, 2, True),
+        "stairs_from_planks": cutting_recipe(wood.planks, wood.stairs, 1, True),
     }
     for k, v in r.items():
         path = recipe_path("woodcutting", wood.name, k)
@@ -449,7 +467,7 @@ print("Generating advancement recipes...")
 s = set()
 for item, recipe in advancements.items():
     a = recipe_advancement(item, recipe)
-    p = item.replace(":", "/").split("/")[-1]
+    p = item.replace(":", "/").replace("#","")
     if p in s:
         raise Exception(f"Duplicate thingy {p}")
     s.add(p)

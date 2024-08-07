@@ -1,0 +1,10 @@
+{
+    "type": "stonecutting",
+    "ingredient": {
+        "tag": "warped_stems"
+    },
+    "result": {
+        "id": "warped_fence_gate",
+        "count": 1
+    }
+}

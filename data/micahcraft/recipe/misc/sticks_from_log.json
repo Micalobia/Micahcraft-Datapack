@@ -1,7 +1,7 @@
 {
     "type": "stonecutting",
     "ingredient": {
-        "tag": "minecraft:logs"
+        "tag": "micahcraft:logs"
     },
     "result": {
         "id": "minecraft:stick",

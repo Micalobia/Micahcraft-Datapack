@@ -1,0 +1,10 @@
+{
+    "type": "stonecutting",
+    "ingredient": {
+        "tag": "micahcraft:generated/log/dark_oak"
+    },
+    "result": {
+        "id": "dark_oak_fence",
+        "count": 2
+    }
+}

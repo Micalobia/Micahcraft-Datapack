@@ -1,7 +1,7 @@
 {
     "type": "stonecutting",
     "ingredient": {
-        "tag": "birch_logs"
+        "tag": "micahcraft:generated/log/birch"
     },
     "result": {
         "id": "birch_planks",

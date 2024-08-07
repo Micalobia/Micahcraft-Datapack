@@ -1,7 +1,7 @@
 {
     "type": "stonecutting",
     "ingredient": {
-        "tag": "warped_stems"
+        "tag": "micahcraft:generated/log/warped"
     },
     "result": {
         "id": "warped_planks",

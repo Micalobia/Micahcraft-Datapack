@@ -1,7 +1,7 @@
 {
     "type": "stonecutting",
     "ingredient": {
-        "tag": "mangrove_logs"
+        "tag": "micahcraft:generated/log/mangrove"
     },
     "result": {
         "id": "mangrove_stairs",

@@ -1,0 +1,10 @@
+{
+    "type": "stonecutting",
+    "ingredient": {
+        "tag": "micahcraft:generated/wood/spruce"
+    },
+    "result": {
+        "id": "spruce_slab",
+        "count": 10
+    }
+}

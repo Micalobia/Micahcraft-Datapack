@@ -1,0 +1,10 @@
+{
+    "type": "stonecutting",
+    "ingredient": {
+        "tag": "micahcraft:generated/wood/oak"
+    },
+    "result": {
+        "id": "oak_slab",
+        "count": 10
+    }
+}

@@ -1,0 +1,10 @@
+{
+    "type": "stonecutting",
+    "ingredient": {
+        "tag": "micahcraft:generated/log/crimson"
+    },
+    "result": {
+        "id": "crimson_fence",
+        "count": 2
+    }
+}

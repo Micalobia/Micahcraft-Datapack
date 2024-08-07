@@ -1,7 +1,7 @@
 {
     "type": "stonecutting",
     "ingredient": {
-        "tag": "spruce_logs"
+        "tag": "micahcraft:generated/log/spruce"
     },
     "result": {
         "id": "spruce_planks",

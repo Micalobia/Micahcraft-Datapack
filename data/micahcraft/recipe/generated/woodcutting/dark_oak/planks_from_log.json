@@ -1,7 +1,7 @@
 {
     "type": "stonecutting",
     "ingredient": {
-        "tag": "dark_oak_logs"
+        "tag": "micahcraft:generated/log/dark_oak"
     },
     "result": {
         "id": "dark_oak_planks",

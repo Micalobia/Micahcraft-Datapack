@@ -1,0 +1,10 @@
+{
+    "type": "stonecutting",
+    "ingredient": {
+        "tag": "micahcraft:generated/wood/crimson"
+    },
+    "result": {
+        "id": "crimson_trapdoor",
+        "count": 2
+    }
+}

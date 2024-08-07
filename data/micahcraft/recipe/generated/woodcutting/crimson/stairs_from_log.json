@@ -1,7 +1,7 @@
 {
     "type": "stonecutting",
     "ingredient": {
-        "tag": "crimson_stems"
+        "tag": "micahcraft:generated/log/crimson"
     },
     "result": {
         "id": "crimson_stairs",

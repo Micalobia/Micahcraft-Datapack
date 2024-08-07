@@ -1,0 +1,144 @@
+{
+    "parent": "minecraft:recipes/root",
+    "criteria": {
+        "has_the_item": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:birch_planks"
+                    }
+                ]
+            }
+        },
+        "has_the_recipe_1": {
+            "conditions": {
+                "recipe": "micahcraft:generated/woodcutting/birch/fence_from_logs"
+            },
+            "trigger": "minecraft:recipe_unlocked"
+        },
+        "has_the_recipe_2": {
+            "conditions": {
+                "recipe": "micahcraft:generated/woodcutting/birch/fence_from_wood"
+            },
+            "trigger": "minecraft:recipe_unlocked"
+        },
+        "has_the_recipe_3": {
+            "conditions": {
+                "recipe": "micahcraft:generated/woodcutting/birch/fence_gate_from_logs"
+            },
+            "trigger": "minecraft:recipe_unlocked"
+        },
+        "has_the_recipe_4": {
+            "conditions": {
+                "recipe": "micahcraft:generated/woodcutting/birch/planks_from_log"
+            },
+            "trigger": "minecraft:recipe_unlocked"
+        },
+        "has_the_recipe_5": {
+            "conditions": {
+                "recipe": "micahcraft:generated/woodcutting/birch/planks_from_wood"
+            },
+            "trigger": "minecraft:recipe_unlocked"
+        },
+        "has_the_recipe_6": {
+            "conditions": {
+                "recipe": "micahcraft:generated/woodcutting/birch/slabs_from_log"
+            },
+            "trigger": "minecraft:recipe_unlocked"
+        },
+        "has_the_recipe_7": {
+            "conditions": {
+                "recipe": "micahcraft:generated/woodcutting/birch/slabs_from_planks"
+            },
+            "trigger": "minecraft:recipe_unlocked"
+        },
+        "has_the_recipe_8": {
+            "conditions": {
+                "recipe": "micahcraft:generated/woodcutting/birch/slabs_from_wood"
+            },
+            "trigger": "minecraft:recipe_unlocked"
+        },
+        "has_the_recipe_9": {
+            "conditions": {
+                "recipe": "micahcraft:generated/woodcutting/birch/stairs_from_log"
+            },
+            "trigger": "minecraft:recipe_unlocked"
+        },
+        "has_the_recipe_10": {
+            "conditions": {
+                "recipe": "micahcraft:generated/woodcutting/birch/stairs_from_planks"
+            },
+            "trigger": "minecraft:recipe_unlocked"
+        },
+        "has_the_recipe_11": {
+            "conditions": {
+                "recipe": "micahcraft:generated/woodcutting/birch/stairs_from_wood"
+            },
+            "trigger": "minecraft:recipe_unlocked"
+        },
+        "has_the_recipe_12": {
+            "conditions": {
+                "recipe": "micahcraft:generated/woodcutting/birch/stripped_log"
+            },
+            "trigger": "minecraft:recipe_unlocked"
+        },
+        "has_the_recipe_13": {
+            "conditions": {
+                "recipe": "micahcraft:generated/woodcutting/birch/stripped_wood"
+            },
+            "trigger": "minecraft:recipe_unlocked"
+        },
+        "has_the_recipe_14": {
+            "conditions": {
+                "recipe": "micahcraft:generated/woodcutting/birch/trapdoor_from_log"
+            },
+            "trigger": "minecraft:recipe_unlocked"
+        },
+        "has_the_recipe_15": {
+            "conditions": {
+                "recipe": "micahcraft:generated/woodcutting/birch/trapdoor_from_wood"
+            },
+            "trigger": "minecraft:recipe_unlocked"
+        }
+    },
+    "requirements": [
+        [
+            "has_the_item",
+            "has_the_recipe_1",
+            "has_the_recipe_2",
+            "has_the_recipe_3",
+            "has_the_recipe_4",
+            "has_the_recipe_5",
+            "has_the_recipe_6",
+            "has_the_recipe_7",
+            "has_the_recipe_8",
+            "has_the_recipe_9",
+            "has_the_recipe_10",
+            "has_the_recipe_11",
+            "has_the_recipe_12",
+            "has_the_recipe_13",
+            "has_the_recipe_14",
+            "has_the_recipe_15"
+        ]
+    ],
+    "rewards": {
+        "recipes": [
+            "micahcraft:generated/woodcutting/birch/fence_from_logs",
+            "micahcraft:generated/woodcutting/birch/fence_from_wood",
+            "micahcraft:generated/woodcutting/birch/fence_gate_from_logs",
+            "micahcraft:generated/woodcutting/birch/planks_from_log",
+            "micahcraft:generated/woodcutting/birch/planks_from_wood",
+            "micahcraft:generated/woodcutting/birch/slabs_from_log",
+            "micahcraft:generated/woodcutting/birch/slabs_from_planks",
+            "micahcraft:generated/woodcutting/birch/slabs_from_wood",
+            "micahcraft:generated/woodcutting/birch/stairs_from_log",
+            "micahcraft:generated/woodcutting/birch/stairs_from_planks",
+            "micahcraft:generated/woodcutting/birch/stairs_from_wood",
+            "micahcraft:generated/woodcutting/birch/stripped_log",
+            "micahcraft:generated/woodcutting/birch/stripped_wood",
+            "micahcraft:generated/woodcutting/birch/trapdoor_from_log",
+            "micahcraft:generated/woodcutting/birch/trapdoor_from_wood"
+        ]
+    }
+}

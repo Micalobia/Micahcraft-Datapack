@@ -73,7 +73,7 @@
         "micahcraft:dirt_path/from_grass"
     ],
     "#minecraft:logs": [
-        "micahcraft:misc/chests_from_log"
+        "micahcraft:misc/crafting_table_from_log"
     ],
     "#minecraft:coals": [
         "micahcraft:misc/coal_block"
@@ -99,5 +99,15 @@
         "micahcraft:minecarts/bulk/furnace",
         "micahcraft:minecarts/bulk/hopper",
         "micahcraft:minecarts/bulk/tnt"
+    ],
+    "#micahcraft:logs": [
+        "micahcraft:misc/chests_from_log",
+        "micahcraft:misc/ladders_from_log",
+        "micahcraft:misc/sticks_from_log"
+    ],
+    "#micahcraft:woods": [
+        "micahcraft:misc/chests_from_wood",
+        "micahcraft:misc/ladders_from_wood",
+        "micahcraft:misc/sticks_from_wood"
     ]
 }

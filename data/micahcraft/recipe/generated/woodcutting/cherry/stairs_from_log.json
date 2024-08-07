@@ -1,7 +1,7 @@
 {
     "type": "stonecutting",
     "ingredient": {
-        "tag": "cherry_logs"
+        "tag": "micahcraft:generated/log/cherry"
     },
     "result": {
         "id": "cherry_stairs",

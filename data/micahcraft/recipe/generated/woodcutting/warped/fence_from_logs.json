@@ -1,0 +1,10 @@
+{
+    "type": "stonecutting",
+    "ingredient": {
+        "tag": "micahcraft:generated/log/warped"
+    },
+    "result": {
+        "id": "warped_fence",
+        "count": 2
+    }
+}

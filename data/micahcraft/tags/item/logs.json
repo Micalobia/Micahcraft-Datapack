@@ -1,0 +1,15 @@
+{
+    "replace": false,
+    "values": [
+        "#micahcraft:generated/log/acacia",
+        "#micahcraft:generated/log/birch",
+        "#micahcraft:generated/log/cherry",
+        "#micahcraft:generated/log/crimson",
+        "#micahcraft:generated/log/dark_oak",
+        "#micahcraft:generated/log/jungle",
+        "#micahcraft:generated/log/mangrove",
+        "#micahcraft:generated/log/oak",
+        "#micahcraft:generated/log/spruce",
+        "#micahcraft:generated/log/warped"
+    ]
+}

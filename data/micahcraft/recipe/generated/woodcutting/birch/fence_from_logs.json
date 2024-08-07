@@ -1,0 +1,10 @@
+{
+    "type": "stonecutting",
+    "ingredient": {
+        "tag": "micahcraft:generated/log/birch"
+    },
+    "result": {
+        "id": "birch_fence",
+        "count": 2
+    }
+}
