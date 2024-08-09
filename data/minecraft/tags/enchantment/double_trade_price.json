@@ -1,7 +1,6 @@
 {
     "replace": false,
     "values": [
-        "micahcraft:spectre_shot",
         "micahcraft:storm_strike"
     ]
 }
