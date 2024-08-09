@@ -8,8 +8,19 @@
         "location_changed": [
             {
                 "effect": {
-                    "type": "damage_item",
-                    "amount": 5
+                    "type": "all_of",
+                    "effects": [
+                        {
+                            "type": "damage_item",
+                            "amount": 5
+                        },
+                        {
+                            "type": "play_sound",
+                            "sound": "block.fire.ambient",
+                            "pitch": 1,
+                            "volume": 1
+                        }
+                    ]
                 },
                 "requirements": {
                     "condition": "all_of",
@@ -27,7 +38,7 @@
                                                 "dimension": "overworld",
                                                 "position": {
                                                     "y": {
-                                                        "min": 192
+                                                        "min": 196
                                                     }
                                                 }
                                             }
@@ -56,6 +67,17 @@
                             "predicate": {
                                 "flags": {
                                     "is_flying": true
+                                },
+                                "equipment": {
+                                    "chest": {
+                                        "predicates": {
+                                            "damage": {
+                                                "damage": {
+                                                    "min": 7
+                                                }
+                                            }
+                                        }
+                                    }
                                 }
                             }
                         }
