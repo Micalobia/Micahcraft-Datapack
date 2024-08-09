@@ -39,6 +39,6 @@
     "slots": [
         "armor"
     ],
-    "supported_items": "#enchantable/armor",
+    "supported_items": "#enchantable/equippable",
     "weight": 1
 }
