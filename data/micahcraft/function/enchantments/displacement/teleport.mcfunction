@@ -25,6 +25,6 @@ execute if score #Success mk.math matches 0 run return fail
 ride @s dismount
 execute positioned as @n[type=marker,tag=Fresh] run tp @s ~ ~ ~
 execute at @s run playsound item.chorus_fruit.teleport player @s ~ ~ ~
-execute at @s run particle portal ~ ~0.2 ~ 0.2 0.5 0.2 0.2 96 normal
+execute at @s run function micahcraft:misc/particles/teleport
 kill @n[type=marker,tag=Fresh]
 return -1

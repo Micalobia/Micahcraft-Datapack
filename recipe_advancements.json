@@ -109,5 +109,8 @@
         "micahcraft:misc/chests_from_wood",
         "micahcraft:misc/ladders_from_wood",
         "micahcraft:misc/sticks_from_wood"
+    ],
+    "arrow": [
+        "micahcraft:misc/ender_arrow"
     ]
 }

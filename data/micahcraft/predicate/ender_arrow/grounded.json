@@ -1,0 +1,17 @@
+{
+    "condition": "entity_properties",
+    "entity": "this",
+    "predicate": {
+        "type": "spectral_arrow",
+        "slots": {
+            "container.0": {
+                "components": {
+                    "custom_data": {
+                        "ender_arrow": true
+                    }
+                }
+            }
+        },
+        "nbt": "{inGround:1b}"
+    }
+}

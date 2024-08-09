@@ -12,6 +12,7 @@
         "micahcraft:commands/hud/tick",
         "micahcraft:events/day_counter/tick",
         "micahcraft:grave/tick",
+        "micahcraft:events/ender_arrow/tick",
         "micahcraft:enchantments/spectre_shot/tick",
         "micahcraft:commands/creative/clear/tick",
         "micahcraft:commands/creative/bind/tick",
