@@ -1,0 +1,81 @@
+{
+    "anvil_cost": 8,
+    "description": {
+        "translate": "enchantment.micahcraft.icarus_curse",
+        "fallback": "Curse of Icarus"
+    },
+    "effects": {
+        "location_changed": [
+            {
+                "effect": {
+                    "type": "damage_item",
+                    "amount": 5
+                },
+                "requirements": {
+                    "condition": "all_of",
+                    "terms": [
+                        {
+                            "condition": "any_of",
+                            "terms": [
+                                {
+                                    "condition": "all_of",
+                                    "terms": [
+                                        {
+                                            "condition": "location_check",
+                                            "predicate": {
+                                                "can_see_sky": true,
+                                                "dimension": "overworld",
+                                                "position": {
+                                                    "y": {
+                                                        "min": 192
+                                                    }
+                                                }
+                                            }
+                                        },
+                                        {
+                                            "condition": "time_check",
+                                            "value": {
+                                                "min": 0,
+                                                "max": 12000
+                                            },
+                                            "period": 24000
+                                        }
+                                    ]
+                                },
+                                {
+                                    "condition": "location_check",
+                                    "predicate": {
+                                        "dimension": "the_nether"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "condition": "entity_properties",
+                            "entity": "this",
+                            "predicate": {
+                                "flags": {
+                                    "is_flying": true
+                                }
+                            }
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    "max_cost": {
+        "base": 50,
+        "per_level_above_first": 0
+    },
+    "max_level": 1,
+    "min_cost": {
+        "base": 25,
+        "per_level_above_first": 0
+    },
+    "slots": [
+        "chest"
+    ],
+    "supported_items": "elytra",
+    "weight": 1
+}
