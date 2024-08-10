@@ -68,6 +68,7 @@
                                 "flags": {
                                     "is_flying": true
                                 },
+                                "nbt": "{abilities:{flying:false}}",
                                 "equipment": {
                                     "chest": {
                                         "predicates": {
