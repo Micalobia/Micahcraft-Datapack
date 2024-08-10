@@ -10,7 +10,7 @@
                             "condition": "minecraft:entity_scores",
                             "entity": "this",
                             "scores": {
-                                "mk.measuring.id": {
+                                "mk.misc.player.id": {
                                     "min": -2147483648,
                                     "max": 2147483647
                                 }
@@ -22,6 +22,6 @@
         }
     },
     "rewards": {
-        "function": "micahcraft:enchantments/measuring/id"
+        "function": "micahcraft:misc/id"
     }
 }

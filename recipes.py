@@ -100,9 +100,9 @@ def sorted_list(obj):
     return sorted(list(obj))
 
 
-rmtree("./data/micahcraft/advancement/generated")
+rmtree("./data/micahcraft/advancement/generated", ignore_errors=True)
 for pp in ["item",]:
-    rmtree(f"./data/micahcraft/tags/{pp}/generated")
+    rmtree(f"./data/micahcraft/tags/{pp}/generated", ignore_errors=True)
 
 def tag_path(t, *s):
     return os.path.join(

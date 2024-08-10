@@ -1,5 +1,5 @@
 summon marker ~ ~ ~ {Tags:["mk.veinmining","Fresh"]}
-scoreboard players operation @n[type=marker,tag=Fresh] mk.veinmining.id = @s mk.veinmining.id
+scoreboard players operation @n[type=marker,tag=Fresh] mk.misc.player.id = @s mk.misc.player.id
 tag @n[tag=Fresh] add Checked
 tag @n[tag=Fresh] remove Fresh
 scoreboard players add #Blocks mk.math 1

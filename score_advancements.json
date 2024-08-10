@@ -163,17 +163,6 @@
         },
         "function": "micahcraft:settings/command"
     },
-    "settings/init": {
-        "scoreboard": "mk.settings.id",
-        "value": {
-            "range": {
-                "min": -2147483648,
-                "max": 2147483647
-            },
-            "inverted": true
-        },
-        "function": "micahcraft:settings/init"
-    },
     "settings/change": {
         "scoreboard": "Settings",
         "value": {
@@ -190,17 +179,6 @@
     "measuring/used_warped": {
         "scoreboard": "mk.measuring.used_warped",
         "function": "micahcraft:enchantments/measuring/clear"
-    },
-    "measuring/id": {
-        "scoreboard": "mk.measuring.id",
-        "value": {
-            "range": {
-                "min": -2147483648,
-                "max": 2147483647
-            },
-            "inverted": true
-        },
-        "function": "micahcraft:enchantments/measuring/id"
     },
     "veinmining/used/pickaxe/wooden": {
         "scoreboard": "mk.veinmining.used.wooden_pickaxe",
@@ -302,8 +280,8 @@
         "scoreboard": "mk.veinmining.used.shears",
         "function": "micahcraft:enchantments/veinmining/used/shears"
     },
-    "veinmining/id": {
-        "scoreboard": "mk.veinmining.id",
+    "player/id": {
+        "scoreboard": "mk.misc.player.id",
         "value": {
             "range": {
                 "min": -2147483648,
@@ -311,6 +289,6 @@
             },
             "inverted": true
         },
-        "function": "micahcraft:enchantments/veinmining/id"
+        "function": "micahcraft:misc/id"
     }
 }

@@ -34,6 +34,3 @@ scoreboard objectives add mk.veinmining.x dummy
 scoreboard objectives add mk.veinmining.y dummy
 scoreboard objectives add mk.veinmining.z dummy
 scoreboard objectives add mk.veinmining.group dummy
-scoreboard objectives add mk.veinmining.id dummy
-
-scoreboard players add #ID mk.veinmining.id 0

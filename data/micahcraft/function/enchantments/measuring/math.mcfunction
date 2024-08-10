@@ -1,5 +1,5 @@
 tag @s add CurrentPlayer
-execute as @e[type=magma_cube,tag=mk.measuring.cube] if score @s mk.measuring.id = @p[tag=CurrentPlayer] mk.measuring.id run tag @s add ActiveCube
+execute as @e[type=magma_cube,tag=mk.measuring.cube] if score @s mk.misc.player.id = @p[tag=CurrentPlayer] mk.misc.player.id run tag @s add ActiveCube
 execute store result score #X1 mk.math run data get entity @n[type=magma_cube,tag=ActiveCube,team=mk.no_collision.red] Pos[0]
 execute store result score #Y1 mk.math run data get entity @n[type=magma_cube,tag=ActiveCube,team=mk.no_collision.red] Pos[1]
 execute store result score #Z1 mk.math run data get entity @n[type=magma_cube,tag=ActiveCube,team=mk.no_collision.red] Pos[2]
