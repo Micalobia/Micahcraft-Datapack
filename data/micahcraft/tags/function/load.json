@@ -25,6 +25,7 @@
         "micahcraft:settings/load",
         "micahcraft:misc/load",
         "micahcraft:enchantments/measuring/load",
-        "micahcraft:enchantments/veinmining/load"
+        "micahcraft:enchantments/veinmining/load",
+        "micahcraft:enchantments/apollo/load"
     ]
 }
