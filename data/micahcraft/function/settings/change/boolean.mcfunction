@@ -1,1 +1,0 @@
-$function micahcraft:settings/data/toggle {path:'$(key)'}

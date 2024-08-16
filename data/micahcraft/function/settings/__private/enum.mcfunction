@@ -1,1 +1,0 @@
-$data modify storage micahcraft:settings current.'$(key)' set from storage micahcraft:settings enums.'$(key)'[$(index)]

@@ -17,7 +17,6 @@
         "micahcraft:commands/creative/clear/tick",
         "micahcraft:commands/creative/bind/tick",
         "micahcraft:trim_particles/tick",
-        "micahcraft:settings/tick",
         "micahcraft:misc/tick"
     ]
 }

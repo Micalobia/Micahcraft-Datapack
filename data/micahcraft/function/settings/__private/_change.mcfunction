@@ -1,1 +1,0 @@
-$function $(function) with storage micahcraft:settings macro

@@ -1,8 +1,0 @@
-{
-    "replace": false,
-    "values": [
-        "micahcraft:settings/invalid/has_book",
-        "micahcraft:settings/invalid/full_hands",
-        "micahcraft:settings/invalid/riding_inventory"
-    ]
-}

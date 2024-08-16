@@ -1,1 +1,0 @@
-$function $(formatter) with storage micahcraft:util loop.value
