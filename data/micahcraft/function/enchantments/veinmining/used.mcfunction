@@ -1,6 +1,6 @@
 execute unless predicate micahcraft:enchantments/veinmining/holding run return fail
 execute if score @s mk.veinmining.group matches 0 run return fail
-execute store result score #Crouch mk.math run function micahcraft:settings/data/get_value {path:"enchantments.veinmining.crouch"}
+execute store result score #Crouch mk.math run function settings:data/get_value {key:"enchantments:veinmining/crouch"}
 execute if score #Crouch mk.math matches 1 unless entity @s[tag=mk.veinmining.crouching] run return fail
 execute if score #Crouch mk.math matches 2 if entity @s[tag=mk.veinmining.crouching] run return fail
 execute store result storage micahcraft:veinmining macro.x int 1 run scoreboard players get @s mk.veinmining.x

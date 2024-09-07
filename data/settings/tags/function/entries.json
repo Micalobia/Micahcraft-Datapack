@@ -1,0 +1,9 @@
+{
+    "replace": false,
+    "values": [
+        "micahcraft:settings/general",
+        "micahcraft:settings/hud",
+        "micahcraft:settings/world",
+        "micahcraft:settings/enchantments"
+    ]
+}
