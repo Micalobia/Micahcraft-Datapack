@@ -33,6 +33,15 @@ function settings:entry/add_setting {\
 }
 function settings:entry/add_setting {\
     page:"mk:hud",\
+    key:"hud:warden",\
+    name:"Warden Rage",\
+    description:"Whether or not to show the warden anger level when using the HUD command",\
+    default:"0b",\
+    display:"yes_no",\
+    type:"boolean",\
+}
+function settings:entry/add_setting {\
+    page:"mk:hud",\
     key:"hud:moon",\
     name:"Moon Phase",\
     description:"Whether or not to show the moon phase when using the HUD command",\
