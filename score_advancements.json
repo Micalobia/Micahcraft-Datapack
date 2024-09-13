@@ -156,22 +156,6 @@
         "scoreboard": "Bind",
         "function": "micahcraft:commands/creative/bind/trigger"
     },
-    "settings/command": {
-        "scoreboard": "Settings",
-        "value": {
-            "range": 1
-        },
-        "function": "micahcraft:settings/command"
-    },
-    "settings/change": {
-        "scoreboard": "Settings",
-        "value": {
-            "range": {
-                "min": 2
-            }
-        },
-        "function": "micahcraft:settings/change"
-    },
     "measuring/used_carrot": {
         "scoreboard": "mk.measuring.used_carrot",
         "function": "micahcraft:enchantments/measuring/clear"
