@@ -144,6 +144,15 @@
                     "min": 1
                 }
             }
+        },
+        {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+                "mk.fishing_movement": {
+                    "min": 1
+                }
+            }
         }
     ]
 }
