@@ -4,6 +4,7 @@ team add mk.afk {"text":"AFK","color":"gray","bold":true,"underlined":true}
 team modify mk.afk color gray 
 team modify mk.afk prefix [{"text":"[","color":"#5454A8","italic":true,"bold":true},{"text":"AFK","color":"#A8A8FF"},{"text":"] ","color":"#5454A8"}] 
 
+scoreboard objectives add mk.afk.last_team dummy
 
 scoreboard objectives add mk.climb minecraft.custom:minecraft.climb_one_cm
 scoreboard objectives add mk.crouch minecraft.custom:minecraft.crouch_one_cm
