@@ -1,9 +1,9 @@
-execute store result score #Value mk.math run time query daytime
-scoreboard players operation #Hours mk.math = #Value mk.math
+execute store result score #Daytime mk.math run time query daytime
+scoreboard players operation #Hours mk.math = #Daytime mk.math
 scoreboard players operation #Hours mk.math /= #1000 mk.math
 scoreboard players add #Hours mk.math 6
 scoreboard players operation #Hours mk.math %= #24 mk.math
-scoreboard players operation #Minutes mk.math = #Value mk.math
+scoreboard players operation #Minutes mk.math = #Daytime mk.math
 scoreboard players operation #Minutes mk.math %= #1000 mk.math
 scoreboard players operation #Minutes mk.math *= #3 mk.math
 scoreboard players operation #Minutes mk.math /= #50 mk.math
