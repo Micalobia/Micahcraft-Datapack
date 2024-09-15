@@ -24,4 +24,5 @@ execute if block ~ ~ ~ #cherry_logs run return 23
 execute if block ~ ~ ~ #micahcraft:veinmining/mangrove run return 24
 execute if block ~ ~ ~ #micahcraft:veinmining/mushroom run return 25
 execute if block ~ ~ ~ #leaves run return 26
+execute if block ~ ~ ~ #gold_ores run return 27
 return 0
