@@ -1,0 +1,38 @@
+{
+    "condition": "any_of",
+    "terms": [
+        {
+            "condition": "location_check",
+            "predicate": {
+                "dimension": "overworld",
+                "position": {
+                    "y": {
+                        "max": -64
+                    }
+                }
+            }
+        },
+        {
+            "condition": "location_check",
+            "predicate": {
+                "dimension": "the_nether",
+                "position": {
+                    "y": {
+                        "max": 0
+                    }
+                }
+            }
+        },
+        {
+            "condition": "location_check",
+            "predicate": {
+                "dimension": "the_end",
+                "position": {
+                    "y": {
+                        "max": 0
+                    }
+                }
+            }
+        }
+    ]
+}
