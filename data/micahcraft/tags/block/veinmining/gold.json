@@ -1,0 +1,7 @@
+{
+    "replace": false,
+    "values": [
+        "#gold_ores",
+        "raw_gold_block"
+    ]
+}

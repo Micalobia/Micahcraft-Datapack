@@ -1,0 +1,7 @@
+{
+    "replace": false,
+    "values": [
+        "#copper_ores",
+        "raw_copper_block"
+    ]
+}
