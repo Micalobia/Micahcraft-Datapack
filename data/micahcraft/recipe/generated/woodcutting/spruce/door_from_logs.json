@@ -1,0 +1,10 @@
+{
+    "type": "stonecutting",
+    "ingredient": {
+        "tag": "spruce_logs"
+    },
+    "result": {
+        "id": "spruce_door",
+        "count": 2
+    }
+}

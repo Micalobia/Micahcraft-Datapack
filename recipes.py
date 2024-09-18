@@ -351,6 +351,10 @@ class LogType(BaseModel):
     @property
     def trapdoor(self):
         return f"{self.name}_trapdoor"
+    
+    @property
+    def door(self):
+        return f"{self.name}_door"
 
 
 woods = [
@@ -397,6 +401,7 @@ for wood in woods:
         "fence_gate_from_logs": cutting_recipe(wood.logs, wood.gate),
         "slabs_from_planks": cutting_recipe(wood.planks, wood.slab, 2, True),
         "stairs_from_planks": cutting_recipe(wood.planks, wood.stairs, 1, True),
+        "door_from_logs": cutting_recipe(wood.logs, wood.door, 2),
     }
     for k, v in r.items():
         path = recipe_path("woodcutting", wood.name, k)
