@@ -12,3 +12,4 @@ execute if block ~ ~ ~ sculk run return 1
 execute if block ~ ~ ~ sculk_sensor run return 5
 execute if block ~ ~ ~ sculk_shrieker run return 5
 execute if block ~ ~ ~ sculk_catalyst run return 5
+return 0
