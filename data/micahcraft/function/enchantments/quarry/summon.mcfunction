@@ -7,5 +7,5 @@ execute at @n[type=marker,tag=Root] run summon marker ^ ^ ^1 {Tags:["Fresh"]}
 execute at @n[type=marker,tag=Root] run summon marker ^ ^ ^-1 {Tags:["Fresh"]}
 execute at @n[type=marker,tag=Fresh,limit=3] rotated as @n[type=marker,tag=Root] run summon marker ^1 ^ ^ {Tags:["Fresh","Nope"]}
 execute at @n[type=marker,tag=Fresh,tag=!Nope,limit=3] rotated as @n[type=marker,tag=Root] run summon marker ^-1 ^ ^ {Tags:["Fresh"]}
-execute at @n[type=marker,tag=Fresh,tag=!Root,limit=8] run function micahcraft:enchantments/quarry/mine
+execute at @n[type=marker,tag=Fresh,tag=!Root,limit=8] run function micahcraft:util/mine_block
 kill @n[type=marker,tag=Fresh,limit=9]
