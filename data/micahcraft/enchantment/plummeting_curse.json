@@ -12,7 +12,7 @@
                     "base": 0.08,
                     "per_level_above_first": 0.08
                 },
-                "attribute": "minecraft:generic.gravity",
+                "attribute": "minecraft:gravity",
                 "id": "micahcraft:enchantment.plummeting_curse",
                 "operation": "add_value"
             },
@@ -22,7 +22,7 @@
                     "base": -2.5,
                     "per_level_above_first": -6
                 },
-                "attribute": "minecraft:generic.safe_fall_distance",
+                "attribute": "minecraft:safe_fall_distance",
                 "id": "micahcraft:enchantment.plummeting_curse",
                 "operation": "add_value"
             }

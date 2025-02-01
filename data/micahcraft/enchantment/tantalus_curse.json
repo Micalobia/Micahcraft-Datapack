@@ -12,7 +12,7 @@
                     "base": -1,
                     "per_level_above_first": 0
                 },
-                "attribute": "minecraft:player.block_interaction_range",
+                "attribute": "minecraft:block_interaction_range",
                 "id": "micahcraft:enchantment.tantalus_curse",
                 "operation": "add_multiplied_total"
             },
@@ -22,7 +22,7 @@
                     "base": -1,
                     "per_level_above_first": 0
                 },
-                "attribute": "minecraft:player.entity_interaction_range",
+                "attribute": "minecraft:entity_interaction_range",
                 "id": "micahcraft:enchantment.tantalus_curse",
                 "operation": "add_multiplied_total"
             }

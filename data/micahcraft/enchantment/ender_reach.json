@@ -12,7 +12,7 @@
                     "base": 1.3333333333,
                     "per_level_above_first": 1.3333333333
                 },
-                "attribute": "minecraft:player.block_interaction_range",
+                "attribute": "minecraft:block_interaction_range",
                 "id": "micahcraft:enchantment.ender_reach",
                 "operation": "add_value"
             },
@@ -22,7 +22,7 @@
                     "base": 1.3333333333,
                     "per_level_above_first": 1.3333333333
                 },
-                "attribute": "minecraft:player.entity_interaction_range",
+                "attribute": "minecraft:entity_interaction_range",
                 "id": "micahcraft:enchantment.ender_reach",
                 "operation": "add_value"
             }
