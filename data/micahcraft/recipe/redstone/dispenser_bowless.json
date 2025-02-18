@@ -7,15 +7,9 @@
         " TS"
     ],
     "key": {
-        "T": {
-            "item": "minecraft:stick"
-        },
-        "S": {
-            "item": "minecraft:string"
-        },
-        "D": {
-            "item": "minecraft:dropper"
-        }
+        "T": "minecraft:stick",
+        "S": "minecraft:string",
+        "D": "minecraft:dropper"
     },
     "result": {
         "id": "minecraft:dispenser",

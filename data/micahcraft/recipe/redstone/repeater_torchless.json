@@ -6,15 +6,9 @@
 		"BBB"
 	],
 	"key": {
-		"R": {
-			"item": "minecraft:redstone"
-		},
-		"S": {
-			"item": "minecraft:stick"
-		},
-		"B": {
-			"item": "minecraft:stone"
-		}
+		"R": "minecraft:redstone",
+		"S": "minecraft:stick",
+		"B": "minecraft:stone"
 	},
 	"result": {
 		"id": "minecraft:repeater",

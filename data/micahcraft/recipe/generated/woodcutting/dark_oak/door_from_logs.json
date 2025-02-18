@@ -1,8 +1,6 @@
 {
     "type": "stonecutting",
-    "ingredient": {
-        "tag": "dark_oak_logs"
-    },
+    "ingredient": "#dark_oak_logs",
     "result": {
         "id": "dark_oak_door",
         "count": 2

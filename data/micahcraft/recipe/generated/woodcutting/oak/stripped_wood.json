@@ -1,8 +1,6 @@
 {
     "type": "stonecutting",
-    "ingredient": {
-        "item": "oak_wood"
-    },
+    "ingredient": "oak_wood",
     "result": {
         "id": "stripped_oak_wood",
         "count": 1

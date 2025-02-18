@@ -1,8 +1,6 @@
 {
     "type": "stonecutting",
-    "ingredient": {
-        "item": "jungle_planks"
-    },
+    "ingredient": "jungle_planks",
     "result": {
         "id": "jungle_slab",
         "count": 2

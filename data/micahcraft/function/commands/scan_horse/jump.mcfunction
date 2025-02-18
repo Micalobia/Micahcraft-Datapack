@@ -1,4 +1,4 @@
-execute on vehicle store result score #Value mk.math run attribute @s minecraft:generic.jump_strength get 100
+execute on vehicle store result score #Value mk.math run attribute @s minecraft:jump_strength get 100
 scoreboard players operation #Value² mk.math = #Value mk.math
 scoreboard players operation #Value² mk.math *= #Value mk.math
 scoreboard players operation #Value³ mk.math = #Value² mk.math

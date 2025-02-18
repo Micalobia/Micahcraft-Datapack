@@ -6,12 +6,8 @@
         "###"
     ],
     "key": {
-        "#": {
-            "tag": "micahcraft:dyeable/glass"
-        },
-        "D": {
-            "item": "yellow_dye"
-        }
+        "#": "#micahcraft:dyeable/glass",
+        "D": "yellow_dye"
     },
     "result": {
         "id": "minecraft:yellow_stained_glass",

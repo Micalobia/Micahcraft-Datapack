@@ -6,12 +6,8 @@
         "###"
     ],
     "key": {
-        "#": {
-            "tag": "minecraft:terracotta"
-        },
-        "D": {
-            "item": "yellow_dye"
-        }
+        "#": "#minecraft:terracotta",
+        "D": "yellow_dye"
     },
     "result": {
         "id": "minecraft:yellow_terracotta",

@@ -1,14 +1,8 @@
 {
     "type": "smithing_transform",
-    "base": {
-        "item": "arrow"
-    },
-    "addition": {
-        "item": "ender_pearl"
-    },
-    "template": {
-        "item": "string"
-    },
+    "base": "arrow",
+    "addition": "ender_pearl",
+    "template": "string",
     "result": {
         "id": "spectral_arrow",
         "count": 1,
@@ -20,7 +14,11 @@
             "custom_data": {
                 "ender_arrow": true
             },
-            "custom_model_data": 3407873
+            "custom_model_data": {
+                "floats": [
+                    3407873
+                ]
+            }
         }
     }
 }

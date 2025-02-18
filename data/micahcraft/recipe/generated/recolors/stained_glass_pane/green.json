@@ -6,12 +6,8 @@
         "###"
     ],
     "key": {
-        "#": {
-            "tag": "micahcraft:dyeable/glass_panes"
-        },
-        "D": {
-            "item": "green_dye"
-        }
+        "#": "#micahcraft:dyeable/glass_panes",
+        "D": "green_dye"
     },
     "result": {
         "id": "minecraft:green_stained_glass_pane",

@@ -1,8 +1,6 @@
 {
     "type": "stonecutting",
-    "ingredient": {
-        "item": "crimson_hyphae"
-    },
+    "ingredient": "crimson_hyphae",
     "result": {
         "id": "stripped_crimson_hyphae",
         "count": 1

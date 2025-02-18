@@ -6,12 +6,8 @@
         "###"
     ],
     "key": {
-        "#": {
-            "tag": "micahcraft:dyeable/concrete"
-        },
-        "D": {
-            "item": "yellow_dye"
-        }
+        "#": "#micahcraft:dyeable/concrete",
+        "D": "yellow_dye"
     },
     "result": {
         "id": "minecraft:yellow_concrete",

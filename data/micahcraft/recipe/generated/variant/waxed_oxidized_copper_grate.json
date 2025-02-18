@@ -1,8 +1,6 @@
 {
     "type": "stonecutting",
-    "ingredient": {
-        "tag": "micahcraft:generated/variant/waxed_oxidized_copper"
-    },
+    "ingredient": "#micahcraft:generated/variant/waxed_oxidized_copper",
     "result": {
         "id": "minecraft:waxed_oxidized_copper_grate",
         "count": 1

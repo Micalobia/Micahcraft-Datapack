@@ -1,8 +1,6 @@
 {
     "type": "stonecutting",
-    "ingredient": {
-        "tag": "micahcraft:generated/variant/sandstone"
-    },
+    "ingredient": "#micahcraft:generated/variant/sandstone",
     "result": {
         "id": "minecraft:sandstone_wall",
         "count": 1

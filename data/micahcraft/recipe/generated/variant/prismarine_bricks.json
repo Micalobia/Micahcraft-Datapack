@@ -1,8 +1,6 @@
 {
     "type": "stonecutting",
-    "ingredient": {
-        "tag": "micahcraft:generated/variant/prismarine_bricks"
-    },
+    "ingredient": "#micahcraft:generated/variant/prismarine_bricks",
     "result": {
         "id": "minecraft:prismarine_bricks",
         "count": 1

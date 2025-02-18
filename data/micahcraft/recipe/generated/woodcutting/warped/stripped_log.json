@@ -1,8 +1,6 @@
 {
     "type": "stonecutting",
-    "ingredient": {
-        "item": "warped_stem"
-    },
+    "ingredient": "warped_stem",
     "result": {
         "id": "stripped_warped_stem",
         "count": 1

@@ -6,12 +6,8 @@
         "###"
     ],
     "key": {
-        "#": {
-            "tag": "minecraft:wool_carpets"
-        },
-        "D": {
-            "item": "pink_dye"
-        }
+        "#": "#minecraft:wool_carpets",
+        "D": "pink_dye"
     },
     "result": {
         "id": "minecraft:pink_carpet",

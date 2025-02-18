@@ -6,12 +6,8 @@
         "###"
     ],
     "key": {
-        "#": {
-            "tag": "micahcraft:dyeable/glass_panes"
-        },
-        "D": {
-            "item": "orange_dye"
-        }
+        "#": "#micahcraft:dyeable/glass_panes",
+        "D": "orange_dye"
     },
     "result": {
         "id": "minecraft:orange_stained_glass_pane",

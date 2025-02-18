@@ -6,12 +6,8 @@
     "###"
   ],
   "key": {
-    "#": {
-      "item": "minecraft:iron_ingot"
-    },
-    "X": {
-      "item": "minecraft:chest"
-    }
+    "#": "minecraft:iron_ingot",
+    "X": "minecraft:chest"
   },
   "result": {
     "id": "minecraft:chest_minecart",

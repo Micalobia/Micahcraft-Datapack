@@ -6,12 +6,8 @@
         "###"
     ],
     "key": {
-        "#": {
-            "tag": "minecraft:wool"
-        },
-        "D": {
-            "item": "cyan_dye"
-        }
+        "#": "#minecraft:wool",
+        "D": "cyan_dye"
     },
     "result": {
         "id": "minecraft:cyan_wool",

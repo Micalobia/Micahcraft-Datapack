@@ -1,8 +1,6 @@
 {
     "type": "stonecutting",
-    "ingredient": {
-        "tag": "acacia_logs"
-    },
+    "ingredient": "#acacia_logs",
     "result": {
         "id": "acacia_fence_gate",
         "count": 1

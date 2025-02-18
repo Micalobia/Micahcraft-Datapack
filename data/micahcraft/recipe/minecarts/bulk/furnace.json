@@ -6,12 +6,8 @@
     "###"
   ],
   "key": {
-    "#": {
-      "item": "minecraft:iron_ingot"
-    },
-    "X": {
-      "item": "minecraft:furnace"
-    }
+    "#": "minecraft:iron_ingot",
+    "X": "minecraft:furnace"
   },
   "result": {
     "id": "minecraft:furnace_minecart",

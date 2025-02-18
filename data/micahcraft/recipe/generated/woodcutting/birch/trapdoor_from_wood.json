@@ -1,8 +1,6 @@
 {
     "type": "stonecutting",
-    "ingredient": {
-        "tag": "micahcraft:generated/wood/birch"
-    },
+    "ingredient": "#micahcraft:generated/wood/birch",
     "result": {
         "id": "birch_trapdoor",
         "count": 2

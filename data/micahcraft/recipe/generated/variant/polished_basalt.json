@@ -1,8 +1,6 @@
 {
     "type": "stonecutting",
-    "ingredient": {
-        "tag": "micahcraft:generated/variant/basalt"
-    },
+    "ingredient": "#micahcraft:generated/variant/basalt",
     "result": {
         "id": "minecraft:polished_basalt",
         "count": 1

@@ -1,8 +1,6 @@
 {
     "type": "stonecutting",
-    "ingredient": {
-        "tag": "micahcraft:generated/log/warped"
-    },
+    "ingredient": "#micahcraft:generated/log/warped",
     "result": {
         "id": "warped_slab",
         "count": 8
