@@ -19,6 +19,6 @@
         }
     },
     "rewards": {
-        "function": "micahcraft:enchantments/veinmining/used/hoe/gold"
+        "function": "micahcraft:enchantments/veinmining/used/hoe/golden"
     }
 }

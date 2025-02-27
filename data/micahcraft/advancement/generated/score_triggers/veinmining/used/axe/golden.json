@@ -19,6 +19,6 @@
         }
     },
     "rewards": {
-        "function": "micahcraft:enchantments/veinmining/used/axe/gold"
+        "function": "micahcraft:enchantments/veinmining/used/axe/golden"
     }
 }
