@@ -1,8 +1,0 @@
-{
-    "type": "stonecutting",
-    "ingredient": {
-        "tag": "micahcraft:variants/waxed_copper_block"
-    },
-    "count": 1,
-    "result": "waxed_cut_copper"
-}

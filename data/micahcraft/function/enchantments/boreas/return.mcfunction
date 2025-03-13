@@ -1,0 +1,1 @@
+execute as @a[tag=mk.boreas.flapping] at @s run function micahcraft:enchantments/boreas/_return

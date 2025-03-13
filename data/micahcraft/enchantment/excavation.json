@@ -1,0 +1,40 @@
+{
+    "anvil_cost": 12,
+    "description": {
+        "translate": "enchantment.micahcraft.excavation",
+        "fallback": "Excavation"
+    },
+    "effects": {
+        "tick": [
+            {
+                "effect": {
+                    "type": "run_function",
+                    "function": "micahcraft:enchantments/excavation/holding"
+                }
+            }
+        ],
+        "item_damage": [
+            {
+                "effect": {
+                    "type": "add",
+                    "value": 11
+                }
+            }
+        ]
+    },
+    "max_cost": {
+        "base": 25,
+        "per_level_above_first": 10
+    },
+    "max_level": 1,
+    "min_cost": {
+        "base": 10,
+        "per_level_above_first": 10
+    },
+    "slots": [
+        "mainhand"
+    ],
+    "supported_items": "#shovels",
+    "weight": 1,
+    "exclusive_set": "micahcraft:veinmining"
+}

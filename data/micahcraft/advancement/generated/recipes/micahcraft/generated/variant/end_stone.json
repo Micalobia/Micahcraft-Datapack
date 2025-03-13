@@ -1,0 +1,64 @@
+{
+    "parent": "minecraft:recipes/root",
+    "criteria": {
+        "has_the_item": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "#micahcraft:generated/variant/end_stone"
+                    }
+                ]
+            }
+        },
+        "has_the_recipe_1": {
+            "conditions": {
+                "recipe": "micahcraft:generated/variant/end_stone"
+            },
+            "trigger": "minecraft:recipe_unlocked"
+        },
+        "has_the_recipe_2": {
+            "conditions": {
+                "recipe": "micahcraft:generated/variant/end_stone_brick_slab"
+            },
+            "trigger": "minecraft:recipe_unlocked"
+        },
+        "has_the_recipe_3": {
+            "conditions": {
+                "recipe": "micahcraft:generated/variant/end_stone_brick_stairs"
+            },
+            "trigger": "minecraft:recipe_unlocked"
+        },
+        "has_the_recipe_4": {
+            "conditions": {
+                "recipe": "micahcraft:generated/variant/end_stone_brick_wall"
+            },
+            "trigger": "minecraft:recipe_unlocked"
+        },
+        "has_the_recipe_5": {
+            "conditions": {
+                "recipe": "micahcraft:generated/variant/end_stone_bricks"
+            },
+            "trigger": "minecraft:recipe_unlocked"
+        }
+    },
+    "requirements": [
+        [
+            "has_the_item",
+            "has_the_recipe_1",
+            "has_the_recipe_2",
+            "has_the_recipe_3",
+            "has_the_recipe_4",
+            "has_the_recipe_5"
+        ]
+    ],
+    "rewards": {
+        "recipes": [
+            "micahcraft:generated/variant/end_stone",
+            "micahcraft:generated/variant/end_stone_brick_slab",
+            "micahcraft:generated/variant/end_stone_brick_stairs",
+            "micahcraft:generated/variant/end_stone_brick_wall",
+            "micahcraft:generated/variant/end_stone_bricks"
+        ]
+    }
+}

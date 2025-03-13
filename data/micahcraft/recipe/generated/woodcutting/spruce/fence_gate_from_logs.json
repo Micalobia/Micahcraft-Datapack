@@ -1,0 +1,8 @@
+{
+    "type": "stonecutting",
+    "ingredient": "#spruce_logs",
+    "result": {
+        "id": "spruce_fence_gate",
+        "count": 1
+    }
+}

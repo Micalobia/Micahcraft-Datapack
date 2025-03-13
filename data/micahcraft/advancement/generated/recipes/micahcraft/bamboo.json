@@ -1,0 +1,72 @@
+{
+    "parent": "minecraft:recipes/root",
+    "criteria": {
+        "has_the_item": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "#micahcraft:bamboo"
+                    }
+                ]
+            }
+        },
+        "has_the_recipe_1": {
+            "conditions": {
+                "recipe": "micahcraft:bamboo/mosaic_from_planks"
+            },
+            "trigger": "minecraft:recipe_unlocked"
+        },
+        "has_the_recipe_2": {
+            "conditions": {
+                "recipe": "micahcraft:bamboo/mosaic_slabs_from_planks"
+            },
+            "trigger": "minecraft:recipe_unlocked"
+        },
+        "has_the_recipe_3": {
+            "conditions": {
+                "recipe": "micahcraft:bamboo/mosaic_stairs_from_planks"
+            },
+            "trigger": "minecraft:recipe_unlocked"
+        },
+        "has_the_recipe_4": {
+            "conditions": {
+                "recipe": "micahcraft:bamboo/planks_from_planks"
+            },
+            "trigger": "minecraft:recipe_unlocked"
+        },
+        "has_the_recipe_5": {
+            "conditions": {
+                "recipe": "micahcraft:bamboo/slabs_from_planks"
+            },
+            "trigger": "minecraft:recipe_unlocked"
+        },
+        "has_the_recipe_6": {
+            "conditions": {
+                "recipe": "micahcraft:bamboo/stairs_from_planks"
+            },
+            "trigger": "minecraft:recipe_unlocked"
+        }
+    },
+    "requirements": [
+        [
+            "has_the_item",
+            "has_the_recipe_1",
+            "has_the_recipe_2",
+            "has_the_recipe_3",
+            "has_the_recipe_4",
+            "has_the_recipe_5",
+            "has_the_recipe_6"
+        ]
+    ],
+    "rewards": {
+        "recipes": [
+            "micahcraft:bamboo/mosaic_from_planks",
+            "micahcraft:bamboo/mosaic_slabs_from_planks",
+            "micahcraft:bamboo/mosaic_stairs_from_planks",
+            "micahcraft:bamboo/planks_from_planks",
+            "micahcraft:bamboo/slabs_from_planks",
+            "micahcraft:bamboo/stairs_from_planks"
+        ]
+    }
+}

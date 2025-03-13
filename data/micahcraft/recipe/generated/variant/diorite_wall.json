@@ -1,0 +1,8 @@
+{
+    "type": "stonecutting",
+    "ingredient": "#micahcraft:generated/variant/diorite",
+    "result": {
+        "id": "minecraft:diorite_wall",
+        "count": 1
+    }
+}

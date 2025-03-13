@@ -1,0 +1,8 @@
+{
+    "type": "stonecutting",
+    "ingredient": "#micahcraft:generated/variant/sandstone",
+    "result": {
+        "id": "minecraft:sandstone_stairs",
+        "count": 1
+    }
+}

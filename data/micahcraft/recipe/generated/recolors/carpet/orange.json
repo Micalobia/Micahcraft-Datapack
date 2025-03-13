@@ -1,0 +1,16 @@
+{
+    "type": "crafting_shaped",
+    "pattern": [
+        "###",
+        "#D#",
+        "###"
+    ],
+    "key": {
+        "#": "#minecraft:wool_carpets",
+        "D": "orange_dye"
+    },
+    "result": {
+        "id": "minecraft:orange_carpet",
+        "count": 8
+    }
+}

@@ -1,0 +1,8 @@
+{
+	"type": "stonecutting",
+	"ingredient": "minecraft:honeycomb_block",
+	"result": {
+		"id": "minecraft:honeycomb",
+		"count": 4
+	}
+}

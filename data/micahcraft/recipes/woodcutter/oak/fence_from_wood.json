@@ -1,8 +1,0 @@
-{
-	"type": "stonecutting",
-	"ingredient": {
-		"tag": "micahcraft:woods/oak"
-	},
-	"result": "minecraft:oak_fence",
-	"count": 3
-}

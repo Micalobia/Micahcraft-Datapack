@@ -1,0 +1,1 @@
+$function micahcraft:commands/hud/theme/$(theme)

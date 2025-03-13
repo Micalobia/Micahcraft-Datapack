@@ -1,0 +1,1 @@
+execute as @e[type=sheep,distance=..7] run damage @s 0 minecraft:mob_attack

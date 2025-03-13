@@ -1,0 +1,1 @@
+execute as @a[tag=mk.trim_particles.emerald] at @s run function micahcraft:trim_particles/emerald/particles

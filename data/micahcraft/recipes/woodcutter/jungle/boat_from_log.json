@@ -1,8 +1,0 @@
-{
-	"type": "stonecutting",
-	"ingredient": {
-		"tag": "minecraft:jungle_logs"
-	},
-	"result": "minecraft:jungle_boat",
-	"count": 1
-}

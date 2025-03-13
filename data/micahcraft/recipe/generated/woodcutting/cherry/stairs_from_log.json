@@ -1,0 +1,8 @@
+{
+    "type": "stonecutting",
+    "ingredient": "#micahcraft:generated/log/cherry",
+    "result": {
+        "id": "cherry_stairs",
+        "count": 4
+    }
+}

@@ -1,0 +1,8 @@
+{
+    "type": "stonecutting",
+    "ingredient": "#cherry_logs",
+    "result": {
+        "id": "cherry_door",
+        "count": 2
+    }
+}

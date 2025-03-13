@@ -1,0 +1,50 @@
+advancement revoke @s only micahcraft:events/clear_repair_cost
+
+item modify entity @s container.0 micahcraft:clear_repair_cost
+item modify entity @s container.1 micahcraft:clear_repair_cost
+item modify entity @s container.2 micahcraft:clear_repair_cost
+item modify entity @s container.3 micahcraft:clear_repair_cost
+item modify entity @s container.4 micahcraft:clear_repair_cost
+item modify entity @s container.5 micahcraft:clear_repair_cost
+item modify entity @s container.6 micahcraft:clear_repair_cost
+item modify entity @s container.7 micahcraft:clear_repair_cost
+item modify entity @s container.8 micahcraft:clear_repair_cost
+item modify entity @s container.9 micahcraft:clear_repair_cost
+item modify entity @s container.10 micahcraft:clear_repair_cost
+item modify entity @s container.11 micahcraft:clear_repair_cost
+item modify entity @s container.12 micahcraft:clear_repair_cost
+item modify entity @s container.13 micahcraft:clear_repair_cost
+item modify entity @s container.14 micahcraft:clear_repair_cost
+item modify entity @s container.15 micahcraft:clear_repair_cost
+item modify entity @s container.16 micahcraft:clear_repair_cost
+item modify entity @s container.17 micahcraft:clear_repair_cost
+item modify entity @s container.18 micahcraft:clear_repair_cost
+item modify entity @s container.19 micahcraft:clear_repair_cost
+item modify entity @s container.20 micahcraft:clear_repair_cost
+item modify entity @s container.21 micahcraft:clear_repair_cost
+item modify entity @s container.22 micahcraft:clear_repair_cost
+item modify entity @s container.23 micahcraft:clear_repair_cost
+item modify entity @s container.24 micahcraft:clear_repair_cost
+item modify entity @s container.25 micahcraft:clear_repair_cost
+item modify entity @s container.26 micahcraft:clear_repair_cost
+item modify entity @s container.27 micahcraft:clear_repair_cost
+item modify entity @s container.28 micahcraft:clear_repair_cost
+item modify entity @s container.29 micahcraft:clear_repair_cost
+item modify entity @s container.30 micahcraft:clear_repair_cost
+item modify entity @s container.31 micahcraft:clear_repair_cost
+item modify entity @s container.32 micahcraft:clear_repair_cost
+item modify entity @s container.33 micahcraft:clear_repair_cost
+item modify entity @s container.34 micahcraft:clear_repair_cost
+item modify entity @s container.35 micahcraft:clear_repair_cost
+
+item modify entity @s armor.head micahcraft:clear_repair_cost
+item modify entity @s armor.chest micahcraft:clear_repair_cost
+item modify entity @s armor.legs micahcraft:clear_repair_cost
+item modify entity @s armor.feet micahcraft:clear_repair_cost
+item modify entity @s weapon.offhand micahcraft:clear_repair_cost
+
+item modify entity @s player.cursor micahcraft:clear_repair_cost
+item modify entity @s player.crafting.0 micahcraft:clear_repair_cost
+item modify entity @s player.crafting.1 micahcraft:clear_repair_cost
+item modify entity @s player.crafting.2 micahcraft:clear_repair_cost
+item modify entity @s player.crafting.3 micahcraft:clear_repair_cost

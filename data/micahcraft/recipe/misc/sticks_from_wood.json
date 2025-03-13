@@ -1,0 +1,8 @@
+{
+    "type": "stonecutting",
+    "ingredient": "#micahcraft:woods",
+    "result": {
+        "id": "minecraft:stick",
+        "count": 10
+    }
+}

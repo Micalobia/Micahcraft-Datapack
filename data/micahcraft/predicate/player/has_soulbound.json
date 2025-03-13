@@ -1,0 +1,73 @@
+{
+    "condition": "any_of",
+    "terms": [
+        {
+            "condition": "entity_properties",
+            "entity": "this",
+            "predicate": {
+                "slots": {
+                    "inventory.*": {
+                        "predicates": {
+                            "enchantments": [
+                                {
+                                    "enchantments": "micahcraft:soulbound"
+                                }
+                            ]
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "condition": "entity_properties",
+            "entity": "this",
+            "predicate": {
+                "slots": {
+                    "hotbar.*": {
+                        "predicates": {
+                            "enchantments": [
+                                {
+                                    "enchantments": "micahcraft:soulbound"
+                                }
+                            ]
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "condition": "entity_properties",
+            "entity": "this",
+            "predicate": {
+                "slots": {
+                    "armor.*": {
+                        "predicates": {
+                            "enchantments": [
+                                {
+                                    "enchantments": "micahcraft:soulbound"
+                                }
+                            ]
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "condition": "entity_properties",
+            "entity": "this",
+            "predicate": {
+                "slots": {
+                    "weapon.offhand": {
+                        "predicates": {
+                            "enchantments": [
+                                {
+                                    "enchantments": "micahcraft:soulbound"
+                                }
+                            ]
+                        }
+                    }
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,22 @@
+{
+    "replace": false,
+    "values": [
+        "micahcraft:commands/show_xp/tick",
+        "micahcraft:commands/show_deaths/tick",
+        "micahcraft:commands/show_playtime/tick",
+        "micahcraft:commands/share_location/tick",
+        "micahcraft:commands/death_location/tick",
+        "micahcraft:commands/nether_location/tick",
+        "micahcraft:commands/scan_horse/tick",
+        "micahcraft:commands/afk/tick",
+        "micahcraft:commands/hud/tick",
+        "micahcraft:events/day_counter/tick",
+        "micahcraft:grave/tick",
+        "micahcraft:events/ender_arrow/tick",
+        "micahcraft:enchantments/spectre_shot/tick",
+        "micahcraft:commands/creative/clear/tick",
+        "micahcraft:commands/creative/bind/tick",
+        "micahcraft:trim_particles/tick",
+        "micahcraft:misc/tick"
+    ]
+}

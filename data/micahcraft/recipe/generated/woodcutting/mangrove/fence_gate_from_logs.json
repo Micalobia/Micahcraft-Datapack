@@ -1,0 +1,8 @@
+{
+    "type": "stonecutting",
+    "ingredient": "#mangrove_logs",
+    "result": {
+        "id": "mangrove_fence_gate",
+        "count": 1
+    }
+}

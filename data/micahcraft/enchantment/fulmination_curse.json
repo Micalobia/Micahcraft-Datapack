@@ -1,0 +1,45 @@
+{
+    "anvil_cost": 8,
+    "description": {
+        "translate": "enchantment.micahcraft.fulmination",
+        "fallback": "Curse of Fulmination"
+    },
+    "effects": {
+        "post_attack": [
+            {
+                "affected": "attacker",
+                "enchanted": "attacker",
+                "effect": {
+                    "type": "explode",
+                    "block_interaction": "none",
+                    "radius": 3,
+                    "attribute_to_user": false,
+                    "small_particle": {
+                        "type": "explosion"
+                    },
+                    "large_particle": {
+                        "type": "explosion_emitter"
+                    },
+                    "sound": "entity.generic.explode",
+                    "create_fire": true,
+                    "damage_type": "mob_attack",
+                    "knockback_multiplier": 0
+                }
+            }
+        ]
+    },
+    "max_cost": {
+        "base": 50,
+        "per_level_above_first": 0
+    },
+    "max_level": 1,
+    "min_cost": {
+        "base": 25,
+        "per_level_above_first": 0
+    },
+    "slots": [
+        "mainhand"
+    ],
+    "supported_items": "#enchantable/weapon",
+    "weight": 1
+}

@@ -1,8 +1,0 @@
-{
-	"type": "stonecutting",
-	"ingredient": {
-		"tag": "micahcraft:woods/crimson"
-	},
-	"result": "minecraft:crimson_fence",
-	"count": 3
-}

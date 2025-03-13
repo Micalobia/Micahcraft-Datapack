@@ -1,8 +1,0 @@
-{
-    "type": "stonecutting",
-    "ingredient": {
-        "tag": "micahcraft:variants/smooth_quartz"
-    },
-    "count": 1,
-    "result": "smooth_quartz_stairs"
-}

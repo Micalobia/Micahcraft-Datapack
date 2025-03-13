@@ -1,0 +1,1 @@
+schedule function micahcraft:enchantments/measuring/try_kill 1t replace

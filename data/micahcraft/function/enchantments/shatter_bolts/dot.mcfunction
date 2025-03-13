@@ -1,0 +1,2 @@
+execute as @e[scores={mk.shatter_bolts.time=0..}] run function micahcraft:enchantments/shatter_bolts/try_damage
+execute if entity @e[scores={mk.shatter_bolts.time=0..}] run schedule function micahcraft:enchantments/shatter_bolts/dot 1t append

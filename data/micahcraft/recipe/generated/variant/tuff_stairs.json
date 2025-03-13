@@ -1,0 +1,8 @@
+{
+    "type": "stonecutting",
+    "ingredient": "#micahcraft:generated/variant/tuff",
+    "result": {
+        "id": "minecraft:tuff_stairs",
+        "count": 1
+    }
+}

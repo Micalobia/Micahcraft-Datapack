@@ -1,0 +1,8 @@
+{
+	"type": "stonecutting",
+	"ingredient": "#micahcraft:generated/variant/prismarine",
+	"result": {
+		"id": "prismarine_shard",
+		"count": 4
+	}
+}

@@ -1,0 +1,9 @@
+{
+    "replace": false,
+    "values": [
+        "#on_random_loot",
+        "micahcraft:displacement_curse",
+        "micahcraft:boreas_curse",
+        "micahcraft:ender_reach"
+    ]
+}

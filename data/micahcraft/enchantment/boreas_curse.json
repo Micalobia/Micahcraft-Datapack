@@ -1,0 +1,66 @@
+{
+    "anvil_cost": 8,
+    "description": {
+        "translate": "enchantment.micahcraft.boreas_curse",
+        "fallback": "Curse of Boreas"
+    },
+    "effects": {
+        "tick": [
+            {
+                "effect": {
+                    "type": "all_of",
+                    "effects": [
+                        {
+                            "type": "minecraft:explode",
+                            "block_interaction": "none",
+                            "immune_blocks": "#minecraft:blocks_wind_charge_explosions",
+                            "knockback_multiplier": {
+                                "type": "minecraft:linear",
+                                "base": 0.2,
+                                "per_level_above_first": 0.2
+                            },
+                            "large_particle": {
+                                "type": "block",
+                                "block_state": "air"
+                            },
+                            "radius": 3.5,
+                            "small_particle": {
+                                "type": "block",
+                                "block_state": "air"
+                            },
+                            "sound": "entity.phantom.flap"
+                        },
+                        {
+                            "type": "run_function",
+                            "function": "micahcraft:enchantments/boreas/flap"
+                        }
+                    ]
+                },
+                "requirements": {
+                    "condition": "entity_properties",
+                    "entity": "this",
+                    "predicate": {
+                        "flags": {
+                            "is_flying": true
+                        },
+                        "nbt": "{abilities:{flying:false}}"
+                    }
+                }
+            }
+        ]
+    },
+    "max_cost": {
+        "base": 50,
+        "per_level_above_first": 0
+    },
+    "max_level": 1,
+    "min_cost": {
+        "base": 25,
+        "per_level_above_first": 0
+    },
+    "slots": [
+        "chest"
+    ],
+    "supported_items": "elytra",
+    "weight": 1
+}

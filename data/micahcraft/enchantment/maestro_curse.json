@@ -1,0 +1,365 @@
+{
+    "anvil_cost": 8,
+    "description": {
+        "translate": "enchantment.micahcraft.maestro_curse",
+        "fallback": "Curse of the Maestro"
+    },
+    "effects": {
+        "location_changed": [
+            {
+                "effect": {
+                    "type": "minecraft:spawn_particles",
+                    "horizontal_position": {
+                        "type": "in_bounding_box"
+                    },
+                    "horizontal_velocity": {
+                        "movement_scale": -0.2
+                    },
+                    "particle": {
+                        "type": "minecraft:note"
+                    },
+                    "speed": 0.2,
+                    "vertical_position": {
+                        "type": "entity_position",
+                        "offset": 0.1
+                    },
+                    "vertical_velocity": {
+                        "base": 0.1
+                    }
+                }
+            },
+            {
+                "effect": {
+                    "type": "play_sound",
+                    "sound": "block.note_block.harp",
+                    "pitch": {
+                        "type": "uniform",
+                        "min_inclusive": 0.5,
+                        "max_exclusive": 2.0
+                    },
+                    "volume": 0.35
+                },
+                "requirements": {
+                    "condition": "inverted",
+                    "term": {
+                        "condition": "location_check",
+                        "offsetY": -1,
+                        "predicate": {
+                            "block": {
+                                "blocks": "#micahcraft:note_block/any"
+                            }
+                        }
+                    }
+                }
+            },
+            {
+                "effect": {
+                    "type": "play_sound",
+                    "sound": "block.note_block.basedrum",
+                    "pitch": {
+                        "type": "uniform",
+                        "min_inclusive": 0.5,
+                        "max_exclusive": 2.0
+                    },
+                    "volume": 0.35
+                },
+                "requirements": {
+                    "condition": "location_check",
+                    "offsetY": -1,
+                    "predicate": {
+                        "block": {
+                            "blocks": "#micahcraft:note_block/basedrum"
+                        }
+                    }
+                }
+            },
+            {
+                "effect": {
+                    "type": "play_sound",
+                    "sound": "block.note_block.bass",
+                    "pitch": {
+                        "type": "uniform",
+                        "min_inclusive": 0.5,
+                        "max_exclusive": 2.0
+                    },
+                    "volume": 0.35
+                },
+                "requirements": {
+                    "condition": "location_check",
+                    "offsetY": -1,
+                    "predicate": {
+                        "block": {
+                            "blocks": "#micahcraft:note_block/bass"
+                        }
+                    }
+                }
+            },
+            {
+                "effect": {
+                    "type": "play_sound",
+                    "sound": "block.note_block.snare",
+                    "pitch": {
+                        "type": "uniform",
+                        "min_inclusive": 0.5,
+                        "max_exclusive": 2.0
+                    },
+                    "volume": 0.35
+                },
+                "requirements": {
+                    "condition": "location_check",
+                    "offsetY": -1,
+                    "predicate": {
+                        "block": {
+                            "blocks": "#micahcraft:note_block/snare"
+                        }
+                    }
+                }
+            },
+            {
+                "effect": {
+                    "type": "play_sound",
+                    "sound": "block.note_block.hat",
+                    "pitch": {
+                        "type": "uniform",
+                        "min_inclusive": 0.5,
+                        "max_exclusive": 2.0
+                    },
+                    "volume": 0.35
+                },
+                "requirements": {
+                    "condition": "location_check",
+                    "offsetY": -1,
+                    "predicate": {
+                        "block": {
+                            "blocks": "#micahcraft:note_block/hat"
+                        }
+                    }
+                }
+            },
+            {
+                "effect": {
+                    "type": "play_sound",
+                    "sound": "block.note_block.guitar",
+                    "pitch": {
+                        "type": "uniform",
+                        "min_inclusive": 0.5,
+                        "max_exclusive": 2.0
+                    },
+                    "volume": 0.35
+                },
+                "requirements": {
+                    "condition": "location_check",
+                    "offsetY": -1,
+                    "predicate": {
+                        "block": {
+                            "blocks": "#micahcraft:note_block/guitar"
+                        }
+                    }
+                }
+            },
+            {
+                "effect": {
+                    "type": "play_sound",
+                    "sound": "block.note_block.bell",
+                    "pitch": {
+                        "type": "uniform",
+                        "min_inclusive": 0.5,
+                        "max_exclusive": 2.0
+                    },
+                    "volume": 0.35
+                },
+                "requirements": {
+                    "condition": "location_check",
+                    "offsetY": -1,
+                    "predicate": {
+                        "block": {
+                            "blocks": "#micahcraft:note_block/bell"
+                        }
+                    }
+                }
+            },
+            {
+                "effect": {
+                    "type": "play_sound",
+                    "sound": "block.note_block.iron_xylophone",
+                    "pitch": {
+                        "type": "uniform",
+                        "min_inclusive": 0.5,
+                        "max_exclusive": 2.0
+                    },
+                    "volume": 0.35
+                },
+                "requirements": {
+                    "condition": "location_check",
+                    "offsetY": -1,
+                    "predicate": {
+                        "block": {
+                            "blocks": "#micahcraft:note_block/iron_xylophone"
+                        }
+                    }
+                }
+            },
+            {
+                "effect": {
+                    "type": "play_sound",
+                    "sound": "block.note_block.flute",
+                    "pitch": {
+                        "type": "uniform",
+                        "min_inclusive": 0.5,
+                        "max_exclusive": 2.0
+                    },
+                    "volume": 0.35
+                },
+                "requirements": {
+                    "condition": "location_check",
+                    "offsetY": -1,
+                    "predicate": {
+                        "block": {
+                            "blocks": "#micahcraft:note_block/flute"
+                        }
+                    }
+                }
+            },
+            {
+                "effect": {
+                    "type": "play_sound",
+                    "sound": "block.note_block.cow_bell",
+                    "pitch": {
+                        "type": "uniform",
+                        "min_inclusive": 0.5,
+                        "max_exclusive": 2.0
+                    },
+                    "volume": 0.35
+                },
+                "requirements": {
+                    "condition": "location_check",
+                    "offsetY": -1,
+                    "predicate": {
+                        "block": {
+                            "blocks": "#micahcraft:note_block/cow_bell"
+                        }
+                    }
+                }
+            },
+            {
+                "effect": {
+                    "type": "play_sound",
+                    "sound": "block.note_block.pling",
+                    "pitch": {
+                        "type": "uniform",
+                        "min_inclusive": 0.5,
+                        "max_exclusive": 2.0
+                    },
+                    "volume": 0.35
+                },
+                "requirements": {
+                    "condition": "location_check",
+                    "offsetY": -1,
+                    "predicate": {
+                        "block": {
+                            "blocks": "#micahcraft:note_block/pling"
+                        }
+                    }
+                }
+            },
+            {
+                "effect": {
+                    "type": "play_sound",
+                    "sound": "block.note_block.didgeridoo",
+                    "pitch": {
+                        "type": "uniform",
+                        "min_inclusive": 0.5,
+                        "max_exclusive": 2.0
+                    },
+                    "volume": 0.35
+                },
+                "requirements": {
+                    "condition": "location_check",
+                    "offsetY": -1,
+                    "predicate": {
+                        "block": {
+                            "blocks": "#micahcraft:note_block/didgeridoo"
+                        }
+                    }
+                }
+            },
+            {
+                "effect": {
+                    "type": "play_sound",
+                    "sound": "block.note_block.bit",
+                    "pitch": {
+                        "type": "uniform",
+                        "min_inclusive": 0.5,
+                        "max_exclusive": 2.0
+                    },
+                    "volume": 0.35
+                },
+                "requirements": {
+                    "condition": "location_check",
+                    "offsetY": -1,
+                    "predicate": {
+                        "block": {
+                            "blocks": "#micahcraft:note_block/bit"
+                        }
+                    }
+                }
+            },
+            {
+                "effect": {
+                    "type": "play_sound",
+                    "sound": "block.note_block.banjo",
+                    "pitch": {
+                        "type": "uniform",
+                        "min_inclusive": 0.5,
+                        "max_exclusive": 2.0
+                    },
+                    "volume": 0.35
+                },
+                "requirements": {
+                    "condition": "location_check",
+                    "offsetY": -1,
+                    "predicate": {
+                        "block": {
+                            "blocks": "#micahcraft:note_block/banjo"
+                        }
+                    }
+                }
+            },
+            {
+                "effect": {
+                    "type": "play_sound",
+                    "sound": "block.note_block.xylophone",
+                    "pitch": {
+                        "type": "uniform",
+                        "min_inclusive": 0.5,
+                        "max_exclusive": 2.0
+                    },
+                    "volume": 0.35
+                },
+                "requirements": {
+                    "condition": "location_check",
+                    "offsetY": -1,
+                    "predicate": {
+                        "block": {
+                            "blocks": "#micahcraft:note_block/xylophone"
+                        }
+                    }
+                }
+            }
+        ]
+    },
+    "max_cost": {
+        "base": 50,
+        "per_level_above_first": 0
+    },
+    "max_level": 1,
+    "min_cost": {
+        "base": 25,
+        "per_level_above_first": 0
+    },
+    "slots": [
+        "feet"
+    ],
+    "supported_items": "#minecraft:foot_armor",
+    "weight": 1
+}

@@ -1,0 +1,8 @@
+{
+    "type": "stonecutting",
+    "ingredient": "#micahcraft:generated/wood/jungle",
+    "result": {
+        "id": "jungle_trapdoor",
+        "count": 2
+    }
+}

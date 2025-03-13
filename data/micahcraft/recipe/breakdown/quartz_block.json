@@ -1,0 +1,8 @@
+{
+	"type": "stonecutting",
+	"ingredient": "#micahcraft:generated/variant/quartz_block",
+	"result": {
+		"id": "quartz",
+		"count": 4
+	}
+}

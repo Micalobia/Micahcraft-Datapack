@@ -1,0 +1,171 @@
+{
+    "condition": "all_of",
+    "terms": [
+        {
+            "condition": "any_of",
+            "terms": [
+                {
+                    "condition": "all_of",
+                    "terms": [
+                        {
+                            "condition": "reference",
+                            "name": "micahcraft:player/holding/material/wood"
+                        },
+                        {
+                            "condition": "reference",
+                            "name": "micahcraft:player/mineable/material/wood"
+                        }
+                    ]
+                },
+                {
+                    "condition": "all_of",
+                    "terms": [
+                        {
+                            "condition": "reference",
+                            "name": "micahcraft:player/holding/material/stone"
+                        },
+                        {
+                            "condition": "reference",
+                            "name": "micahcraft:player/mineable/material/stone"
+                        }
+                    ]
+                },
+                {
+                    "condition": "all_of",
+                    "terms": [
+                        {
+                            "condition": "reference",
+                            "name": "micahcraft:player/holding/material/iron"
+                        },
+                        {
+                            "condition": "reference",
+                            "name": "micahcraft:player/mineable/material/iron"
+                        }
+                    ]
+                },
+                {
+                    "condition": "all_of",
+                    "terms": [
+                        {
+                            "condition": "reference",
+                            "name": "micahcraft:player/holding/material/gold"
+                        },
+                        {
+                            "condition": "reference",
+                            "name": "micahcraft:player/mineable/material/gold"
+                        }
+                    ]
+                },
+                {
+                    "condition": "all_of",
+                    "terms": [
+                        {
+                            "condition": "reference",
+                            "name": "micahcraft:player/holding/material/diamond"
+                        },
+                        {
+                            "condition": "reference",
+                            "name": "micahcraft:player/mineable/material/diamond"
+                        }
+                    ]
+                },
+                {
+                    "condition": "all_of",
+                    "terms": [
+                        {
+                            "condition": "reference",
+                            "name": "micahcraft:player/holding/material/netherite"
+                        },
+                        {
+                            "condition": "reference",
+                            "name": "micahcraft:player/mineable/material/netherite"
+                        }
+                    ]
+                },
+                {
+                    "condition": "all_of",
+                    "terms": [
+                        {
+                            "condition": "reference",
+                            "name": "micahcraft:player/holding/tool/shears"
+                        },
+                        {
+                            "condition": "reference",
+                            "name": "micahcraft:player/mineable/tool/shears"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "condition": "any_of",
+            "terms": [
+                {
+                    "condition": "all_of",
+                    "terms": [
+                        {
+                            "condition": "reference",
+                            "name": "micahcraft:player/holding/tool/pickaxe"
+                        },
+                        {
+                            "condition": "reference",
+                            "name": "micahcraft:player/mineable/tool/pickaxe"
+                        }
+                    ]
+                },
+                {
+                    "condition": "all_of",
+                    "terms": [
+                        {
+                            "condition": "reference",
+                            "name": "micahcraft:player/holding/tool/axe"
+                        },
+                        {
+                            "condition": "reference",
+                            "name": "micahcraft:player/mineable/tool/axe"
+                        }
+                    ]
+                },
+                {
+                    "condition": "all_of",
+                    "terms": [
+                        {
+                            "condition": "reference",
+                            "name": "micahcraft:player/holding/tool/shovel"
+                        },
+                        {
+                            "condition": "reference",
+                            "name": "micahcraft:player/mineable/tool/shovel"
+                        }
+                    ]
+                },
+                {
+                    "condition": "all_of",
+                    "terms": [
+                        {
+                            "condition": "reference",
+                            "name": "micahcraft:player/holding/tool/hoe"
+                        },
+                        {
+                            "condition": "reference",
+                            "name": "micahcraft:player/mineable/tool/hoe"
+                        }
+                    ]
+                },
+                {
+                    "condition": "all_of",
+                    "terms": [
+                        {
+                            "condition": "reference",
+                            "name": "micahcraft:player/holding/tool/shears"
+                        },
+                        {
+                            "condition": "reference",
+                            "name": "micahcraft:player/mineable/tool/shears"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

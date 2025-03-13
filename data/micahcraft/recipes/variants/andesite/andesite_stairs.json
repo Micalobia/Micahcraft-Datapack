@@ -1,8 +1,0 @@
-{
-    "type": "stonecutting",
-    "ingredient": {
-        "tag": "micahcraft:variants/andesite"
-    },
-    "count": 1,
-    "result": "andesite_stairs"
-}

@@ -1,0 +1,16 @@
+{
+    "type": "crafting_shaped",
+    "pattern": [
+        "###",
+        "#D#",
+        "###"
+    ],
+    "key": {
+        "#": "#micahcraft:dyeable/glass_panes",
+        "D": "black_dye"
+    },
+    "result": {
+        "id": "minecraft:black_stained_glass_pane",
+        "count": 8
+    }
+}

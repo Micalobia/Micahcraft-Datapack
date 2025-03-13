@@ -1,0 +1,49 @@
+{
+    "condition": "all_of",
+    "terms": [
+        {
+            "condition": "all_of",
+            "terms": [
+                {
+                    "condition": "location_check",
+                    "predicate": {
+                        "block": {
+                            "blocks": "#air"
+                        }
+                    }
+                },
+                {
+                    "condition": "location_check",
+                    "offsetY": -1,
+                    "predicate": {
+                        "block": {
+                            "blocks": "farmland"
+                        }
+                    }
+                },
+                {
+                    "condition": "any_of",
+                    "terms": [
+                        {
+                            "condition": "location_check",
+                            "predicate": {
+                                "can_see_sky": true
+                            }
+                        },
+                        {
+                            "condition": "location_check",
+                            "predicate": {
+                                "light": {
+                                    "light": {
+                                        "min": 8
+                                    }
+                                }
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+        
+    ]
+}

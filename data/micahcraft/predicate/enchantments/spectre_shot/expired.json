@@ -1,0 +1,30 @@
+{
+    "condition": "all_of",
+    "terms": [
+        {
+            "condition": "reference",
+            "name": "micahcraft:enchantments/spectre_shot/arrow"
+        },
+        {
+            "condition": "any_of",
+            "terms": [
+                {
+                    "condition": "entity_scores",
+                    "entity": "this",
+                    "scores": {
+                        "mk.spectre_shot.lifetime": {
+                            "min": 20
+                        }
+                    }
+                },
+                {
+                    "condition": "entity_properties",
+                    "entity": "this",
+                    "predicate": {
+                        "nbt": "{inGround:1b}"
+                    }
+                }
+            ]
+        }
+    ]
+}

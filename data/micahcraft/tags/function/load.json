@@ -1,0 +1,30 @@
+{
+    "replace": false,
+    "values": [
+        "micahcraft:load",
+        "micahcraft:util/load",
+        "micahcraft:commands/show_xp/load",
+        "micahcraft:commands/show_deaths/load",
+        "micahcraft:commands/show_playtime/load",
+        "micahcraft:commands/share_location/load",
+        "micahcraft:commands/death_location/load",
+        "micahcraft:commands/nether_location/load",
+        "micahcraft:commands/scan_horse/load",
+        "micahcraft:commands/afk/load",
+        "micahcraft:commands/hud/load",
+        "micahcraft:events/day_counter/load",
+        "micahcraft:grave/load",
+        "micahcraft:enchantments/germination/load",
+        "micahcraft:enchantments/spectre_shot/load",
+        "micahcraft:enchantments/quarry/load",
+        "micahcraft:enchantments/excavation/load",
+        "micahcraft:commands/creative/clear/load",
+        "micahcraft:commands/creative/bind/load",
+        "micahcraft:enchantments/shatter_bolts/load",
+        "micahcraft:trim_particles/load",
+        "micahcraft:misc/load",
+        "micahcraft:enchantments/measuring/load",
+        "micahcraft:enchantments/veinmining/load",
+        "micahcraft:enchantments/apollo/load"
+    ]
+}

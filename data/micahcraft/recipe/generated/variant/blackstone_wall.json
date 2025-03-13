@@ -1,0 +1,8 @@
+{
+    "type": "stonecutting",
+    "ingredient": "#micahcraft:generated/variant/blackstone",
+    "result": {
+        "id": "minecraft:blackstone_wall",
+        "count": 1
+    }
+}

@@ -1,0 +1,8 @@
+{
+    "type": "stonecutting",
+    "ingredient": "#micahcraft:generated/variant/andesite",
+    "result": {
+        "id": "minecraft:andesite_slab",
+        "count": 2
+    }
+}

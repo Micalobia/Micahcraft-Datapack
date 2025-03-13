@@ -1,0 +1,16 @@
+{
+    "type": "crafting_shaped",
+    "pattern": [
+        "###",
+        "#D#",
+        "###"
+    ],
+    "key": {
+        "#": "#micahcraft:dyeable/concrete_powder",
+        "D": "gray_dye"
+    },
+    "result": {
+        "id": "minecraft:gray_concrete_powder",
+        "count": 8
+    }
+}

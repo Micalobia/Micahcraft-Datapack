@@ -1,0 +1,8 @@
+{
+    "type": "stonecutting",
+    "ingredient": "#oak_logs",
+    "result": {
+        "id": "oak_door",
+        "count": 2
+    }
+}

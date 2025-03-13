@@ -1,0 +1,22 @@
+{
+    "criteria": {
+        "equiped_armor": {
+            "trigger": "inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "#minecraft:trimmable_armor",
+                        "predicates": {
+                            "trim": {
+                                "material": "lapis"
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "function": "micahcraft:trim_particles/lapis/equip"
+    }
+}

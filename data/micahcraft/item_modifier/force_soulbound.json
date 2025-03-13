@@ -1,0 +1,6 @@
+{
+    "function": "set_enchantments",
+    "enchantments": {
+        "micahcraft:soulbound": 1
+    }
+}

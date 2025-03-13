@@ -1,0 +1,8 @@
+{
+    "replace": false,
+    "values": [
+        "shears",
+        "flint_and_steel",
+        "#micahcraft:enchantable/sticks"
+    ]
+}

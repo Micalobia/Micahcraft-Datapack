@@ -1,0 +1,8 @@
+{
+    "type": "stonecutting",
+    "ingredient": "#crimson_stems",
+    "result": {
+        "id": "crimson_door",
+        "count": 2
+    }
+}

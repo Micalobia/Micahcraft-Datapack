@@ -1,0 +1,8 @@
+{
+    "type": "stonecutting",
+    "ingredient": "#micahcraft:generated/variant/oxidized_copper",
+    "result": {
+        "id": "minecraft:oxidized_copper_grate",
+        "count": 1
+    }
+}

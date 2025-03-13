@@ -1,8 +1,0 @@
-{
-    "type": "stonecutting",
-    "ingredient": {
-        "tag": "micahcraft:variants/waxed_exposed_copper"
-    },
-    "count": 1,
-    "result": "waxed_exposed_cut_copper"
-}

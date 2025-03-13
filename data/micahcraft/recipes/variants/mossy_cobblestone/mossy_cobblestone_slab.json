@@ -1,8 +1,0 @@
-{
-    "type": "stonecutting",
-    "ingredient": {
-        "tag": "micahcraft:variants/mossy_cobblestone"
-    },
-    "count": 2,
-    "result": "mossy_cobblestone_slab"
-}

@@ -1,0 +1,16 @@
+{
+    "type": "crafting_shaped",
+    "pattern": [
+        "###",
+        "#D#",
+        "###"
+    ],
+    "key": {
+        "#": "#minecraft:wool",
+        "D": "pink_dye"
+    },
+    "result": {
+        "id": "minecraft:pink_wool",
+        "count": 8
+    }
+}

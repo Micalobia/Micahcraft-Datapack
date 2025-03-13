@@ -1,0 +1,1 @@
+execute as @s[type=#micahcraft:hostile, nbt={Health:0f}] run function micahcraft:enchantments/interrogate/glow

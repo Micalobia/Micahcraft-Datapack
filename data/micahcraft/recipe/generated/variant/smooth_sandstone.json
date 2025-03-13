@@ -1,0 +1,8 @@
+{
+    "type": "stonecutting",
+    "ingredient": "#micahcraft:generated/variant/smooth_sandstone",
+    "result": {
+        "id": "minecraft:smooth_sandstone",
+        "count": 1
+    }
+}

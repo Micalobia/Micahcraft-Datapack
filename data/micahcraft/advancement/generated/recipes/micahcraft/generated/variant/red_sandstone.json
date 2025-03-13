@@ -1,0 +1,80 @@
+{
+    "parent": "minecraft:recipes/root",
+    "criteria": {
+        "has_the_item": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "#micahcraft:generated/variant/red_sandstone"
+                    }
+                ]
+            }
+        },
+        "has_the_recipe_1": {
+            "conditions": {
+                "recipe": "micahcraft:generated/variant/chiseled_red_sandstone"
+            },
+            "trigger": "minecraft:recipe_unlocked"
+        },
+        "has_the_recipe_2": {
+            "conditions": {
+                "recipe": "micahcraft:generated/variant/cut_red_sandstone"
+            },
+            "trigger": "minecraft:recipe_unlocked"
+        },
+        "has_the_recipe_3": {
+            "conditions": {
+                "recipe": "micahcraft:generated/variant/cut_red_sandstone_slab"
+            },
+            "trigger": "minecraft:recipe_unlocked"
+        },
+        "has_the_recipe_4": {
+            "conditions": {
+                "recipe": "micahcraft:generated/variant/red_sandstone"
+            },
+            "trigger": "minecraft:recipe_unlocked"
+        },
+        "has_the_recipe_5": {
+            "conditions": {
+                "recipe": "micahcraft:generated/variant/red_sandstone_slab"
+            },
+            "trigger": "minecraft:recipe_unlocked"
+        },
+        "has_the_recipe_6": {
+            "conditions": {
+                "recipe": "micahcraft:generated/variant/red_sandstone_stairs"
+            },
+            "trigger": "minecraft:recipe_unlocked"
+        },
+        "has_the_recipe_7": {
+            "conditions": {
+                "recipe": "micahcraft:generated/variant/red_sandstone_wall"
+            },
+            "trigger": "minecraft:recipe_unlocked"
+        }
+    },
+    "requirements": [
+        [
+            "has_the_item",
+            "has_the_recipe_1",
+            "has_the_recipe_2",
+            "has_the_recipe_3",
+            "has_the_recipe_4",
+            "has_the_recipe_5",
+            "has_the_recipe_6",
+            "has_the_recipe_7"
+        ]
+    ],
+    "rewards": {
+        "recipes": [
+            "micahcraft:generated/variant/chiseled_red_sandstone",
+            "micahcraft:generated/variant/cut_red_sandstone",
+            "micahcraft:generated/variant/cut_red_sandstone_slab",
+            "micahcraft:generated/variant/red_sandstone",
+            "micahcraft:generated/variant/red_sandstone_slab",
+            "micahcraft:generated/variant/red_sandstone_stairs",
+            "micahcraft:generated/variant/red_sandstone_wall"
+        ]
+    }
+}

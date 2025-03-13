@@ -1,8 +1,0 @@
-{
-    "type": "stonecutting",
-    "ingredient": {
-        "tag": "micahcraft:variants/granite"
-    },
-    "count": 2,
-    "result": "polished_granite_slab"
-}

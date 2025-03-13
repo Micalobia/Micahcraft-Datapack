@@ -1,0 +1,8 @@
+{
+    "type": "stonecutting",
+    "ingredient": "#micahcraft:generated/variant/bricks",
+    "result": {
+        "id": "minecraft:bricks",
+        "count": 1
+    }
+}

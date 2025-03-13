@@ -1,8 +1,0 @@
-{
-    "type": "stonecutting",
-    "ingredient": {
-        "tag": "micahcraft:variants/prismarine_bricks"
-    },
-    "count": 1,
-    "result": "prismarine_brick_stairs"
-}

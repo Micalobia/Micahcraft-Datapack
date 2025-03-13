@@ -1,0 +1,55 @@
+{
+    "anvil_cost": 8,
+    "description": {
+        "translate": "enchantment.micahcraft.phaethon_curse",
+        "fallback": "Curse of Phaethon"
+    },
+    "effects": {
+        "post_attack": [
+            {
+                "affected": "attacker",
+                "enchanted": "attacker",
+                "effect": {
+                    "type": "all_of",
+                    "effects": [
+                        {
+                            "type": "run_function",
+                            "function": "micahcraft:enchantments/phaethon/drop"
+                        },
+                        {
+                            "type": "play_sound",
+                            "sound": "entity.item_frame.remove_item",
+                            "pitch": 1,
+                            "volume": 2
+                        }
+                    ]
+                },
+                "requirements": {
+                    "condition": "random_chance",
+                    "chance": {
+                        "type": "enchantment_level",
+                        "amount": {
+                            "type": "linear",
+                            "base": 0.1428571429,
+                            "per_level_above_first": 0.1428571429
+                        }
+                    }
+                }
+            }
+        ]
+    },
+    "max_cost": {
+        "base": 50,
+        "per_level_above_first": 0
+    },
+    "max_level": 1,
+    "min_cost": {
+        "base": 25,
+        "per_level_above_first": 0
+    },
+    "slots": [
+        "mainhand"
+    ],
+    "supported_items": "#enchantable/weapon",
+    "weight": 1
+}

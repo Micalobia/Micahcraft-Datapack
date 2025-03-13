@@ -1,0 +1,8 @@
+{
+    "type": "stonecutting",
+    "ingredient": "#micahcraft:generated/wood/spruce",
+    "result": {
+        "id": "spruce_stairs",
+        "count": 5
+    }
+}

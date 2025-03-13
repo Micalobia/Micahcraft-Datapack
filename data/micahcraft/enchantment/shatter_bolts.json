@@ -1,0 +1,42 @@
+{
+    "anvil_cost": 3,
+    "description": {
+        "translate": "enchantment.micahcraft.shatter_bolts",
+        "fallback": "Shatter Bolts"
+    },
+    "effects": {
+        "post_attack": [
+            {
+                "affected": "attacker",
+                "enchanted": "attacker",
+                "effect": {
+                    "type": "run_function",
+                    "function": "micahcraft:enchantments/shatter_bolts/self"
+                }
+            },
+            {
+                "affected": "victim",
+                "enchanted": "attacker",
+                "effect": {
+                    "type": "run_function",
+                    "function": "micahcraft:enchantments/shatter_bolts/hit"
+                }
+            }
+        ]
+    },
+    "max_cost": {
+        "base": 60,
+        "per_level_above_first": 0
+    },
+    "max_level": 3,
+    "min_cost": {
+        "base": 15,
+        "per_level_above_first": 20
+    },
+    "slots": [
+        "mainhand",
+        "offhand"
+    ],
+    "supported_items": "#minecraft:enchantable/crossbow",
+    "weight": 3
+}

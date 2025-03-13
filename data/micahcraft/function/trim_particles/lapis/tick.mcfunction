@@ -1,0 +1,1 @@
+execute as @a[tag=mk.trim_particles.lapis] at @s run function micahcraft:trim_particles/lapis/particles

@@ -1,0 +1,6 @@
+{
+    "function": "set_components",
+    "components": {
+        "repair_cost": 0
+    }
+}

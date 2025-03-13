@@ -1,0 +1,8 @@
+{
+    "type": "stonecutting",
+    "ingredient": "mangrove_log",
+    "result": {
+        "id": "stripped_mangrove_log",
+        "count": 1
+    }
+}

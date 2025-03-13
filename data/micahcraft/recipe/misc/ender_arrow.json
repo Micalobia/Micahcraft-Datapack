@@ -1,0 +1,24 @@
+{
+    "type": "smithing_transform",
+    "base": "arrow",
+    "addition": "ender_pearl",
+    "template": "string",
+    "result": {
+        "id": "spectral_arrow",
+        "count": 1,
+        "components": {
+            "max_stack_size": 16,
+            "item_name": "{\"translate\":\"item.micahcraft.ender_arrow\",\"fallback\":\"Ender Arrow\"}",
+            "enchantment_glint_override": true,
+            "rarity": "uncommon",
+            "custom_data": {
+                "ender_arrow": true
+            },
+            "custom_model_data": {
+                "floats": [
+                    3407873
+                ]
+            }
+        }
+    }
+}

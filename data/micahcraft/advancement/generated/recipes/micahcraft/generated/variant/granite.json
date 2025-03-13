@@ -1,0 +1,80 @@
+{
+    "parent": "minecraft:recipes/root",
+    "criteria": {
+        "has_the_item": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "#micahcraft:generated/variant/granite"
+                    }
+                ]
+            }
+        },
+        "has_the_recipe_1": {
+            "conditions": {
+                "recipe": "micahcraft:generated/variant/granite"
+            },
+            "trigger": "minecraft:recipe_unlocked"
+        },
+        "has_the_recipe_2": {
+            "conditions": {
+                "recipe": "micahcraft:generated/variant/granite_slab"
+            },
+            "trigger": "minecraft:recipe_unlocked"
+        },
+        "has_the_recipe_3": {
+            "conditions": {
+                "recipe": "micahcraft:generated/variant/granite_stairs"
+            },
+            "trigger": "minecraft:recipe_unlocked"
+        },
+        "has_the_recipe_4": {
+            "conditions": {
+                "recipe": "micahcraft:generated/variant/granite_wall"
+            },
+            "trigger": "minecraft:recipe_unlocked"
+        },
+        "has_the_recipe_5": {
+            "conditions": {
+                "recipe": "micahcraft:generated/variant/polished_granite"
+            },
+            "trigger": "minecraft:recipe_unlocked"
+        },
+        "has_the_recipe_6": {
+            "conditions": {
+                "recipe": "micahcraft:generated/variant/polished_granite_slab"
+            },
+            "trigger": "minecraft:recipe_unlocked"
+        },
+        "has_the_recipe_7": {
+            "conditions": {
+                "recipe": "micahcraft:generated/variant/polished_granite_stairs"
+            },
+            "trigger": "minecraft:recipe_unlocked"
+        }
+    },
+    "requirements": [
+        [
+            "has_the_item",
+            "has_the_recipe_1",
+            "has_the_recipe_2",
+            "has_the_recipe_3",
+            "has_the_recipe_4",
+            "has_the_recipe_5",
+            "has_the_recipe_6",
+            "has_the_recipe_7"
+        ]
+    ],
+    "rewards": {
+        "recipes": [
+            "micahcraft:generated/variant/granite",
+            "micahcraft:generated/variant/granite_slab",
+            "micahcraft:generated/variant/granite_stairs",
+            "micahcraft:generated/variant/granite_wall",
+            "micahcraft:generated/variant/polished_granite",
+            "micahcraft:generated/variant/polished_granite_slab",
+            "micahcraft:generated/variant/polished_granite_stairs"
+        ]
+    }
+}

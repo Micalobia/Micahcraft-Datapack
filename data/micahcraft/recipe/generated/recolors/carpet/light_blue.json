@@ -1,0 +1,16 @@
+{
+    "type": "crafting_shaped",
+    "pattern": [
+        "###",
+        "#D#",
+        "###"
+    ],
+    "key": {
+        "#": "#minecraft:wool_carpets",
+        "D": "light_blue_dye"
+    },
+    "result": {
+        "id": "minecraft:light_blue_carpet",
+        "count": 8
+    }
+}

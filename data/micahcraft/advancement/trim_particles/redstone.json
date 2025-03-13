@@ -1,0 +1,22 @@
+{
+    "criteria": {
+        "equiped_armor": {
+            "trigger": "inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "#minecraft:trimmable_armor",
+                        "predicates": {
+                            "trim": {
+                                "material": "redstone"
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "function": "micahcraft:trim_particles/redstone/equip"
+    }
+}

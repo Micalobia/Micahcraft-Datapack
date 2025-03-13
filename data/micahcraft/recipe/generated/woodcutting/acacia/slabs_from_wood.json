@@ -1,0 +1,8 @@
+{
+    "type": "stonecutting",
+    "ingredient": "#micahcraft:generated/wood/acacia",
+    "result": {
+        "id": "acacia_slab",
+        "count": 10
+    }
+}

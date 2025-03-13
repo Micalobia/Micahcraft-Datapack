@@ -1,0 +1,16 @@
+{
+    "type": "crafting_shaped",
+    "pattern": [
+        "###",
+        "#D#",
+        "###"
+    ],
+    "key": {
+        "#": "#minecraft:wool_carpets",
+        "D": "black_dye"
+    },
+    "result": {
+        "id": "minecraft:black_carpet",
+        "count": 8
+    }
+}

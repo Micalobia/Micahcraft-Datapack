@@ -1,8 +1,0 @@
-{
-    "type": "stonecutting",
-    "ingredient": {
-        "tag": "micahcraft:variants/cobblestone"
-    },
-    "count": 1,
-    "result": "cobblestone_wall"
-}

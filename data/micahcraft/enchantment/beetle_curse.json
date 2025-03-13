@@ -1,0 +1,45 @@
+{
+    "anvil_cost": 8,
+    "description": {
+        "translate": "enchantment.micahcraft.beetle_curse",
+        "fallback": "Curse of the Beetle"
+    },
+    "effects": {
+        "minecraft:attributes": [
+            {
+                "amount": {
+                    "type": "minecraft:linear",
+                    "base": 5,
+                    "per_level_above_first": 5
+                },
+                "attribute": "minecraft:armor",
+                "id": "micahcraft:enchantment.beetle_curse",
+                "operation": "add_value"
+            },
+            {
+                "amount": {
+                    "type": "minecraft:linear",
+                    "base": -0.1,
+                    "per_level_above_first": -0.1
+                },
+                "attribute": "minecraft:movement_speed",
+                "id": "micahcraft:enchantment.beetle_curse",
+                "operation": "add_multiplied_base"
+            }
+        ]
+    },
+    "max_cost": {
+        "base": 50,
+        "per_level_above_first": 0
+    },
+    "max_level": 1,
+    "min_cost": {
+        "base": 25,
+        "per_level_above_first": 0
+    },
+    "slots": [
+        "chest"
+    ],
+    "supported_items": "elytra",
+    "weight": 1
+}

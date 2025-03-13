@@ -1,0 +1,8 @@
+{
+    "type": "campfire_cooking",
+    "ingredient": "rotten_flesh",
+    "result": {
+        "id": "leather"
+    },
+    "cookingtime": 6000
+}

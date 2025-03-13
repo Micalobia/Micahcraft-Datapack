@@ -1,0 +1,8 @@
+{
+    "type": "stonecutting",
+    "ingredient": "#micahcraft:generated/variant/cobblestone",
+    "result": {
+        "id": "minecraft:cobblestone_slab",
+        "count": 2
+    }
+}

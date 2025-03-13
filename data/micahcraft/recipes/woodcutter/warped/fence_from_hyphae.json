@@ -1,8 +1,0 @@
-{
-	"type": "stonecutting",
-	"ingredient": {
-		"tag": "micahcraft:woods/warped"
-	},
-	"result": "minecraft:warped_fence",
-	"count": 3
-}

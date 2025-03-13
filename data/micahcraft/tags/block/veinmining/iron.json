@@ -1,0 +1,7 @@
+{
+    "replace": false,
+    "values": [
+        "#iron_ores",
+        "raw_iron_block"
+    ]
+}

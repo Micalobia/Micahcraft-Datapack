@@ -1,0 +1,16 @@
+{
+    "type": "crafting_shaped",
+    "pattern": [
+        "###",
+        "#D#",
+        "###"
+    ],
+    "key": {
+        "#": "#minecraft:wool",
+        "D": "gray_dye"
+    },
+    "result": {
+        "id": "minecraft:gray_wool",
+        "count": 8
+    }
+}

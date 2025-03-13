@@ -1,0 +1,8 @@
+{
+    "type": "stonecutting",
+    "ingredient": "#micahcraft:generated/variant/mossy_cobblestone",
+    "result": {
+        "id": "minecraft:mossy_cobblestone",
+        "count": 1
+    }
+}

@@ -1,1 +1,0 @@
-execute as @a run function micahcraft:tick/show_playtime/calculate_hours/individual

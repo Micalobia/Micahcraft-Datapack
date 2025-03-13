@@ -1,0 +1,2 @@
+function micahcraft:trim_particles/emerald/load
+function micahcraft:trim_particles/lapis/load

@@ -1,0 +1,69 @@
+{
+    "condition": "any_of",
+    "terms": [
+        {
+            "condition": "entity_properties",
+            "entity": "this",
+            "predicate": {
+                "equipment": {
+                    "head": {
+                        "items": "#head_armor",
+                        "predicates": {
+                            "trim": {
+                                "material": "lapis"
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "condition": "entity_properties",
+            "entity": "this",
+            "predicate": {
+                "equipment": {
+                    "chest": {
+                        "items": "#chest_armor",
+                        "predicates": {
+                            "trim": {
+                                "material": "lapis"
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "condition": "entity_properties",
+            "entity": "this",
+            "predicate": {
+                "equipment": {
+                    "legs": {
+                        "items": "#leg_armor",
+                        "predicates": {
+                            "trim": {
+                                "material": "lapis"
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "condition": "entity_properties",
+            "entity": "this",
+            "predicate": {
+                "equipment": {
+                    "feet": {
+                        "items": "#foot_armor",
+                        "predicates": {
+                            "trim": {
+                                "material": "lapis"
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    ]
+}

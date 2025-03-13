@@ -1,8 +1,0 @@
-{
-    "condition": "entity_properties",
-    "entity": "this",
-    "predicate": {
-        "type": "villager",
-        "nbt": "{VillagerData:{profession:\"minecraft:cartographer\"}}"
-    }
-}
