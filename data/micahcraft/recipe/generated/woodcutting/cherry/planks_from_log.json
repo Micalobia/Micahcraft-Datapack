@@ -1,8 +1,6 @@
 {
     "type": "stonecutting",
-    "ingredient": {
-        "tag": "micahcraft:generated/log/cherry"
-    },
+    "ingredient": "#micahcraft:generated/log/cherry",
     "result": {
         "id": "cherry_planks",
         "count": 4

@@ -1,8 +1,6 @@
 {
     "type": "stonecutting",
-    "ingredient": {
-        "item": "spruce_wood"
-    },
+    "ingredient": "spruce_wood",
     "result": {
         "id": "stripped_spruce_wood",
         "count": 1

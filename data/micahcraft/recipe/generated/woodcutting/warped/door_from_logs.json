@@ -1,8 +1,6 @@
 {
     "type": "stonecutting",
-    "ingredient": {
-        "tag": "warped_stems"
-    },
+    "ingredient": "#warped_stems",
     "result": {
         "id": "warped_door",
         "count": 2

@@ -6,12 +6,8 @@
         "###"
     ],
     "key": {
-        "#": {
-            "tag": "micahcraft:dyeable/concrete_powder"
-        },
-        "D": {
-            "item": "green_dye"
-        }
+        "#": "#micahcraft:dyeable/concrete_powder",
+        "D": "green_dye"
     },
     "result": {
         "id": "minecraft:green_concrete_powder",

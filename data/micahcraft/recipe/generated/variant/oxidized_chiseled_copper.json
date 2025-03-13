@@ -1,8 +1,6 @@
 {
     "type": "stonecutting",
-    "ingredient": {
-        "tag": "micahcraft:generated/variant/oxidized_copper"
-    },
+    "ingredient": "#micahcraft:generated/variant/oxidized_copper",
     "result": {
         "id": "minecraft:oxidized_chiseled_copper",
         "count": 1

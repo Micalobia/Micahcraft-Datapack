@@ -1,8 +1,6 @@
 {
     "type": "stonecutting",
-    "ingredient": {
-        "item": "crimson_stem"
-    },
+    "ingredient": "crimson_stem",
     "result": {
         "id": "stripped_crimson_stem",
         "count": 1

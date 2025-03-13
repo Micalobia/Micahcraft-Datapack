@@ -6,12 +6,8 @@
 		"DDD"
 	],
 	"key": {
-		"D": {
-			"tag": "minecraft:dirt"
-		},
-		"S": {
-			"tag": "minecraft:chicken_food"
-		}
+		"D": "#minecraft:dirt",
+		"S": "#minecraft:chicken_food"
 	},
 	"result": {
 		"id": "minecraft:dirt_path",

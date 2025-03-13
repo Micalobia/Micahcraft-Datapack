@@ -12,7 +12,7 @@
                     "base": 5,
                     "per_level_above_first": 5
                 },
-                "attribute": "minecraft:generic.armor",
+                "attribute": "minecraft:armor",
                 "id": "micahcraft:enchantment.beetle_curse",
                 "operation": "add_value"
             },
@@ -22,7 +22,7 @@
                     "base": -0.1,
                     "per_level_above_first": -0.1
                 },
-                "attribute": "minecraft:generic.movement_speed",
+                "attribute": "minecraft:movement_speed",
                 "id": "micahcraft:enchantment.beetle_curse",
                 "operation": "add_multiplied_base"
             }

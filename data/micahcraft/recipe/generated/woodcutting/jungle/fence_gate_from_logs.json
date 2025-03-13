@@ -1,8 +1,6 @@
 {
     "type": "stonecutting",
-    "ingredient": {
-        "tag": "jungle_logs"
-    },
+    "ingredient": "#jungle_logs",
     "result": {
         "id": "jungle_fence_gate",
         "count": 1

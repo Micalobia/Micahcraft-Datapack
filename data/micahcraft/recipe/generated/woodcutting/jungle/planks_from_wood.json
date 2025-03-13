@@ -1,8 +1,6 @@
 {
     "type": "stonecutting",
-    "ingredient": {
-        "tag": "micahcraft:generated/wood/jungle"
-    },
+    "ingredient": "#micahcraft:generated/wood/jungle",
     "result": {
         "id": "jungle_planks",
         "count": 5

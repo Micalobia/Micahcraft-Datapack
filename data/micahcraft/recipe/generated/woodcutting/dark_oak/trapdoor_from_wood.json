@@ -1,8 +1,6 @@
 {
     "type": "stonecutting",
-    "ingredient": {
-        "tag": "micahcraft:generated/wood/dark_oak"
-    },
+    "ingredient": "#micahcraft:generated/wood/dark_oak",
     "result": {
         "id": "dark_oak_trapdoor",
         "count": 2

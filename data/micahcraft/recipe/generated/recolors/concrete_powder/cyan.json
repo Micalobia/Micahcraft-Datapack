@@ -6,12 +6,8 @@
         "###"
     ],
     "key": {
-        "#": {
-            "tag": "micahcraft:dyeable/concrete_powder"
-        },
-        "D": {
-            "item": "cyan_dye"
-        }
+        "#": "#micahcraft:dyeable/concrete_powder",
+        "D": "cyan_dye"
     },
     "result": {
         "id": "minecraft:cyan_concrete_powder",

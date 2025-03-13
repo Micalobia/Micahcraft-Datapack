@@ -1,8 +1,6 @@
 {
     "type": "stonecutting",
-    "ingredient": {
-        "tag": "micahcraft:generated/variant/red_nether_bricks"
-    },
+    "ingredient": "#micahcraft:generated/variant/red_nether_bricks",
     "result": {
         "id": "minecraft:red_nether_brick_stairs",
         "count": 1

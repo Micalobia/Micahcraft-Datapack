@@ -2,15 +2,9 @@
 	"type": "crafting_shapeless",
 	"ingredients": [
 		[
-			{
-				"item": "minecraft:grass_block"
-			},
-			{
-				"item": "minecraft:podzol"
-			},
-			{
-				"item": "minecraft:mycelium"
-			}
+			"minecraft:grass_block",
+			"minecraft:podzol",
+			"minecraft:mycelium"
 		]
 	],
 	"result": {

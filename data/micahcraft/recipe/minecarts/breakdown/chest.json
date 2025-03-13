@@ -1,9 +1,7 @@
 {
     "type": "crafting_shapeless",
     "ingredients": [
-        {
-            "item": "minecraft:chest_minecart"
-        }
+        "minecraft:chest_minecart"
     ],
     "result": {
         "id": "minecraft:chest_minecart",

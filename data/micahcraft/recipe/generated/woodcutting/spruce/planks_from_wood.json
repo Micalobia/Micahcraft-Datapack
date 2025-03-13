@@ -1,8 +1,6 @@
 {
     "type": "stonecutting",
-    "ingredient": {
-        "tag": "micahcraft:generated/wood/spruce"
-    },
+    "ingredient": "#micahcraft:generated/wood/spruce",
     "result": {
         "id": "spruce_planks",
         "count": 5

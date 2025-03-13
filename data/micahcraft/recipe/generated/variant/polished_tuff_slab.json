@@ -1,8 +1,6 @@
 {
     "type": "stonecutting",
-    "ingredient": {
-        "tag": "micahcraft:generated/variant/tuff"
-    },
+    "ingredient": "#micahcraft:generated/variant/tuff",
     "result": {
         "id": "minecraft:polished_tuff_slab",
         "count": 2

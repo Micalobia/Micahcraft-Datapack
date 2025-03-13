@@ -19,6 +19,6 @@
         }
     },
     "rewards": {
-        "function": "micahcraft:enchantments/veinmining/used/pickaxe/gold"
+        "function": "micahcraft:enchantments/veinmining/used/pickaxe/golden"
     }
 }

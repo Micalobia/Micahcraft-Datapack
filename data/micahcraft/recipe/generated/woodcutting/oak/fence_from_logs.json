@@ -1,8 +1,6 @@
 {
     "type": "stonecutting",
-    "ingredient": {
-        "tag": "micahcraft:generated/log/oak"
-    },
+    "ingredient": "#micahcraft:generated/log/oak",
     "result": {
         "id": "oak_fence",
         "count": 2

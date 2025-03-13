@@ -1,8 +1,6 @@
 {
     "type": "stonecutting",
-    "ingredient": {
-        "tag": "mangrove_logs"
-    },
+    "ingredient": "#mangrove_logs",
     "result": {
         "id": "mangrove_door",
         "count": 2

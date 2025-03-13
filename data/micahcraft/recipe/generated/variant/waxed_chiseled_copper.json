@@ -1,8 +1,6 @@
 {
     "type": "stonecutting",
-    "ingredient": {
-        "tag": "micahcraft:generated/variant/waxed_copper_block"
-    },
+    "ingredient": "#micahcraft:generated/variant/waxed_copper_block",
     "result": {
         "id": "minecraft:waxed_chiseled_copper",
         "count": 1

@@ -1,8 +1,6 @@
 {
     "type": "stonecutting",
-    "ingredient": {
-        "item": "mangrove_planks"
-    },
+    "ingredient": "mangrove_planks",
     "result": {
         "id": "mangrove_stairs",
         "count": 1

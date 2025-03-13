@@ -6,9 +6,7 @@
 		"GGG"
 	],
 	"key": {
-		"G": {
-			"tag": "minecraft:bamboo_blocks"
-		}
+		"G": "#minecraft:bamboo_blocks"
 	},
 	"result": {
 		"id": "minecraft:chest",

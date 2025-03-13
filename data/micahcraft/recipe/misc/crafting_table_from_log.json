@@ -1,8 +1,6 @@
 {
     "type": "stonecutting",
-    "ingredient": {
-        "tag": "logs"
-    },
+    "ingredient": "#logs",
     "result": {
         "id": "minecraft:crafting_table",
         "count": 1

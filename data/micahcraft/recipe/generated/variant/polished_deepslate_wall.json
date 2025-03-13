@@ -1,8 +1,6 @@
 {
     "type": "stonecutting",
-    "ingredient": {
-        "tag": "micahcraft:generated/variant/cobbled_deepslate"
-    },
+    "ingredient": "#micahcraft:generated/variant/cobbled_deepslate",
     "result": {
         "id": "minecraft:polished_deepslate_wall",
         "count": 1

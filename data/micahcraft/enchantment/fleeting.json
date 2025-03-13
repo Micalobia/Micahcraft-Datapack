@@ -12,7 +12,7 @@
                     "base": 0.03333334,
                     "per_level_above_first": 0.03333334
                 },
-                "attribute": "minecraft:generic.movement_speed",
+                "attribute": "minecraft:movement_speed",
                 "id": "micahcraft:enchantment.fleeting",
                 "operation": "add_multiplied_base"
             }
@@ -20,7 +20,7 @@
         "location_changed": [
             {
                 "effect": {
-                    "type": "minecraft:damage_item",
+                    "type": "minecraft:change_item_damage",
                     "amount": 1.0
                 },
                 "requirements": {

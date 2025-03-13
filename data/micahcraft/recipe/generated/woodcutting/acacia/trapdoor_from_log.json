@@ -1,8 +1,6 @@
 {
     "type": "stonecutting",
-    "ingredient": {
-        "tag": "micahcraft:generated/log/acacia"
-    },
+    "ingredient": "#micahcraft:generated/log/acacia",
     "result": {
         "id": "acacia_trapdoor",
         "count": 1

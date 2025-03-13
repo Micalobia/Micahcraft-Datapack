@@ -1,8 +1,6 @@
 {
     "type": "stonecutting",
-    "ingredient": {
-        "tag": "micahcraft:generated/wood/acacia"
-    },
+    "ingredient": "#micahcraft:generated/wood/acacia",
     "result": {
         "id": "acacia_boat",
         "count": 1

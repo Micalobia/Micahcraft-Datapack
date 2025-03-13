@@ -1,8 +1,6 @@
 {
     "type": "stonecutting",
-    "ingredient": {
-        "item": "mangrove_wood"
-    },
+    "ingredient": "mangrove_wood",
     "result": {
         "id": "stripped_mangrove_wood",
         "count": 1

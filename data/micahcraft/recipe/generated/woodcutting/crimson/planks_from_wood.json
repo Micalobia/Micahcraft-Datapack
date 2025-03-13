@@ -1,8 +1,6 @@
 {
     "type": "stonecutting",
-    "ingredient": {
-        "tag": "micahcraft:generated/wood/crimson"
-    },
+    "ingredient": "#micahcraft:generated/wood/crimson",
     "result": {
         "id": "crimson_planks",
         "count": 5

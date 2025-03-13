@@ -1,21 +1,11 @@
 {
 	"type": "crafting_shapeless",
 	"ingredients": [
-		{
-			"item": "minecraft:torch"
-		},
-		{
-			"item": "minecraft:torch"
-		},
-		{
-			"item": "minecraft:torch"
-		},
-		{
-			"item": "minecraft:torch"
-		},
-		{
-			"tag": "minecraft:soul_fire_base_blocks"
-		}
+		"minecraft:torch",
+		"minecraft:torch",
+		"minecraft:torch",
+		"minecraft:torch",
+		"#minecraft:soul_fire_base_blocks"
 	],
 	"result": {
 		"id": "minecraft:soul_torch",

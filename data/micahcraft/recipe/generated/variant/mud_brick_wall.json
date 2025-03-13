@@ -1,8 +1,6 @@
 {
     "type": "stonecutting",
-    "ingredient": {
-        "tag": "micahcraft:generated/variant/mud_bricks"
-    },
+    "ingredient": "#micahcraft:generated/variant/mud_bricks",
     "result": {
         "id": "minecraft:mud_brick_wall",
         "count": 1

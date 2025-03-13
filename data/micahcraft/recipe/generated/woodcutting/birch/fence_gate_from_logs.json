@@ -1,8 +1,6 @@
 {
     "type": "stonecutting",
-    "ingredient": {
-        "tag": "birch_logs"
-    },
+    "ingredient": "#birch_logs",
     "result": {
         "id": "birch_fence_gate",
         "count": 1

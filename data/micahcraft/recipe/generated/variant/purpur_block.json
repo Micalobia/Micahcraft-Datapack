@@ -1,8 +1,6 @@
 {
     "type": "stonecutting",
-    "ingredient": {
-        "tag": "micahcraft:generated/variant/purpur_block"
-    },
+    "ingredient": "#micahcraft:generated/variant/purpur_block",
     "result": {
         "id": "minecraft:purpur_block",
         "count": 1

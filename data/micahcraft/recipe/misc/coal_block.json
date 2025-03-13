@@ -6,9 +6,7 @@
         "###"
     ],
     "key": {
-        "#": {
-            "tag": "minecraft:coals"
-        }
+        "#": "#minecraft:coals"
     },
     "result": {
         "id": "minecraft:coal_block"

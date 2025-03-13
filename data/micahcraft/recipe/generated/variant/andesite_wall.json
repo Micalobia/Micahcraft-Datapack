@@ -1,8 +1,6 @@
 {
     "type": "stonecutting",
-    "ingredient": {
-        "tag": "micahcraft:generated/variant/andesite"
-    },
+    "ingredient": "#micahcraft:generated/variant/andesite",
     "result": {
         "id": "minecraft:andesite_wall",
         "count": 1

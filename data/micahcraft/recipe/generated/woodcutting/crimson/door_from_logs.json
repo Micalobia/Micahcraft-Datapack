@@ -1,8 +1,6 @@
 {
     "type": "stonecutting",
-    "ingredient": {
-        "tag": "crimson_stems"
-    },
+    "ingredient": "#crimson_stems",
     "result": {
         "id": "crimson_door",
         "count": 2

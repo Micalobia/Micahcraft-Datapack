@@ -1,8 +1,6 @@
 {
     "type": "stonecutting",
-    "ingredient": {
-        "tag": "micahcraft:generated/log/crimson"
-    },
+    "ingredient": "#micahcraft:generated/log/crimson",
     "result": {
         "id": "crimson_stairs",
         "count": 4

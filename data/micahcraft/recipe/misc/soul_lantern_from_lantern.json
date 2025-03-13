@@ -1,21 +1,11 @@
 {
 	"type": "crafting_shapeless",
 	"ingredients": [
-		{
-			"item": "minecraft:lantern"
-		},
-		{
-			"item": "minecraft:lantern"
-		},
-		{
-			"item": "minecraft:lantern"
-		},
-		{
-			"item": "minecraft:lantern"
-		},
-		{
-			"tag": "minecraft:soul_fire_base_blocks"
-		}
+		"minecraft:lantern",
+		"minecraft:lantern",
+		"minecraft:lantern",
+		"minecraft:lantern",
+		"#minecraft:soul_fire_base_blocks"
 	],
 	"result": {
 		"id": "minecraft:soul_lantern",
