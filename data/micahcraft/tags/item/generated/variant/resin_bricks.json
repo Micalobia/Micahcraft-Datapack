@@ -1,0 +1,7 @@
+{
+    "replace": false,
+    "values": [
+        "minecraft:chiseled_resin_bricks",
+        "minecraft:resin_bricks"
+    ]
+}

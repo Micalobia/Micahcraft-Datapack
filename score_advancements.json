@@ -114,7 +114,7 @@
     },
     "quarry/used/golden": {
         "scoreboard": "mk.quarry.used.golden_pickaxe",
-        "function": "micahcraft:enchantments/quarry/used/gold"
+        "function": "micahcraft:enchantments/quarry/used/golden"
     },
     "quarry/used/diamond": {
         "scoreboard": "mk.quarry.used.diamond_pickaxe",
@@ -178,7 +178,7 @@
     },
     "veinmining/used/pickaxe/golden": {
         "scoreboard": "mk.veinmining.used.golden_pickaxe",
-        "function": "micahcraft:enchantments/veinmining/used/pickaxe/gold"
+        "function": "micahcraft:enchantments/veinmining/used/pickaxe/golden"
     },
     "veinmining/used/pickaxe/diamond": {
         "scoreboard": "mk.veinmining.used.diamond_pickaxe",
@@ -202,7 +202,7 @@
     },
     "veinmining/used/axe/golden": {
         "scoreboard": "mk.veinmining.used.golden_axe",
-        "function": "micahcraft:enchantments/veinmining/used/axe/gold"
+        "function": "micahcraft:enchantments/veinmining/used/axe/golden"
     },
     "veinmining/used/axe/diamond": {
         "scoreboard": "mk.veinmining.used.diamond_axe",
@@ -226,7 +226,7 @@
     },
     "veinmining/used/shovel/golden": {
         "scoreboard": "mk.veinmining.used.golden_shovel",
-        "function": "micahcraft:enchantments/veinmining/used/shovel/gold"
+        "function": "micahcraft:enchantments/veinmining/used/shovel/golden"
     },
     "veinmining/used/shovel/diamond": {
         "scoreboard": "mk.veinmining.used.diamond_shovel",
@@ -250,7 +250,7 @@
     },
     "veinmining/used/hoe/golden": {
         "scoreboard": "mk.veinmining.used.golden_hoe",
-        "function": "micahcraft:enchantments/veinmining/used/hoe/gold"
+        "function": "micahcraft:enchantments/veinmining/used/hoe/golden"
     },
     "veinmining/used/hoe/diamond": {
         "scoreboard": "mk.veinmining.used.diamond_hoe",

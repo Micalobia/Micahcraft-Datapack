@@ -7,13 +7,13 @@ from typing import Optional
 import pathlib
 from shutil import rmtree
 
-class Ingredient(BaseModel):
-    item: Optional[str] = None
-    tag: Optional[str] = None
+# class Ingredient(BaseModel):
+#     item: Optional[str] = None
+#     tag: Optional[str] = None
 
-    @property
-    def id(self):
-        return self.item or self.tag
+#     @property
+#     def id(self):
+#         return self.item or self.tag
 
 
 class Result(BaseModel):
@@ -23,7 +23,7 @@ class Result(BaseModel):
 
 class Stonecutter(BaseModel):
     type: str
-    ingredient: Ingredient
+    ingredient: str
     result: Result
 
 
@@ -120,7 +120,7 @@ def advancement_path(*s):
 def cutting_recipe(ingredient, result, count=1, is_item=False):
     return {
         "type": "stonecutting",
-        "ingredient": {"item" if is_item else "tag": ingredient},
+        "ingredient": f"{'' if is_item else '#'}{ingredient}",
         "result": {"id": result, "count": count},
     }
 
@@ -197,14 +197,14 @@ inputs = set()
 outputs = set()
 
 for stone in stonecutter:
-    inputs.add(stone.ingredient.id)
+    inputs.add(stone.ingredient)
     outputs.add(stone.result.id)
 
 groups = inputs.difference(outputs)
 
 tags = {_: {_} for _ in inputs}
 for stone in stonecutter:
-    tags[stone.ingredient.id].add(stone.result.id)
+    tags[stone.ingredient].add(stone.result.id)
 
 temp = {_: set() for _ in groups}
 
@@ -273,20 +273,6 @@ for tag, values in tags.items():
                 2 if iname.endswith("_slab") else 1,
             )
             json.dump(j, f, indent=4, default=sorted_list)
-
-
-print("Clearing vanilla stonecutting recipes...")
-for path, recipe in recipes.items():
-    if recipe["type"] != "minecraft:stonecutting":
-        continue
-    empty = {
-        "type": "crafting_shapeless",
-        "ingredients": [{"tag": "micahcraft:empty"}],
-        "result": {"id": "air", "count": 1},
-    }
-    p = f"./data{path.split('data')[-1]}"
-    with opend(p, "w") as f:
-        json.dump(empty, f)
 
 
 class LogType(BaseModel):
@@ -444,7 +430,7 @@ class Colorable(BaseModel):
         return {
             "type": "crafting_shaped",
             "pattern": ["###", "#D#", "###"],
-            "key": {"#": {"tag": self.tag}, "D": {"item": f"{color}_dye"}},
+            "key": {"#": f"#{self.tag}", "D": f"{color}_dye"},
             "result": {"id": self.id(color), "count": 8},
         }
 

@@ -1,0 +1,8 @@
+{
+    "type": "stonecutting",
+    "ingredient": "#micahcraft:generated/variant/resin_bricks",
+    "result": {
+        "id": "minecraft:chiseled_resin_bricks",
+        "count": 1
+    }
+}
