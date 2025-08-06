@@ -1,5 +1,5 @@
 {
-    "type": "stonecutting",
+    "type": "minecraft:stonecutting",
     "ingredient": "#micahcraft:generated/variant/tuff",
     "result": {
         "id": "minecraft:tuff_wall",

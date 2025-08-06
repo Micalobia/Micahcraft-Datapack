@@ -12,7 +12,15 @@
         "block": [
             {
                 "namespace": "minecraft",
-                "path": "recipe/.+stonecutting\\.json"
+                "path": "^recipe/.+stonecutting\\.json$"
+            },
+            {
+                "namespace": "minecraft",
+                "path": "^recipe/\\w+_stained_glass(?:_pane_from_glass_pane)?\\.json$"
+            },
+            {
+                "namespace": "minecraft",
+                "path": "^recipe/\\w+_terracotta\\.json$"
             }
         ]
     }

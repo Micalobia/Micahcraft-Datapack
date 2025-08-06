@@ -1,5 +1,5 @@
 {
-    "type": "stonecutting",
+    "type": "minecraft:stonecutting",
     "ingredient": "#micahcraft:generated/variant/weathered_copper",
     "result": {
         "id": "minecraft:weathered_cut_copper_slab",

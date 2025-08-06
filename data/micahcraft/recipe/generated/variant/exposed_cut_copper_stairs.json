@@ -1,5 +1,5 @@
 {
-    "type": "stonecutting",
+    "type": "minecraft:stonecutting",
     "ingredient": "#micahcraft:generated/variant/exposed_copper",
     "result": {
         "id": "minecraft:exposed_cut_copper_stairs",

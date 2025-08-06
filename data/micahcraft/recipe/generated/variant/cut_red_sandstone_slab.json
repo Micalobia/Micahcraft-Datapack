@@ -1,5 +1,5 @@
 {
-    "type": "stonecutting",
+    "type": "minecraft:stonecutting",
     "ingredient": "#micahcraft:generated/variant/red_sandstone",
     "result": {
         "id": "minecraft:cut_red_sandstone_slab",

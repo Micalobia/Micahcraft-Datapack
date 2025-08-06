@@ -32,9 +32,7 @@
         "function": "micahcraft:commands/afk/trigger"
     },
     "afk/moving": {
-        "predicates": [
-            "micahcraft:player/is_moving"
-        ],
+        "predicates": ["micahcraft:player/is_moving"],
         "function": "micahcraft:commands/afk/moving"
     },
     "afk/start_afk": {
@@ -51,9 +49,7 @@
                 "min": 6000
             }
         },
-        "predicates": [
-            "micahcraft:player/is_moving"
-        ],
+        "predicates": ["micahcraft:player/is_moving"],
         "function": "micahcraft:commands/afk/start_moving"
     },
     "afk/stop_playtime": {

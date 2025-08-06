@@ -1,7 +1,7 @@
 {
     "replace": false,
     "values": [
-        "warped_stem",
-        "stripped_warped_stem"
+        "stripped_warped_stem",
+        "warped_stem"
     ]
 }

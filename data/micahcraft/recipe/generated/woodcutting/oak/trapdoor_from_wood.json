@@ -1,5 +1,5 @@
 {
-    "type": "stonecutting",
+    "type": "minecraft:stonecutting",
     "ingredient": "#micahcraft:generated/wood/oak",
     "result": {
         "id": "oak_trapdoor",

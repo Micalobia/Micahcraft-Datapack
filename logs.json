@@ -1,0 +1,13 @@
+[
+    { "name": "acacia" },
+    { "name": "birch" },
+    { "name": "cherry" },
+    { "name": "crimson", "type": "stem" },
+    { "name": "dark_oak" },
+    { "name": "jungle" },
+    { "name": "mangrove" },
+    { "name": "oak" },
+    { "name": "pale_oak" },
+    { "name": "spruce" },
+    { "name": "warped", "type": "stem" }
+]

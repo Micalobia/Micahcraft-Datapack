@@ -1,91 +1,74 @@
-function settings:entry/add_page {\
-    key:"mk:enchantments",\
-    name:"Enchantments",\
-    color:"#aa46ee",\
+function settings:entry/add_namespace {\
+    key:"mk_enchantments",\
+    display:{text:"Enchantments",color:"dark_purple"},\
 }
 
 function settings:entry/add_setting {\
-    page:"mk:enchantments",\
-    key:"enchantments:veinmining/level",\
-    name:"Vein Level",\
-    description:"How aggresively the veinmining algorithm tries to search for ore",\
-    default:"2",\
-    display:"enum",\
+    namespace:"mk_enchantments",\
     type:"enum",\
+    key:"mk_enchantments_veinmining_level",\
+    data:{\
+        display:{text:"Veinmine Strength"},\
+        default:1,\
+        options:[\
+            {name:{text:"Face",color:"dark_green",bold:true},value:0},\
+            {name:{text:"Edge",color:"gold",bold:true},value:1},\
+            {name:{text:"Corner",color:"dark_red",bold:true},value:2}\
+        ]\
+    }\
 }
+
 function settings:entry/add_setting {\
-    page:"mk:enchantments",\
-    key:"enchantments:veinmining/crouch",\
-    name:"Veinmining",\
-    description:"The behavour of veinmining when crouched",\
-    default:"0",\
-    display:"enum",\
+    namespace:"mk_enchantments",\
     type:"enum",\
+    key:"mk_enchantments_veinmining_crouch",\
+    data:{\
+        display:{text:"Veinmine Crouch"},\
+        default:0,\
+        options:[\
+            {name:{text:"Nothing",color:"white",bold:true},value:0},\
+            {name:{text:"Required",color:"dark_green",bold:true},value:1},\
+            {name:{text:"Inverted",color:"red",bold:true},value:2}\
+        ]\
+    }\
 }
+
 function settings:entry/add_setting {\
-    page:"mk:enchantments",\
-    key:"enchantments:quarry/crouch",\
-    name:"Quarry",\
-    description:"The behavour of quarry when crouched",\
-    default:"0",\
-    display:"enum",\
+    namespace:"mk_enchantments",\
     type:"enum",\
+    key:"mk_enchantments_quarry_crouch",\
+    data:{\
+        display:{text:"Quarry Crouch"},\
+        default:0,\
+        options:[\
+            {name:{text:"Nothing",color:"white",bold:true},value:0},\
+            {name:{text:"Required",color:"dark_green",bold:true},value:1},\
+            {name:{text:"Inverted",color:"red",bold:true},value:2}\
+        ]\
+    }\
 }
+
 function settings:entry/add_setting {\
-    page:"mk:enchantments",\
-    key:"enchantments:excavation/crouch",\
-    name:"Excavation",\
-    description:"The behavour of excavation when crouched",\
-    default:"0",\
-    display:"enum",\
+    namespace:"mk_enchantments",\
     type:"enum",\
+    key:"mk_enchantments_excavation_crouch",\
+    data:{\
+        display:{text:"Excavation Crouch"},\
+        default:0,\
+        options:[\
+            {name:{text:"Nothing",color:"white",bold:true},value:0},\
+            {name:{text:"Required",color:"dark_green",bold:true},value:1},\
+            {name:{text:"Inverted",color:"red",bold:true},value:2}\
+        ]\
+    }\
 }
+
 function settings:entry/add_setting {\
-    page:"mk:enchantments",\
-    key:"enchantments:displacement/safety",\
-    name:"Displacement",\
-    description:"Whether Curse of Displacement will avoid fluids",\
-    default:"0b",\
-    display:"enum",\
+    namespace:"mk_enchantments",\
     type:"boolean",\
-}
-
-function settings:entry/add_enum {\
-    key:"enchantments:veinmining/level",\
-    value:[\
-        "§2Face",\
-        "§6Edge",\
-        "§4Corner",\
-    ],\
-}
-function settings:entry/add_enum {\
-    key:"enchantments:veinmining/crouch",\
-    value:[\
-        "§8Nothing",\
-        "§2Required",\
-        "§4Inverted",\
-    ],\
-}
-function settings:entry/add_enum {\
-    key:"enchantments:quarry/crouch",\
-    value:[\
-        "§8Nothing",\
-        "§2Required",\
-        "§4Inverted",\
-    ],\
-}
-function settings:entry/add_enum {\
-    key:"enchantments:excavation/crouch",\
-    value:[\
-        "§8Nothing",\
-        "§2Required",\
-        "§4Inverted",\
-    ],\
-}
-function settings:entry/add_enum {\
-    key:"enchantments:displacement/safety",\
-    value:[\
-        "§2Safe",\
-        "§4Unsafe",\
-    ],\
+    key:"mk_enchantments_displacement_safety",\
+    data:{\
+        display:{text:"Displacement Safety"},\
+        default:true\
+    }\
 }

@@ -14,7 +14,7 @@
                         }
                     },
                     {
-                        "condition": "reference",
+                        "condition": "minecraft:reference",
                         "name": "micahcraft:player/is_moving"
                     }
                 ]

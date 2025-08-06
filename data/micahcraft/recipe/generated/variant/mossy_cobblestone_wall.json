@@ -1,5 +1,5 @@
 {
-    "type": "stonecutting",
+    "type": "minecraft:stonecutting",
     "ingredient": "#micahcraft:generated/variant/mossy_cobblestone",
     "result": {
         "id": "minecraft:mossy_cobblestone_wall",

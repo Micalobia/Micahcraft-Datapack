@@ -1,5 +1,5 @@
 {
-    "type": "stonecutting",
+    "type": "minecraft:stonecutting",
     "ingredient": "dark_oak_log",
     "result": {
         "id": "stripped_dark_oak_log",

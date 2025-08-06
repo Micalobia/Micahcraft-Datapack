@@ -1,5 +1,5 @@
 {
-    "type": "stonecutting",
+    "type": "minecraft:stonecutting",
     "ingredient": "#jungle_logs",
     "result": {
         "id": "jungle_fence_gate",

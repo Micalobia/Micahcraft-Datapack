@@ -1,5 +1,5 @@
 {
-    "type": "stonecutting",
+    "type": "minecraft:stonecutting",
     "ingredient": "#micahcraft:generated/variant/quartz_block",
     "result": {
         "id": "minecraft:quartz_pillar",

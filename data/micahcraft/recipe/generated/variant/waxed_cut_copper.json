@@ -1,5 +1,5 @@
 {
-    "type": "stonecutting",
+    "type": "minecraft:stonecutting",
     "ingredient": "#micahcraft:generated/variant/waxed_copper_block",
     "result": {
         "id": "minecraft:waxed_cut_copper",

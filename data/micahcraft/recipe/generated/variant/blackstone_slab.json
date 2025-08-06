@@ -1,5 +1,5 @@
 {
-    "type": "stonecutting",
+    "type": "minecraft:stonecutting",
     "ingredient": "#micahcraft:generated/variant/blackstone",
     "result": {
         "id": "minecraft:blackstone_slab",

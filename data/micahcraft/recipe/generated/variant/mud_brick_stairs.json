@@ -1,5 +1,5 @@
 {
-    "type": "stonecutting",
+    "type": "minecraft:stonecutting",
     "ingredient": "#micahcraft:generated/variant/mud_bricks",
     "result": {
         "id": "minecraft:mud_brick_stairs",

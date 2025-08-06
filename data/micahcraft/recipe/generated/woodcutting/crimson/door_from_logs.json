@@ -1,5 +1,5 @@
 {
-    "type": "stonecutting",
+    "type": "minecraft:stonecutting",
     "ingredient": "#crimson_stems",
     "result": {
         "id": "crimson_door",

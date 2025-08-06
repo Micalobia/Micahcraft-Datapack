@@ -1,0 +1,8 @@
+{
+    "type": "minecraft:stonecutting",
+    "ingredient": "#micahcraft:generated/log/pale_oak",
+    "result": {
+        "id": "pale_oak_trapdoor",
+        "count": 1
+    }
+}
