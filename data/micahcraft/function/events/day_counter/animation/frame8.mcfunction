@@ -1,1 +1,1 @@
-title @a[tag=mk.day_counter.enabled] actionbar ["— ",{"storage":"micahcraft:time","nbt":"date.month"}," ",{"storage":"micahcraft:time","nbt":"date.day_of_month"},", Year ",{"storage":"micahcraft:time","nbt":"date.year"}," —"]
+title @a[tag=mk.day_counter.enabled] actionbar ["— ",{storage:"micahcraft:time",nbt:"date.month"}," ",{storage:"micahcraft:time",nbt:"date.day_of_month"},", Year ",{storage:"micahcraft:time",nbt:"date.year"}," —"]

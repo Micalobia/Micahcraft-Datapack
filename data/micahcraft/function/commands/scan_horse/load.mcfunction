@@ -1,4 +1,4 @@
-scoreboard objectives add ScanHorse trigger {"text":"Scan Current Horse","color":"green","clickEvent":{"action":"run_command","value":"/trigger ScanHorse"}}
+scoreboard objectives add ScanHorse trigger {text:"Scan Current Horse",color:"green",click_event:{action:"run_command",command:"/trigger ScanHorse"}}
 scoreboard players set #-909 mk.math -909
 scoreboard players set #10 mk.math 10
 scoreboard players set #90 mk.math 90

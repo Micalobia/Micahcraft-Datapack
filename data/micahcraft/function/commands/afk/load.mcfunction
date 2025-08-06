@@ -1,8 +1,8 @@
-scoreboard objectives add AFK trigger {"text":"Go AFK","color":"#A8A8FF","clickEvent":{"action":"run_command","value":"/trigger AFK"}}
+scoreboard objectives add AFK trigger {text:"Go AFK",color:"#A8A8FF",click_event:{action:"run_command",command:"/trigger AFK"}}
 scoreboard objectives add mk.ticks_afk minecraft.custom:minecraft.play_time
-team add mk.afk {"text":"AFK","color":"gray","bold":true,"underlined":true}
+team add mk.afk {text:"AFK",color:"gray",bold:true,underlined:true}
 team modify mk.afk color gray 
-team modify mk.afk prefix [{"text":"[","color":"#5454A8","italic":true,"bold":true},{"text":"AFK","color":"#A8A8FF"},{"text":"] ","color":"#5454A8"}] 
+team modify mk.afk prefix [{text:"[",color:"#5454A8",italic:true,bold:true},{text:"AFK",color:"#A8A8FF"},{text:"] ",color:"#5454A8"}] 
 
 scoreboard objectives add mk.afk.last_team dummy
 

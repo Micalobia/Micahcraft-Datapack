@@ -1,1 +1,1 @@
-scoreboard objectives add DeathLocation trigger {"text":"Get Death Location","color":"dark_red","clickEvent":{"action":"run_command","value":"/trigger DeathLocation"}}
+scoreboard objectives add DeathLocation trigger {text:"Get Death Location",color:"dark_red",click_event:{action:"run_command",command:"/trigger DeathLocation"}}

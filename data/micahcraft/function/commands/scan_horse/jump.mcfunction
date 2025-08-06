@@ -32,4 +32,4 @@ scoreboard players operation #Integer mk.math /= #1000 mk.math
 scoreboard players operation #Decimal mk.math = #Result mk.math
 scoreboard players operation #Decimal mk.math %= #1000 mk.math
 
-tellraw @s [{"text":"Jump Height: ","color":"light_purple","extra":[{"score":{"name":"#Integer","objective":"mk.math"}},".",{"score":{"name":"#Decimal","objective":"mk.math"}}]}]
+tellraw @s [{text:"Jump Height: ",color:"light_purple",extra:[{score:{name:"#Integer",objective:"mk.math"}},".",{score:{name:"#Decimal",objective:"mk.math"}}]}]

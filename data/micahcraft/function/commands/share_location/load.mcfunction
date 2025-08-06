@@ -1,1 +1,1 @@
-scoreboard objectives add ShareLocation trigger {"text":"Share Location","color":"#7F00FF","clickEvent":{"action":"run_command","value":"/trigger ShareLocation"}}
+scoreboard objectives add ShareLocation trigger {text:"Share Location",color:"#7F00FF",click_event:{action:"run_command",command:"/trigger ShareLocation"}}

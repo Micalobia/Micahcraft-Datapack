@@ -3,12 +3,12 @@ execute store result score #Decimal mk.math run data get entity @s foodSaturatio
 scoreboard players operation #Decimal mk.math %= #10 mk.math
 $data modify storage micahcraft:hud display append value \
 {\
-    "text":"Saturation: ",\
-    "color":"$(yellow)",\
-    "extra":[\
-        {"score":{"name":"#Integer","objective":"mk.math"}},\
-        {"text":"."},\
-        {"score":{"name":"#Decimal","objective":"mk.math"}},\
+    text:"Saturation: ",\
+    color:"$(yellow)",\
+    extra:[\
+        {score:{name:"#Integer",objective:"mk.math"}},\
+        {text:"."},\
+        {score:{name:"#Decimal",objective:"mk.math"}},\
     ]\
 }
 scoreboard players set #Element mk.math 1

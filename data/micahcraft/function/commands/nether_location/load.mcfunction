@@ -1,2 +1,2 @@
-scoreboard objectives add NetherLocation trigger {"text":"Get Nether Location","color":"dark_purple","clickEvent":{"action":"run_command","value":"/trigger NetherLocation"}}
+scoreboard objectives add NetherLocation trigger {text:"Get Nether Location",color:"dark_purple",click_event:{action:"run_command",command:"/trigger NetherLocation"}}
 scoreboard players set #8 mk.math 8

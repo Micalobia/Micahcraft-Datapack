@@ -3,7 +3,7 @@ execute store result score #Y mk.math run data get entity @s Motion[1] 100
 execute store result score #Z mk.math run data get entity @s Motion[2] 100
 function micahcraft:util/tag_player {uuid_path:"entity @s Owner"}
 execute store result score #Level mk.math run \
-    data get entity @p[tag=mk.tag_player] SelectedItem.components.'minecraft:enchantments'.levels.'micahcraft:tension'
+    data get entity @p[tag=mk.tag_player] SelectedItem.components.'minecraft:enchantments'.'micahcraft:tension'
 tag @p[tag=mk.tag_player] remove mk.tag_player
 scoreboard players set #Percent mk.math 10
 scoreboard players operation #Level mk.math *= #Percent mk.math
