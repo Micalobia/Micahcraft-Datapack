@@ -12,7 +12,10 @@
         "function": "micahcraft:commands/show_playtime/trigger"
     },
     "share_location": {
-        "scoreboard": "ShareLocation",
+        "scoreboard": "mk.dialog",
+        "value": {
+            "range": 3
+        },
         "function": "micahcraft:commands/share_location/trigger"
     },
     "death_location": {
@@ -60,17 +63,6 @@
             }
         },
         "function": "micahcraft:commands/afk/stop_playtime"
-    },
-    "hud/trigger": {
-        "scoreboard": "HUD",
-        "function": "micahcraft:commands/hud/trigger"
-    },
-    "hud/run": {
-        "scoreboard": "HUD",
-        "value": {
-            "range": 1
-        },
-        "function": "micahcraft:commands/hud/run"
     },
     "create_grave": {
         "scoreboard": "mk.grave_deaths",
@@ -270,5 +262,19 @@
             "inverted": true
         },
         "function": "micahcraft:misc/id"
+    },
+    "dialog/info": {
+        "scoreboard": "mk.dialog",
+        "value": {
+            "range": 1
+        },
+        "function": "micahcraft:dialog/info"
+    },
+    "dialog/trigger": {
+        "scoreboard": "mk.dialog",
+        "value": {
+            "range": 2
+        },
+        "function": "micahcraft:dialog/trigger"
     }
 }

@@ -8,7 +8,7 @@
                         "condition": "minecraft:entity_scores",
                         "entity": "this",
                         "scores": {
-                            "HUD": 1
+                            "mk.dialog": 2
                         }
                     }
                 ]
@@ -16,6 +16,6 @@
         }
     },
     "rewards": {
-        "function": "micahcraft:commands/hud/run"
+        "function": "micahcraft:dialog/trigger"
     }
 }

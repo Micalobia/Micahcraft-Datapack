@@ -1,0 +1,72 @@
+{
+    "type": "multi_action",
+    "title": {
+        "text": "Micahcraft",
+        "bold": true,
+        "color": "#073642"
+    },
+    "columns": 1,
+    "actions": [
+        {
+            "label": {
+                "text": "Share Location",
+                "color": "#dfc0ff",
+                "bold": true,
+                "shadow_color": [0.25, 0, 0.5, 0.8]
+            },
+            "width": 200,
+            "action": {
+                "type": "run_command",
+                "command": "trigger mk.dialog set 3"
+            }
+        },
+        {
+            "label": {
+                "text": "Show Playtime Leaderboard",
+                "color": "blue"
+            },
+            "width": 200,
+            "action": {
+                "type": "run_command",
+                "command": "trigger ShowPlaytime"
+            }
+        },
+        {
+            "label": {
+                "text": "Show Death Leaderboard",
+                "color": "red"
+            },
+            "width": 200,
+            "action": {
+                "type": "run_command",
+                "command": "trigger ShowDeaths"
+            }
+        },
+        {
+            "label": {
+                "text": "Show XP Leaderboard",
+                "color": "green"
+            },
+            "width": 200,
+            "action": {
+                "type": "run_command",
+                "command": "trigger ShowXP"
+            }
+        },
+        {
+            "label": {
+                "text": "More...",
+                "italic": true
+            },
+            "width": 150,
+            "action": {
+                "type": "run_command",
+                "command": "trigger mk.dialog set 2"
+            }
+        }
+    ],
+    "after_action": "wait_for_response",
+    "exit_action": {
+        "label": "Exit"
+    }
+}

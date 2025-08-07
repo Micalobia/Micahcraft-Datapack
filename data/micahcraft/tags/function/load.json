@@ -3,12 +3,10 @@
     "values": [
         "micahcraft:load",
         "micahcraft:util/load",
+        "micahcraft:dialog/load",
         "micahcraft:commands/show_xp/load",
         "micahcraft:commands/show_deaths/load",
         "micahcraft:commands/show_playtime/load",
-        "micahcraft:commands/share_location/load",
-        "micahcraft:commands/death_location/load",
-        "micahcraft:commands/nether_location/load",
         "micahcraft:commands/scan_horse/load",
         "micahcraft:commands/afk/load",
         "micahcraft:commands/hud/load",

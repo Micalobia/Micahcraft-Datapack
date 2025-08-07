@@ -1,1 +1,1 @@
-scoreboard players enable @a HUD
+execute as @a[tag=mk.show_hud] run function micahcraft:commands/hud/run
