@@ -1,5 +1,6 @@
 {
-    "type": "block",
+    "type": "minecraft:block",
+    "random_sequence": "minecraft:blocks/budding_amethyst",
     "pools": [
         {
             "rolls": 1,

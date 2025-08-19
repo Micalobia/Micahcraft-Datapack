@@ -1,0 +1,12 @@
+{
+    "type": "crafting_shapeless",
+    "ingredients": [
+        "iron_ingot",
+        "string",
+        "paper"
+    ],
+    "result": {
+        "id": "name_tag",
+        "count": 1
+    }
+}

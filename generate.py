@@ -1,11 +1,13 @@
 import tkinter as tk
 import json
+import jsonpatch
 from shutil import rmtree
 import zipfile
 import sys
 import data
 from data import Colorable, IdentifierLike, AnyIdentifier, Stonecutter
 import pathlib
+import os
 
 # Goals:
 # - Stonecutter Variants
@@ -13,6 +15,8 @@ import pathlib
 # - Recipe Advancements
 # - Scoreboard Advancements
 # - Colorable Recipes
+# - Waxcutter recipes
+# - Edit Vanilla Recipes (for future proofing reasons)
 
 
 rmtree("./data/micahcraft/advancement/generated", ignore_errors=True)
@@ -69,6 +73,22 @@ with zipfile.ZipFile(minecraft_path) as zf:
     for p in files:
         with p.open("r") as f:
             recipes.append(json.load(f))
+
+    print("Modifying vanilla stuff...")
+    with data.opend("./patch.json", "r") as f:
+        patch_data: dict[str, list] = json.load(f)
+    for path, patches in patch_data.items():
+        if path == "$schema":
+            continue
+        path = data.vanilla_path(path)
+        r = zipfile.Path(zf, path)
+        with r.open("r") as f:
+            r_data = json.load(f)
+        jsonpatch.apply_patch(r_data, patches, in_place=True)
+        w_path = os.path.join(".", path)
+        with data.opend(w_path, "w") as f:
+            json.dump(r_data, f, indent=4)
+
 
 stonecutter_recipes = [Stonecutter.model_validate(_) for _ in recipes if _["type"] == "minecraft:stonecutting"]
 
@@ -208,6 +228,16 @@ for item in colored:
         add_advancement(f"#{item.tag}", path)
         item.recipe(color).write_file(path)
 
+
+print("Generating waxcutting recipes...")
+waxed: IdentifierLike = json.loads(pathlib.Path("./waxed.json").read_text("utf-8"))
+for item in waxed:
+    recipe = Stonecutter.from_item(item, item[6:])
+    path = data.recipe_path("remove_wax", item)
+    recipe.write_file(path)
+    add_advancement(item, path)
+
+
 print("Generating recipe advancements...")
 s = set()
 for item, recipe in advancements.items():
@@ -219,5 +249,6 @@ for item, recipe in advancements.items():
     path = pathlib.Path(data.advancement_path("recipes", p))
     with data.opend(path, "w") as f:
         json.dump(a, f, indent=4)
+
 
 print("Finished")

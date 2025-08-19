@@ -1,1 +1,2 @@
 execute as @e[type=marker,tag=mk.misc.glowing] at @s run function micahcraft:misc/__private/glow
+execute as @e[type=happy_ghast] unless score @s mk.version matches 2 run function micahcraft:misc/__private/boost

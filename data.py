@@ -40,7 +40,6 @@ def zwalk(path: zipfile.Path, extensions: str | set[str] | None = None) -> Itera
 
 
 def pick_file_dialog() -> str | None:
-    # Lazy-import Tk so CLI-only usage doesn’t pull in GUI bits
     from tkinter import Tk, filedialog
 
     root = Tk()
@@ -51,7 +50,7 @@ def pick_file_dialog() -> str | None:
             filetypes=(("ZIP/JAR", "*.zip *.jar"), ("All files", "*.*")),
         )
         or None
-    )  # None if user cancels
+    )
 
 
 def tag_path(t: str, *s: str) -> str:
@@ -64,6 +63,10 @@ def advancement_path(*s: str) -> str:
 
 def recipe_path(*s):
     return os.path.join("./data/micahcraft/recipe/generated", *s[:-1], f"{s[-1]}.json")
+
+
+def vanilla_path(s):
+    return os.path.join("data/minecraft", f"{s}.json").replace("\\", "/")
 
 
 _namespace = r"[a-z0-9_.-]+"

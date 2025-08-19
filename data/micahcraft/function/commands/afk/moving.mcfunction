@@ -17,5 +17,6 @@ scoreboard players set @s mk.pig 0
 scoreboard players set @s mk.strider 0 
 scoreboard players set @s mk.jump 0
 scoreboard players set @s mk.fishing_movement 0
+scoreboard players set @s mk.ghast 0
 
 advancement revoke @s only micahcraft:generated/score_triggers/afk/moving

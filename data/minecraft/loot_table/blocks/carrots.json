@@ -14,13 +14,13 @@
                     "name": "minecraft:carrot"
                 }
             ],
+            "rolls": 1.0,
             "functions": [
                 {
                     "function": "reference",
                     "name": "micahcraft:enchantment/germination/reduce_count"
                 }
-            ],
-            "rolls": 1.0
+            ]
         },
         {
             "bonus_rolls": 0.0,

@@ -23,3 +23,4 @@ scoreboard objectives add mk.pig minecraft.custom:minecraft.pig_one_cm
 scoreboard objectives add mk.strider minecraft.custom:minecraft.strider_one_cm
 scoreboard objectives add mk.jump minecraft.custom:minecraft.jump
 scoreboard objectives add mk.fishing_movement minecraft.custom:minecraft.fish_caught
+scoreboard objectives add mk.ghast minecraft.custom:minecraft.happy_ghast_one_cm

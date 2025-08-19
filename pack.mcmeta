@@ -20,7 +20,7 @@
             },
             {
                 "namespace": "minecraft",
-                "path": "^recipe/\\w+_terracotta\\.json$"
+                "path": "^recipe/(?!.*glazed)\\w+_terracotta\\.json$"
             }
         ]
     }

@@ -8,7 +8,7 @@
         "count": 1,
         "components": {
             "max_stack_size": 16,
-            "item_name": "{\"translate\":\"item.micahcraft.ender_arrow\",\"fallback\":\"Ender Arrow\"}",
+            "item_name": {"translate":"item.micahcraft.ender_arrow","fallback":"Ender Arrow"},
             "enchantment_glint_override": true,
             "rarity": "uncommon",
             "custom_data": {

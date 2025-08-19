@@ -1,0 +1,8 @@
+{
+    "type": "minecraft:stonecutting",
+    "ingredient": "waxed_copper_door",
+    "result": {
+        "id": "copper_door",
+        "count": 1
+    }
+}

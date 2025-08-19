@@ -8,10 +8,11 @@
         "count": 1,
         "components": {
             "enchantment_glint_override": true,
-            "custom_name": "\"Minecart and Chest\"",
-            "lore": [
-                "{\"text\":\"Will split the chest minecart into its parts\",\"color\":\"gold\"}"
-            ]
+            "custom_name": "Minecart and Chest",
+            "lore": [{
+                "text": "Will split the chest minecart into its parts",
+                "color": "gold"
+            }]
         }
     }
 }

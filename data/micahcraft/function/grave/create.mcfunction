@@ -4,6 +4,7 @@ execute store result score #KeepInventory mk.math run gamerule keepInventory
 execute if score #KeepInventory mk.math matches 0 run return fail
 
 data modify storage micahcraft:grave Inventory set value []
+function micahcraft:grave/copy_equipment
 function micahcraft:util/loop {\
     nbt:"entity @s Inventory",\
     function:"micahcraft:grave/copy",\
