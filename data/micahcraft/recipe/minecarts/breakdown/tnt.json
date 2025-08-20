@@ -1,18 +1,20 @@
 {
     "type": "crafting_shapeless",
-    "ingredients": [
-        "minecraft:tnt_minecart"
-    ],
+    "ingredients": ["minecraft:tnt_minecart", "minecraft:bundle"],
     "result": {
-        "id": "minecraft:tnt_minecart",
+        "id": "minecraft:bundle",
         "count": 1,
         "components": {
-            "enchantment_glint_override": true,
-            "custom_name": "Minecart and TNT",
-            "lore": [{
-                "text": "Will split the TNT minecart into its parts",
-                "color": "gold"
-            }]
+            "bundle_contents": [
+                {
+                    "id": "tnt",
+                    "count": 1
+                },
+                {
+                    "id": "minecart",
+                    "count": 1
+                }
+            ]
         }
     }
 }

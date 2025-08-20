@@ -10,6 +10,7 @@
         "#micahcraft:generated/wood/mangrove",
         "#micahcraft:generated/wood/oak",
         "#micahcraft:generated/wood/spruce",
-        "#micahcraft:generated/wood/warped"
+        "#micahcraft:generated/wood/warped",
+        "#micahcraft:generated/wood/pale_oak"
     ]
 }

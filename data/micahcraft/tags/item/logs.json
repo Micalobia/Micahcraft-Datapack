@@ -10,6 +10,7 @@
         "#micahcraft:generated/log/mangrove",
         "#micahcraft:generated/log/oak",
         "#micahcraft:generated/log/spruce",
-        "#micahcraft:generated/log/warped"
+        "#micahcraft:generated/log/warped",
+        "#micahcraft:generated/log/pale_oak"
     ]
 }
