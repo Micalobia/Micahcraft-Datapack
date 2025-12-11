@@ -1,0 +1,2 @@
+data modify entity @n[type=villager] Gossips append value {Target:[I;1,1,1,1],Type:"major_positive",Value:20}
+data modify entity @n[type=villager] Gossips[{Target:[I;1,1,1,1]}].Target set from entity @s UUID

@@ -1,7 +1,6 @@
 {
     "replace": false,
     "values": [
-        "retina:__load__",
         "#micahcraft:load"
     ]
 }

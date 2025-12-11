@@ -22,6 +22,28 @@
         },
         {
             "label": {
+                "text": "Open Settings",
+                "color": "#2aa198"
+            },
+            "width": 200,
+            "action": {
+                "type": "run_command",
+                "command": "trigger Settings"
+            }
+        },
+        {
+            "label": {
+                "text": "Toggle HUD",
+                "color": "gold"
+            },
+            "width": 200,
+            "action": {
+                "type": "run_command",
+                "command": "trigger mk.dialog set 4"
+            }
+        },
+        {
+            "label": {
                 "text": "Show Playtime Leaderboard",
                 "color": "blue"
             },

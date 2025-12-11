@@ -26,6 +26,13 @@
         "scoreboard": "NetherLocation",
         "function": "micahcraft:commands/nether_location/trigger"
     },
+    "hud": {
+        "scoreboard": "mk.dialog",
+        "value": {
+            "range": 4
+        },
+        "function": "micahcraft:commands/hud/dialog"
+    },
     "scan_horse": {
         "scoreboard": "ScanHorse",
         "function": "micahcraft:commands/scan_horse/trigger"
@@ -66,6 +73,11 @@
     },
     "create_grave": {
         "scoreboard": "mk.grave_deaths",
+        "value": {
+            "range": {
+                "min": 1
+            }
+        },
         "function": "micahcraft:grave/create"
     },
     "germination/mined_wheat": {

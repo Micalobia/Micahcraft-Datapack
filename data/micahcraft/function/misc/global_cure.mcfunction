@@ -1,0 +1,1 @@
+execute as @e[type=villager] if data entity @s Gossips[{Type:"major_positive"}] at @s as @a[distance=..10] run function micahcraft:misc/__private/major

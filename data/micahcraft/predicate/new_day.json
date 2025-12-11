@@ -1,5 +1,5 @@
 {
     "condition": "time_check",
-    "value": 0,
+    "value": 1,
     "period": 24000
 }

@@ -73,7 +73,7 @@
                     "terms": [
                         {
                             "condition": "minecraft:weather_check",
-                            "thundering": true
+                            "raining": true
                         },
                         {
                             "condition": "minecraft:entity_properties",

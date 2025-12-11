@@ -1,2 +1,0 @@
-execute if block ~ ~ ~ minecraft:turtle_egg[eggs=1] run data modify storage retina:data Surfaces set value {Top:[[90,210,90,360,210,360]],Bottom:[[90,0,90,360,0,360]],West:[[90,0,90,90,210,360]],East:[[360,0,90,360,210,360]],North:[[90,0,90,360,210,90]],South:[[90,0,360,360,210,360]]}
-execute unless block ~ ~ ~ minecraft:turtle_egg[eggs=1] run data modify storage retina:data Surfaces set value {Top:[[30,210,30,450,210,450]],Bottom:[[30,0,30,450,0,450]],West:[[30,0,30,30,210,450]],East:[[450,0,30,450,210,450]],North:[[30,0,30,450,210,30]],South:[[30,0,450,450,210,450]]}

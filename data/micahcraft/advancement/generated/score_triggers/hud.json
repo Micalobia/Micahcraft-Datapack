@@ -8,9 +8,7 @@
                         "condition": "minecraft:entity_scores",
                         "entity": "this",
                         "scores": {
-                            "mk.grave_deaths": {
-                                "min": 1
-                            }
+                            "mk.dialog": 4
                         }
                     }
                 ]
@@ -18,6 +16,6 @@
         }
     },
     "rewards": {
-        "function": "micahcraft:grave/create"
+        "function": "micahcraft:commands/hud/dialog"
     }
 }

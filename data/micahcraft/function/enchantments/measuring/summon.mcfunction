@@ -1,4 +1,4 @@
-$execute positioned $(x).0 $(y).0 $(z).0 positioned ~0.5 ~ ~0.5 run summon magma_cube ~ ~ ~ \
+$summon magma_cube ~ ~-0.5 ~ \
 {\
     NoAI:1b,\
     NoGravity:1b,\

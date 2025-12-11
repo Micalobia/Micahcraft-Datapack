@@ -1,4 +1,2 @@
-function retina:traverse/setup
-execute store result score @s mk.germination.x run data get storage retina:output TargetedBlock[0]
-execute store result score @s mk.germination.y run data get storage retina:output TargetedBlock[1]
-execute store result score @s mk.germination.z run data get storage retina:output TargetedBlock[2]
+execute anchored eyes raycast 12 block * outline none block summon marker run function micahcraft:enchantments/germination/store
+function micahcraft:enchantments/germination/copy_to_score
