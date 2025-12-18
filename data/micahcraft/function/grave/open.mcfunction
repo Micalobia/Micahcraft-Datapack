@@ -7,5 +7,5 @@ execute as @n[type=marker,tag=ActiveGrave,distance=..10] if data entity @s data.
     function:"micahcraft:grave/drop",\
 }
 function micahcraft:grave/xp with entity @n[type=marker,tag=ActiveGrave,distance=..10] data
-kill @e[tag=ActiveGrave,limit=4,distance=..10]
+execute as @e[tag=ActiveGrave,limit=4,distance=..10] run function micahcraft:util/remove
 tag @s remove CurrentPlayer

@@ -1,1 +1,1 @@
-schedule function micahcraft:enchantments/measuring/try_kill 1t replace
+schedule function micahcraft:enchantments/measuring/try_execute as 1t replace run function micahcraft:util/remove

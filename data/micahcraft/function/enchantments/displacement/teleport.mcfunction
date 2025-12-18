@@ -26,5 +26,5 @@ ride @s dismount
 execute positioned as @n[type=marker,tag=Fresh] run tp @s ~ ~ ~
 execute at @s run playsound item.chorus_fruit.teleport player @s ~ ~ ~
 execute at @s run function micahcraft:misc/particles/teleport
-kill @n[type=marker,tag=Fresh]
+execute as @n[type=marker,tag=Fresh] run function micahcraft:util/remove
 return -1

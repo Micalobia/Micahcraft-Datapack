@@ -4,5 +4,5 @@ execute as @e[type=item_display,tag=mk.boreas.flap,tag=!Fresh] \
     run tag @s add Flap
 tag @s remove CurrentPlayer
 item replace entity @s armor.chest from entity @n[type=item_display,tag=Flap] container.0
-kill @n[type=item_display,tag=Flap]
+execute as @n[type=item_display,tag=Flap] run function micahcraft:util/remove
 tag @s remove mk.boreas.flapping
