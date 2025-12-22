@@ -1,0 +1,2 @@
+execute as @a[tag=mk.germination.holding] unless predicate micahcraft:enchantments/germination/holding run function micahcraft:enchantments/germination/clear
+execute as @a[tag=mk.germination.holding] unless predicate micahcraft:enchantments/germination/holding run tag @s remove mk.germination.holding

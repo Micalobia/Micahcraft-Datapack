@@ -1,13 +1,5 @@
-$summon marker $(x) $(y).5 $(z) {Tags:["Fresh","Root"]}
-execute at @n[type=marker,tag=Root] run summon marker ~ ~ ~-1 {Tags:["Fresh"]}
-execute at @n[type=marker,tag=Root] run summon marker ~ ~ ~1 {Tags:["Fresh"]}
-execute at @n[type=marker,tag=Root] run summon marker ~-1 ~ ~ {Tags:["Fresh"]}
-execute at @n[type=marker,tag=Root] run summon marker ~1 ~ ~ {Tags:["Fresh"]}
-execute at @n[type=marker,tag=Root] run summon marker ~1 ~ ~1 {Tags:["Fresh"]}
-execute at @n[type=marker,tag=Root] run summon marker ~-1 ~ ~1 {Tags:["Fresh"]}
-execute at @n[type=marker,tag=Root] run summon marker ~-1 ~ ~-1 {Tags:["Fresh"]}
-execute at @n[type=marker,tag=Root] run summon marker ~1 ~ ~-1 {Tags:["Fresh"]}
-execute at @n[type=marker,tag=Fresh,limit=9] run summon marker ~ ~1 ~ {Tags:["Fresh"]}
-$execute as @n[type=marker,limit=18,tag=Fresh] at @s if predicate $(predicate) run tag @s add Valid
-$execute at @n[type=marker,tag=Root] positioned ~ ~4 ~ as @n[type=marker,tag=Valid] at @s run setblock ~ ~ ~ $(block) replace
-execute as @n[type=marker,limit=18,tag=Fresh] run function micahcraft:util/remove
+tag @s add mk.germination.place
+$execute at @s as @e[type=marker,tag=mk.germination.hit] \
+    if score @s mk.misc.player.id = @p[tag=mk.germination.place] mk.misc.player.id \
+    at @s if predicate $(predicate) run function micahcraft:enchantments/germination/place/place_and_kill with storage micahcraft:germination
+tag @s remove mk.germination.place

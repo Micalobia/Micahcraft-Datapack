@@ -4,7 +4,3 @@ scoreboard objectives add mk.quarry.used.iron_pickaxe minecraft.used:minecraft.i
 scoreboard objectives add mk.quarry.used.golden_pickaxe minecraft.used:minecraft.golden_pickaxe
 scoreboard objectives add mk.quarry.used.diamond_pickaxe minecraft.used:minecraft.diamond_pickaxe
 scoreboard objectives add mk.quarry.used.netherite_pickaxe minecraft.used:minecraft.netherite_pickaxe
-scoreboard objectives add mk.quarry.x dummy
-scoreboard objectives add mk.quarry.y dummy
-scoreboard objectives add mk.quarry.z dummy
-scoreboard objectives add mk.quarry.face dummy

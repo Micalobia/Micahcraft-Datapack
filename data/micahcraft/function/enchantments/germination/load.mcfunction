@@ -3,7 +3,3 @@ scoreboard objectives add mk.germination.mined_beetroots minecraft.mined:minecra
 scoreboard objectives add mk.germination.mined_carrots minecraft.mined:minecraft.carrots
 scoreboard objectives add mk.germination.mined_potatoes minecraft.mined:minecraft.potatoes
 scoreboard objectives add mk.germination.mined_nether_wart minecraft.mined:minecraft.nether_wart
-
-scoreboard objectives add mk.germination.x dummy
-scoreboard objectives add mk.germination.y dummy
-scoreboard objectives add mk.germination.z dummy

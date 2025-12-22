@@ -12,6 +12,14 @@
                     "function": "micahcraft:enchantments/germination/holding"
                 }
             }
+        ],
+        "hit_block": [
+            {
+                "effect": {
+                    "type": "run_function",
+                    "function": "micahcraft:enchantments/germination/hit"
+                }
+            }
         ]
     },
     "exclusive_set": "#minecraft:exclusive_set/mining",
