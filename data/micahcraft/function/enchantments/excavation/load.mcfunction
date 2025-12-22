@@ -4,9 +4,6 @@ scoreboard objectives add mk.excavation.used.iron_shovel minecraft.used:minecraf
 scoreboard objectives add mk.excavation.used.golden_shovel minecraft.used:minecraft.golden_shovel
 scoreboard objectives add mk.excavation.used.diamond_shovel minecraft.used:minecraft.diamond_shovel
 scoreboard objectives add mk.excavation.used.netherite_shovel minecraft.used:minecraft.netherite_shovel
-
-scoreboard objectives add mk.excavation.crouching minecraft.custom:minecraft.sneak_time
-
 scoreboard objectives add mk.excavation.x dummy
 scoreboard objectives add mk.excavation.y dummy
 scoreboard objectives add mk.excavation.z dummy

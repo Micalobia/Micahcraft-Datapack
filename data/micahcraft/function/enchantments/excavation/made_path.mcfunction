@@ -1,1 +1,0 @@
-schedule function micahcraft:enchantments/excavation/clear_made_path 1t append

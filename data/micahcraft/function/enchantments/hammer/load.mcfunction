@@ -1,0 +1,1 @@
+scoreboard objectives add mk.hammer.crouching minecraft.custom:minecraft.sneak_time

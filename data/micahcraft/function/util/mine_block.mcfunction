@@ -1,5 +1,6 @@
 execute unless predicate micahcraft:player/mineable run return fail
-loot spawn ~ ~ ~ mine ~ ~ ~ mainhand
+execute store result score #TileDrops mk.math run gamerule doTileDrops
+execute if score #TileDrops mk.math matches 1 run loot spawn ~ ~ ~ mine ~ ~ ~ mainhand
 execute store result storage micahcraft:util mine_block.points int 1 run function micahcraft:util/xp/block
 setblock ~ ~ ~ air
-function micahcraft:util/xp/spawn_orbs with storage micahcraft:util mine_block 
+execute if score #TileDrops mk.math matches 1 run function micahcraft:util/xp/spawn_orbs with storage micahcraft:util mine_block 
