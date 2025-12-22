@@ -22,8 +22,6 @@
         "micahcraft:enchantments/shatter_bolts/load",
         "micahcraft:trim_particles/load",
         "micahcraft:misc/load",
-        "micahcraft:enchantments/measuring/load",
-        "micahcraft:enchantments/veinmining/load",
-        "micahcraft:enchantments/apollo/load"
+        "micahcraft:enchantments/veinmining/load"
     ]
 }
