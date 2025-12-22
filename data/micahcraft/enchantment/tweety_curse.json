@@ -15,6 +15,6 @@
         "per_level_above_first": 0
     },
     "slots": [],
-    "supported_items": "#enchantable/leg_armor",
+    "supported_items": "#micahcraft:empty",
     "weight": 1
 }

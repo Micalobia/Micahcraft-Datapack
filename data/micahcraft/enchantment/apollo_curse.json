@@ -4,18 +4,7 @@
         "translate": "enchantment.micahcraft.apollo_curse",
         "fallback": "Curse of Apollo"
     },
-    "effects": {
-        "post_attack": [
-            {
-                "enchanted": "attacker",
-                "affected": "victim",
-                "effect": {
-                    "type": "run_function",
-                    "function": "micahcraft:enchantments/apollo/hit"
-                }
-            }
-        ]
-    },
+    "effects": {},
     "max_cost": {
         "base": 50,
         "per_level_above_first": 0
@@ -25,9 +14,7 @@
         "base": 25,
         "per_level_above_first": 0
     },
-    "slots": [
-        "mainhand"
-    ],
-    "supported_items": "#enchantable/weapon",
+    "slots": [],
+    "supported_items": "#micahcraft:empty",
     "weight": 1
 }

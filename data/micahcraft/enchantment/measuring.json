@@ -4,16 +4,7 @@
         "translate": "enchantment.micahcraft.measuring",
         "fallback": "Measuring"
     },
-    "effects": {
-        "tick": [
-            {
-                "effect": {
-                    "type": "run_function",
-                    "function": "micahcraft:enchantments/measuring/holding"
-                }
-            }
-        ]
-    },
+    "effects": {},
     "max_cost": {
         "base": 75,
         "per_level_above_first": 25
@@ -23,9 +14,7 @@
         "base": 25,
         "per_level_above_first": 25
     },
-    "slots": [
-        "mainhand"
-    ],
-    "supported_items": "#micahcraft:enchantable/sticks",
+    "slots": [],
+    "supported_items": "#micahcraft:empty",
     "weight": 2
 }
