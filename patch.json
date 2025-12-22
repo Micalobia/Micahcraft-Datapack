@@ -9,6 +9,15 @@
             "op": "add",
             "path": "/effects/minecraft:hit_block/0/requirements/terms/0/raining",
             "value": true
+        },
+        {
+            "op": "remove",
+            "path": "/effects/minecraft:post_attack/0/requirements/terms/0/thundering"
+        },
+        {
+            "op": "add",
+            "path": "/effects/minecraft:post_attack/0/requirements/terms/0/raining",
+            "value": true
         }
     ],
     "enchantment/impaling": [
