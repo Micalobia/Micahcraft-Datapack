@@ -1,0 +1,2 @@
+execute as @a[tag=mk.telekinesis.holding] unless predicate micahcraft:enchantments/telekinesis/holding run function micahcraft:enchantments/telekinesis/clear
+execute as @a[tag=mk.telekinesis.holding] unless predicate micahcraft:enchantments/telekinesis/holding run tag @s remove mk.telekinesis.holding

@@ -1,0 +1,1 @@
+return run advancement revoke @s only micahcraft:events/veinmining/used/shears

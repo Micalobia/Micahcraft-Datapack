@@ -30,7 +30,11 @@ scoreboard objectives add mk.veinmining.used.shears minecraft.used:minecraft.she
 
 scoreboard objectives add mk.veinmining.crouching minecraft.custom:minecraft.sneak_time
 
-scoreboard objectives add mk.veinmining.x dummy
-scoreboard objectives add mk.veinmining.y dummy
-scoreboard objectives add mk.veinmining.z dummy
 scoreboard objectives add mk.veinmining.group dummy
+scoreboard objectives add mk.veinmining.depth dummy
+scoreboard objectives add mk.veinmining.mined dummy
+
+
+scoreboard objectives add mk.veinmining.job_id dummy
+scoreboard players add #ID mk.veinmining.job_id 0
+scoreboard players set #MAX mk.veinmining.job_id 512

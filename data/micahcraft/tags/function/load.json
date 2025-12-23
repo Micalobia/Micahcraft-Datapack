@@ -22,6 +22,7 @@
         "micahcraft:enchantments/shatter_bolts/load",
         "micahcraft:trim_particles/load",
         "micahcraft:misc/load",
-        "micahcraft:enchantments/veinmining/load"
+        "micahcraft:enchantments/veinmining/load",
+        "micahcraft:enchantments/telekinesis/load"
     ]
 }

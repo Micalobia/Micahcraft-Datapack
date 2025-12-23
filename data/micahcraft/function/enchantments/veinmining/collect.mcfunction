@@ -1,0 +1,1 @@
+$execute as @p[nbt={UUID:$(owner)}] run function micahcraft:enchantments/telekinesis/collect

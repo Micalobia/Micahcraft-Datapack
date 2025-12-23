@@ -12,6 +12,14 @@
                     "function": "micahcraft:enchantments/veinmining/holding"
                 }
             }
+        ],
+        "hit_block": [
+            {
+                "effect": {
+                    "type": "run_function",
+                    "function": "micahcraft:enchantments/veinmining/hit"
+                }
+            }
         ]
     },
     "max_cost": {

@@ -1,1 +1,1 @@
-return run advancement revoke @s only micahcraft:events/made_path
+return run advancement revoke @s only micahcraft:events/excavation/used/shovel

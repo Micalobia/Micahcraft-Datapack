@@ -1,0 +1,1 @@
+return run function micahcraft:enchantments/veinmining/jobs/macros/owner_exists with entity @s data

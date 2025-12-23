@@ -1,0 +1,59 @@
+{
+    "condition": "any_of",
+    "terms": [
+        {
+            "condition": "entity_scores",
+            "entity": "this",
+            "scores": {
+                "mk.telekinesis.used.wooden_hoe": {
+                    "min": 1
+                }
+            }
+        },
+        {
+            "condition": "entity_scores",
+            "entity": "this",
+            "scores": {
+                "mk.telekinesis.used.stone_hoe": {
+                    "min": 1
+                }
+            }
+        },
+        {
+            "condition": "entity_scores",
+            "entity": "this",
+            "scores": {
+                "mk.telekinesis.used.golden_hoe": {
+                    "min": 1
+                }
+            }
+        },
+        {
+            "condition": "entity_scores",
+            "entity": "this",
+            "scores": {
+                "mk.telekinesis.used.iron_hoe": {
+                    "min": 1
+                }
+            }
+        },
+        {
+            "condition": "entity_scores",
+            "entity": "this",
+            "scores": {
+                "mk.telekinesis.used.diamond_hoe": {
+                    "min": 1
+                }
+            }
+        },
+        {
+            "condition": "entity_scores",
+            "entity": "this",
+            "scores": {
+                "mk.telekinesis.used.netherite_hoe": {
+                    "min": 1
+                }
+            }
+        }
+    ]
+}

@@ -1,11 +1,8 @@
-scoreboard players set #Blocks mk.math 0
-execute store result score #Level mk.math run function settings:data/get_value {key:"mk_enchantments_veinmining_level"}
-$execute positioned $(x) $(y) $(z) positioned ~ ~0.5 ~ run function micahcraft:enchantments/veinmining/summon
-tag @s add CurrentPlayer
-execute as @e[type=marker,tag=mk.veinmining,tag=Checked] \
-    if score @s mk.misc.player.id = @p[tag=CurrentPlayer] mk.misc.player.id \
-    run tag @s add Mine
-tag @s remove CurrentPlayer
-scoreboard players set #Blocks mk.math 0
-execute at @n[type=marker,tag=Mine,limit=160] run function micahcraft:enchantments/veinmining/break
-execute as @e[type=marker,tag=Mine] run function micahcraft:util/remove
+# At the marker, as the player
+# Job is an item display that stores the tool used, nodes are markers, all under job ids.
+execute as @n[type=marker,tag=mk.veinmining.hit] if score @s mk.veinmining.group matches ..0 run return fail
+tag @s add mk.veinmining.mining
+summon marker ~ ~ ~ {Tags:["mk.veinmining.temp"]}
+execute positioned ~ -64 ~ summon armor_stand positioned as @n[type=marker,tag=mk.veinmining.temp] run function micahcraft:enchantments/veinmining/jobs/create_job
+execute as @n[type=marker,tag=mk.veinmining.temp] run function micahcraft:util/remove
+tag @s remove mk.veinmining.mining

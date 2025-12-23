@@ -1,0 +1,2 @@
+execute as @a[tag=mk.veinmining.holding] unless predicate micahcraft:enchantments/veinmining/holding run function micahcraft:enchantments/veinmining/clear
+execute as @a[tag=mk.veinmining.holding] unless predicate micahcraft:enchantments/veinmining/holding run tag @s remove mk.veinmining.holding

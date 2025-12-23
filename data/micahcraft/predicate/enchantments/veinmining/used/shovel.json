@@ -1,0 +1,59 @@
+{
+    "condition": "any_of",
+    "terms": [
+        {
+            "condition": "entity_scores",
+            "entity": "this",
+            "scores": {
+                "mk.veinmining.used.wooden_shovel": {
+                    "min": 1
+                }
+            }
+        },
+        {
+            "condition": "entity_scores",
+            "entity": "this",
+            "scores": {
+                "mk.veinmining.used.stone_shovel": {
+                    "min": 1
+                }
+            }
+        },
+        {
+            "condition": "entity_scores",
+            "entity": "this",
+            "scores": {
+                "mk.veinmining.used.golden_shovel": {
+                    "min": 1
+                }
+            }
+        },
+        {
+            "condition": "entity_scores",
+            "entity": "this",
+            "scores": {
+                "mk.veinmining.used.iron_shovel": {
+                    "min": 1
+                }
+            }
+        },
+        {
+            "condition": "entity_scores",
+            "entity": "this",
+            "scores": {
+                "mk.veinmining.used.diamond_shovel": {
+                    "min": 1
+                }
+            }
+        },
+        {
+            "condition": "entity_scores",
+            "entity": "this",
+            "scores": {
+                "mk.veinmining.used.netherite_shovel": {
+                    "min": 1
+                }
+            }
+        }
+    ]
+}
