@@ -12,5 +12,8 @@
                 }
             }
         }
+    },
+    "rewards": {
+        "function": "micahcraft:enchantments/veinmining/used/clear/scheduled/tilled"
     }
 }
