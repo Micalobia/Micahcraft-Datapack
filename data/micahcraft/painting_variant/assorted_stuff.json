@@ -1,0 +1,15 @@
+{
+    "asset_id": "micahcraft:assorted_stuff",
+    "width": 4,
+    "height": 4,
+    "author": {
+        "color": "gray",
+        "translate": "painting.micahcraft.assorted_stuff.author",
+        "fallback": "Jessica Koehler"
+    },
+    "title": {
+        "color": "yellow",
+        "translate": "painting.micahcraft.assorted_stuff.title",
+        "fallback": "Assorted Stuff"
+    }
+}

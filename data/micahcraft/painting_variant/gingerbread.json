@@ -1,0 +1,15 @@
+{
+    "asset_id": "micahcraft:gingerbread",
+    "width": 4,
+    "height": 4,
+    "author": {
+        "color": "gray",
+        "translate": "painting.micahcraft.gingerbread.author",
+        "fallback": "Jessica Koehler"
+    },
+    "title": {
+        "color": "yellow",
+        "translate": "painting.micahcraft.gingerbread.title",
+        "fallback": "Gingerbread"
+    }
+}
