@@ -1,0 +1,20 @@
+{
+    "type": "crafting_shapeless",
+    "ingredients": [
+        "sweet_berries", 
+        "sweet_berries", 
+        "sweet_berries", 
+        "sugar", 
+        "#eggs"
+    ],
+    "result": {
+        "id": "pumpkin_pie",
+        "components": {
+            "item_model": "micahcraft:sweet_berry_pie",
+            "item_name": {
+                "translate": "item.micahcraft.sweet_berry_pie",
+                "fallback": "Sweet Berry Pie"
+            }
+        }
+    }
+}

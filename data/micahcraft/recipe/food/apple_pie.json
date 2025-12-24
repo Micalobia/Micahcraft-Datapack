@@ -1,0 +1,14 @@
+{
+    "type": "crafting_shapeless",
+    "ingredients": ["apple", "sugar", "#eggs"],
+    "result": {
+        "id": "pumpkin_pie",
+        "components": {
+            "item_model": "micahcraft:apple_pie",
+            "item_name": {
+                "translate": "item.micahcraft.apple_pie",
+                "fallback": "Apple Pie"
+            }
+        }
+    }
+}
