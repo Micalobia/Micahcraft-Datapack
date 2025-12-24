@@ -5,13 +5,14 @@ from shutil import rmtree
 import zipfile
 import sys
 import data
-from data import Colorable, IdentifierLike, AnyIdentifier, Stonecutter
+from data import Colorable, IdentifierLike, AnyIdentifier, Stonecutter, Result
 import pathlib
 import os
 
 # Goals:
 # - Stonecutter Variants
 # - Woodcutter Recipes
+# - Painting Stonecutter variants
 # - Recipe Advancements
 # - Scoreboard Advancements
 # - Colorable Recipes
@@ -40,9 +41,7 @@ with open("./recipe_advancements.json", "r") as f:
 
 with open("./score_advancements.json", "r") as f:
     s = json.load(f)
-    score_advancements: dict[str, data.ScoreAdvancement] = {
-        k: data.ScoreAdvancement.model_validate(v) for k, v in s.items()
-    }
+    score_advancements: dict[str, data.ScoreAdvancement] = {k: data.ScoreAdvancement.model_validate(v) for k, v in s.items()}
 
 
 for k, v in score_advancements.items():
@@ -63,16 +62,22 @@ def add_advancement(item: AnyIdentifier, recipe: IdentifierLike):
         advancements[item] = [recipe]
 
 
-print("Reading all recipes")
 recipes = []
 with zipfile.ZipFile(minecraft_path) as zf:
-    root = zipfile.Path(zf, "data/minecraft/recipe/")
+    print("Reading all recipes...")
+    recipe_root = zipfile.Path(zf, "data/minecraft/recipe/")
 
-    files = [p for p in data.zwalk(root, ".json")]
+    files = [p for p in data.zwalk(recipe_root, ".json")]
 
     for p in files:
         with p.open("r") as f:
             recipes.append(json.load(f))
+    
+    print("Reading all paintings...")
+    painting_root = zipfile.Path(zf, "data/minecraft/painting_variant/")
+    vanilla_files = [p.stem for p in data.zwalk(painting_root, ".json")]
+    custom_files = [p.stem for p in pathlib.Path("./data/micahcraft/painting_variant").glob("*.json")]
+    painting_ids = [f"minecraft:{_}" for _ in vanilla_files] + [f"micahcraft:{_}" for _ in custom_files]
 
     print("Modifying vanilla stuff...")
     with data.opend("./patch.json", "r") as f:
@@ -151,6 +156,13 @@ for tag, values in tags.items():
         cutting_recipe = Stonecutter.from_tag(i, item, 2 if iname.endswith("_slab") else 1)
         cutting_recipe.write_file(path)
 
+
+print("Generating painting recipes...")
+for name in painting_ids:
+    painting_recipe = Stonecutter(ingredient="minecraft:painting",result=Result(id="minecraft:painting",components={"minecraft:painting/variant":name}))
+    painting_recipe.write_file(data.recipe_path("painting",*name.split(":")))
+
+
 woods = data.LogType.parse_list(json.loads(pathlib.Path("./logs.json").read_text("utf-8")))
 
 print("Generating woodcutting tags...")
@@ -163,9 +175,7 @@ for wood in woods:
 print("Generating woodcutting recipes...")
 for wood in woods:
     if wood.type == "log":
-        Stonecutter.from_tag(wood.woods, wood.boat).write_file(
-            data.recipe_path("woodcutting", wood.name, "boat_from_wood")
-        )
+        Stonecutter.from_tag(wood.woods, wood.boat).write_file(data.recipe_path("woodcutting", wood.name, "boat_from_wood"))
     r = {
         "planks_from_log": Stonecutter.from_tag(wood.just_logs, wood.planks, 4),
         "planks_from_wood": Stonecutter.from_tag(wood.woods, wood.planks, 5),
