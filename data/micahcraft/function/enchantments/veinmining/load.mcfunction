@@ -33,7 +33,7 @@ scoreboard objectives add mk.veinmining.crouching minecraft.custom:minecraft.sne
 scoreboard objectives add mk.veinmining.group dummy
 scoreboard objectives add mk.veinmining.depth dummy
 scoreboard objectives add mk.veinmining.mined dummy
-
+scoreboard objectives add mk.veinmining.sound dummy
 
 scoreboard objectives add mk.veinmining.job_id dummy
 scoreboard players add #ID mk.veinmining.job_id 0

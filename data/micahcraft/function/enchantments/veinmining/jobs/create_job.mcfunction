@@ -3,6 +3,7 @@ data merge entity @s {Marker:1b,Invisible:1b}
 tag @s add mk.veinmining.job
 data modify entity @s data.owner set from entity @p[tag=mk.veinmining.mining] UUID
 scoreboard players operation @s mk.veinmining.group = @n[type=marker,tag=mk.veinmining.hit] mk.veinmining.group
+scoreboard players operation @s mk.veinmining.sound = @n[type=marker,tag=mk.veinmining.hit] mk.veinmining.sound
 scoreboard players operation @s mk.veinmining.job_id = #ID mk.veinmining.job_id
 scoreboard players add #ID mk.veinmining.job_id 1
 scoreboard players set @s mk.veinmining.depth 0

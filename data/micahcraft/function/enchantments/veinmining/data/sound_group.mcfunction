@@ -1,0 +1,14 @@
+execute if block ~ ~ ~ #micahcraft:veinmining/sound/ancient_debris run return 1
+execute if block ~ ~ ~ #micahcraft:veinmining/sound/azalea_leaves run return 2
+execute if block ~ ~ ~ #micahcraft:veinmining/sound/cherry_leaves run return 3
+execute if block ~ ~ ~ #micahcraft:veinmining/sound/cherry_wood run return 4
+execute if block ~ ~ ~ #micahcraft:veinmining/sound/deepslate run return 5
+execute if block ~ ~ ~ #micahcraft:veinmining/sound/glass run return 6
+execute if block ~ ~ ~ #micahcraft:veinmining/sound/grass run return 7
+execute if block ~ ~ ~ #micahcraft:veinmining/sound/gravel run return 8
+execute if block ~ ~ ~ #micahcraft:veinmining/sound/mangrove_roots run return 9
+execute if block ~ ~ ~ #micahcraft:veinmining/sound/nether_ore run return 10
+execute if block ~ ~ ~ #micahcraft:veinmining/sound/stem run return 11
+execute if block ~ ~ ~ #micahcraft:veinmining/sound/stone run return 12
+execute if block ~ ~ ~ #micahcraft:veinmining/sound/wart_block run return 13
+execute if block ~ ~ ~ #micahcraft:veinmining/sound/wood run return 14

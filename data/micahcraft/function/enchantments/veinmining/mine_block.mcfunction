@@ -5,3 +5,4 @@ execute if predicate micahcraft:enchantments/telekinesis/holding run function mi
 execute store result storage micahcraft:util mine_block.points int 1 run function micahcraft:util/xp/block
 setblock ~ ~ ~ air
 execute if score #TileDrops mk.math matches 1 run function micahcraft:util/xp/spawn_orbs with storage micahcraft:util mine_block 
+function micahcraft:enchantments/veinmining/sound

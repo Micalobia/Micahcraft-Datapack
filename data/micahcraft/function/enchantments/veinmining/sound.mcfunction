@@ -1,0 +1,14 @@
+execute if score @s mk.veinmining.sound matches 1 run return run playsound block.ancient_debris.break block @a[distance=..16] ~ ~ ~ 1.0 0.8
+execute if score @s mk.veinmining.sound matches 2 run return run playsound block.azalea_leaves.break block @a[distance=..16] ~ ~ ~ 0.85 0.768
+execute if score @s mk.veinmining.sound matches 3 run return run playsound block.cherry_leaves.break block @a[distance=..16] ~ ~ ~ 1.0 0.8
+execute if score @s mk.veinmining.sound matches 4 run return run playsound block.cherry_wood.break block @a[distance=..16] ~ ~ ~ 1.0 0.8
+execute if score @s mk.veinmining.sound matches 5 run return run playsound block.deepslate.break block @a[distance=..16] ~ ~ ~ 1.0 0.8
+execute if score @s mk.veinmining.sound matches 6 run return run playsound block.glass.break block @a[distance=..16] ~ ~ ~ 1.0 0.8
+execute if score @s mk.veinmining.sound matches 7 run return run playsound block.grass.break block @a[distance=..16] ~ ~ ~ 1.0 0.8
+execute if score @s mk.veinmining.sound matches 8 run return run playsound block.gravel.break block @a[distance=..16] ~ ~ ~ 1.0 0.8
+execute if score @s mk.veinmining.sound matches 9 run return run playsound block.mangrove_roots.break block @a[distance=..16] ~ ~ ~ 0.25 0.96
+execute if score @s mk.veinmining.sound matches 10 run return run playsound block.nether_ore.break block @a[distance=..16] ~ ~ ~ 1.0 0.8
+execute if score @s mk.veinmining.sound matches 11 run return run playsound block.stem.break block @a[distance=..16] ~ ~ ~ 1.0 0.8
+execute if score @s mk.veinmining.sound matches 12 run return run playsound block.stone.break block @a[distance=..16] ~ ~ ~ 1.0 0.8
+execute if score @s mk.veinmining.sound matches 13 run return run playsound block.wart_block.break block @a[distance=..16] ~ ~ ~ 1.0 0.8
+execute if score @s mk.veinmining.sound matches 14 run return run playsound block.wood.break block @a[distance=..16] ~ ~ ~ 1.0 0.8

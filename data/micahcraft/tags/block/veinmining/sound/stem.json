@@ -1,0 +1,13 @@
+{
+    "replace": false,
+    "values": [
+        "crimson_hyphae",
+        "crimson_stem",
+        "stripped_crimson_hyphae",
+        "stripped_crimson_stem",
+        "stripped_warped_hyphae",
+        "stripped_warped_stem",
+        "warped_hyphae",
+        "warped_stem"
+    ]
+}
