@@ -1,0 +1,1 @@
+scoreboard objectives add mk.ender_arrow.fired_bow used:bow

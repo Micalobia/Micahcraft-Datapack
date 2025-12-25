@@ -2,10 +2,6 @@
     "condition": "all_of",
     "terms": [
         {
-            "condition": "reference",
-            "name": "micahcraft:enchantments/spectre_shot/arrow"
-        },
-        {
             "condition": "any_of",
             "terms": [
                 {
