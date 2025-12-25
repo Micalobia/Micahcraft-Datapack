@@ -15,6 +15,7 @@
         "micahcraft:commands/creative/clear/tick",
         "micahcraft:commands/creative/bind/tick",
         "micahcraft:trim_particles/tick",
-        "micahcraft:misc/tick"
+        "micahcraft:misc/tick",
+        "micahcraft:events/invisible_item_frame/tick"
     ]
 }

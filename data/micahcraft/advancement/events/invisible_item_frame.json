@@ -1,0 +1,22 @@
+{
+    "criteria": {
+        "unlocked": {
+            "trigger": "minecraft:item_used_on_block",
+            "conditions": {
+                "player": {
+                    "equipment": {
+                        "mainhand": {
+                            "items": "#micahcraft:item_frames",
+                            "components": {
+                                "custom_data": { "mk.invisible": true }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "micahcraft:events/invisible_item_frame/used"
+    }
+}

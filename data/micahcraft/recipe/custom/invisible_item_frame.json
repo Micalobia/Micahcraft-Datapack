@@ -1,0 +1,21 @@
+{
+    "type": "crafting_shapeless",
+    "category": "misc",
+    "ingredients": ["item_frame", "phantom_membrane"],
+    "result": {
+        "id": "item_frame",
+        "components": {
+            "item_model": "micahcraft:invisible_item_frame",
+            "item_name": {
+                "translate": "item.micahcraft.invisible_item_frame",
+                "fallback": "Invisible Item Frame"
+            },
+            "custom_data": { "mk.invisible": true },
+            "entity_data": {
+                "id": "item_frame",
+                "Invisible": true,
+                "Tags": ["mk.invisible.fresh","mk.invisible"]
+            }
+        }
+    }
+}

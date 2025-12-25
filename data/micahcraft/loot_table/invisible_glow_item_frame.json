@@ -1,0 +1,32 @@
+{
+    "type": "empty",
+    "pools": [
+        {
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "glow_item_frame",
+                    "functions": [
+                        {
+                            "function": "set_components",
+                            "components": {
+                                "item_model": "micahcraft:invisible_glow_item_frame",
+                                "item_name": {
+                                    "translate": "item.micahcraft.invisible_glow_item_frame",
+                                    "fallback": "Invisible Glow Item Frame"
+                                },
+                                "custom_data": { "mk.invisible": true },
+                                "entity_data": {
+                                    "id": "glow_item_frame",
+                                    "Invisible": true,
+                                    "Tags": ["mk.invisible.fresh", "mk.invisible"]
+                                }
+                            }
+                        }
+                    ]
+                }
+            ],
+            "rolls": 1
+        }
+    ]
+}

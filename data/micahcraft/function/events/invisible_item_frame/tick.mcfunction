@@ -1,0 +1,1 @@
+execute as @e[type=item_display,tag=mk.invisible] run function micahcraft:events/invisible_item_frame/tick/frame_tick

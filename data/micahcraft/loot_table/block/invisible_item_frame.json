@@ -1,0 +1,23 @@
+{
+    "type": "empty",
+    "pools": [
+        {
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "item_frame",
+                    "functions": [
+                        {
+                            "function": "set_components",
+                            "components": {
+                                "item_model": "micahcraft:block/invisible_item_frame",
+                                "enchantment_glint_override": true
+                            }
+                        }
+                    ]
+                }
+            ],
+            "rolls": 1
+        }
+    ]
+}

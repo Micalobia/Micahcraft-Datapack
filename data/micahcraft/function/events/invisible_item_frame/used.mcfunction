@@ -1,0 +1,2 @@
+advancement revoke @s only micahcraft:events/invisible_item_frame
+execute at @n[type=#micahcraft:item_frames,tag=mk.invisible.fresh] positioned ~ ~0.5 ~ summon item_display run function micahcraft:events/invisible_item_frame/summon
