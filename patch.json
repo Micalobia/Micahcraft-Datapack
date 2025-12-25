@@ -85,6 +85,13 @@
             ]
         }
     ],
+    "enchantment/unbreaking": [
+        {
+            "op": "replace",
+            "path": "/supported_items",
+            "value": "#micahcraft:enchantable/unbreaking"
+        }
+    ],
     "loot_table/blocks/beetroots": [
         {
             "op": "add",
