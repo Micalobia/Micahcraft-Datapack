@@ -1,6 +1,7 @@
 {
     "replace": false,
     "values": [
-        "micahcraft:storm_strike"
+        "micahcraft:storm_strike",
+        "micahcraft:slipstream"
     ]
 }

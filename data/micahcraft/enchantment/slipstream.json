@@ -1,0 +1,35 @@
+{
+    "anvil_cost": 5,
+    "description": {
+        "translate": "enchantment.micahcraft.slipstream",
+        "fallback": "Slipstream"
+    },
+    "effects": {
+        "minecraft:attributes": [
+            {
+                "amount": {
+                    "type": "minecraft:linear",
+                    "base": 0.19373,
+                    "per_level_above_first": 0.19373
+                },
+                "attribute": "minecraft:flying_speed",
+                "id": "micahcraft:enchantment.slipstream",
+                "operation": "add_multiplied_total"
+            }
+        ]
+    },
+    "max_cost": {
+        "base": 35,
+        "per_level_above_first": 10
+    },
+    "max_level": 3,
+    "min_cost": {
+        "base": 20,
+        "per_level_above_first": 10
+    },
+    "slots": [
+        "body"
+    ],
+    "supported_items": "#minecraft:harnesses",
+    "weight": 1
+}
