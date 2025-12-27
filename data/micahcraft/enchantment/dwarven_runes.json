@@ -55,7 +55,7 @@
         "base": 10,
         "per_level_above_first": 20
     },
-    "supported_items": "#minecraft:enchantable/sword",
+    "supported_items": "#minecraft:swords",
     "slots": [
         "mainhand"
     ],

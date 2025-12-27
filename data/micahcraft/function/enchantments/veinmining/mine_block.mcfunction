@@ -1,5 +1,5 @@
 execute unless predicate micahcraft:player/mineable run return fail
-execute store result score #TileDrops mk.math run gamerule doTileDrops
+execute store result score #TileDrops mk.math run gamerule block_drops
 execute if score #TileDrops mk.math matches 1 run loot spawn ~ ~ ~ mine ~ ~ ~ mainhand
 execute if predicate micahcraft:enchantments/telekinesis/holding run function micahcraft:enchantments/veinmining/collect with entity @s data
 execute store result storage micahcraft:util mine_block.points int 1 run function micahcraft:util/xp/block
