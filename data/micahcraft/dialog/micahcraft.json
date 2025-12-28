@@ -90,5 +90,6 @@
     "after_action": "wait_for_response",
     "exit_action": {
         "label": "Exit"
-    }
+    },
+    "pause": false
 }

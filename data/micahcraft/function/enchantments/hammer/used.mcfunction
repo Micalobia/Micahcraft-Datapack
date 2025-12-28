@@ -1,4 +1,4 @@
-$execute store result score #Crouch mk.math run function settings:data/get_value {key:"$(crouch)"}
+execute store result score #Crouch mk.math run function micahcraft:settings/data/get/enchant_crouch {path:"hammer_crouch"}
 execute if score #Crouch mk.math matches 1 unless entity @s[tag=mk.hammer.crouching] run return fail
 execute if score #Crouch mk.math matches 2 if entity @s[tag=mk.hammer.crouching] run return fail
 tag @s add mk.hammer.used

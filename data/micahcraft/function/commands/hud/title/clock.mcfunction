@@ -9,7 +9,7 @@ scoreboard players operation #Minutes mk.math *= #3 mk.math
 scoreboard players operation #Minutes mk.math /= #50 mk.math
 scoreboard players operation #PM mk.math = #Hours mk.math
 scoreboard players operation #PM mk.math /= #12 mk.math
-execute store result score #24H mk.math run function settings:data/get_value {key:"mk_hud_clock_mode"}
+execute store result score #24H mk.math run function micahcraft:settings/data/get/basic {namespace:"hud",path:"clock_mode"}
 execute if score #24H mk.math matches 0 run scoreboard players operation #Hours mk.math %= #12 mk.math
 execute if score #24H mk.math matches 0 if score #Hours mk.math matches 0 run scoreboard players set #Hours mk.math 12
 $execute if score #Hours mk.math matches ..9 run data modify storage micahcraft:hud display append value {text:"0",color:"$(yellow)"}

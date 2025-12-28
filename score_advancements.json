@@ -228,5 +228,94 @@
             "range": 2
         },
         "function": "micahcraft:dialog/trigger"
+    },
+    "settings/open": {
+        "scoreboard": "Settings",
+        "value": {
+            "range": 1
+        },
+        "function": "micahcraft:settings/triggers/open"
+    },
+    "settings/close": {
+        "scoreboard": "Settings",
+        "value": {
+            "range": {
+                "max": -1
+            }
+        },
+        "function": "micahcraft:settings/triggers/close"
+    },
+    "settings/general": {
+        "scoreboard": "Settings",
+        "value": {
+            "range": 2
+        },
+        "function": "micahcraft:settings/triggers/general"
+    },
+    "settings/hud": {
+        "scoreboard": "Settings",
+        "value": {
+            "range": 3
+        },
+        "function": "micahcraft:settings/triggers/hud"
+    },
+    "settings/world": {
+        "scoreboard": "Settings",
+        "value": {
+            "range": 4
+        },
+        "function": "micahcraft:settings/triggers/world"
+    },
+    "settings/enchantments": {
+        "scoreboard": "Settings",
+        "value": {
+            "range": 5
+        },
+        "function": "micahcraft:settings/triggers/enchantments"
+    },
+    "settings/nop": {
+        "scoreboard": "Settings",
+        "value": {
+            "range": {
+                "min": 6
+            }
+        },
+        "function": "micahcraft:settings/triggers/close"
+    },
+    "settings/general/update": {
+        "scoreboard": "mk.settings.general.trigger",
+        "value": {
+            "range": {
+                "min": 1
+            }
+        },
+        "function": "micahcraft:settings/update/general"
+    },
+    "settings/hud/update": {
+        "scoreboard": "mk.settings.hud.trigger",
+        "value": {
+            "range": {
+                "min": 1
+            }
+        },
+        "function": "micahcraft:settings/update/hud"
+    },
+    "settings/world/update": {
+        "scoreboard": "mk.settings.world.trigger",
+        "value": {
+            "range": {
+                "min": 1
+            }
+        },
+        "function": "micahcraft:settings/update/world"
+    },
+    "settings/enchantments/update": {
+        "scoreboard": "mk.settings.enchantments.trigger",
+        "value": {
+            "range": {
+                "min": 1
+            }
+        },
+        "function": "micahcraft:settings/update/enchantments"
     }
 }

@@ -1,0 +1,65 @@
+{
+    "title": {
+        "translate": "settings.micahcraft.title",
+        "fallback": "Settings",
+        "color": "#2aa198"
+    },
+    "type": "multi_action",
+    "actions": [
+        {
+            "label": {
+                "translate": "settings.micahcraft.general.title",
+                "fallback": "General",
+                "color": "#c0c0ff"
+            },
+            "action": {
+                "type": "run_command",
+                "command": "trigger Settings set 2"
+            }
+        },
+        {
+            "label": {
+                "translate": "settings.micahcraft.hud.title",
+                "fallback": "HUD",
+                "color": "gold"
+            },
+            "action": {
+                "type": "run_command",
+                "command": "trigger Settings set 3"
+            }
+        },
+        {
+            "label": {
+                "translate": "settings.micahcraft.world.title",
+                "fallback": "World",
+                "color": "dark_green"
+            },
+            "action": {
+                "type": "run_command",
+                "command": "trigger Settings set 4"
+            }
+        },
+        {
+            "label": {
+                "translate": "settings.micahcraft.enchantments.title",
+                "fallback": "Enchantments",
+                "color": "dark_purple"
+            },
+            "action": {
+                "type": "run_command",
+                "command": "trigger Settings set 5"
+            }
+        }
+    ],
+    "exit_action": {
+        "label": {
+            "translate": "gui.back"
+        },
+        "action": {
+            "type": "run_command",
+            "command": "trigger Settings set -1"
+        }
+    },
+    "columns": 1,
+    "pause": false
+}

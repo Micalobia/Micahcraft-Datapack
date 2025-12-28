@@ -1,6 +1,7 @@
 {
     "replace": false,
     "values": [
+        "micahcraft:settings/tick",
         "micahcraft:dialog/tick",
         "micahcraft:commands/show_xp/tick",
         "micahcraft:commands/show_deaths/tick",

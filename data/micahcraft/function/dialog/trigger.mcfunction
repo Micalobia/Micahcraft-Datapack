@@ -11,4 +11,5 @@ data modify storage micahcraft:dialog root set value {\
     actions: []\
 }
 function micahcraft:dialog/dynamic/more
-function settings:__private__/util/nbt_dialog {nbt:"storage micahcraft:dialog root"}
+data modify storage micahcraft:dialog _dialog set from storage micahcraft:dialog root
+function micahcraft:settings/show with storage micahcraft:dialog
