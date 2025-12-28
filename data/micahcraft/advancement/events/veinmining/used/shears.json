@@ -3,13 +3,14 @@
         "block": {
             "trigger": "minecraft:item_used_on_block",
             "conditions": {
-                "player": {
-                    "equipment": {
-                        "mainhand": {
+                "location": [
+                    {
+                        "condition": "match_tool",
+                        "predicate": {
                             "items": "shears"
                         }
                     }
-                }
+                ]
             }
         },
         "entity": {

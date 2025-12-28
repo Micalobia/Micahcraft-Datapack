@@ -3,16 +3,17 @@
         "unlocked": {
             "trigger": "minecraft:item_used_on_block",
             "conditions": {
-                "player": {
-                    "equipment": {
-                        "mainhand": {
+                "location": [
+                    {
+                        "condition": "match_tool",
+                        "predicate": {
                             "items": "#micahcraft:item_frames",
                             "components": {
                                 "custom_data": { "mk.invisible": true }
                             }
                         }
                     }
-                }
+                ]
             }
         }
     },
