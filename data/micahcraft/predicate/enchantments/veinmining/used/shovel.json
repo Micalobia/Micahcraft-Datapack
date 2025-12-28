@@ -23,6 +23,15 @@
             "condition": "entity_scores",
             "entity": "this",
             "scores": {
+                "mk.veinmining.used.copper_shovel": {
+                    "min": 1
+                }
+            }
+        },
+        {
+            "condition": "entity_scores",
+            "entity": "this",
+            "scores": {
                 "mk.veinmining.used.golden_shovel": {
                     "min": 1
                 }

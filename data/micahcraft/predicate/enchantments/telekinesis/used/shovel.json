@@ -23,6 +23,15 @@
             "condition": "entity_scores",
             "entity": "this",
             "scores": {
+                "mk.telekinesis.used.copper_shovel": {
+                    "min": 1
+                }
+            }
+        },
+        {
+            "condition": "entity_scores",
+            "entity": "this",
+            "scores": {
                 "mk.telekinesis.used.golden_shovel": {
                     "min": 1
                 }

@@ -1,0 +1,8 @@
+{
+    "type": "minecraft:stonecutting",
+    "ingredient": "waxed_oxidized_copper_golem_statue",
+    "result": {
+        "id": "oxidized_copper_golem_statue",
+        "count": 1
+    }
+}

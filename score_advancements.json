@@ -108,6 +108,10 @@
         "scoreboard": "mk.quarry.used.stone_pickaxe",
         "function": "micahcraft:enchantments/quarry/used/stone"
     },
+    "quarry/used/copper": {
+        "scoreboard": "mk.quarry.used.copper_pickaxe",
+        "function": "micahcraft:enchantments/quarry/used/copper"
+    },
     "quarry/used/iron": {
         "scoreboard": "mk.quarry.used.iron_pickaxe",
         "function": "micahcraft:enchantments/quarry/used/iron"
@@ -131,6 +135,10 @@
     "excavation/used/stone": {
         "scoreboard": "mk.excavation.used.stone_shovel",
         "function": "micahcraft:enchantments/excavation/used/stone"
+    },
+    "excavation/used/copper": {
+        "scoreboard": "mk.excavation.used.copper_shovel",
+        "function": "micahcraft:enchantments/excavation/used/copper"
     },
     "excavation/used/iron": {
         "scoreboard": "mk.excavation.used.iron_shovel",

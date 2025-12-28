@@ -68,7 +68,7 @@
         {
             "op": "add",
             "path": "/primary_items",
-            "value": "#minecraft:enchantable/sword"
+            "value": "#minecraft:enchantable/melee_weapon"
         }
     ],
     "enchantment/loyalty": [
@@ -234,11 +234,6 @@
     "loot_table/chests/end_city_treasure": [
         {
             "op": "replace",
-            "path": "/pools/0/entries/9/functions/0/options",
-            "value": "#micahcraft:on_random_loot/end_city"
-        },
-        {
-            "op": "replace",
             "path": "/pools/0/entries/10/functions/0/options",
             "value": "#micahcraft:on_random_loot/end_city"
         },
@@ -300,6 +295,16 @@
         {
             "op": "replace",
             "path": "/pools/0/entries/22/functions/0/options",
+            "value": "#micahcraft:on_random_loot/end_city"
+        },
+        {
+            "op": "replace",
+            "path": "/pools/0/entries/23/functions/0/options",
+            "value": "#micahcraft:on_random_loot/end_city"
+        },
+        {
+            "op": "replace",
+            "path": "/pools/0/entries/24/functions/0/options",
             "value": "#micahcraft:on_random_loot/end_city"
         },
         {
@@ -376,7 +381,7 @@
     "loot_table/chests/simple_dungeon": [
         {
             "op": "replace",
-            "path": "/pools/0/entries/10/functions/0/options",
+            "path": "/pools/0/entries/11/functions/0/options",
             "value": "#micahcraft:on_random_loot/dungeon"
         }
     ],
@@ -442,7 +447,7 @@
     "loot_table/chests/stronghold_corridor": [
         {
             "op": "replace",
-            "path": "/pools/0/entries/19/functions/0/options",
+            "path": "/pools/0/entries/20/functions/0/options",
             "value": "#micahcraft:on_random_loot/stronghold"
         }
     ],

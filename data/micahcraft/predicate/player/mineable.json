@@ -35,6 +35,19 @@
                     "terms": [
                         {
                             "condition": "reference",
+                            "name": "micahcraft:player/holding/material/copper"
+                        },
+                        {
+                            "condition": "reference",
+                            "name": "micahcraft:player/mineable/material/copper"
+                        }
+                    ]
+                },
+                {
+                    "condition": "all_of",
+                    "terms": [
+                        {
+                            "condition": "reference",
                             "name": "micahcraft:player/holding/material/iron"
                         },
                         {

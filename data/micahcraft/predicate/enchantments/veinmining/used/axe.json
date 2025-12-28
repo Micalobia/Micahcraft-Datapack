@@ -23,6 +23,15 @@
             "condition": "entity_scores",
             "entity": "this",
             "scores": {
+                "mk.veinmining.used.copper_axe": {
+                    "min": 1
+                }
+            }
+        },
+        {
+            "condition": "entity_scores",
+            "entity": "this",
+            "scores": {
                 "mk.veinmining.used.golden_axe": {
                     "min": 1
                 }

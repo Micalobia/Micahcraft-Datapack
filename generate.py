@@ -85,6 +85,7 @@ with zipfile.ZipFile(minecraft_path) as zf:
     for path, patches in patch_data.items():
         if path == "$schema":
             continue
+        # print(path)
         path = data.vanilla_path(path)
         r = zipfile.Path(zf, path)
         with r.open("r") as f:

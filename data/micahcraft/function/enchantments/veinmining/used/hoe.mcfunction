@@ -1,6 +1,7 @@
 advancement revoke @s only micahcraft:generated/score_triggers/veinmining/used/hoe
 scoreboard players set @s mk.veinmining.used.wooden_hoe 0
 scoreboard players set @s mk.veinmining.used.stone_hoe 0
+scoreboard players set @s mk.veinmining.used.copper_hoe 0
 scoreboard players set @s mk.veinmining.used.golden_hoe 0
 scoreboard players set @s mk.veinmining.used.iron_hoe 0
 scoreboard players set @s mk.veinmining.used.diamond_hoe 0

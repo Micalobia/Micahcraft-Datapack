@@ -23,6 +23,15 @@
             "condition": "entity_scores",
             "entity": "this",
             "scores": {
+                "mk.telekinesis.used.copper_hoe": {
+                    "min": 1
+                }
+            }
+        },
+        {
+            "condition": "entity_scores",
+            "entity": "this",
+            "scores": {
                 "mk.telekinesis.used.golden_hoe": {
                     "min": 1
                 }

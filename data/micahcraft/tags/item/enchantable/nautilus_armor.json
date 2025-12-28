@@ -1,0 +1,10 @@
+{
+    "replace": false,
+    "values": [
+        "iron_nautilus_armor",
+        "golden_nautilus_armor",
+        "copper_nautilus_armor",
+        "diamond_nautilus_armor",
+        "netherite_nautilus_armor"
+    ]
+}

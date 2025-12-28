@@ -2,9 +2,7 @@
     "replace": false,
     "values": [
         "#harnesses",
-        "leather_horse_armor",
-        "iron_horse_armor",
-        "golden_horse_armor",
-        "diamond_horse_armor"
+        "#micahcraft:enchantable/horse_armor",
+        "#micahcraft:enchantable/nautilus_armor"
     ]
 }
