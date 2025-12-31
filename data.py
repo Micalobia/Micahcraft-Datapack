@@ -331,6 +331,10 @@ class LogType(SimpleModel):
     @property
     def door(self) -> Identifier:
         return f"{self.name}_door"
+    
+    @property
+    def shelf(self) -> Identifier:
+        return f"{self.name}_shelf"
 
 
 class ColorableRecipe(SimpleModel):

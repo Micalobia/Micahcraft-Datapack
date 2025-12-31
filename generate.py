@@ -194,6 +194,7 @@ for wood in woods:
         "slabs_from_planks": Stonecutter.from_item(wood.planks, wood.slab, 2),
         "stairs_from_planks": Stonecutter.from_item(wood.planks, wood.stairs),
         "door_from_logs": Stonecutter.from_tag(wood.logs, wood.door, 2),
+        "shelf_from_log": Stonecutter.from_tag(wood.logs, wood.shelf)
     }
     for k, v in r.items():
         path = data.recipe_path("woodcutting", wood.name, k)
