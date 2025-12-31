@@ -33,6 +33,13 @@
         },
         "function": "micahcraft:commands/hud/dialog"
     },
+    "sit": {
+        "scoreboard": "mk.dialog",
+        "value": {
+            "range": 5
+        },
+        "function": "micahcraft:events/sit"
+    },
     "scan_horse": {
         "scoreboard": "ScanHorse",
         "function": "micahcraft:commands/scan_horse/trigger"

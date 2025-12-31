@@ -44,6 +44,17 @@
         },
         {
             "label": {
+                "text": "Sit",
+                "color": "dark_purple"
+            },
+            "width": 200,
+            "action": {
+                "type": "run_command",
+                "command": "trigger mk.dialog set 5"
+            }
+        },
+        {
+            "label": {
                 "text": "Show Playtime Leaderboard",
                 "color": "blue"
             },
