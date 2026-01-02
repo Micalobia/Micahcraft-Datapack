@@ -1,6 +1,7 @@
 {
     "replace": false,
     "values": [
+        "micahcraft:api/internal/tick",
         "micahcraft:settings/tick",
         "micahcraft:dialog/tick",
         "micahcraft:commands/show_xp/tick",

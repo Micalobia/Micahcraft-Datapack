@@ -1,0 +1,1 @@
+advancement revoke @a only micahcraft:api/internal/used/axe

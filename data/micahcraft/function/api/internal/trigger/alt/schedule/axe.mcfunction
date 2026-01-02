@@ -1,0 +1,1 @@
+schedule function micahcraft:api/internal/trigger/alt/remove/axe 1t append

@@ -1,0 +1,1 @@
+schedule function micahcraft:api/internal/trigger/alt/remove/shears 1t append

@@ -1,0 +1,20 @@
+{
+    "criteria": {
+        "unlocked": {
+            "trigger": "minecraft:item_used_on_block",
+            "conditions": {
+                "location": [
+                    {
+                        "condition": "match_tool",
+                        "predicate": {
+                            "items": "#hoes"
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "function": "micahcraft:api/internal/trigger/alt/schedule/hoe"
+    }
+}

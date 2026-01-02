@@ -1,0 +1,7 @@
+{
+    "replace": false,
+    "values": [
+        "micahcraft:slow_tick",
+        "micahcraft:api/internal/hit/prune"
+    ]
+}

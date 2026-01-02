@@ -1,0 +1,1 @@
+schedule function micahcraft:api/internal/trigger/alt/remove/shovel 1t append

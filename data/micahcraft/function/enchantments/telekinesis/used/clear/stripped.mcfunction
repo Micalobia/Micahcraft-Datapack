@@ -1,1 +1,0 @@
-return run advancement revoke @s only micahcraft:events/telekinesis/used/axe

@@ -7,13 +7,7 @@
             "predicate": {
                 "slots": {
                     "weapon.mainhand": {
-                        "predicates": {
-                            "enchantments": [
-                                {
-                                    "enchantments": "micahcraft:telekinesis"
-                                }
-                            ]
-                        }
+                        "items": "#hoes"
                     }
                 }
             }
@@ -29,13 +23,7 @@
                 ],
                 "slots": {
                     "container.0": {
-                        "predicates": {
-                            "enchantments": [
-                                {
-                                    "enchantments": "micahcraft:telekinesis"
-                                }
-                            ]
-                        }
+                        "items": "#hoes"
                     }
                 }
             }

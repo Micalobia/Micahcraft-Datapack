@@ -1,0 +1,9 @@
+{
+    "replace": false,
+    "values": [
+        "netherite_axe",
+        "netherite_hoe",
+        "netherite_pickaxe",
+        "netherite_shovel"
+    ]
+}

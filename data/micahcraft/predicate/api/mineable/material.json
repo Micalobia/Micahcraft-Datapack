@@ -1,0 +1,145 @@
+{
+    "condition": "any_of",
+    "terms": [
+        {
+            "condition": "all_of",
+            "terms": [
+                {
+                    "condition": "reference",
+                    "name": "micahcraft:api/holding/material/wood"
+                },
+                {
+                    "condition": "inverted",
+                    "term": {
+                        "condition": "location_check",
+                        "predicate": {
+                            "block": {
+                                "blocks": "#incorrect_for_wooden_tool"
+                            }
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "condition": "all_of",
+            "terms": [
+                {
+                    "condition": "reference",
+                    "name": "micahcraft:api/holding/material/stone"
+                },
+                {
+                    "condition": "inverted",
+                    "term": {
+                        "condition": "location_check",
+                        "predicate": {
+                            "block": {
+                                "blocks": "#incorrect_for_stone_tool"
+                            }
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "condition": "all_of",
+            "terms": [
+                {
+                    "condition": "reference",
+                    "name": "micahcraft:api/holding/material/copper"
+                },
+                {
+                    "condition": "inverted",
+                    "term": {
+                        "condition": "location_check",
+                        "predicate": {
+                            "block": {
+                                "blocks": "#incorrect_for_copper_tool"
+                            }
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "condition": "all_of",
+            "terms": [
+                {
+                    "condition": "reference",
+                    "name": "micahcraft:api/holding/material/iron"
+                },
+                {
+                    "condition": "inverted",
+                    "term": {
+                        "condition": "location_check",
+                        "predicate": {
+                            "block": {
+                                "blocks": "#incorrect_for_iron_tool"
+                            }
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "condition": "all_of",
+            "terms": [
+                {
+                    "condition": "reference",
+                    "name": "micahcraft:api/holding/material/gold"
+                },
+                {
+                    "condition": "inverted",
+                    "term": {
+                        "condition": "location_check",
+                        "predicate": {
+                            "block": {
+                                "blocks": "#incorrect_for_gold_tool"
+                            }
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "condition": "all_of",
+            "terms": [
+                {
+                    "condition": "reference",
+                    "name": "micahcraft:api/holding/material/diamond"
+                },
+                {
+                    "condition": "inverted",
+                    "term": {
+                        "condition": "location_check",
+                        "predicate": {
+                            "block": {
+                                "blocks": "#incorrect_for_diamond_tool"
+                            }
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "condition": "all_of",
+            "terms": [
+                {
+                    "condition": "reference",
+                    "name": "micahcraft:api/holding/material/netherite"
+                },
+                {
+                    "condition": "inverted",
+                    "term": {
+                        "condition": "location_check",
+                        "predicate": {
+                            "block": {
+                                "blocks": "#incorrect_for_netherite_tool"
+                            }
+                        }
+                    }
+                }
+            ]
+        }
+    ]
+}
