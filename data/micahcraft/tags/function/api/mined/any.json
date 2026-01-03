@@ -1,6 +1,7 @@
 {
     "replace": false,
     "values": [
-        "micahcraft:enchantments/telekinesis/used"
+        "micahcraft:enchantments/telekinesis/used",
+        "micahcraft:enchantments/veinmining/used"
     ]
 }

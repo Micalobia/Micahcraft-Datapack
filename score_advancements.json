@@ -171,54 +171,6 @@
         "scoreboard": "Bind",
         "function": "micahcraft:commands/creative/bind/trigger"
     },
-    "measuring/used_carrot": {
-        "scoreboard": "mk.measuring.used_carrot",
-        "function": "micahcraft:enchantments/measuring/clear"
-    },
-    "measuring/used_warped": {
-        "scoreboard": "mk.measuring.used_warped",
-        "function": "micahcraft:enchantments/measuring/clear"
-    },
-    "veinmining/used/pickaxe": {
-        "predicates": ["micahcraft:enchantments/veinmining/used/pickaxe"],
-        "function": "micahcraft:enchantments/veinmining/used/pickaxe"
-    },
-    "veinmining/used/axe":{
-        "predicates": ["micahcraft:enchantments/veinmining/used/axe"],
-        "function": "micahcraft:enchantments/veinmining/used/axe"
-    },
-    "veinmining/used/shovel":{
-        "predicates": ["micahcraft:enchantments/veinmining/used/shovel"],
-        "function": "micahcraft:enchantments/veinmining/used/shovel"
-    },
-    "veinmining/used/hoe":{
-        "predicates": ["micahcraft:enchantments/veinmining/used/hoe"],
-        "function": "micahcraft:enchantments/veinmining/used/hoe"
-    },
-    "veinmining/used/shears":{
-        "predicates": ["micahcraft:enchantments/veinmining/used/shears"],
-        "function": "micahcraft:enchantments/veinmining/used/shears"
-    },
-    "telekinesis/used/pickaxe": {
-        "predicates": ["micahcraft:enchantments/telekinesis/used/pickaxe"],
-        "function": "micahcraft:enchantments/telekinesis/used/pickaxe"
-    },
-    "telekinesis/used/axe":{
-        "predicates": ["micahcraft:enchantments/telekinesis/used/axe"],
-        "function": "micahcraft:enchantments/telekinesis/used/axe"
-    },
-    "telekinesis/used/shovel":{
-        "predicates": ["micahcraft:enchantments/telekinesis/used/shovel"],
-        "function": "micahcraft:enchantments/telekinesis/used/shovel"
-    },
-    "telekinesis/used/hoe":{
-        "predicates": ["micahcraft:enchantments/telekinesis/used/hoe"],
-        "function": "micahcraft:enchantments/telekinesis/used/hoe"
-    },
-    "telekinesis/used/shears":{
-        "predicates": ["micahcraft:enchantments/telekinesis/used/shears"],
-        "function": "micahcraft:enchantments/telekinesis/used/shears"
-    },
     "player/id": {
         "scoreboard": "mk.misc.player.id",
         "value": {

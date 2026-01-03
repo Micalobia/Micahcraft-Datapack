@@ -1,1 +1,1 @@
-function micahcraft:api/hit {tag:"mk.telekinesis.hit"}
+function micahcraft:api/hit/with_tag {tag:"mk.telekinesis.hit"}
