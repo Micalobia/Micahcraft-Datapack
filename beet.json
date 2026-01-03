@@ -1,0 +1,10 @@
+{
+    "name": "micahcraft",
+    "data_pack": {
+        "load": ["src"],
+        "name": "micahcraft"
+    },
+    "output": "build",
+    "author": "Micalobia",
+    "description": "Adds some vanilla+ recipes and features"
+}
