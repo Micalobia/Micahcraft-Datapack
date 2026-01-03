@@ -1,2 +1,0 @@
-execute as @a[tag=mk.quarry.holding] unless predicate micahcraft:enchantments/quarry/holding run function micahcraft:enchantments/hammer/clear
-execute as @a[tag=mk.quarry.holding] unless predicate micahcraft:enchantments/quarry/holding run tag @s remove mk.quarry.holding

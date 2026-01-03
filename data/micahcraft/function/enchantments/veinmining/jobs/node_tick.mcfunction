@@ -2,7 +2,8 @@
 execute store result score #mk.group mk.math run function micahcraft:enchantments/veinmining/data/group
 execute unless score #mk.group mk.math = @s mk.veinmining.group run return run function micahcraft:enchantments/veinmining/jobs/node_miss
 execute if score @n[type=armor_stand,tag=mk.veinmining.job.active] mk.veinmining.mined >= #MAX mk.veinmining.job_id run return run function micahcraft:enchantments/veinmining/jobs/node_miss
-execute as @n[type=armor_stand,tag=mk.veinmining.job.active] run function micahcraft:enchantments/veinmining/mine_block
+execute as @n[type=armor_stand,tag=mk.veinmining.job.active] run function micahcraft:util/mine_block
+execute as @n[type=armor_stand,tag=mk.veinmining.job.active] run function micahcraft:enchantments/veinmining/sound
 scoreboard players add @n[type=armor_stand,tag=mk.veinmining.job.active] mk.veinmining.mined 1
 tag @s add mk.veinmining.node.mined
 execute unless entity @s[tag=mk.veinmining.node.frontier] run return 1

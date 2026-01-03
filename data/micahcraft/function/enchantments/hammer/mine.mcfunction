@@ -1,6 +1,6 @@
-execute at @s if entity @p[tag=mk.hammer.used,tag=mk.hammer.axis.x] run tp @s ~ ~ ~ 90 0
-execute at @s if entity @p[tag=mk.hammer.used,tag=mk.hammer.axis.y] run tp @s ~ ~ ~ 0 90
-execute at @s if entity @p[tag=mk.hammer.used,tag=mk.hammer.axis.z] run tp @s ~ ~ ~ 0 0
+execute if entity @p[tag=mk.hammer.used,tag=mk.hammer.axis.x] run tp @s ~ ~ ~ 90 0
+execute if entity @p[tag=mk.hammer.used,tag=mk.hammer.axis.y] run tp @s ~ ~ ~ 0 90
+execute if entity @p[tag=mk.hammer.used,tag=mk.hammer.axis.z] run tp @s ~ ~ ~ 0 0
 tag @s add mk.hammer.live
 tag @s add mk.hammer.root
 execute at @s run summon marker ^1 ^ ^ {Tags:['mk.hammer.live']}

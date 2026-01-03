@@ -1,4 +1,2 @@
-tag @s add mk.hammer.hit
-function micahcraft:enchantments/hammer/clear
-execute if predicate micahcraft:player/mineable run function micahcraft:enchantments/hammer/hit/summon
-tag @s remove mk.hammer.hit
+execute at @s run function micahcraft:enchantments/hammer/direction
+function micahcraft:api/hit/with_tag {tag:"mk.hammer.hit"}

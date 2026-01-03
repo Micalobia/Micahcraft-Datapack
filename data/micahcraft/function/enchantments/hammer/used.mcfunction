@@ -1,8 +1,7 @@
-execute store result score #Crouch mk.math run function micahcraft:settings/data/get/enchant_crouch {path:"hammer_crouch"}
-execute if score #Crouch mk.math matches 1 unless entity @s[tag=mk.hammer.crouching] run return fail
-execute if score #Crouch mk.math matches 2 if entity @s[tag=mk.hammer.crouching] run return fail
+execute store result score #crouched mk.math run function micahcraft:settings/data/get/enchant_crouch {path:"hammer_crouch"}
+execute if score #crouched mk.math matches 1 unless predicate micahcraft:api/crouching run return fail
+execute if score #crouched mk.math matches 2 if predicate micahcraft:api/crouching run return fail
+execute at @s rotated as @s run function micahcraft:enchantments/hammer/direction
 tag @s add mk.hammer.used
-execute at @s as @e[type=marker,tag=mk.hammer.hit] \
-    if score @s mk.misc.player.id = @p[tag=mk.hammer.used] mk.misc.player.id \
-    run function micahcraft:enchantments/hammer/mine
+function micahcraft:api/hit/run {tag:"mk.hammer.hit",function:"micahcraft:enchantments/hammer/start"}
 tag @s remove mk.hammer.used

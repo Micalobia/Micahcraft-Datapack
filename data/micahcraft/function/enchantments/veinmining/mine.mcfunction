@@ -6,3 +6,4 @@ summon marker ~ ~ ~ {Tags:["mk.veinmining.temp"]}
 execute positioned ~ -64 ~ summon armor_stand positioned as @n[type=marker,tag=mk.veinmining.temp] run function micahcraft:enchantments/veinmining/jobs/create_job
 execute as @n[type=marker,tag=mk.veinmining.temp] run function micahcraft:util/remove
 tag @s remove mk.veinmining.hit.create
+function micahcraft:util/remove
