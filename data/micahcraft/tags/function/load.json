@@ -14,7 +14,6 @@
         "micahcraft:commands/hud/load",
         "micahcraft:events/day_counter/load",
         "micahcraft:grave/load",
-        "micahcraft:enchantments/germination/load",
         "micahcraft:enchantments/spectre_shot/load",
         "micahcraft:commands/creative/clear/load",
         "micahcraft:commands/creative/bind/load",
