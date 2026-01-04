@@ -1,8 +1,0 @@
-{
-    "type": "minecraft:stonecutting",
-    "ingredient": "oak_log",
-    "result": {
-        "id": "stripped_oak_log",
-        "count": 1
-    }
-}

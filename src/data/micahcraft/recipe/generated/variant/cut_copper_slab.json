@@ -1,8 +1,0 @@
-{
-    "type": "minecraft:stonecutting",
-    "ingredient": "#micahcraft:generated/variant/copper_block",
-    "result": {
-        "id": "minecraft:cut_copper_slab",
-        "count": 2
-    }
-}

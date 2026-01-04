@@ -1,8 +1,0 @@
-{
-    "type": "minecraft:stonecutting",
-    "ingredient": "#micahcraft:generated/wood/pale_oak",
-    "result": {
-        "id": "pale_oak_fence",
-        "count": 3
-    }
-}

@@ -1,8 +1,0 @@
-{
-    "type": "minecraft:stonecutting",
-    "ingredient": "waxed_copper_bulb",
-    "result": {
-        "id": "copper_bulb",
-        "count": 1
-    }
-}

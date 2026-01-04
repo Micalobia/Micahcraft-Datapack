@@ -1,9 +1,0 @@
-{
-    "replace": false,
-    "values": [
-        "minecraft:weathered_chiseled_copper",
-        "minecraft:weathered_copper",
-        "minecraft:weathered_copper_grate",
-        "minecraft:weathered_cut_copper"
-    ]
-}

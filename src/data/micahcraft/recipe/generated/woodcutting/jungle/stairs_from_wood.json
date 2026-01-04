@@ -1,8 +1,0 @@
-{
-    "type": "minecraft:stonecutting",
-    "ingredient": "#micahcraft:generated/wood/jungle",
-    "result": {
-        "id": "jungle_stairs",
-        "count": 5
-    }
-}

@@ -1,8 +1,0 @@
-{
-    "type": "minecraft:stonecutting",
-    "ingredient": "#micahcraft:generated/log/acacia",
-    "result": {
-        "id": "acacia_fence",
-        "count": 2
-    }
-}
