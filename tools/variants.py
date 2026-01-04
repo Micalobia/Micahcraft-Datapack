@@ -4,6 +4,7 @@ from tools.utility import Recipes
 
 
 def run(ctx: Context):
+    print("Building variant recipes...")
     vanilla = ctx.inject(Vanilla)
     recipe_helper = ctx.inject(Recipes)
     recipes = [recipe for _, recipe in vanilla.data.recipes.items() if recipe.data.get("type") == "minecraft:stonecutting"]

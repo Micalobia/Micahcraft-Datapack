@@ -8,6 +8,7 @@ import pathlib
 
 
 def run(ctx: Context):
+    print("Building woodcutting recipes...")
     tags = ctx.inject(Tags)
     recipes = ctx.inject(Recipes)
     vanilla = ctx.inject(Vanilla)

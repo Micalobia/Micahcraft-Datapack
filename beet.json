@@ -17,6 +17,7 @@
         "beet.contrib.vanilla.load_vanilla",
         "tools.variants.run",
         "tools.woodcutter.run",
+        "tools.paintings.run",
         "tools.utility.print_finished"
     ]
 }

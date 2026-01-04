@@ -1,12 +1,16 @@
 from beet import Context, Recipe, Advancement, NamespaceProxy
+from typing import Any
 
 
 class Recipes:
     def __init__(self, ctx: Context):
         pass
 
-    def stonecutter(self, ingredient: str | list[str], result: str, count: int = 1) -> Recipe:
-        return Recipe({"type": "minecraft:stonecutting", "ingredient": ingredient, "result": {"id": result, "count": count}})
+    def stonecutter(self, ingredient: str | list[str], result: str, count: int = 1, components: dict[str, Any] | None = None) -> Recipe:
+        r = {"id": result, "count": count}
+        if components:
+            r["components"] = components
+        return Recipe({"type": "minecraft:stonecutting", "ingredient": ingredient, "result": r})
 
     def advancement(self, item: str, recipe: str) -> Advancement:
         return Advancement(
