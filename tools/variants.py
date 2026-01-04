@@ -1,13 +1,12 @@
 from beet import Context, Advancement, Recipe, ItemTag
 from beet.contrib.vanilla import Vanilla
-from tools.recipes import Recipes
+from tools.utility import Recipes
 
 
 def run(ctx: Context):
     vanilla = ctx.inject(Vanilla)
-    vanilla_data = vanilla.mount("data/minecraft/recipe")
     recipe_helper = ctx.inject(Recipes)
-    recipes = [recipe for _, recipe in vanilla_data.data.recipes.items() if recipe.data.get("type") == "minecraft:stonecutting"]
+    recipes = [recipe for _, recipe in vanilla.data.recipes.items() if recipe.data.get("type") == "minecraft:stonecutting"]
     inputs: set[str] = set()
     outputs: set[str] = set()
 
@@ -52,12 +51,12 @@ def run(ctx: Context):
             else:
                 n.add(block)
         tags[k] = n
-    
+
     micahcraft = ctx.data[ctx.project_id]
     for tag, values in tags.items():
         name = tag.split(":")[-1]
         i = f"generated/variant/{name}"
-        micahcraft[i] = ItemTag({"values":list(values)})
+        micahcraft[i] = ItemTag({"values": list(values)})
         for item in all_outputs[tag]:
             micahcraft[i] = recipe_helper.stonecutter(f"#{ctx.project_id}:{i}", item, 2 if item.endswith("_slab") else 1)
             micahcraft[i] = recipe_helper.advancement(item, f"{ctx.project_id}:{i}")

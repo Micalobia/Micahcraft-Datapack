@@ -1,4 +1,4 @@
-from beet import Context, Recipe, Advancement
+from beet import Context, Recipe, Advancement, NamespaceProxy
 
 
 class Recipes:
@@ -25,3 +25,29 @@ class Recipes:
                 "requirements": [["has_the_item", "has_the_recipe"]],
             }
         )
+
+
+class Tags:
+    def __init__(self, ctx: Context):
+        pass
+
+    def resolve_tag(self, id: str, tag_container: NamespaceProxy) -> set[str]:
+        return set(self._resolve_tag(id, tag_container, set()))
+
+    def _resolve_tag(self, id: str, tag_container: NamespaceProxy, seen: set[str]) -> set[str]:
+        if id in seen:
+            raise Exception(f"Cyclic tag found! `{id}`")
+        seen.add(id)
+        tag = tag_container[id].data
+        out: set[str] = set()
+
+        for value in tag.get("values", []):
+            if value.startswith("#"):
+                out |= self._resolve_tag(value[1:], tag_container, seen)
+            else:
+                out.add(value)
+        return out
+
+
+def print_finished(ctx: Context):
+    print("Finished building!")
