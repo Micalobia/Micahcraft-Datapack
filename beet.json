@@ -18,6 +18,7 @@
         "tools.variants.run",
         "tools.woodcutter.run",
         "tools.paintings.run",
+        "tools.colorable.run",
         "tools.utility.print_finished"
     ]
 }
