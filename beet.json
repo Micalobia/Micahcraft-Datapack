@@ -4,14 +4,10 @@
         "load": ["src"],
         "name": "micahcraft"
     },
+    "minecraft": "1.21.11",
     "output": "build",
     "author": "Micalobia",
     "description": "Adds some vanilla+ recipes and features",
-    "meta": {
-        "load_vanilla": {
-            "version": "1.21.11"
-        }
-    },
     "templates": [],
     "pipeline": [
         "beet.contrib.vanilla.load_vanilla",

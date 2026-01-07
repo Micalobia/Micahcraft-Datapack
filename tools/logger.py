@@ -1,4 +1,3 @@
-from __future__ import annotations
 from beet import Context
 
 RESET = "\x1b[0m"
