@@ -1,5 +1,6 @@
 from beet import Context, Recipe, Advancement, NamespaceProxy
 from typing import Any
+from tools.logger import Logger
 
 
 class Recipes:
@@ -54,4 +55,5 @@ class Tags:
 
 
 def print_finished(ctx: Context):
-    print("Finished building!")
+    with ctx.inject(Logger) as logger:
+        logger.info("Finished building!")

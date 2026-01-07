@@ -1,6 +1,7 @@
 from beet import Context, ItemTag
 from beet.contrib.vanilla import Vanilla
 from tools.utility import Recipes, Tags
+from tools.logger import Logger
 import re
 from dataclasses import dataclass
 import json
@@ -8,30 +9,31 @@ import pathlib
 
 
 def run(ctx: Context):
-    print("Building woodcutting recipes...")
-    tags = ctx.inject(Tags)
-    recipes = ctx.inject(Recipes)
-    vanilla = ctx.inject(Vanilla)
-    pattern = re.compile(r"^minecraft:(?!stripped_)(\w+?)_(log|stem)$")
-    micahcraft = ctx.data[ctx.project_id]
-    recipe_json = json.loads(pathlib.Path("./config/woodcutter.json").read_text("utf-8"))
-    for id in tags.resolve_tag("minecraft:logs", vanilla.data.item_tags):
-        match = pattern.match(id)
-        if match is None:
-            continue
-        name = match[1]
-        wood = LogType(name, match[2])
-        micahcraft[f"generated/wood/{name}"] = ItemTag({"values": [wood.wood, wood.stripped_wood]})
-        micahcraft[f"generated/log/{name}"] = ItemTag({"values": [wood.log, wood.stripped_log]})
-        for title, args in recipe_json.items():
-            match args:
-                case {"input": input, "output": output, "log_only": log_only, "count": count}:
-                    if log_only and wood.type != "log":
-                        continue
-                    path = f"generated/woodcutting/{name}/{title}"
-                    micahcraft[path] = recipes.stonecutter(wood.variable(input), wood.variable(output), count)
-                    micahcraft[f"{path}/logs"] = recipes.advancement(wood.logs, f"{ctx.project_id}:{path}")
-                    micahcraft[f"{path}/planks"] = recipes.advancement(wood.planks, f"{ctx.project_id}:{path}")
+    with ctx.inject(Logger) as logger:
+        logger.info("Building woodcutting recipes...")
+        tags = ctx.inject(Tags)
+        recipes = ctx.inject(Recipes)
+        vanilla = ctx.inject(Vanilla)
+        pattern = re.compile(r"^minecraft:(?!stripped_)(\w+?)_(log|stem)$")
+        micahcraft = ctx.data[ctx.project_id]
+        recipe_json = json.loads(pathlib.Path("./config/woodcutter.json").read_text("utf-8"))
+        for id in tags.resolve_tag("minecraft:logs", vanilla.data.item_tags):
+            match = pattern.match(id)
+            if match is None:
+                continue
+            name = match[1]
+            wood = LogType(name, match[2])
+            micahcraft[f"generated/wood/{name}"] = ItemTag({"values": [wood.wood, wood.stripped_wood]})
+            micahcraft[f"generated/log/{name}"] = ItemTag({"values": [wood.log, wood.stripped_log]})
+            for title, args in recipe_json.items():
+                match args:
+                    case {"input": input, "output": output, "log_only": log_only, "count": count}:
+                        if log_only and wood.type != "log":
+                            continue
+                        path = f"generated/woodcutting/{name}/{title}"
+                        micahcraft[path] = recipes.stonecutter(wood.variable(input), wood.variable(output), count)
+                        micahcraft[f"{path}/logs"] = recipes.advancement(wood.logs, f"{ctx.project_id}:{path}")
+                        micahcraft[f"{path}/planks"] = recipes.advancement(wood.planks, f"{ctx.project_id}:{path}")
 
 
 @dataclass
