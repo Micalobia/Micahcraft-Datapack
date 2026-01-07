@@ -15,9 +15,9 @@
     "templates": [],
     "pipeline": [
         "beet.contrib.vanilla.load_vanilla",
-        "tools.variants.run",
-        "tools.woodcutter.run",
-        "tools.paintings.run",
+        "tools.stonecutter.variants.run",
+        "tools.stonecutter.woodcutter.run",
+        "tools.stonecutter.paintings.run",
         "tools.colorable.run",
         "tools.tweaks.main.run",
         "tools.utility.print_finished"
