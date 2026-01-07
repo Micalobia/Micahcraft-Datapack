@@ -9,6 +9,9 @@
     "author": "Micalobia",
     "description": "Adds some vanilla+ recipes and features",
     "templates": [],
+    "require": [
+        "bolt"
+    ],
     "pipeline": [
         "beet.contrib.vanilla.load_vanilla",
         "tools.stonecutter.variants.run",
@@ -17,6 +20,8 @@
         "tools.stonecutter.unwaxed.run",
         "tools.colorable.run",
         "tools.tweaks.main.run",
+        "tools.utility.print_mecha",
+        "mecha",
         "tools.utility.print_finished"
     ]
 }
