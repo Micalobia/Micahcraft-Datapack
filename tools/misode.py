@@ -1,6 +1,5 @@
 from beet import Context
 import json
-from pathlib import Path
 from urllib.request import urlopen
 from typing import cast
 

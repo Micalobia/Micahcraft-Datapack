@@ -3,6 +3,7 @@ from beet.contrib.vanilla import Vanilla
 from tools.utility import Recipes
 from tools.logger import Logger
 
+
 def run(ctx: Context):
     with ctx.inject(Logger) as logger:
         logger.info("Building variant recipes...")
@@ -54,11 +55,10 @@ def run(ctx: Context):
                     n.add(block)
             tags[k] = n
 
-        micahcraft = ctx.data[ctx.project_id]
         for tag, values in tags.items():
             name = tag.split(":")[-1]
-            i = f"generated/variant/{name}"
-            micahcraft[i] = ItemTag({"values": list(values)})
+            identifier = f"{ctx.project_id}:generated/variant/{name}"
+            ctx.data[identifier] = ItemTag({"values": list(values)})
             for item in all_outputs[tag]:
-                micahcraft[i] = recipe_helper.stonecutter(f"#{ctx.project_id}:{i}", item, 2 if item.endswith("_slab") else 1)
-                micahcraft[i] = recipe_helper.advancement(item, f"{ctx.project_id}:{i}")
+                ctx.data[identifier] = recipe_helper.stonecutter(f"#{identifier}", item, 2 if item.endswith("_slab") else 1)
+                ctx.data[identifier] = recipe_helper.advancement(item, identifier)
