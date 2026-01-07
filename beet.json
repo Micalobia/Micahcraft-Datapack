@@ -19,6 +19,7 @@
         "tools.woodcutter.run",
         "tools.paintings.run",
         "tools.colorable.run",
+        "tools.tweaks.main.run",
         "tools.utility.print_finished"
     ]
 }
