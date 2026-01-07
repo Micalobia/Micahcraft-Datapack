@@ -14,6 +14,7 @@
         "tools.stonecutter.variants.run",
         "tools.stonecutter.woodcutter.run",
         "tools.stonecutter.paintings.run",
+        "tools.stonecutter.unwaxed.run",
         "tools.colorable.run",
         "tools.tweaks.main.run",
         "tools.utility.print_finished"
