@@ -61,4 +61,4 @@ def run(ctx: Context):
             ctx.data[identifier] = ItemTag({"values": list(values)})
             for item in all_outputs[tag]:
                 ctx.data[identifier] = recipe_helper.stonecutter(f"#{identifier}", item, 2 if item.endswith("_slab") else 1)
-                ctx.data[identifier] = recipe_helper.advancement(item, identifier)
+                ctx.data[identifier] = recipe_helper.advancement(f"#{identifier}", identifier)

@@ -28,6 +28,7 @@ class Recipes:
                     },
                 },
                 "requirements": [["has_the_item", "has_the_recipe"]],
+                "rewards": {"recipes": [recipe]},
             }
         )
 

@@ -37,30 +37,6 @@ scoreboard objectives add mk.api.used.netherite_hoe minecraft.used:minecraft.net
 # Used Shears
 scoreboard objectives add mk.api.used.shears minecraft.used:minecraft.shears
 
-# Movement
-scoreboard objectives add mk.api.climb minecraft.custom:minecraft.climb_one_cm
-scoreboard objectives add mk.api.crouch minecraft.custom:minecraft.crouch_one_cm
-scoreboard objectives add mk.api.fall minecraft.custom:minecraft.fall_one_cm
-scoreboard objectives add mk.api.fly minecraft.custom:minecraft.fly_one_cm
-scoreboard objectives add mk.api.sprint minecraft.custom:minecraft.sprint_one_cm
-scoreboard objectives add mk.api.swim minecraft.custom:minecraft.swim_one_cm
-scoreboard objectives add mk.api.walk minecraft.custom:minecraft.walk_one_cm
-scoreboard objectives add mk.api.walk_on_water minecraft.custom:minecraft.walk_on_water_one_cm
-scoreboard objectives add mk.api.walk_under_water minecraft.custom:minecraft.walk_under_water_one_cm
-scoreboard objectives add mk.api.boat minecraft.custom:minecraft.boat_one_cm
-scoreboard objectives add mk.api.aviate minecraft.custom:minecraft.aviate_one_cm
-scoreboard objectives add mk.api.horse minecraft.custom:minecraft.horse_one_cm
-scoreboard objectives add mk.api.minecart minecraft.custom:minecraft.minecart_one_cm
-scoreboard objectives add mk.api.pig minecraft.custom:minecraft.pig_one_cm
-scoreboard objectives add mk.api.strider minecraft.custom:minecraft.strider_one_cm
-scoreboard objectives add mk.api.jump minecraft.custom:minecraft.jump
-scoreboard objectives add mk.api.fishing_movement minecraft.custom:minecraft.fish_caught
-scoreboard objectives add mk.api.ghast minecraft.custom:minecraft.happy_ghast_one_cm
-scoreboard objectives add mk.api.nautilus minecraft.custom:minecraft.nautilus_one_cm
-
-# Died
-scoreboard objectives add mk.api.died deathCount
-
 # Timestamp
 scoreboard objectives add mk.api.time dummy
 

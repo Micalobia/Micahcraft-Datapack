@@ -13,4 +13,4 @@ def run(ctx: Context):
         for key in painting_keys:
             identifier = f"{ctx.project_id}:generated/paintings/{key.replace(':','/')}"
             ctx.data[identifier] = recipes.stonecutter("minecraft:painting", "minecraft:painting", components={"minecraft:painting/variant": key})
-            ctx.data[identifier] = recipes.advancement("minecraft:painting", f"{ctx.project_id}:{identifier}")
+            ctx.data[identifier] = recipes.advancement("minecraft:painting", identifier)

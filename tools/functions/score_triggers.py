@@ -56,7 +56,7 @@ def run(ctx: Context):
             for i, line in enumerate(function.lines):
                 if not line.startswith("#"):
                     if reading:
-                        end = i + 1
+                        end = i
                         break
                     else:
                         continue
