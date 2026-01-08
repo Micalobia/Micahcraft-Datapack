@@ -76,5 +76,5 @@
         "micahcraft:misc/ladders_from_wood",
         "micahcraft:misc/sticks_from_wood"
     ],
-    "arrow": ["micahcraft:misc/ender_arrow"]
+    "minecraft:arrow": ["micahcraft:custom/ender_arrow"]
 }

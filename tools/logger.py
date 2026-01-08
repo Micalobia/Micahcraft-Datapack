@@ -1,4 +1,5 @@
 from beet import Context
+from typing import Any
 
 RESET = "\x1b[0m"
 RED = "\x1b[31m"
@@ -39,13 +40,13 @@ class Logger:
     def _prefix(self) -> str:
         return f"({'.'.join(self._paths)}) " if self._paths else ""
 
-    def info(self, msg: str):
+    def info(self, msg: Any):
         print(f"[INFO] {self._prefix}{msg}")
 
-    def warn(self, msg: str):
+    def warn(self, msg: Any):
         print(f"{YELLOW}[WARNING]{RESET} {self._prefix}{msg}")
 
-    def error(self, msg: str):
+    def error(self, msg: Any):
         print(f"{RED}[ERROR] {self._prefix}{msg}{RESET}")
 
     def __enter__(self) -> Logger:

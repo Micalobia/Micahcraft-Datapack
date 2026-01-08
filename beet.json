@@ -19,6 +19,7 @@
         "tools.stonecutter.paintings.run",
         "tools.stonecutter.unwaxed.run",
         "tools.colorable.run",
+        "tools.recipe_advancements.run",
         "tools.tweaks.main.run",
         "tools.utility.print_mecha",
         "mecha",
