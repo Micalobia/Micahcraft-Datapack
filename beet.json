@@ -12,6 +12,9 @@
     "require": [
         "bolt"
     ],
+    "meta": {
+        "unreachable": ["micahcraft:commands/hud/theme/(\\d+|same)"]
+    },
     "pipeline": [
         "beet.contrib.vanilla.load_vanilla",
         "tools.stonecutter.variants.run",
