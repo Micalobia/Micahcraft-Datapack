@@ -23,6 +23,7 @@
         "tools.tweaks.main.run",
         "tools.utility.print_mecha",
         "mecha",
+        "tools.function_scan.run",
         "tools.utility.print_finished"
     ]
 }
