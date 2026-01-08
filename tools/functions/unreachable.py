@@ -9,13 +9,12 @@ import re
 RE_FUNCTION = re.compile(r"function\s+((#?)([0-9a-z_./-]+?):([0-9a-z_./-]+))\b")
 RE_ENCHANT_FUNCTION = re.compile(r'"function":\s+"(([0-9a-z_./-]+?):([0-9a-z_./-]+))\b"')
 
-PLUGIN_CACHE = "unreachable"
 REPORT_KEY = "unreachable_functions.txt"
 
 
 def run(ctx: Context):
-    with ctx.inject(Logger).push("function_scan") as logger:
-        logger.info("Scanning...")
+    with ctx.inject(Logger).push("functions.unreachable") as logger:
+        logger.info("Processing...")
         tags = ctx.inject(Tags)
         functions = set(ctx.data.functions)
         function_tags = set(ctx.data.function_tags)
@@ -64,7 +63,7 @@ def run(ctx: Context):
 
 def write_unreachable_report(ctx: Context, unreachable: list[str], preview: int):
     with ctx.inject(Logger) as logger:
-        cache = ctx.cache[PLUGIN_CACHE]
+        cache = ctx.cache["functions"]
         report_path = cache.get_path(REPORT_KEY)
         if not unreachable:
             report_path.unlink(missing_ok=True)

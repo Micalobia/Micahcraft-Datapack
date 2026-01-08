@@ -1,4 +1,6 @@
-advancement revoke @s only micahcraft:generated/score_triggers/sit
+# @score_trigger
+# scoreboard mk.dialog
+# value 5
 scoreboard players set @s mk.dialog 0
 dialog show @s micahcraft:empty
 dialog clear @s

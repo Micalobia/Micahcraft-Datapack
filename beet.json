@@ -21,9 +21,10 @@
         "tools.colorable.run",
         "tools.recipe_advancements.run",
         "tools.tweaks.main.run",
+        "tools.functions.score_triggers.run",
         "tools.utility.print_mecha",
         "mecha",
-        "tools.function_scan.run",
+        "tools.functions.unreachable.run",
         "tools.utility.print_finished"
     ]
 }

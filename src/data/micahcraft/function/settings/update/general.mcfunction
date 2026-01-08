@@ -1,4 +1,6 @@
-advancement revoke @s only micahcraft:generated/score_triggers/settings/general/update
+# @score_trigger
+# scoreboard mk.settings.general.trigger
+# value 1..
 
 function micahcraft:settings/data/set/toggle {namespace:'general'}
 

@@ -1,4 +1,6 @@
-advancement revoke @s only micahcraft:generated/score_triggers/settings/open
+# @score_trigger
+# scoreboard Settings
+# value 1
 scoreboard players set @s Settings 0
 
 scoreboard players enable @s mk.settings.general.trigger

@@ -1,4 +1,5 @@
-advancement revoke @s only micahcraft:generated/score_triggers/afk
+# @score_trigger
+# scoreboard AFK
 scoreboard players set @s AFK 0
 execute if entity @s[tag=mk.afk] run return fail
 execute if entity @s[predicate=micahcraft:player/is_moving] run return fail
