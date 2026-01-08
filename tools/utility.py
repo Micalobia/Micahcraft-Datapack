@@ -55,7 +55,7 @@ class Tags:
 
 
 def print_mecha(ctx: Context):
-    with ctx.inject(Logger) as logger:
+    with ctx.inject(Logger).push("mecha") as logger:
         logger.info("Starting mecha pipeline...")
 
 

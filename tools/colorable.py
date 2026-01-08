@@ -25,8 +25,8 @@ COLORS = [
 
 
 def run(ctx: Context):
-    with ctx.inject(Logger) as logger:
-        logger.info("Building color recipes...")
+    with ctx.inject(Logger).push("colorable") as logger:
+        logger.info("Building...")
         recipes = ctx.inject(Recipes)
         colorable_json: dict[str, str] = json.loads(pathlib.Path("./config/colorable.json").read_text("utf-8"))
         for item, tag in colorable_json.items():

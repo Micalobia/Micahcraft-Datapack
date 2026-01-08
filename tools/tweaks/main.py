@@ -7,10 +7,9 @@ from .enchant_balance import run as enchant_balance
 
 
 def run(ctx: Context):
-    with ctx.inject(Logger) as logger:
-        logger.info("Building vanilla tweaks...")
+    with ctx.inject(Logger).push("tweaks") as logger:
+        logger.info("Building...")
         vanilla = ctx.inject(Vanilla)
-        with logger.push("tweaks"):
-            enchants(ctx, vanilla)
-            loot_tables(ctx, vanilla)
-            enchant_balance(ctx, vanilla)
+        enchants(ctx, vanilla)
+        loot_tables(ctx, vanilla)
+        enchant_balance(ctx, vanilla)

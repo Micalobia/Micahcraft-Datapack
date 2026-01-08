@@ -9,8 +9,8 @@ import pathlib
 
 
 def run(ctx: Context):
-    with ctx.inject(Logger) as logger:
-        logger.info("Building woodcutting recipes...")
+    with ctx.inject(Logger).push("woodcutting") as logger:
+        logger.info("Building...")
         tags = ctx.inject(Tags)
         recipes = ctx.inject(Recipes)
         vanilla = ctx.inject(Vanilla)

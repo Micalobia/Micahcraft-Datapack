@@ -5,8 +5,8 @@ from tools.utility import Recipes
 
 
 def run(ctx: Context):
-    with ctx.inject(Logger) as logger:
-        logger.info("Building unwaxed recipes...")
+    with ctx.inject(Logger).push("unwaxed") as logger:
+        logger.info("Building...")
         misode = ctx.inject(Misode)
         recipes = ctx.inject(Recipes)
         waxed = [_ for _ in misode.item_ids() if _.startswith("waxed_")]

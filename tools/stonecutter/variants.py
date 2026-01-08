@@ -5,8 +5,8 @@ from tools.logger import Logger
 
 
 def run(ctx: Context):
-    with ctx.inject(Logger) as logger:
-        logger.info("Building variant recipes...")
+    with ctx.inject(Logger).push("variants") as logger:
+        logger.info("Building...")
         vanilla = ctx.inject(Vanilla)
         recipe_helper = ctx.inject(Recipes)
         recipes = [recipe for _, recipe in vanilla.data.recipes.items() if recipe.data.get("type") == "minecraft:stonecutting"]

@@ -7,8 +7,8 @@ import json
 import pathlib
 
 def run(ctx: Context):
-    with ctx.inject(Logger) as logger:
-        logger.info("Building recipe advancements...")
+    with ctx.inject(Logger).push("recipe_advancements") as logger:
+        logger.info("Building...")
         with logger.push("recipe_advancements"):
             recipes = ctx.inject(Recipes)
             misode = ctx.inject(Misode)

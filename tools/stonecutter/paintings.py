@@ -5,8 +5,8 @@ from tools.logger import Logger
 
 
 def run(ctx: Context):
-    with ctx.inject(Logger) as logger:
-        logger.info("Building painting recipes...")
+    with ctx.inject(Logger).push("paintings") as logger:
+        logger.info("Building...")
         recipes = ctx.inject(Recipes)
         vanilla = ctx.inject(Vanilla)
         painting_keys = {*vanilla.data.painting_variants.keys(), *ctx.data.painting_variants.keys()}
