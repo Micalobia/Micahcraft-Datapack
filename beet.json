@@ -1,0 +1,33 @@
+{
+    "name": "micahcraft",
+    "data_pack": {
+        "load": ["src"],
+        "name": "micahcraft"
+    },
+    "minecraft": "1.21.11",
+    "output": "build",
+    "author": "Micalobia",
+    "description": "Adds some vanilla+ recipes and features",
+    "templates": [],
+    "require": [
+        "bolt"
+    ],
+    "meta": {
+        "unreachable": ["micahcraft:commands/hud/theme/(\\d+|same)"]
+    },
+    "pipeline": [
+        "beet.contrib.vanilla.load_vanilla",
+        "tools.stonecutter.variants.run",
+        "tools.stonecutter.woodcutter.run",
+        "tools.stonecutter.paintings.run",
+        "tools.stonecutter.unwaxed.run",
+        "tools.colorable.run",
+        "tools.recipe_advancements.run",
+        "tools.tweaks.main.run",
+        "tools.functions.score_triggers.run",
+        "tools.utility.print_mecha",
+        "mecha",
+        "tools.functions.unreachable.run",
+        "tools.utility.print_finished"
+    ]
+}

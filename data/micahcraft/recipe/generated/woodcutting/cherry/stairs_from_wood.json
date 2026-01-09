@@ -1,8 +1,0 @@
-{
-    "type": "minecraft:stonecutting",
-    "ingredient": "#micahcraft:generated/wood/cherry",
-    "result": {
-        "id": "cherry_stairs",
-        "count": 5
-    }
-}

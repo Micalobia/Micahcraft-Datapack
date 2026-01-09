@@ -1,8 +1,0 @@
-{
-    "type": "minecraft:stonecutting",
-    "ingredient": "#micahcraft:generated/log/spruce",
-    "result": {
-        "id": "spruce_trapdoor",
-        "count": 1
-    }
-}

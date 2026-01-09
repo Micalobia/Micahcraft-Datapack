@@ -1,8 +1,0 @@
-{
-    "type": "minecraft:stonecutting",
-    "ingredient": "waxed_copper_bars",
-    "result": {
-        "id": "copper_bars",
-        "count": 1
-    }
-}

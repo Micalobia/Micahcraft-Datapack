@@ -1,8 +1,0 @@
-{
-    "type": "minecraft:stonecutting",
-    "ingredient": "#micahcraft:generated/log/jungle",
-    "result": {
-        "id": "jungle_slab",
-        "count": 8
-    }
-}

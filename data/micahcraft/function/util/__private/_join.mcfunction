@@ -1,1 +1,0 @@
-$data modify storage micahcraft:util join.macro.str set value '$(str)$(char)$(next)'

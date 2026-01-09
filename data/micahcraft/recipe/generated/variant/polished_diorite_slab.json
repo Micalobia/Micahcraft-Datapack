@@ -1,8 +1,0 @@
-{
-    "type": "minecraft:stonecutting",
-    "ingredient": "#micahcraft:generated/variant/diorite",
-    "result": {
-        "id": "minecraft:polished_diorite_slab",
-        "count": 2
-    }
-}

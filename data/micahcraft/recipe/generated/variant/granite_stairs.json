@@ -1,8 +1,0 @@
-{
-    "type": "minecraft:stonecutting",
-    "ingredient": "#micahcraft:generated/variant/granite",
-    "result": {
-        "id": "minecraft:granite_stairs",
-        "count": 1
-    }
-}

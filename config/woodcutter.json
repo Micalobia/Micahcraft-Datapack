@@ -1,0 +1,110 @@
+{
+    "boat_from_wood": {
+        "input": "woods",
+        "output": "boat",
+        "log_only": true,
+        "count": 1
+    },
+    "planks_from_log": {
+        "input": "just_logs",
+        "output": "planks",
+        "log_only": false,
+        "count": 4
+    },
+    "planks_from_wood": {
+        "input": "woods",
+        "output": "planks",
+        "log_only": false,
+        "count": 5
+    },
+    "slabs_from_log": {
+        "input": "just_logs",
+        "output": "slab",
+        "log_only": false,
+        "count": 8
+    },
+    "slabs_from_wood": {
+        "input": "woods",
+        "output": "slab",
+        "log_only": false,
+        "count": 10
+    },
+    "stairs_from_log": {
+        "input": "just_logs",
+        "output": "stairs",
+        "log_only": false,
+        "count": 4
+    },
+    "stairs_from_wood": {
+        "input": "woods",
+        "output": "stairs",
+        "log_only": false,
+        "count": 5
+    },
+    "trapdoor_from_log": {
+        "input": "just_logs",
+        "output": "trapdoor",
+        "log_only": false,
+        "count": 1
+    },
+    "trapdoor_from_wood": {
+        "input": "woods",
+        "output": "trapdoor",
+        "log_only": false,
+        "count": 2
+    },
+    "stripped_log": {
+        "input": "log",
+        "output": "stripped_log",
+        "log_only": false,
+        "count": 1
+    },
+    "stripped_wood": {
+        "input": "wood",
+        "output": "stripped_wood",
+        "log_only": false,
+        "count": 1
+    },
+    "fence_from_wood": {
+        "input": "woods",
+        "output": "fence",
+        "log_only": false,
+        "count": 3
+    },
+    "fence_from_logs": {
+        "input": "just_logs",
+        "output": "fence",
+        "log_only": false,
+        "count": 2
+    },
+    "fence_gate_from_logs": {
+        "input": "logs",
+        "output": "gate",
+        "log_only": false,
+        "count": 1
+    },
+    "slabs_from_planks": {
+        "input": "planks",
+        "output": "slab",
+        "log_only": false,
+        "count": 2
+    },
+    "stairs_from_planks": {
+        "input": "planks",
+        "output": "stairs",
+        "log_only": false,
+        "count": 1
+    },
+    "door_from_logs": {
+        "input": "logs",
+        "output": "door",
+        "log_only": false,
+        "count": 2
+    },
+    "shelf_from_log": {
+        "input": "logs",
+        "output": "shelf",
+        "log_only": false,
+        "count": 1
+    }
+}

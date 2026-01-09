@@ -1,8 +1,0 @@
-{
-    "type": "minecraft:stonecutting",
-    "ingredient": "#micahcraft:generated/variant/basalt",
-    "result": {
-        "id": "minecraft:polished_basalt",
-        "count": 1
-    }
-}

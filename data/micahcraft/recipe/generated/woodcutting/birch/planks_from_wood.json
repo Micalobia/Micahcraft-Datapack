@@ -1,8 +1,0 @@
-{
-    "type": "minecraft:stonecutting",
-    "ingredient": "#micahcraft:generated/wood/birch",
-    "result": {
-        "id": "birch_planks",
-        "count": 5
-    }
-}

@@ -1,8 +1,0 @@
-{
-    "type": "minecraft:stonecutting",
-    "ingredient": "#oak_logs",
-    "result": {
-        "id": "oak_shelf",
-        "count": 1
-    }
-}

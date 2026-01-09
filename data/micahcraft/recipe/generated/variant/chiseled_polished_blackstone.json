@@ -1,8 +1,0 @@
-{
-    "type": "minecraft:stonecutting",
-    "ingredient": "#micahcraft:generated/variant/blackstone",
-    "result": {
-        "id": "minecraft:chiseled_polished_blackstone",
-        "count": 1
-    }
-}

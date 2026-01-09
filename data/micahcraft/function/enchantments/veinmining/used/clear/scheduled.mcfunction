@@ -1,1 +1,0 @@
-execute as @a[tag=mk.veinmining.scheduled] run function micahcraft:enchantments/veinmining/used/clear/scheduled/player

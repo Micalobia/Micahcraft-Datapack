@@ -1,8 +1,0 @@
-{
-    "type": "minecraft:stonecutting",
-    "ingredient": "#micahcraft:generated/variant/nether_bricks",
-    "result": {
-        "id": "minecraft:chiseled_nether_bricks",
-        "count": 1
-    }
-}

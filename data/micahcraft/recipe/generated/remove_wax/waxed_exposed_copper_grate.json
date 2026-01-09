@@ -1,8 +1,0 @@
-{
-    "type": "minecraft:stonecutting",
-    "ingredient": "waxed_exposed_copper_grate",
-    "result": {
-        "id": "exposed_copper_grate",
-        "count": 1
-    }
-}

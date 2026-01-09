@@ -1,8 +1,0 @@
-{
-    "type": "minecraft:stonecutting",
-    "ingredient": "#micahcraft:generated/wood/dark_oak",
-    "result": {
-        "id": "dark_oak_stairs",
-        "count": 5
-    }
-}

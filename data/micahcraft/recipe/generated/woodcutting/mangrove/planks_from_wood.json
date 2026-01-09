@@ -1,8 +1,0 @@
-{
-    "type": "minecraft:stonecutting",
-    "ingredient": "#micahcraft:generated/wood/mangrove",
-    "result": {
-        "id": "mangrove_planks",
-        "count": 5
-    }
-}

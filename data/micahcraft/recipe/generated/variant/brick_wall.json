@@ -1,8 +1,0 @@
-{
-    "type": "minecraft:stonecutting",
-    "ingredient": "#micahcraft:generated/variant/bricks",
-    "result": {
-        "id": "minecraft:brick_wall",
-        "count": 1
-    }
-}

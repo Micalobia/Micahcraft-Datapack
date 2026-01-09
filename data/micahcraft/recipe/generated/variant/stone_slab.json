@@ -1,8 +1,0 @@
-{
-    "type": "minecraft:stonecutting",
-    "ingredient": "#micahcraft:generated/variant/stone",
-    "result": {
-        "id": "minecraft:stone_slab",
-        "count": 2
-    }
-}

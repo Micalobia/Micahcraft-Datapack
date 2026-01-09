@@ -1,8 +1,0 @@
-{
-    "type": "minecraft:stonecutting",
-    "ingredient": "#micahcraft:generated/variant/quartz_block",
-    "result": {
-        "id": "minecraft:quartz_stairs",
-        "count": 1
-    }
-}

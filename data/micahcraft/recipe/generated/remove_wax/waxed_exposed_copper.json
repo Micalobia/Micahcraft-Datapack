@@ -1,8 +1,0 @@
-{
-    "type": "minecraft:stonecutting",
-    "ingredient": "waxed_exposed_copper",
-    "result": {
-        "id": "exposed_copper",
-        "count": 1
-    }
-}

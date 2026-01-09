@@ -1,8 +1,0 @@
-{
-    "type": "minecraft:stonecutting",
-    "ingredient": "#micahcraft:generated/variant/andesite",
-    "result": {
-        "id": "minecraft:polished_andesite",
-        "count": 1
-    }
-}

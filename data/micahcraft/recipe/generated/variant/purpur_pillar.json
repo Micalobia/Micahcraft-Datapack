@@ -1,8 +1,0 @@
-{
-    "type": "minecraft:stonecutting",
-    "ingredient": "#micahcraft:generated/variant/purpur_block",
-    "result": {
-        "id": "minecraft:purpur_pillar",
-        "count": 1
-    }
-}
