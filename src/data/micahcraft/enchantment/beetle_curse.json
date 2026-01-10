@@ -9,8 +9,8 @@
             {
                 "amount": {
                     "type": "minecraft:linear",
-                    "base": 5,
-                    "per_level_above_first": 5
+                    "base": 6,
+                    "per_level_above_first": 6
                 },
                 "attribute": "minecraft:armor",
                 "id": "micahcraft:enchantment.beetle_curse",
