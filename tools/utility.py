@@ -55,11 +55,6 @@ class Tags:
         return out
 
 
-def print_mecha(ctx: Context):
-    with ctx.inject(Logger).push("mecha") as logger:
-        logger.info("Starting mecha pipeline...")
-
-
 def print_finished(ctx: Context):
     with ctx.inject(Logger) as logger:
         logger.info("Finished building!")

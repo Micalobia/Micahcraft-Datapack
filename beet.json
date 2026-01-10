@@ -9,9 +9,7 @@
     "author": "Micalobia",
     "description": "Adds some vanilla+ recipes and features",
     "templates": [],
-    "require": [
-        "bolt"
-    ],
+    "require": [],
     "meta": {
         "unreachable": ["micahcraft:commands/hud/theme/(\\d+|same)"]
     },
@@ -25,8 +23,6 @@
         "tools.recipe_advancements.run",
         "tools.tweaks.main.run",
         "tools.functions.score_triggers.run",
-        "tools.utility.print_mecha",
-        "mecha",
         "tools.functions.unreachable.run",
         "tools.utility.print_finished"
     ]
