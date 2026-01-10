@@ -20,3 +20,4 @@ scoreboard players set @s mk.strider 0
 scoreboard players set @s mk.jump 0
 scoreboard players set @s mk.fishing_movement 0
 scoreboard players set @s mk.ghast 0
+scoreboard players set @s mk.nautilus 0
