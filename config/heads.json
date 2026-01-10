@@ -1,0 +1,366 @@
+{
+    "minecraft:blaze": {
+        "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZGVlMjNkYzdhMTBjNmE4N2VmOTM3NDU0YzBlOTRlZDQyYzIzYWE2NDFhOTFlZDg0NzBhMzA0MmQwNWM1MmM1MiJ9fX0=",
+        "sound": "minecraft:entity.blaze.ambient",
+        "name": "Blaze Head"
+    },
+    "minecraft:bogged": {
+        "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNGY4MDdhMTg3MDc3ZjgzNmI5MzgyMGIzMmQ4ZDgzNDFkNGQzMmNkNGM4YzExMTVjZjFkYTYzNzRlMGZiZDNmZiJ9fX0=",
+        "sound": "minecraft:entity.bogged.ambient",
+        "name": "Bogged Head"
+    },
+    "minecraft:breeze": {
+        "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTI3NTcyOGFmN2U2YTI5Yzg4MTI1YjY3NWEzOWQ4OGFlOTkxOWJiNjFmZGMyMDAzMzdmZWQ2YWIwYzQ5ZDY1YyJ9fX0=",
+        "sound": "minecraft:entity.breeze.idle_air",
+        "name": "Breeze Head"
+    },
+    "minecraft:cave_spider": {
+        "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTZhMWMyNTk5ZmM5MTIwM2E2NWEwM2Q0NzljOGRjODdmNjYyZGVhYzM2NjNjMTZjNWUwNGQ2MjViMzk3OGEyNSJ9fX0=",
+        "sound": "minecraft:entity.spider.step",
+        "name": "Cave Spider Head"
+    },
+    "minecraft:creeper": [
+        {
+            "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzUxMWU0YTNkNWFkZDZhNTQ0OTlhYmFkMTBkNzk5ZDA2Y2U0NWNiYTllNTIwYWZkMjAwODYwOGE2Mjg4YjdlNyJ9fX0=",
+            "sound": "minecraft:entity.generic.explode",
+            "name": "Charged Creeper Head",
+            "condition": {
+                "nbt": "{powered:1b}"
+            }
+        },
+        {
+            "item": "minecraft:creeper_head"
+        }
+    ],
+    "minecraft:drowned": {
+        "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzNmN2NjZjYxZGJjM2Y5ZmU5YTYzMzNjZGUwYzBlMTQzOTllYjJlZWE3MWQzNGNmMjIzYjNhY2UyMjA1MSJ9fX0=",
+        "sound": "minecraft:entity.drowned.ambient",
+        "name": "Drowned Head"
+    },
+    "minecraft:ender_dragon": {
+        "item": "minecraft:dragon_head"
+    },
+    "minecraft:enderman": {
+        "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODk3N2E5NGYwMjQ5OGNhZDBjZmRiNjVjYTdjYjcyZTIzMTExYTkxNGQ4YzY3MGFjY2NjN2E2NWIzNDdkNzc3NiJ9fX0=",
+        "sound": "minecraft:entity.enderman.scream",
+        "name": "Enderman Head"
+    },
+    "minecraft:evoker": {
+        "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzkwZmJkODhmNjU5ZDM5NjNjNjhjYmJjYjdjNzEyMWQ4MTk1YThiZTY1YmJkMmJmMTI1N2QxZjY5YmNjYzBjNyJ9fX0",
+        "sound": "minecraft:entity.evoker.prepare_attack",
+        "name": "Evoker Head"
+    },
+    "minecraft:husk": {
+        "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzMzODMxOGJjOTFhMzZjZDVhYjZhYTg4NWM5YTRlZTJiZGFjZGFhNWM2NmIyYTk5ZGZiMGE1NjA5ODNmMjQ4MCJ9fX0=",
+        "sound": "minecraft:entity.husk.ambient",
+        "name": "Husk Head"
+    },
+    "minecraft:illusioner": {
+        "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDM4MjcwMWM2N2Q2YzU0YzkwNzU1ODg5MWRjMTc2MjI1MTEyNTE4NzcxZTA2MWM1ZDhiZDkxODQ3OWU2YmRkOCJ9fX0=",
+        "sound": "minecraft:entity.illusioner.cast_spell",
+        "name": "Illusioner Head"
+    },
+    "minecraft:iron_golem": {
+        "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmU3YzA3MTlmYWJlMTE2ZGNlNjA1MTk5YmNhZGM2OWE1Mzg4NjA4NjRlZjE1NzA2OTgzZmY2NjI4MjJkOWZlMyJ9fX0=",
+        "sound": "minecraft:entity.iron_golem.hurt",
+        "name": "Iron Golem Head"
+    },
+    "minecraft:parched": {
+        "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjRhZWNlZmY1ZjI2ZGQ4NDEzYzVjMDM1NDdjMjM0YWMwMzEwOGQxODdhZjBiOWNkODM0YThjZTEyNTk4NTkxYyJ9fX0=",
+        "sound": "minecraft:entity.parched.ambient",
+        "name": "Parched Head"
+    },
+    "minecraft:pillager": {
+        "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzIyNWYwYjQ5YzUyOTUwNDhhNDA5YzljNjAxY2NhNzlhYThlYjUyYWZmNWUyMDMzZWJiODY1ZjQzNjdlZjQzZSJ9fX0",
+        "sound": "minecraft:entity.pillager.ambient",
+        "name": "Pillager Head"
+    },
+    "minecraft:piglin": {
+        "item": "minecraft:piglin_head"
+    },
+    "minecraft:pufferfish": {
+        "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTI3MzNkNWRhNTljODJlYWYzMTBiMzgyYWZmNDBiZDUxM2M0NDM1NGRiYmFiZmUxNGIwNjZhNTU2ODEwYTdmOSJ9fX0=",
+        "sound": "minecraft:entity.puffer_fish.blow_up",
+        "name": "Pufferfish Head"
+    },
+    "minecraft:skeleton": {
+        "item": "minecraft:skeleton_skull"
+    },
+    "minecraft:spider": {
+        "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZGUyOGU2NjI5YjZlZDFkYTk0ZDRhODE4NzYxNjEyYzM2ZmIzYTY4MTNjNGI2M2ZiOWZlYTUwNzY0MTVmM2YwYyJ9fX0=",
+        "sound": "minecraft:entity.spider.ambient",
+        "name": "Spider Head"
+    },
+    "minecraft:stray": {
+        "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTkyYjU1OTcwODVlMzVkYjUzZDliZGEwMDhjYWU3MmIyZjAwY2Q3ZDRjZDhkYzY5ZmYxNzRhNTViNjg5ZTZlIn19fQ==",
+        "sound": "minecraft:entity.stray.ambient",
+        "name": "Stray Head"
+    },
+    "minecraft:villager": [
+        {
+            "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWVmNjI3ZjU2NmFjMGE3ODI4YmFkOTNlOWU0Yjk2NDNkOTlhOTI4YTEzZDVmOTc3YmY0NDFlNDBkYjEzMzZiZiJ9fX0=",
+            "sound": "minecraft:entity.villager.ambient",
+            "name": "Armorer Villager Head",
+            "condition": {
+                "nbt": "{VillagerData:{profession:\"minecraft:armorer\"}}"
+            }
+        },
+        {
+            "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTFiYWQ2NDE4NWUwNGJmMWRhZmUzZGE4NDkzM2QwMjU0NWVhNGE2MzIyMWExMGQwZjA3NzU5MTc5MTEyYmRjMiJ9fX0=",
+            "sound": "minecraft:entity.villager.ambient",
+            "name": "Butcher Villager Head",
+            "condition": {
+                "nbt": "{VillagerData:{profession:\"minecraft:butcher\"}}"
+            }
+        },
+        {
+            "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTNhZWNmYmU4MDFjZjMyYjVkMWIwYjFmNjY4MDA0OTY2NjE1ODY3OGM1M2Y0YTY1MWZjODNlMGRmOWQzNzM4YiJ9fX0=",
+            "sound": "minecraft:entity.villager.ambient",
+            "name": "Cartographer Villager Head",
+            "condition": {
+                "nbt": "{VillagerData:{profession:\"minecraft:cartographer\"}}"
+            }
+        },
+        {
+            "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNWI5ZTU4MmUyZjliODlkNTU2ZTc5YzQ2OTdmNzA2YjFkZDQ5MjllY2FlM2MwN2VlOTBiZjFkNWJlMzE5YmY2ZiJ9fX0=",
+            "sound": "minecraft:entity.villager.ambient",
+            "name": "Cleric Villager Head",
+            "condition": {
+                "nbt": "{VillagerData:{profession:\"minecraft:cleric\"}}"
+            }
+        },
+        {
+            "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDkyNzJkMDNjZGE2MjkwZTRkOTI1YTdlODUwYTc0NWU3MTFmZTU3NjBmNmYwNmY5M2Q5MmI4ZjhjNzM5ZGIwNyJ9fX0=",
+            "sound": "minecraft:entity.villager.ambient",
+            "name": "Farmer Villager Head",
+            "condition": {
+                "nbt": "{VillagerData:{profession:\"minecraft:farmer\"}}"
+            }
+        },
+        {
+            "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDE4OWZiNGFjZDE1ZDczZmYyYTU4YTg4ZGYwNDY2YWQ5ZjRjMTU0YTIwMDhlNWM2MjY1ZDVjMmYwN2QzOTM3NiJ9fX0=",
+            "sound": "minecraft:entity.villager.ambient",
+            "name": "Fisherman Villager Head",
+            "condition": {
+                "nbt": "{VillagerData:{profession:\"minecraft:fisherman\"}}"
+            }
+        },
+        {
+            "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYmY2MTFmMTJlMThjZTQ0YTU3MjM4ZWVmMWNhZTAzY2Q5ZjczMGE3YTQ1ZTBlYzI0OGYxNGNlODRlOWM0ODA1NiJ9fX0=",
+            "sound": "minecraft:entity.villager.ambient",
+            "name": "Fletcher Villager Head",
+            "condition": {
+                "nbt": "{VillagerData:{profession:\"minecraft:fletcher\"}}"
+            }
+        },
+        {
+            "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYWUwZTk1OTFlMTFhYWVmNGMyYzUxZDlhYzY5NTE0ZTM0MDQ4NWRlZmNjMmMxMmMzOGNkMTIzODZjMmVjNmI3OCJ9fX0=",
+            "sound": "minecraft:entity.villager.ambient",
+            "name": "Leatherworker Villager Head",
+            "condition": {
+                "nbt": "{VillagerData:{profession:\"minecraft:leatherworker\"}}"
+            }
+        },
+        {
+            "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvY2RjYWE1NzRiYWJiNDBlZTBmYTgzZjJmZDVlYTIwY2ZmMzFmZmEyNzJmZTExMzU4OGNlZWU0Njk2ODIxMjhlNyJ9fX0=",
+            "sound": "minecraft:entity.villager.ambient",
+            "name": "Librarian Villager Head",
+            "condition": {
+                "nbt": "{VillagerData:{profession:\"minecraft:librarian\"}}"
+            }
+        },
+        {
+            "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYWUwZTk1OTFlMTFhYWVmNGMyYzUxZDlhYzY5NTE0ZTM0MDQ4NWRlZmNjMmMxMmMzOGNkMTIzODZjMmVjNmI3OCJ9fX0=",
+            "sound": "minecraft:entity.villager.ambient",
+            "name": "Mason Villager Head",
+            "condition": {
+                "nbt": "{VillagerData:{profession:\"minecraft:mason\"}}"
+            }
+        },
+        {
+            "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYWUwZTk1OTFlMTFhYWVmNGMyYzUxZDlhYzY5NTE0ZTM0MDQ4NWRlZmNjMmMxMmMzOGNkMTIzODZjMmVjNmI3OCJ9fX0=",
+            "sound": "minecraft:entity.villager.ambient",
+            "name": "Nitwit Villager Head",
+            "condition": {
+                "nbt": "{VillagerData:{profession:\"minecraft:nitwit\"}}"
+            }
+        },
+        {
+            "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYWUwZTk1OTFlMTFhYWVmNGMyYzUxZDlhYzY5NTE0ZTM0MDQ4NWRlZmNjMmMxMmMzOGNkMTIzODZjMmVjNmI3OCJ9fX0=",
+            "sound": "minecraft:entity.villager.ambient",
+            "name": "Villager Head",
+            "condition": {
+                "nbt": "{VillagerData:{profession:\"minecraft:none\"}}"
+            }
+        },
+        {
+            "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMmFiZjRlOTE1NGFjOTI3MTk0MWM3MzNlYWNjNjJkYzlmYzBhNmRjMWI1ZDY3Yzc4Y2E5OGFmYjVjYjFiZTliMiJ9fX0=",
+            "sound": "minecraft:entity.villager.ambient",
+            "name": "Shepherd Villager Head",
+            "condition": {
+                "nbt": "{VillagerData:{profession:\"minecraft:shepherd\"}}"
+            }
+        },
+        {
+            "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYWUwZTk1OTFlMTFhYWVmNGMyYzUxZDlhYzY5NTE0ZTM0MDQ4NWRlZmNjMmMxMmMzOGNkMTIzODZjMmVjNmI3OCJ9fX0=",
+            "sound": "minecraft:entity.villager.ambient",
+            "name": "Toolsmith Villager Head",
+            "condition": {
+                "nbt": "{VillagerData:{profession:\"minecraft:toolsmith\"}}"
+            }
+        },
+        {
+            "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODQ3NmZmYTQxMGJiZTdmYTcwOTA5OTY1YTEyNWY0YTRlOWE0ZmIxY2UxYjhiM2MzNGJmYjczYWFmZmQ0Y2U0MyJ9fX0=",
+            "sound": "minecraft:entity.villager.ambient",
+            "name": "Weaponsmith Villager Head",
+            "condition": {
+                "nbt": "{VillagerData:{profession:\"minecraft:weaponsmith\"}}"
+            }
+        }
+    ],
+    "minecraft:vindicator": {
+        "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMmRhYmFmZGUyN2VlMTJiMDk4NjUwNDdhZmY2ZjE4M2ZkYjY0ZTA0ZGFlMWMwMGNjYmRlMDRhZDkzZGNjNmM5NSJ9fX0=",
+        "sound": "minecraft:entity.vindicator.ambient",
+        "name": "Vindicator Head"
+    },
+    "minecraft:wandering_trader": {
+        "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNWYxMzc5YTgyMjkwZDdhYmUxZWZhYWJiYzcwNzEwZmYyZWMwMmRkMzRhZGUzODZiYzAwYzkzMGM0NjFjZjkzMiJ9fX0=",
+        "sound": "minecraft:entity.wandering_trader.ambient",
+        "name": "Wandering Trader Head"
+    },
+    "minecraft:witch": {
+        "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTUyMGYxMmM2M2M3OTEyMTg2YzRiZTRlMzBjMzNjNWFjYWVjMGRiMGI2YWJkODM2ZDUxN2Q3NGE2MjI3NWQ0YiJ9fX0=",
+        "sound": "minecraft:entity.witch.ambient",
+        "name": "Witch Head"
+    },
+    "minecraft:wither": {
+        "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZWRhMTA4MjhmNjNiN2VjZGVmZDc2N2IzMjQ1ZmJkYWExM2MzZWMwYzZiMTM3NzRmMWVlOGQzMDdjMDM0YzM4MyJ9fX0=",
+        "sound": "minecraft:entity.wither.ambient",
+        "name": "Wither Head"
+    },
+    "minecraft:zombie": {
+        "item": "minecraft:zombie_head"
+    },
+    "minecraft:zombie_villager": [
+        {
+            "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzg2NzllMDM0NzY3ZDUxODY2MGQ5NDE2ZGM1ZWFmMzE5ZDY5NzY4MmFjNDBjODg2ZTNjMmJjOGRmYTFkZTFkIn19fQ==",
+            "sound": "minecraft:entity.zombie_villager.ambient",
+            "name": "Zombie Armorer Head",
+            "condition": {
+                "nbt": "{VillagerData:{profession:\"minecraft:armorer\"}}"
+            }
+        },
+        {
+            "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOWNjZThkNmNlNDEyNGNlYzNlODRhODUyZTcwZjUwMjkzZjI0NGRkYzllZTg1NzhmN2Q2ZDg5MjllMTZiYWQ2OSJ9fX0=",
+            "sound": "minecraft:entity.zombie_villager.ambient",
+            "name": "Zombie Butcher Head",
+            "condition": {
+                "nbt": "{VillagerData:{profession:\"minecraft:butcher\"}}"
+            }
+        },
+        {
+            "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTYwODAwYjAxMDEyZTk2M2U3YzIwYzhiYTE0YjcwYTAyNjRkMTQ2YTg1MGRlZmZiY2E3YmZlNTEyZjRjYjIzZCJ9fX0=",
+            "sound": "minecraft:entity.zombie_villager.ambient",
+            "name": "Zombie Cartographer Head",
+            "condition": {
+                "nbt": "{VillagerData:{profession:\"minecraft:cartographer\"}}"
+            }
+        },
+        {
+            "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjk1ODU3OGJlMGUxMjE3MjczNGE3ODI0MmRhYjE0OTY0YWJjODVhYjliNTk2MzYxZjdjNWRhZjhmMTRhMGZlYiJ9fX0=",
+            "sound": "minecraft:entity.zombie_villager.ambient",
+            "name": "Zombie Cleric Head",
+            "condition": {
+                "nbt": "{VillagerData:{profession:\"minecraft:cleric\"}}"
+            }
+        },
+        {
+            "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjc3ZDQxNWY5YmFhNGZhNGI1ZTA1OGY1YjgxYmY3ZjAwM2IwYTJjOTBhNDgzMWU1M2E3ZGJjMDk4NDFjNTUxMSJ9fX0=",
+            "sound": "minecraft:entity.zombie_villager.ambient",
+            "name": "Zombie Farmer Head",
+            "condition": {
+                "nbt": "{VillagerData:{profession:\"minecraft:farmer\"}}"
+            }
+        },
+        {
+            "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjkwNWQ1M2ZlNGZhZWIwYjMxNWE2ODc4YzlhYjgxYjRiZTUyYzMxY2Q0NzhjMDI3ZjBkN2VjZTlmNmRhODkxNCJ9fX0=",
+            "sound": "minecraft:entity.zombie_villager.ambient",
+            "name": "Zombie Fisherman Head",
+            "condition": {
+                "nbt": "{VillagerData:{profession:\"minecraft:fisherman\"}}"
+            }
+        },
+        {
+            "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMmVhMjZhYzBlMjU0OThhZGFkYTRlY2VhNThiYjRlNzZkYTMyZDVjYTJkZTMwN2VmZTVlNDIxOGZiN2M1ZWY4OSJ9fX0=",
+            "sound": "minecraft:entity.zombie_villager.ambient",
+            "name": "Zombie Fletcher Head",
+            "condition": {
+                "nbt": "{VillagerData:{profession:\"minecraft:fletcher\"}}"
+            }
+        },
+        {
+            "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmI1NTJjOTBmMjEyZTg1NWQxMjI1NWQ1Y2Q2MmVkMzhiOWNkN2UzMGU3M2YwZWE3NzlkMTc2NDMzMGU2OTI2NCJ9fX0=",
+            "sound": "minecraft:entity.zombie_villager.ambient",
+            "name": "Zombie Leatherworker Head",
+            "condition": {
+                "nbt": "{VillagerData:{profession:\"minecraft:leatherworker\"}}"
+            }
+        },
+        {
+            "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjIyMTFhMWY0MDljY2E0MjQ5YzcwZDIwY2E4MDM5OWZhNDg0NGVhNDE3NDU4YmU5ODhjYzIxZWI0Nzk3Mzc1ZSJ9fX0=",
+            "sound": "minecraft:entity.zombie_villager.ambient",
+            "name": "Zombie Librarian Head",
+            "condition": {
+                "nbt": "{VillagerData:{profession:\"minecraft:librarian\"}}"
+            }
+        },
+        {
+            "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmI1NTJjOTBmMjEyZTg1NWQxMjI1NWQ1Y2Q2MmVkMzhiOWNkN2UzMGU3M2YwZWE3NzlkMTc2NDMzMGU2OTI2NCJ9fX0=",
+            "sound": "minecraft:entity.zombie_villager.ambient",
+            "name": "Zombie Mason Head",
+            "condition": {
+                "nbt": "{VillagerData:{profession:\"minecraft:mason\"}}"
+            }
+        },
+        {
+            "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmI1NTJjOTBmMjEyZTg1NWQxMjI1NWQ1Y2Q2MmVkMzhiOWNkN2UzMGU3M2YwZWE3NzlkMTc2NDMzMGU2OTI2NCJ9fX0=",
+            "sound": "minecraft:entity.zombie_villager.ambient",
+            "name": "Zombie Nitwit Head",
+            "condition": {
+                "nbt": "{VillagerData:{profession:\"minecraft:nitwit\"}}"
+            }
+        },
+        {
+            "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmI1NTJjOTBmMjEyZTg1NWQxMjI1NWQ1Y2Q2MmVkMzhiOWNkN2UzMGU3M2YwZWE3NzlkMTc2NDMzMGU2OTI2NCJ9fX0=",
+            "sound": "minecraft:entity.zombie_villager.ambient",
+            "name": "Zombie Villager Head",
+            "condition": {
+                "nbt": "{VillagerData:{profession:\"minecraft:none\"}}"
+            }
+        },
+        {
+            "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjkxMzkxYmVmM2E0NmVmMjY3ZDNiNzE3MTA4NmJhNGM4ZDE3ZjJhNmIwZjgzZmEyYWMzMGVmZTkxNGI3YzI0OSJ9fX0=",
+            "sound": "minecraft:entity.zombie_villager.ambient",
+            "name": "Zombie Shepherd Head",
+            "condition": {
+                "nbt": "{VillagerData:{profession:\"minecraft:shepherd\"}}"
+            }
+        },
+        {
+            "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmI1NTJjOTBmMjEyZTg1NWQxMjI1NWQ1Y2Q2MmVkMzhiOWNkN2UzMGU3M2YwZWE3NzlkMTc2NDMzMGU2OTI2NCJ9fX0=",
+            "sound": "minecraft:entity.zombie_villager.ambient",
+            "name": "Zombie Toolsmith Head",
+            "condition": {
+                "nbt": "{VillagerData:{profession:\"minecraft:toolsmith\"}}"
+            }
+        },
+        {
+            "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDM3MDg5NGI1Y2MzMDVkODdhYTA4YzNiNGIwODU4N2RiNjhmZjI5ZTdhM2VmMzU0Y2FkNmFiY2E1MGU1NTI4YiJ9fX0=",
+            "sound": "minecraft:entity.zombie_villager.ambient",
+            "name": "Zombie Weaponsmith Head",
+            "condition": {
+                "nbt": "{VillagerData:{profession:\"minecraft:weaponsmith\"}}"
+            }
+        }
+    ]
+}

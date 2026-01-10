@@ -32,3 +32,8 @@ def act(xs: Iterable[T], func: Callable[[T], None]) -> int:
         func(x)
         count += 1
     return count
+
+def remove_where(xs: list[T], predicate: Callable[[T], bool]) -> list[T]:
+    removed = [x for x in xs if predicate(x)]
+    xs[:] = (x for x in xs if not predicate(x))
+    return removed
