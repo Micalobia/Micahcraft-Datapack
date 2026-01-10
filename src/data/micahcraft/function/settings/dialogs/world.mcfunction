@@ -62,27 +62,27 @@ execute store result score #mk.drop_player_head mk.math run function micahcraft:
 
 execute if score #mk.trim_particles_enabled mk.math matches 1 run \
     data modify storage micahcraft:settings display.world.trim_particles_enabled set value \
-    {text:'Enabled',color:'dark_green',bold:1b}
+    {text:'Disabled',color:'red',bold:1b}
 
 execute unless score #mk.trim_particles_enabled mk.math matches 1 run \
     data modify storage micahcraft:settings display.world.trim_particles_enabled set value \
-    {text:'Disabled',color:'red',bold:1b}
+    {text:'Enabled',color:'dark_green',bold:1b}
 
 execute if score #mk.trim_particles_self mk.math matches 1 run \
     data modify storage micahcraft:settings display.world.trim_particles_self set value \
-    {text:'Enabled',color:'dark_green',bold:1b}
+    {text:'Disabled',color:'red',bold:1b}
 
 execute unless score #mk.trim_particles_self mk.math matches 1 run \
     data modify storage micahcraft:settings display.world.trim_particles_self set value \
-    {text:'Disabled',color:'red',bold:1b}
+    {text:'Enabled',color:'dark_green',bold:1b}
 
 execute if score #mk.drop_player_head mk.math matches 1 run \
     data modify storage micahcraft:settings display.world.drop_player_head set value \
-    {text:'Enabled',color:'dark_green',bold:1b}
+    {text:'Disabled',color:'red',bold:1b}
 
 execute unless score #mk.drop_player_head mk.math matches 1 run \
     data modify storage micahcraft:settings display.world.drop_player_head set value \
-    {text:'Disabled',color:'red',bold:1b}
+    {text:'Enabled',color:'dark_green',bold:1b}
 
 execute summon text_display run function micahcraft:settings/dialogs/resolve/world
 function micahcraft:settings/show with storage micahcraft:settings

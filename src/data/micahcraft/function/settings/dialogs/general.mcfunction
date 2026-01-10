@@ -51,19 +51,19 @@ execute store result score #mk.day_counter_sound mk.math run function micahcraft
 
 execute if score #mk.day_counter_enabled mk.math matches 1 run \
     data modify storage micahcraft:settings display.general.day_counter_enabled set value \
-    {text:'Enabled',color:'dark_green',bold:1b}
+    {text:'Disabled',color:'red',bold:1b}
 
 execute unless score #mk.day_counter_enabled mk.math matches 1 run \
     data modify storage micahcraft:settings display.general.day_counter_enabled set value \
-    {text:'Disabled',color:'red',bold:1b}
+    {text:'Enabled',color:'dark_green',bold:1b}
 
 execute if score #mk.day_counter_sound mk.math matches 1 run \
     data modify storage micahcraft:settings display.general.day_counter_sound set value \
-    {text:'Sound',color:'dark_green',bold:1b}
+    {text:'No Sound',color:'red',bold:1b}
 
 execute unless score #mk.day_counter_sound mk.math matches 1 run \
     data modify storage micahcraft:settings display.general.day_counter_sound set value \
-    {text:'No Sound',color:'red',bold:1b}
+    {text:'Sound',color:'dark_green',bold:1b}
 
 execute summon text_display run function micahcraft:settings/dialogs/resolve/general
 function micahcraft:settings/show with storage micahcraft:settings

@@ -22,10 +22,12 @@
                 {
                     "condition": "inverted",
                     "term": {
-                        "condition": "entity_properties",
+                        "condition": "minecraft:entity_scores",
                         "entity": "this",
-                        "predicate": {
-                            "nbt": "{Tags:['mk.headless']}"
+                        "scores": {
+                            "mk.settings.world.trigger": {
+                                "min": 4
+                            }
                         }
                     }
                 }
