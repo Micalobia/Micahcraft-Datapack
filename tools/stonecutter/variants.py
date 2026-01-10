@@ -60,5 +60,6 @@ def run(ctx: Context):
             identifier = f"{ctx.project_id}:generated/variant/{name}"
             ctx.data[identifier] = ItemTag({"values": list(values)})
             for item in all_outputs[tag]:
-                ctx.data[identifier] = recipe_helper.stonecutter(f"#{identifier}", item, 2 if item.endswith("_slab") else 1)
-                ctx.data[identifier] = recipe_helper.advancement(f"#{identifier}", identifier)
+                item_name = f"{identifier}/{item.split(":")[-1]}"
+                ctx.data[item_name] = recipe_helper.stonecutter(f"#{identifier}", item, 2 if item.endswith("_slab") else 1)
+                ctx.data[item_name] = recipe_helper.advancement(f"#{identifier}", identifier)
