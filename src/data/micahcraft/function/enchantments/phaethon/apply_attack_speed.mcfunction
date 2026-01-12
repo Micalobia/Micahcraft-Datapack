@@ -1,0 +1,2 @@
+execute unless items entity @s weapon.mainhand *[minecraft:enchantments~[{'micahcraft:phaethon_curse':1}]] run return fail
+item modify entity @s weapon.mainhand micahcraft:enchantment/phaethon/apply_attack_speed

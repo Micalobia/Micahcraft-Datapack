@@ -7,11 +7,15 @@
     "minecraft": "1.21.11",
     "output": "build",
     "author": "Micalobia",
+    "version": "26.1.0",
     "description": "Adds some vanilla+ recipes and features",
     "templates": [],
     "require": [],
     "meta": {
-        "unreachable": ["micahcraft:commands/hud/theme/(\\d+|same)"]
+        "unreachable": ["micahcraft:commands/hud/theme/(\\d+|same)"],
+        "format_json": {
+            "indent": 4
+        }
     },
     "pipeline": [
         "beet.contrib.vanilla.load_vanilla",
@@ -23,7 +27,9 @@
         "tools.recipe_advancements.run",
         "tools.tweaks.main.run",
         "tools.functions.score_triggers.run",
+        "tools.json.enchantment.run",
         "tools.functions.unreachable.run",
-        "tools.utility.print_finished"
+        "tools.utility.print_finished",
+        "beet.contrib.format_json"
     ]
 }

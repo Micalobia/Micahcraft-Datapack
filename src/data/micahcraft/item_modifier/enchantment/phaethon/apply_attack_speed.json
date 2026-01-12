@@ -1,0 +1,247 @@
+{
+    "function": "minecraft:sequence",
+    "functions": [
+        {
+            "function": "minecraft:set_attributes",
+            "modifiers": [
+                {
+                    "attribute": "minecraft:attack_speed",
+                    "id": "micahcraft:phaethon",
+                    "amount": 0,
+                    "operation": "add_multiplied_total",
+                    "slot": "mainhand"
+                }
+            ],
+            "replace": false,
+            "conditions": [
+                {
+                    "condition": "minecraft:entity_scores",
+                    "entity": "this",
+                    "scores": {
+                        "mk.phaethon.heat": 0
+                    }
+                }
+            ]
+        },
+        {
+            "function": "minecraft:set_attributes",
+            "modifiers": [
+                {
+                    "attribute": "minecraft:attack_speed",
+                    "id": "micahcraft:phaethon",
+                    "amount": 0.15,
+                    "operation": "add_multiplied_total",
+                    "slot": "mainhand"
+                }
+            ],
+            "replace": false,
+            "conditions": [
+                {
+                    "condition": "minecraft:entity_scores",
+                    "entity": "this",
+                    "scores": {
+                        "mk.phaethon.heat": 1
+                    }
+                }
+            ]
+        },
+        {
+            "function": "minecraft:set_attributes",
+            "modifiers": [
+                {
+                    "attribute": "minecraft:attack_speed",
+                    "id": "micahcraft:phaethon",
+                    "amount": 0.3,
+                    "operation": "add_multiplied_total",
+                    "slot": "mainhand"
+                }
+            ],
+            "replace": false,
+            "conditions": [
+                {
+                    "condition": "minecraft:entity_scores",
+                    "entity": "this",
+                    "scores": {
+                        "mk.phaethon.heat": 2
+                    }
+                }
+            ]
+        },
+        {
+            "function": "minecraft:set_attributes",
+            "modifiers": [
+                {
+                    "attribute": "minecraft:attack_speed",
+                    "id": "micahcraft:phaethon",
+                    "amount": 0.45,
+                    "operation": "add_multiplied_total",
+                    "slot": "mainhand"
+                }
+            ],
+            "replace": false,
+            "conditions": [
+                {
+                    "condition": "minecraft:entity_scores",
+                    "entity": "this",
+                    "scores": {
+                        "mk.phaethon.heat": 3
+                    }
+                }
+            ]
+        },
+        {
+            "function": "minecraft:set_attributes",
+            "modifiers": [
+                {
+                    "attribute": "minecraft:attack_speed",
+                    "id": "micahcraft:phaethon",
+                    "amount": 0.6,
+                    "operation": "add_multiplied_total",
+                    "slot": "mainhand"
+                }
+            ],
+            "replace": false,
+            "conditions": [
+                {
+                    "condition": "minecraft:entity_scores",
+                    "entity": "this",
+                    "scores": {
+                        "mk.phaethon.heat": 4
+                    }
+                }
+            ]
+        },
+        {
+            "function": "minecraft:set_attributes",
+            "modifiers": [
+                {
+                    "attribute": "minecraft:attack_speed",
+                    "id": "micahcraft:phaethon",
+                    "amount": 0.75,
+                    "operation": "add_multiplied_total",
+                    "slot": "mainhand"
+                }
+            ],
+            "replace": false,
+            "conditions": [
+                {
+                    "condition": "minecraft:entity_scores",
+                    "entity": "this",
+                    "scores": {
+                        "mk.phaethon.heat": 5
+                    }
+                }
+            ]
+        },
+        {
+            "function": "minecraft:set_attributes",
+            "modifiers": [
+                {
+                    "attribute": "minecraft:attack_speed",
+                    "id": "micahcraft:phaethon",
+                    "amount": 0.9,
+                    "operation": "add_multiplied_total",
+                    "slot": "mainhand"
+                }
+            ],
+            "replace": false,
+            "conditions": [
+                {
+                    "condition": "minecraft:entity_scores",
+                    "entity": "this",
+                    "scores": {
+                        "mk.phaethon.heat": 6
+                    }
+                }
+            ]
+        },
+        {
+            "function": "minecraft:set_attributes",
+            "modifiers": [
+                {
+                    "attribute": "minecraft:attack_speed",
+                    "id": "micahcraft:phaethon",
+                    "amount": 1.05,
+                    "operation": "add_multiplied_total",
+                    "slot": "mainhand"
+                }
+            ],
+            "replace": false,
+            "conditions": [
+                {
+                    "condition": "minecraft:entity_scores",
+                    "entity": "this",
+                    "scores": {
+                        "mk.phaethon.heat": 7
+                    }
+                }
+            ]
+        },
+        {
+            "function": "minecraft:set_attributes",
+            "modifiers": [
+                {
+                    "attribute": "minecraft:attack_speed",
+                    "id": "micahcraft:phaethon",
+                    "amount": 1.2,
+                    "operation": "add_multiplied_total",
+                    "slot": "mainhand"
+                }
+            ],
+            "replace": false,
+            "conditions": [
+                {
+                    "condition": "minecraft:entity_scores",
+                    "entity": "this",
+                    "scores": {
+                        "mk.phaethon.heat": 8
+                    }
+                }
+            ]
+        },
+        {
+            "function": "minecraft:set_attributes",
+            "modifiers": [
+                {
+                    "attribute": "minecraft:attack_speed",
+                    "id": "micahcraft:phaethon",
+                    "amount": 1.35,
+                    "operation": "add_multiplied_total",
+                    "slot": "mainhand"
+                }
+            ],
+            "replace": false,
+            "conditions": [
+                {
+                    "condition": "minecraft:entity_scores",
+                    "entity": "this",
+                    "scores": {
+                        "mk.phaethon.heat": 9
+                    }
+                }
+            ]
+        },
+        {
+            "function": "minecraft:set_attributes",
+            "modifiers": [
+                {
+                    "attribute": "minecraft:attack_speed",
+                    "id": "micahcraft:phaethon",
+                    "amount": 1.5,
+                    "operation": "add_multiplied_total",
+                    "slot": "mainhand"
+                }
+            ],
+            "replace": false,
+            "conditions": [
+                {
+                    "condition": "minecraft:entity_scores",
+                    "entity": "this",
+                    "scores": {
+                        "mk.phaethon.heat": 10
+                    }
+                }
+            ]
+        }
+    ]
+}

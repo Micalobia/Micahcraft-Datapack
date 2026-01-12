@@ -1,0 +1,8 @@
+{
+    "replace": false,
+    "values": [
+        "micahcraft:phaethon_self",
+        "micahcraft:phaethon_hit",
+        "micahcraft:phaethon_dash"
+    ]
+}

@@ -1,0 +1,21 @@
+{
+    "criteria": {
+        "triggered": {
+            "trigger": "using_item",
+            "conditions": {
+                "item": {
+                    "predicates": {
+                        "minecraft:enchantments": [
+                            {
+                                "enchantments": "micahcraft:phaethon_curse"
+                            }
+                        ]
+                    }
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "micahcraft:enchantments/phaethon/holding_dash"
+    }
+}

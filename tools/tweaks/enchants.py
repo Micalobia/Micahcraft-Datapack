@@ -12,6 +12,8 @@ def run(ctx: Context, vanilla: Vanilla):
         looting(ctx, vanilla)
         loyalty(ctx, vanilla)
         unbreaking(ctx, vanilla)
+        protection(ctx, vanilla)
+        fire_protection(ctx, vanilla)
 
 
 # Make channeling work in the rain
@@ -80,3 +82,37 @@ def unbreaking(ctx: Context, vanilla: Vanilla):
         unbreaking = deepcopy(vanilla.data.enchantments["minecraft:unbreaking"].data)
         unbreaking["supported_items"] = "#micahcraft:enchantable/unbreaking"
         ctx.data["minecraft:unbreaking"] = Enchantment(unbreaking)
+
+
+# Make Phaethon self-damage bypass protection
+def protection(ctx: Context, vanilla: Vanilla):
+    with ctx.inject(Logger).push("protection") as logger:
+        protection = deepcopy(vanilla.data.enchantments["minecraft:protection"].data)
+        damage_protection = one(require(protection["effects"], "minecraft:damage_protection"))
+        requirements = require(damage_protection, "requirements")
+        match requirements:
+            case {"condition": "minecraft:damage_source_properties", "predicate": {"tags": tags}}:
+                tag = one(tags)
+                tag["id"] = "micahcraft:bypasses_protection"
+            case _:
+                logger.warn("Protection patch failed!")
+        ctx.data["minecraft:protection"] = Enchantment(protection)
+
+
+# Make Phaethon self-damage be resisted by Fire Protection, but not Fire Resistance
+def fire_protection(ctx: Context, vanilla: Vanilla):
+    with ctx.inject(Logger).push("fire_protection") as logger:
+        fire_protection = deepcopy(vanilla.data.enchantments["minecraft:fire_protection"].data)
+        damage_protection = one(require(fire_protection["effects"], "minecraft:damage_protection"))
+        requirements = require(damage_protection, "requirements")
+        match requirements:
+            case {"condition": "minecraft:all_of", "terms": terms}:
+                match one(terms):
+                    case {"condition": "minecraft:damage_source_properties", "predicate": {"tags": tags}}:
+                        tag = one(where(tags, lambda x: x["id"] == "minecraft:is_fire"))
+                        tag["id"] = "micahcraft:is_fire_adjacent"
+                    case _:
+                        logger.warn("Fire Protection patch failed!")
+            case _:
+                logger.warn("Fire Protection patch failed!")
+        ctx.data["minecraft:fire_protection"] = Enchantment(fire_protection)

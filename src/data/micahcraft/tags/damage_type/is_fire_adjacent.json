@@ -1,0 +1,8 @@
+{
+    "replace": false,
+    "values": [
+        "#minecraft:is_fire",
+        "micahcraft:phaethon_self",
+        "micahcraft:phaethon_dash"
+    ]
+}

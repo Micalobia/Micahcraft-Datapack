@@ -1,0 +1,6 @@
+{
+    "message_id": "phaethon.self",
+    "effects": "burning",
+    "exhaustion": 0.1,
+    "scaling": "never"
+}

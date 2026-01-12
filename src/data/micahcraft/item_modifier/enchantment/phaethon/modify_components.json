@@ -1,0 +1,22 @@
+{
+    "function": "set_components",
+    "components": {
+        "minecraft:damage_type": "micahcraft:phaethon_hit",
+        "minecraft:kinetic_weapon": {
+            "damage_multiplier": 0,
+            "damage_conditions": {
+                "min_speed": 2147483647,
+                "max_duration_ticks": 1
+            },
+            "forward_movement": -10
+        },
+        "minecraft:custom_data": {
+            "mk.phaethon": 1
+        },
+        "minecraft:use_effects": {
+            "can_sprint": true,
+            "interact_vibrations": true,
+            "speed_multiplier": 1
+        }
+    }
+}

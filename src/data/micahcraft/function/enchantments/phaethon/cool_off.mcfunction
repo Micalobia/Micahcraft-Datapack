@@ -1,0 +1,2 @@
+execute as @a[scores={mk.phaethon.heat=1..}] at @s run function micahcraft:enchantments/phaethon/cool_off_single
+execute if entity @a[scores={mk.phaethon.heat=1..}] run schedule function micahcraft:enchantments/phaethon/cool_off 1t append
