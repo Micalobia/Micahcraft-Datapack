@@ -3,5 +3,6 @@ execute if score #crouched mk.math matches 1 unless predicate micahcraft:api/cro
 execute if score #crouched mk.math matches 2 if predicate micahcraft:api/crouching run return fail
 execute at @s rotated as @s run function micahcraft:enchantments/hammer/direction
 tag @s add mk.hammer.used
+scoreboard players set #tolerance mk.api.args 1
 function micahcraft:api/hit/run {tag:"mk.hammer.hit",function:"micahcraft:enchantments/hammer/start"}
 tag @s remove mk.hammer.used
