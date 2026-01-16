@@ -26,6 +26,16 @@ data modify storage micahcraft:settings _dialog set value {\
     "actions": [\
         {\
             "label": {\
+                "translate": "settings.micahcraft.hud.tps",\
+                "fallback": "TPS"\
+            },\
+            "action": {\
+                "type": "run_command",\
+                "command": "trigger mk.settings.hud.trigger set 128"\
+            },\
+        },\
+        {\
+            "label": {\
                 "translate": "settings.micahcraft.hud.coordinates",\
                 "fallback": "Coordinates"\
             },\

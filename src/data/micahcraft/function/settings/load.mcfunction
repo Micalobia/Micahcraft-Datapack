@@ -22,6 +22,7 @@ data modify storage micahcraft:settings hud set value {\
     moon:16,\
     clock:32,\
     clock_mode:64,\
+    tps:128,\
     theme:16777216,\
 }
 
