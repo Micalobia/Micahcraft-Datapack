@@ -1,0 +1,19 @@
+Licensing notice (resources/assets/**)
+
+Default license
+---------------
+Unless a subfolder says otherwise, assets under this directory are licensed
+under CC BY-NC 4.0.
+
+See the canonical license text in this repo at:
+  /LICENSES/CC-BY-NC-4.0.txt
+
+Exceptions
+----------
+- Jessica Koehler paintings:
+  resources/assets/micahcraft/textures/painting/jessica_kohler/**
+  -> All Rights Reserved (see /LICENSES/ARR-Jessica_Kohler.txt)
+
+- Estecka assets:
+  resources/assets/micahcraft/textures/estecka/**
+  -> CC BY-NC-SA 4.0 (see /LICENSES/CC-BY-NC-SA-4.0.txt)

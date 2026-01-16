@@ -1,0 +1,6 @@
+{
+    "death.attack.phaethon.self": "%1$s was reduced to cinders challenging %2$s",
+    "death.attack.phaethon.self.player": "%1$s pushed past their limits against %2$s",
+    "death.attack.phaethon.dash": "%1$s reduced themselves to ash",
+    "death.attack.phaethon.dash.item": "%1$s reduced themselves to ash using %3$s"
+}

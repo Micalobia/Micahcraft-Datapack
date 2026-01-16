@@ -1,0 +1,11 @@
+Estecka assets (CC BY-NC-SA 4.0)
+
+This folder contains third-party assets by Estecka, used under
+CC BY-NC-SA 4.0.
+
+Canonical license:
+  /LICENSES/CC-BY-NC-SA-4.0.txt
+
+Attribution:
+  Estecka — mc-Vanilla-Tool-Trims (variants-cit/1.21.1)
+  https://github.com/Estecka/mc-Vanilla-Tool-Trims/tree/variants-cit/1.21.1
