@@ -1,0 +1,12 @@
+{
+    "pack": {
+        "description": "The Micahcraft Resource Pack",
+        "pack_format": 75,
+        "min_format": 64,
+        "max_format": 99,
+        "supported_formats": {
+            "min_inclusive": 64,
+            "max_inclusive": 99
+        }
+    }
+}

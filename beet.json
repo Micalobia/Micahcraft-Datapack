@@ -4,6 +4,10 @@
         "load": ["src"],
         "name": "micahcraft"
     },
+    "resource_pack": {
+        "load": ["resources"],
+        "name": "micahcraft_resources"
+    },
     "minecraft": "1.21.11",
     "output": "build",
     "author": "Micalobia",

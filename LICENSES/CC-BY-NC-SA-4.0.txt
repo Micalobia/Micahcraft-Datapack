@@ -1,0 +1,16 @@
+Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International
+SPDX-License-Identifier: CC-BY-NC-SA-4.0
+
+This file is a repository-local copy of the license *identifier* and guidance.
+
+IMPORTANT:
+- The authoritative legal text is the Creative Commons legal code:
+  https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode
+- A human-readable summary (not a substitute for the license) is here:
+  https://creativecommons.org/licenses/by-nc-sa/4.0/
+
+High-level (non-authoritative) summary:
+- You must give attribution (BY).
+- You may not use the material for commercial purposes (NC).
+- If you share adaptations, you must use the same license (SA).
+- You should indicate if changes were made.

@@ -1,0 +1,30 @@
+Micahcraft Paintings — Jessica Koehler
+
+Copyright © 2025 Jessica Koehler
+Used in Micahcraft by permission.
+
+All Rights Reserved.
+
+Scope
+-----
+This notice applies ONLY to the contents of:
+  resources/assets/micahcraft/textures/painting/jessica_kohler/**
+
+Permissions
+-----------
+You may download and use these paintings only for the purpose of connecting to
+and playing on the Micahcraft Minecraft server.
+
+You may redistribute *unmodified* copies of these paintings ONLY as part of an
+official Micahcraft resource pack distribution from:
+  https://github.com/Micalobia/Micahcraft-Datapack/releases
+
+Restrictions
+------------
+You may NOT:
+- Redistribute these paintings except as explicitly permitted above
+- Modify or create derivative works
+- Extract or reuse these paintings in other projects
+- Rehost these paintings elsewhere
+
+No license or rights are granted except as expressly stated above.
