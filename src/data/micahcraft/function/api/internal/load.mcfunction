@@ -40,7 +40,14 @@ scoreboard objectives add mk.api.used.shears minecraft.used:minecraft.shears
 # Timestamp
 scoreboard objectives add mk.api.time dummy
 
+# TPS
+scoreboard objectives add mk.api.tps dummy
+function micahcraft:api/internal/tps/create_stopwatch
+scoreboard players set #10 mk.math 10
+scoreboard players add #ID mk.api.tps 0
+
 # Optional Argument Storage
 scoreboard objectives add mk.api.args dummy
 
+function micahcraft:api/internal/tps/calculate
 function micahcraft:api/internal/slow_tick

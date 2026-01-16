@@ -1,0 +1,10 @@
+stopwatch create micahcraft:api/tps/0
+stopwatch create micahcraft:api/tps/1
+stopwatch create micahcraft:api/tps/2
+stopwatch create micahcraft:api/tps/3
+stopwatch create micahcraft:api/tps/4
+stopwatch create micahcraft:api/tps/5
+stopwatch create micahcraft:api/tps/6
+stopwatch create micahcraft:api/tps/7
+stopwatch create micahcraft:api/tps/8
+stopwatch create micahcraft:api/tps/9
