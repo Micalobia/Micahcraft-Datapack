@@ -1,0 +1,18 @@
+bow               , bow          , 0, 0, false
+bow_pulling_0     , bow          , 0, 1, false
+bow_pulling_1     , bow          , 0, 2, false
+bow_pulling_2     , bow          , 0, 3, false
+crossbow          , crossbow     , 1, 0, false
+crossbow_pulling_0, crossbow     , 1, 1, false
+crossbow_pulling_1, crossbow     , 1, 2, false
+crossbow_pulling_2, crossbow     , 1, 3, false
+crossbow_arrow    , crossbow     , 1, 4, false
+crossbow_firework , crossbow     , 1, 5, false
+sword             , handheld     , 2, 0, false
+pickaxe           , handheld     , 2, 1, false
+axe               , handheld     , 2, 2, false
+shovel            , handheld     , 2, 3, false
+hoe               , handheld     , 2, 4, false
+spear             , generated    , 0, 4, false
+spear_in_hand     , spear_in_hand, 0, 4, true
+spear_in_hand     , spear_in_hand, 0, 5, false, 16, 16

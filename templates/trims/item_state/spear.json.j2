@@ -1,0 +1,14 @@
+{
+    "model": {
+        "type": "minecraft:select",
+        "property": "minecraft:display_context",
+        "cases": [
+        {
+            "when": ["gui", "ground", "fixed", "on_shelf"],
+            "model": {{ composite | tojson }}
+        }
+        ],
+        "fallback": {{ composite_in_hand | tojson }}
+    },
+    "swap_animation_scale": 1.95
+}

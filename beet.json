@@ -13,7 +13,9 @@
     "author": "Micalobia",
     "version": "26.1.0",
     "description": "Adds some vanilla+ recipes and features",
-    "templates": [],
+    "templates": [
+        "templates"
+    ],
     "require": [],
     "meta": {
         "unreachable": ["micahcraft:commands/hud/theme/(\\d+|same)"],
@@ -33,6 +35,7 @@
         "tools.functions.score_triggers.run",
         "tools.json.enchantment.run",
         "tools.functions.unreachable.run",
+        "tools.trims.run",
         "tools.utility.print_finished",
         "beet.contrib.format_json"
     ]

@@ -1,0 +1,44 @@
+bow              , wood     , bow     , bow     , _pulling_0, _pulling_1, _pulling_2
+crossbow         , wood     , crossbow, crossbow, _pulling_0, _pulling_1, _pulling_2, _arrow, _firework
+netherite_sword  , netherite, sword   , handheld
+netherite_pickaxe, netherite, pickaxe , handheld
+netherite_axe    , netherite, axe     , handheld
+netherite_shovel , netherite, shovel  , handheld
+netherite_hoe    , netherite, hoe     , handheld
+diamond_sword    , diamond  , sword   , handheld
+diamond_pickaxe  , diamond  , pickaxe , handheld
+diamond_axe      , diamond  , axe     , handheld
+diamond_shovel   , diamond  , shovel  , handheld
+diamond_hoe      , diamond  , hoe     , handheld
+iron_sword       , iron     , sword   , handheld
+iron_pickaxe     , iron     , pickaxe , handheld
+iron_axe         , iron     , axe     , handheld
+iron_shovel      , iron     , shovel  , handheld
+iron_hoe         , iron     , hoe     , handheld
+golden_sword     , gold     , sword   , handheld
+golden_pickaxe   , gold     , pickaxe , handheld
+golden_axe       , gold     , axe     , handheld
+golden_shovel    , gold     , shovel  , handheld
+golden_hoe       , gold     , hoe     , handheld
+copper_sword     , copper   , sword   , handheld
+copper_pickaxe   , copper   , pickaxe , handheld
+copper_axe       , copper   , axe     , handheld
+copper_shovel    , copper   , shovel  , handheld
+copper_hoe       , copper   , hoe     , handheld
+stone_sword      , stone    , sword   , handheld
+stone_pickaxe    , stone    , pickaxe , handheld
+stone_axe        , stone    , axe     , handheld
+stone_shovel     , stone    , shovel  , handheld
+stone_hoe        , stone    , hoe     , handheld
+wooden_sword     , wood     , sword   , handheld
+wooden_pickaxe   , wood     , pickaxe , handheld
+wooden_axe       , wood     , axe     , handheld
+wooden_shovel    , wood     , shovel  , handheld
+wooden_hoe       , wood     , hoe     , handheld
+wooden_spear     , wood     , spear   , spear   , _in_hand
+stone_spear      , stone    , spear   , spear   , _in_hand
+copper_spear     , copper   , spear   , spear   , _in_hand
+iron_spear       , iron     , spear   , spear   , _in_hand
+golden_spear     , gold     , spear   , spear   , _in_hand
+diamond_spear    , diamond  , spear   , spear   , _in_hand
+netherite_spear  , netherite, spear   , spear   , _in_hand

@@ -1,0 +1,13 @@
+{
+    "replace": false,
+    "values": [
+        "minecraft:bow",
+        "minecraft:crossbow",
+        "#minecraft:axes",
+        "#minecraft:swords",
+        "#minecraft:shovels",
+        "#minecraft:hoes",
+        "#minecraft:pickaxes",
+        "#minecraft:spears"
+    ]
+}
