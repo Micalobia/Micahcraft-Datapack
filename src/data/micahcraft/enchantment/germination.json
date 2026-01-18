@@ -1,8 +1,7 @@
 {
     "anvil_cost": 8,
     "description": {
-        "translate": "enchantment.micahcraft.germination",
-        "fallback": "Germination"
+        "translate": "enchantment.micahcraft.germination"
     },
     "effects": {
         "hit_block": [

@@ -1,8 +1,7 @@
 {
     "anvil_cost": 4,
     "description": {
-        "translate": "enchantment.micahcraft.beheading",
-        "fallback": "Beheading"
+        "translate": "enchantment.micahcraft.beheading"
     },
     "effects": {},
     "max_cost": {

@@ -1,8 +1,7 @@
 {
     "anvil_cost": 4,
     "description": {
-        "translate": "enchantment.micahcraft.soulbound",
-        "fallback": "Soulbound"
+        "translate": "enchantment.micahcraft.soulbound"
     },
     "effects": {},
     "max_cost": {

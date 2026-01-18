@@ -1,8 +1,7 @@
 {
     "anvil_cost": 8,
     "description": {
-        "translate": "enchantment.micahcraft.plummeting_curse",
-        "fallback": "Curse of Plummeting"
+        "translate": "enchantment.micahcraft.plummeting_curse"
     },
     "effects": {
         "minecraft:attributes": [

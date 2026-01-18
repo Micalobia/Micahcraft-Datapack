@@ -4,12 +4,10 @@
     "height": 4,
     "author": {
         "color": "gray",
-        "translate": "painting.micahcraft.gingerbread.author",
-        "fallback": "Jessica Koehler"
+        "translate": "painting.micahcraft.gingerbread.author"
     },
     "title": {
         "color": "yellow",
-        "translate": "painting.micahcraft.gingerbread.title",
-        "fallback": "Gingerbread"
+        "translate": "painting.micahcraft.gingerbread.title"
     }
 }

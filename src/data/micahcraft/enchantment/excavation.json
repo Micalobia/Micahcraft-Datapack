@@ -1,8 +1,7 @@
 {
     "anvil_cost": 12,
     "description": {
-        "translate": "enchantment.micahcraft.excavation",
-        "fallback": "Excavation"
+        "translate": "enchantment.micahcraft.excavation"
     },
     "effects": {
         "item_damage": [

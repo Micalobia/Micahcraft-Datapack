@@ -1,8 +1,7 @@
 {
     "anvil_cost": 12,
     "description": {
-        "translate": "enchantment.micahcraft.spectre_shot",
-        "fallback": "Spectre Shot"
+        "translate": "enchantment.micahcraft.spectre_shot"
     },
     "effects": {
         "projectile_spawned": [

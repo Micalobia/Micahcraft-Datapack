@@ -2,7 +2,6 @@ data modify storage micahcraft:settings _dialog set value {\
     "type": "multi_action",\
     "title": {\
         "translate": "settings.micahcraft.world.title",\
-        "fallback": "World",\
         "color": "dark_green"\
     },\
     "after_action": "wait_for_response",\
@@ -25,8 +24,7 @@ data modify storage micahcraft:settings _dialog set value {\
     "actions": [\
         {\
             "label": {\
-                "translate": "settings.micahcraft.world.trim_particles_enabled",\
-                "fallback": "Trim Particles"\
+                "translate": "settings.micahcraft.world.trim_particles_enabled"\
             },\
             "action": {\
                 "type": "run_command",\
@@ -35,8 +33,7 @@ data modify storage micahcraft:settings _dialog set value {\
         },\
         {\
             "label": {\
-                "translate": "settings.micahcraft.world.trim_particles_self",\
-                "fallback": "Trim Particles Self"\
+                "translate": "settings.micahcraft.world.trim_particles_self"\
             },\
             "action": {\
                 "type": "run_command",\
@@ -45,8 +42,7 @@ data modify storage micahcraft:settings _dialog set value {\
         },\
         {\
             "label": {\
-                "translate": "settings.micahcraft.world.drop_player_head",\
-                "fallback": "Drop Player Head"\
+                "translate": "settings.micahcraft.world.drop_player_head"\
             },\
             "action": {\
                 "type": "run_command",\

@@ -2,7 +2,6 @@ data modify storage micahcraft:settings _dialog set value {\
     "type": "multi_action",\
     "title": {\
         "translate": "settings.micahcraft.enchantments.title",\
-        "fallback": "Enchantments",\
         "color": "dark_purple"\
     },\
     "after_action": "wait_for_response",\
@@ -26,8 +25,7 @@ data modify storage micahcraft:settings _dialog set value {\
     "actions": [\
         {\
             "label": {\
-                "translate": "settings.micahcraft.enchantments.veinmine_crouch",\
-                "fallback": "Crouch for Veinmining"\
+                "translate": "settings.micahcraft.enchantments.veinmine_crouch"\
             },\
             "action": {\
                 "type": "run_command",\
@@ -37,8 +35,7 @@ data modify storage micahcraft:settings _dialog set value {\
         },\
         {\
             "label": {\
-                "translate": "settings.micahcraft.enchantments.hammer_crouch",\
-                "fallback": "Crouch for Quarry/Excavation"\
+                "translate": "settings.micahcraft.enchantments.hammer_crouch"\
             },\
             "action": {\
                 "type": "run_command",\
@@ -48,8 +45,7 @@ data modify storage micahcraft:settings _dialog set value {\
         },\
         {\
             "label": {\
-                "translate": "settings.micahcraft.enchantments.displacement_safety",\
-                "fallback": "Curse of Displacement Safety"\
+                "translate": "settings.micahcraft.enchantments.displacement_safety"\
             },\
             "action": {\
                 "type": "run_command",\

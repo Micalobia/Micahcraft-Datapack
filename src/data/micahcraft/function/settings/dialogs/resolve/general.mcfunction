@@ -1,8 +1,7 @@
 data modify entity @s view_range set value 0
 data modify entity @s text set value [\
     {\
-        "translate": "settings.micahcraft.general.day_counter_enabled",\
-        "fallback": "Day Counter"\
+        "translate": "settings.micahcraft.general.day_counter_enabled"\
     },\
     ": ",\
     {\
@@ -12,8 +11,7 @@ data modify entity @s text set value [\
     },\
     "\n",\
     {\
-        "translate": "settings.micahcraft.general.day_counter_sound",\
-        "fallback": "Day Counter Sound"\
+        "translate": "settings.micahcraft.general.day_counter_sound"\
     },\
     ": ",\
     {\

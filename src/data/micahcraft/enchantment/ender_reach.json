@@ -1,8 +1,7 @@
 {
     "anvil_cost": 8,
     "description": {
-        "translate": "enchantment.micahcraft.ender_reach",
-        "fallback": "Ender Reach"
+        "translate": "enchantment.micahcraft.ender_reach"
     },
     "effects": {
         "minecraft:attributes": [

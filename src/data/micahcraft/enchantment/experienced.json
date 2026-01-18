@@ -1,8 +1,7 @@
 {
     "anvil_cost": 4,
     "description": {
-        "translate": "enchantment.micahcraft.experienced",
-        "fallback": "Experienced"
+        "translate": "enchantment.micahcraft.experienced"
     },
     "effects": {
         "mob_experience": [

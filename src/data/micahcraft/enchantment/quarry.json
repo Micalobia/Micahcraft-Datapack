@@ -1,8 +1,7 @@
 {
     "anvil_cost": 16,
     "description": {
-        "translate": "enchantment.micahcraft.quarry",
-        "fallback": "Quarry"
+        "translate": "enchantment.micahcraft.quarry"
     },
     "effects": {
         "item_damage": [

@@ -1,8 +1,7 @@
 {
     "anvil_cost": 8,
     "description": {
-        "translate": "enchantment.micahcraft.fulmination",
-        "fallback": "Curse of Fulmination"
+        "translate": "enchantment.micahcraft.fulmination_curse"
     },
     "effects": {
         "post_attack": [

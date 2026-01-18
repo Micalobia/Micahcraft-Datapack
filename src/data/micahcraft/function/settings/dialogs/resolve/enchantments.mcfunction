@@ -1,8 +1,7 @@
 data modify entity @s view_range set value 0
 data modify entity @s text set value [\
     {\
-        "translate": "settings.micahcraft.enchantments.veinmine_crouch",\
-        "fallback": "Crouch for Veinmining"\
+        "translate": "settings.micahcraft.enchantments.veinmine_crouch"\
     },\
     ": ",\
     {\
@@ -12,8 +11,7 @@ data modify entity @s text set value [\
     },\
     "\n",\
     {\
-        "translate": "settings.micahcraft.enchantments.hammer_crouch",\
-        "fallback": "Crouch for Quarry/Excavation"\
+        "translate": "settings.micahcraft.enchantments.hammer_crouch"\
     },\
     ": ",\
     {\
@@ -23,8 +21,7 @@ data modify entity @s text set value [\
     },\
     "\n",\
     {\
-        "translate": "settings.micahcraft.enchantments.displacement_safety",\
-        "fallback": "Curse of Displacement Safety"\
+        "translate": "settings.micahcraft.enchantments.displacement_safety"\
     },\
     ": ",\
     {\
@@ -34,8 +31,7 @@ data modify entity @s text set value [\
         "hover_event": {\
             "action": "show_text",\
             "value": {\
-                "translate": "settings.micahcraft.enchantments.displacement_safety.description",\
-                "fallback": "This governs whether or not Curse of Displacement can teleport you into fluids"\
+                "translate": "settings.micahcraft.enchantments.displacement_safety.description"\
             }\
         }\
     }\

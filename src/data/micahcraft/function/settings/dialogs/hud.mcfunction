@@ -2,7 +2,6 @@ data modify storage micahcraft:settings _dialog set value {\
     "type": "multi_action",\
     "title": {\
         "translate": "settings.micahcraft.hud.title",\
-        "fallback": "HUD",\
         "color": "gold"\
     },\
     "after_action": "wait_for_response",\
@@ -26,8 +25,7 @@ data modify storage micahcraft:settings _dialog set value {\
     "actions": [\
         {\
             "label": {\
-                "translate": "settings.micahcraft.hud.tps",\
-                "fallback": "TPS"\
+                "translate": "settings.micahcraft.hud.tps"\
             },\
             "action": {\
                 "type": "run_command",\
@@ -36,8 +34,7 @@ data modify storage micahcraft:settings _dialog set value {\
         },\
         {\
             "label": {\
-                "translate": "settings.micahcraft.hud.coordinates",\
-                "fallback": "Coordinates"\
+                "translate": "settings.micahcraft.hud.coordinates"\
             },\
             "action": {\
                 "type": "run_command",\
@@ -46,8 +43,7 @@ data modify storage micahcraft:settings _dialog set value {\
         },\
         {\
             "label": {\
-                "translate": "settings.micahcraft.hud.saturation",\
-                "fallback": "Saturation"\
+                "translate": "settings.micahcraft.hud.saturation"\
             },\
             "action": {\
                 "type": "run_command",\
@@ -56,8 +52,7 @@ data modify storage micahcraft:settings _dialog set value {\
         },\
         {\
             "label": {\
-                "translate": "settings.micahcraft.hud.phantoms",\
-                "fallback": "Phantom Timer"\
+                "translate": "settings.micahcraft.hud.phantoms"\
             },\
             "action": {\
                 "type": "run_command",\
@@ -66,8 +61,7 @@ data modify storage micahcraft:settings _dialog set value {\
         },\
         {\
             "label": {\
-                "translate": "settings.micahcraft.hud.warden",\
-                "fallback": "Warden Rage"\
+                "translate": "settings.micahcraft.hud.warden"\
             },\
             "action": {\
                 "type": "run_command",\
@@ -76,8 +70,7 @@ data modify storage micahcraft:settings _dialog set value {\
         },\
         {\
             "label": {\
-                "translate": "settings.micahcraft.hud.moon",\
-                "fallback": "Moon Phase"\
+                "translate": "settings.micahcraft.hud.moon"\
             },\
             "action": {\
                 "type": "run_command",\
@@ -86,8 +79,7 @@ data modify storage micahcraft:settings _dialog set value {\
         },\
         {\
             "label": {\
-                "translate": "settings.micahcraft.hud.clock",\
-                "fallback": "Clock"\
+                "translate": "settings.micahcraft.hud.clock"\
             },\
             "action": {\
                 "type": "run_command",\
@@ -96,8 +88,7 @@ data modify storage micahcraft:settings _dialog set value {\
         },\
         {\
             "label": {\
-                "translate": "settings.micahcraft.hud.clock_mode",\
-                "fallback": "Clock Mode"\
+                "translate": "settings.micahcraft.hud.clock_mode"\
             },\
             "action": {\
                 "type": "run_command",\

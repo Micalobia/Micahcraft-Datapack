@@ -1,8 +1,7 @@
 {
     "anvil_cost": 8,
     "description": {
-        "translate": "enchantment.micahcraft.beetle_curse",
-        "fallback": "Curse of the Beetle"
+        "translate": "enchantment.micahcraft.beetle_curse"
     },
     "effects": {
         "minecraft:attributes": [

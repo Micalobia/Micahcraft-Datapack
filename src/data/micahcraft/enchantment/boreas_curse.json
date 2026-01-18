@@ -1,8 +1,7 @@
 {
     "anvil_cost": 8,
     "description": {
-        "translate": "enchantment.micahcraft.boreas_curse",
-        "fallback": "Curse of Boreas"
+        "translate": "enchantment.micahcraft.boreas_curse"
     },
     "effects": {
         "tick": [

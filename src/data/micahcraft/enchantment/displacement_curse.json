@@ -1,8 +1,7 @@
 {
     "anvil_cost": 8,
     "description": {
-        "translate": "enchantment.micahcraft.displacement_curse",
-        "fallback": "Curse of Displacement"
+        "translate": "enchantment.micahcraft.displacement_curse"
     },
     "effects": {
         "post_attack": [

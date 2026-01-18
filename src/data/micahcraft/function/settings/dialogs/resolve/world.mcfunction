@@ -1,8 +1,7 @@
 data modify entity @s view_range set value 0
 data modify entity @s text set value [\
     {\
-        "translate": "settings.micahcraft.world.trim_particles_enabled",\
-        "fallback": "Trim Particles"\
+        "translate": "settings.micahcraft.world.trim_particles_enabled"\
     },\
     ": ",\
     {\
@@ -12,8 +11,7 @@ data modify entity @s text set value [\
     },\
     "\n",\
     {\
-        "translate": "settings.micahcraft.world.trim_particles_self",\
-        "fallback": "Trim Particles Self"\
+        "translate": "settings.micahcraft.world.trim_particles_self"\
     },\
     ": ",\
     {\
@@ -24,8 +22,7 @@ data modify entity @s text set value [\
     ,\
     "\n",\
     {\
-        "translate": "settings.micahcraft.world.drop_player_head",\
-        "fallback": "Drop Player Head"\
+        "translate": "settings.micahcraft.world.drop_player_head"\
     },\
     ": ",\
     {\

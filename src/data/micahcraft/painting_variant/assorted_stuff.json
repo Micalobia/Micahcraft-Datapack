@@ -4,12 +4,10 @@
     "height": 4,
     "author": {
         "color": "gray",
-        "translate": "painting.micahcraft.assorted_stuff.author",
-        "fallback": "Jessica Koehler"
+        "translate": "painting.micahcraft.assorted_stuff.author"
     },
     "title": {
         "color": "yellow",
-        "translate": "painting.micahcraft.assorted_stuff.title",
-        "fallback": "Assorted Stuff"
+        "translate": "painting.micahcraft.assorted_stuff.title"
     }
 }

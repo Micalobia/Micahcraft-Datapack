@@ -1,8 +1,7 @@
 {
     "anvil_cost": 8,
     "description": {
-        "translate": "enchantment.micahcraft.maestro_curse",
-        "fallback": "Curse of the Maestro"
+        "translate": "enchantment.micahcraft.maestro_curse"
     },
     "effects": {
         "location_changed": [

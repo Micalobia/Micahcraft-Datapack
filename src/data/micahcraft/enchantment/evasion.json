@@ -1,8 +1,7 @@
 {
     "anvil_cost": 8,
     "description": {
-        "translate": "enchantment.micahcraft.evasion",
-        "fallback": "Evasion"
+        "translate": "enchantment.micahcraft.evasion"
     },
     "effects": {
         "damage_immunity": [

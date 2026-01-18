@@ -1,7 +1,6 @@
 {
     "description": {
-        "translate": "enchantment.micahcraft.storm_strike",
-        "fallback": "Storm Strike"
+        "translate": "enchantment.micahcraft.storm_strike"
     },
     "supported_items": "#enchantable/mace",
     "primary_items": "#enchantable/mace",

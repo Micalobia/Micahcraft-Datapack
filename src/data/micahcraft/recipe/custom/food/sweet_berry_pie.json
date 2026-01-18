@@ -13,8 +13,7 @@
         "components": {
             "item_model": "micahcraft:sweet_berry_pie",
             "item_name": {
-                "translate": "item.micahcraft.sweet_berry_pie",
-                "fallback": "Sweet Berry Pie"
+                "translate": "item.micahcraft.sweet_berry_pie"
             }
         }
     }

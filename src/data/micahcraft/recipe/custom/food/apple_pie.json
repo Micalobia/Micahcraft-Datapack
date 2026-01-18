@@ -7,8 +7,7 @@
         "components": {
             "item_model": "micahcraft:apple_pie",
             "item_name": {
-                "translate": "item.micahcraft.apple_pie",
-                "fallback": "Apple Pie"
+                "translate": "item.micahcraft.apple_pie"
             }
         }
     }

@@ -1,8 +1,7 @@
 {
     "anvil_cost": 8,
     "description": {
-        "translate": "enchantment.micahcraft.tweety_curse",
-        "fallback": "Curse of Tweety"
+        "translate": "enchantment.micahcraft.tweety_curse"
     },
     "effects": {},
     "max_cost": {

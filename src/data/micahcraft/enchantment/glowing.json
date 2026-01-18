@@ -1,8 +1,7 @@
 {
     "anvil_cost": 4,
     "description": {
-      "translate": "enchantment.micahcraft.glowing",
-      "fallback": "Glowing"
+      "translate": "enchantment.micahcraft.glowing"
     },
     "effects": {
         "tick": [

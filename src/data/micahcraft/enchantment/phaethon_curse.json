@@ -1,8 +1,7 @@
 {
     "anvil_cost": 8,
     "description": {
-        "translate": "enchantment.micahcraft.phaethon_curse",
-        "fallback": "Curse of Phaethon"
+        "translate": "enchantment.micahcraft.phaethon_curse"
     },
     "effects": {
         "minecraft:post_attack": [

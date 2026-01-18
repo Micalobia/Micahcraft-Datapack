@@ -125,6 +125,7 @@ def beheading(ctx: Context, vanilla: Vanilla):
     with ctx.inject(Logger).push("beheading") as logger:
         logger.info("Building...")
         heads: dict[str, dict[str, str] | list[dict[str, str]]] = json.loads(pathlib.Path("./config/heads.json").read_text("utf-8"))
+        translations = {}
         for id, options in heads.items():
             if isinstance(options, dict):
                 options = [options]
@@ -136,6 +137,10 @@ def beheading(ctx: Context, vanilla: Vanilla):
             for option in options:
                 match option:
                     case {"texture": texture, "sound": sound, "name": name}:
+                        translation_key = f"item.micahcraft.{id_path}"
+                        if "condition" in option:
+                            suffix = "." + "_".join(name.split(" ")[:-1]).lower()
+                            translation_key += suffix
                         entry = {
                             "type": "minecraft:item",
                             "name": "minecraft:player_head",
@@ -145,14 +150,13 @@ def beheading(ctx: Context, vanilla: Vanilla):
                                     "components": {
                                         "minecraft:note_block_sound": sound,
                                         "minecraft:profile": {"properties": [{"name": "textures", "value": texture}]},
-                                        "minecraft:item_name": {"translate": f"item.micahcraft.{id_path}", "fallback": name},
+                                        # The only reason I kept the fallback is so old ones from before the lang file existed still stack with new ones
+                                        "minecraft:item_name": {"translate": translation_key, "fallback": name},
                                     },
                                 },
                             ],
                         }
-                        if "condition" in option:
-                            suffix = "." + "_".join(name.split(" ")[:-1]).lower()
-                            entry["functions"][0]["components"]["minecraft:item_name"]["translate"] += suffix
+                        translations[translation_key] = name
                     case {"item": item}:
                         entry: dict[str, Any] = {"type": "item", "name": item}
                     case _:
@@ -184,6 +188,8 @@ def beheading(ctx: Context, vanilla: Vanilla):
                 mob["pools"] = pools
                 ctx.data[table_path] = LootTable(mob)
         wither_skeleton_skull(ctx, vanilla)
+        en_us = ctx.assets.languages["micahcraft:en_us"]
+        en_us.data |= translations
 
 
 def wither_skeleton_skull(ctx: Context, vanilla: Vanilla):

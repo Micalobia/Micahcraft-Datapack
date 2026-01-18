@@ -2,7 +2,6 @@ data modify storage micahcraft:settings _dialog set value {\
     "type": "multi_action",\
     "title": {\
         "translate": "settings.micahcraft.general.title",\
-        "fallback": "General",\
         "color": "#c0c0ff"\
     },\
     "after_action": "wait_for_response",\
@@ -25,8 +24,7 @@ data modify storage micahcraft:settings _dialog set value {\
     "actions": [\
         {\
             "label": {\
-                "translate": "settings.micahcraft.general.day_counter_enabled",\
-                "fallback": "Day Counter"\
+                "translate": "settings.micahcraft.general.day_counter_enabled"\
             },\
             "action": {\
                 "type": "run_command",\
@@ -35,8 +33,7 @@ data modify storage micahcraft:settings _dialog set value {\
         },\
         {\
             "label": {\
-                "translate": "settings.micahcraft.general.day_counter_sound",\
-                "fallback": "Day Counter Sound"\
+                "translate": "settings.micahcraft.general.day_counter_sound"\
             },\
             "action": {\
                 "type": "run_command",\

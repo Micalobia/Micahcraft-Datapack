@@ -1,8 +1,7 @@
 {
     "anvil_cost": 5,
     "description": {
-        "translate": "enchantment.micahcraft.fleeting",
-        "fallback": "Fleeting"
+        "translate": "enchantment.micahcraft.fleeting"
     },
     "effects": {
         "minecraft:attributes": [

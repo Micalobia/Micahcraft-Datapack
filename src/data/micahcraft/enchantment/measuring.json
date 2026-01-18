@@ -1,8 +1,7 @@
 {
     "anvil_cost": 4,
     "description": {
-        "translate": "enchantment.micahcraft.measuring",
-        "fallback": "Measuring"
+        "translate": "enchantment.micahcraft.measuring"
     },
     "effects": {},
     "max_cost": {

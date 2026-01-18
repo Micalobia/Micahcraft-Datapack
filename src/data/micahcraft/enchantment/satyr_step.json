@@ -1,8 +1,7 @@
 {
     "anvil_cost": 4,
     "description": {
-        "translate": "enchantment.micahcraft.satyr_step",
-        "fallback": "Satyr Step"
+        "translate": "enchantment.micahcraft.satyr_step"
     },
     "effects": {
         "minecraft:attributes": [

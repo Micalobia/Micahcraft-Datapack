@@ -1,8 +1,7 @@
 {
     "anvil_cost": 8,
     "description": {
-        "translate": "enchantment.micahcraft.veinmining",
-        "fallback": "Veinmining"
+        "translate": "enchantment.micahcraft.veinmining"
     },
     "effects": {
         "hit_block": [

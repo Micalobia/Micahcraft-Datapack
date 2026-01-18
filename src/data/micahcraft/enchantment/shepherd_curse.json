@@ -1,8 +1,7 @@
 {
     "anvil_cost": 8,
     "description": {
-        "translate": "enchantment.micahcraft.shepherd_curse",
-        "fallback": "Curse of the Shepherd"
+        "translate": "enchantment.micahcraft.shepherd_curse"
     },
     "effects": {
         "tick": [

@@ -7,8 +7,7 @@
         "components": {
             "item_model": "micahcraft:invisible_glow_item_frame",
             "item_name": {
-                "translate": "item.micahcraft.invisible_glow_item_frame",
-                "fallback": "Invisible Glow Item Frame"
+                "translate": "item.micahcraft.invisible_glow_item_frame"
             },
             "custom_data": { "mk.invisible": true },
             "entity_data": {

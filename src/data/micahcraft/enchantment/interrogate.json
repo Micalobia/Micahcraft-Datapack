@@ -1,8 +1,7 @@
 {
     "anvil_cost": 4,
     "description": {
-        "translate": "enchantment.micahcraft.interrogate",
-        "fallback": "Interrogate"
+        "translate": "enchantment.micahcraft.interrogate"
     },
     "effects": {
         "minecraft:post_attack": [

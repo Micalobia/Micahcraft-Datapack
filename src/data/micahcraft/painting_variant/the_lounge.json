@@ -4,12 +4,10 @@
     "height": 2,
     "author": {
         "color": "gray",
-        "translate": "painting.micahcraft.the_lounge.author",
-        "fallback": "Micah Neitz (Map Art)"
+        "translate": "painting.micahcraft.the_lounge.author"
     },
     "title": {
         "color": "yellow",
-        "translate": "painting.micahcraft.the_lounge.title",
-        "fallback": "The Lounge"
+        "translate": "painting.micahcraft.the_lounge.title"
     }
 }

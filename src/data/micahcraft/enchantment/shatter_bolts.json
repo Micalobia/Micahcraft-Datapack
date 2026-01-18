@@ -1,8 +1,7 @@
 {
     "anvil_cost": 3,
     "description": {
-        "translate": "enchantment.micahcraft.shatter_bolts",
-        "fallback": "Shatter Bolts"
+        "translate": "enchantment.micahcraft.shatter_bolts"
     },
     "effects": {
         "post_attack": [

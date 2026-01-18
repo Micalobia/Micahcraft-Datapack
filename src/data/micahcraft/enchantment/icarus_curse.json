@@ -1,8 +1,7 @@
 {
     "anvil_cost": 8,
     "description": {
-        "translate": "enchantment.micahcraft.icarus_curse",
-        "fallback": "Curse of Icarus"
+        "translate": "enchantment.micahcraft.icarus_curse"
     },
     "effects": {
         "location_changed": [

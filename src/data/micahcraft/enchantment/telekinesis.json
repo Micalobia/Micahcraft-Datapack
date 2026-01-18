@@ -1,8 +1,7 @@
 {
     "anvil_cost": 8,
     "description": {
-        "translate": "enchantment.micahcraft.telekinesis",
-        "fallback": "Telekinesis"
+        "translate": "enchantment.micahcraft.telekinesis"
     },
     "effects": {
         "hit_block": [

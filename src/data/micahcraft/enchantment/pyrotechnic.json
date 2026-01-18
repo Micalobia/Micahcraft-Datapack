@@ -1,8 +1,7 @@
 {
     "anvil_cost": 5,
     "description": {
-        "translate": "enchantment.micahcraft.pyrotechnic",
-        "fallback": "Pyrotechnic"
+        "translate": "enchantment.micahcraft.pyrotechnic"
     },
     "effects": {
         "damage_immunity": [

@@ -1,7 +1,6 @@
 {
     "title": {
         "translate": "settings.micahcraft.title",
-        "fallback": "Settings",
         "color": "#2aa198"
     },
     "type": "multi_action",
@@ -9,7 +8,6 @@
         {
             "label": {
                 "translate": "settings.micahcraft.general.title",
-                "fallback": "General",
                 "color": "#c0c0ff"
             },
             "action": {
@@ -20,7 +18,6 @@
         {
             "label": {
                 "translate": "settings.micahcraft.hud.title",
-                "fallback": "HUD",
                 "color": "gold"
             },
             "action": {
@@ -31,7 +28,6 @@
         {
             "label": {
                 "translate": "settings.micahcraft.world.title",
-                "fallback": "World",
                 "color": "dark_green"
             },
             "action": {
@@ -42,7 +38,6 @@
         {
             "label": {
                 "translate": "settings.micahcraft.enchantments.title",
-                "fallback": "Enchantments",
                 "color": "dark_purple"
             },
             "action": {

@@ -1,8 +1,7 @@
 {
     "anvil_cost": 1,
     "description": {
-        "translate": "enchantment.micahcraft.tension",
-        "fallback": "Tension"
+        "translate": "enchantment.micahcraft.tension"
     },
     "effects": {
         "minecraft:damage": [

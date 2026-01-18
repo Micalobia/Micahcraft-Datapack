@@ -1,8 +1,7 @@
 {
     "anvil_cost": 8,
     "description": {
-        "translate": "enchantment.micahcraft.tantalus_curse",
-        "fallback": "Curse of Tantalus"
+        "translate": "enchantment.micahcraft.tantalus_curse"
     },
     "effects": {
         "minecraft:attributes": [

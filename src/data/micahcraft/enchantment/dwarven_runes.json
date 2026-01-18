@@ -1,8 +1,7 @@
 {
     "anvil_cost": 4,
     "description": {
-        "translate": "enchantment.micahcraft.dwarven_runes",
-        "fallback": "Dwarven Runes"
+        "translate": "enchantment.micahcraft.dwarven_runes"
     },
     "effects": {
         "minecraft:post_attack": [

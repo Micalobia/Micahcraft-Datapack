@@ -1,8 +1,7 @@
 {
     "anvil_cost": 8,
     "description": {
-        "translate": "enchantment.micahcraft.apollo_curse",
-        "fallback": "Curse of Apollo"
+        "translate": "enchantment.micahcraft.apollo_curse"
     },
     "effects": {},
     "max_cost": {

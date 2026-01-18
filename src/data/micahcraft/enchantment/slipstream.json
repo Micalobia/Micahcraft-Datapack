@@ -1,8 +1,7 @@
 {
     "anvil_cost": 5,
     "description": {
-        "translate": "enchantment.micahcraft.slipstream",
-        "fallback": "Slipstream"
+        "translate": "enchantment.micahcraft.slipstream"
     },
     "effects": {
         "minecraft:attributes": [
