@@ -1,2 +1,2 @@
 execute if items entity @s armor.chest minecraft:elytra[!minecraft:glider,minecraft:enchantments~[{"micahcraft:boreas_curse":1}]] run item modify entity @s armor.chest micahcraft:enchantment/boreas/renew_glide
-tag @s remove mk.boreas.flapping
+advancement revoke @s only micahcraft:enchantments/boreas/reapply

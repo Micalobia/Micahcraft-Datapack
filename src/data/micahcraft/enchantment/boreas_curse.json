@@ -12,8 +12,20 @@
                         {
                             "type": "apply_impulse",
                             "direction": [0,1,0],
+                            "coordinate_scale": [0.5,1,0.5],
+                            "magnitude": 0.15
+                        },
+                        {
+                            "type": "apply_impulse",
+                            "direction": [0,0,-1],
+                            "coordinate_scale": [0.5,1,0.5],
+                            "magnitude": 0.15
+                        },
+                        {
+                            "type": "apply_impulse",
+                            "direction": [0,1,0],
                             "coordinate_scale": [1,1,1],
-                            "magnitude": 0.6
+                            "magnitude": 0.25
                         },
                         {
                             "type": "run_function",
@@ -32,10 +44,7 @@
                             "condition": "entity_properties",
                             "entity": "this",
                             "predicate": {
-                                "flags": {
-                                    "is_flying": true
-                                },
-                                "nbt": "{abilities:{flying:false}}"
+                                "nbt": "{FallFlying:1b}"
                             }
                         }
                     ]

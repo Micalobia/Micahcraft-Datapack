@@ -1,0 +1,12 @@
+{
+    "function": "set_components",
+    "components": {
+        "minecraft:glider": {},
+        "minecraft:equippable": {
+            "asset_id": "minecraft:elytra",
+            "damage_on_hurt": false,
+            "equip_sound": "minecraft:entity.phantom.flap",
+            "slot": "chest"
+        }
+    }
+}

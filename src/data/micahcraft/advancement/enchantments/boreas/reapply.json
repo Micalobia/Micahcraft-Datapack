@@ -1,0 +1,28 @@
+{
+    "criteria": {
+        "unlocked": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:elytra",
+                        "predicates": {
+                            "minecraft:enchantments": [
+                                {
+                                    "enchantment": "micahcraft:boreas",
+                                    "levels": { "min": 1 }
+                                }
+                            ]
+                        }
+                    }
+                ],
+                "player": {
+                    "nbt": "{FallFlying:0b}"
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "micahcraft:enchantments/boreas/reapply"
+    }
+}
