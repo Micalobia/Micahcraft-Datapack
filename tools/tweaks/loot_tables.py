@@ -204,8 +204,13 @@ def wither_skeleton_skull(ctx: Context, vanilla: Vanilla):
         beheading_chance["per_level_above_first"] = 0.025
 
         has_beheading = {
-            "condition": "minecraft:match_tool",
-            "predicate": {"predicates": {"minecraft:enchantments": [{"enchantments": "micahcraft:beheading", "levels": {"min": 1}}]}},
+            "condition": "minecraft:entity_properties",
+            "entity": "attacking_player",
+            "predicate": {
+                "equipment": {
+                    "mainhand": {"predicates": {"minecraft:enchantments": [{"enchantments": "micahcraft:beheading", "levels": {"min": 1}}]}}
+                }
+            },
         }
         no_beheading = {"condition": "minecraft:inverted", "term": has_beheading}
 
