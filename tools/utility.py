@@ -1,4 +1,5 @@
 from beet import Context, Recipe, Advancement, NamespaceProxy
+from beet.contrib.autosave import Autosave
 from typing import Any
 from tools.logger import Logger
 
@@ -56,5 +57,9 @@ class Tags:
 
 
 def print_finished(ctx: Context):
-    with ctx.inject(Logger) as logger:
-        logger.info("Finished building!")
+    def _print(ctx: Context):
+        with ctx.inject(Logger) as logger:
+            logger.info("Finished building!")
+
+    autosave = ctx.inject(Autosave)
+    autosave.add_output(_print)
