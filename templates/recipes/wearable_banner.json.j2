@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:smithing_transform",
+    "base": "minecraft:{{ color }}_banner",
+    "addition": "minecraft:string",
+    "template": "minecraft:leather",
+    "result": {
+        "id": "{{ color }}_banner",
+        "count": 1,
+        "components": {
+            "minecraft:equippable": {
+                "slot": "head"
+            },
+            "minecraft:item_name": {
+                "translate": "misc.micahcraft.wearable",
+                "with": [
+                    {
+                        "translate": "block.minecraft.{{ color }}_banner"
+                    }
+                ]
+            }
+        }
+    }
+}

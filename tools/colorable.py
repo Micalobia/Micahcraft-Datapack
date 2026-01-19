@@ -41,3 +41,7 @@ def run(ctx: Context):
                     }
                 )
                 ctx.data[identifier] = recipes.advancement(f"#{tag}", identifier)
+        for color in COLORS:
+            identifier = f"micahcraft:helmet_banner/{color}"
+            ctx.data[identifier] = Recipe(ctx.template.render("recipes/wearable_banner.json.j2", color=color))
+            ctx.data[identifier] = recipes.advancement("#minecraft:banners", identifier)
