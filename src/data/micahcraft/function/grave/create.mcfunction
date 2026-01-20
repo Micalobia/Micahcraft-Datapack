@@ -1,4 +1,3 @@
-advancement revoke @s only micahcraft:events/create_grave
 execute store result score #KeepInventory mk.math run gamerule keep_inventory
 execute if score #KeepInventory mk.math matches 0 run return fail
 
