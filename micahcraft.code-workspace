@@ -1,0 +1,23 @@
+{
+    "folders": [
+        { "name": "micahcraft", "path": "." },
+        { "name": "src", "path": "src" },
+        { "name": "resources", "path": "resources" },
+        { "name": "datapack", "path": "build/micahcraft" },
+        { "name": "resource_pack", "path": "build/micahcraft_resources" },
+    ],
+    "settings": {
+        "files.exclude": {
+            "**/.git": true,
+            "**/__pycache__": true,
+            "**/venv": true,
+            "src": true,
+            "resources": true,
+            "build": true,
+        },
+		"search.exclude": {
+			"build/**": true
+        },
+        "beet.pythonPath": "./venv/Scripts/python.exe"
+    },
+}
