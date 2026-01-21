@@ -1,5 +1,7 @@
-from beet import Context
+import os
 from typing import Any
+
+from beet import Context
 
 RESET = "\x1b[0m"
 RED = "\x1b[31m"
@@ -55,22 +57,40 @@ class Logger:
 
     def __exit__(self, exc_type, exc, tb) -> bool:
         depth_before = self._scope_depths.pop() if self._scope_depths else len(self._paths)
+
+        def _where(tbx) -> str:
+            if tbx is None:
+                return ""
+            last = tbx
+            while last.tb_next is not None:
+                last = last.tb_next
+            frame = last.tb_frame
+            filename = os.path.basename(frame.f_code.co_filename)
+            func = frame.f_code.co_name
+            return f"{filename}:{last.tb_lineno} in {func} — "
+
         try:
             if exc_type is None:
                 return False
+
             if issubclass(exc_type, LoggerFailFastError):
                 assert isinstance(exc, LoggerFailFastError)
                 if not exc.logged:
                     cause = exc.__cause__
-                    if exc.__cause__ is not None:
-                        self.error(f"{type(cause).__name__}: {cause}")
+                    if cause is not None:
+                        loc = _where(getattr(cause, "__traceback__", None))
+                        self.error(f"{loc}{type(cause).__name__}: {cause}")
                     else:
-                        self.error(f"{exc_type.__name__}: {exc}")
+                        loc = _where(tb)
+                        self.error(f"{loc}{exc_type.__name__}: {exc}")
                     exc.logged = True
                 return False
+
             if issubclass(exc_type, Exception):
-                self.error(f"{exc_type.__name__}: {exc}")
+                loc = _where(tb)
+                self.error(f"{loc}{exc_type.__name__}: {exc}")
                 return True
+
             return False
         finally:
             if len(self._paths) > depth_before:
@@ -90,22 +110,40 @@ class Logger:
             return self._logger
 
         def __exit__(self, exc_type, exc, tb) -> bool:
+            def _where(tbx) -> str:
+                if tbx is None:
+                    return ""
+                last = tbx
+                while last.tb_next is not None:
+                    last = last.tb_next
+                frame = last.tb_frame
+                filename = os.path.basename(frame.f_code.co_filename)
+                func = frame.f_code.co_name
+                return f"{filename}:{last.tb_lineno} in {func} — "
+
             try:
                 if exc_type is None:
                     return False
+
                 if issubclass(exc_type, LoggerFailFastError):
                     assert isinstance(exc, LoggerFailFastError)
                     if not exc.logged:
                         cause = exc.__cause__
-                        if exc.__cause__ is not None:
-                            self._logger.error(f"{type(cause).__name__}: {cause}")
+                        if cause is not None:
+                            loc = _where(getattr(cause, "__traceback__", None))
+                            self._logger.error(f"{loc}{type(cause).__name__}: {cause}")
                         else:
-                            self._logger.error(f"{exc_type.__name__}: {exc}")
+                            loc = _where(tb)
+                            self._logger.error(f"{loc}{exc_type.__name__}: {exc}")
                         exc.logged = True
                     return False
+
                 if not issubclass(exc_type, Exception):
                     return False
-                self._logger.error(f"{exc_type.__name__}: {exc}")
+
+                loc = _where(tb)
+                self._logger.error(f"{loc}{exc_type.__name__}: {exc}")
+
                 if self._swallow:
                     return True
                 raise LoggerFailFastError(True) from exc
