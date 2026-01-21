@@ -1,0 +1,5 @@
+config/trims/materials.csv, tools.trims:Material  , trims/materials
+config/trims/patterns.csv , tools.trims:Pattern   , trims/patterns
+config/trims/palettes.csv , tools.trims:Palette   , trims/palettes
+config/trims/tools.csv    , tools.trims:Tool      , trims/tools
+config/trims/slices.csv   , tools.trims:SliceLayer, trims/slices

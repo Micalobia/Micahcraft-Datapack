@@ -13,18 +13,11 @@
     "author": "Micalobia",
     "version": "26.1.0",
     "description": "Adds some vanilla+ recipes and features",
-    "templates": [
-        "templates"
-    ],
+    "templates": ["templates"],
     "require": [],
-    "meta": {
-        "unreachable": ["micahcraft:commands/hud/theme/(\\d+|same)"],
-        "format_json": {
-            "indent": 4
-        }
-    },
     "pipeline": [
         "beet.contrib.vanilla.load_vanilla",
+        "tools.meta.csv",
         "tools.stonecutter.variants.run",
         "tools.stonecutter.woodcutter.run",
         "tools.stonecutter.paintings.run",
@@ -38,5 +31,12 @@
         "tools.trims.run",
         "tools.utility.print_finished",
         "beet.contrib.format_json"
-    ]
+    ],
+    "meta": {
+        "unreachable": ["micahcraft:commands/hud/theme/(\\d+|same)"],
+        "format_json": {
+            "indent": 4
+        },
+        "csv": { "manifest": "config/csv_manifest.csv" }
+    }
 }
