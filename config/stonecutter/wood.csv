@@ -1,0 +1,18 @@
+boat_from_wood      , woods    , boat         , True ,  1
+planks_from_log     , just_logs, planks       , False,  4
+planks_from_wood    , woods    , planks       , False,  5
+slabs_from_log      , just_logs, slab         , False,  8
+slabs_from_wood     , woods    , slab         , False, 10
+stairs_from_log     , just_logs, stairs       , False,  4
+stairs_from_wood    , woods    , stairs       , False,  5
+trapdoor_from_log   , just_logs, trapdoor     , False,  1
+trapdoor_from_wood  , woods    , trapdoor     , False,  2
+stripped_log        , log      , stripped_log , False,  1
+stripped_wood       , wood     , stripped_wood, False,  1
+fence_from_wood     , woods    , fence        , False,  3
+fence_from_logs     , just_logs, fence        , False,  2
+fence_gate_from_logs, logs     , gate         , False,  1
+slabs_from_planks   , planks   , slab         , False,  2
+stairs_from_planks  , planks   , stairs       , False,  1
+door_from_logs      , logs     , door         , False,  2
+shelf_from_log      , logs     , shelf        , False,  1

@@ -1,0 +1,7 @@
+wool              , minecraft:wool
+carpet            , minecraft:wool_carpets
+stained_glass     , micahcraft:dyeable/glass
+stained_glass_pane, micahcraft:dyeable/glass_panes
+terracotta        , minecraft:terracotta
+concrete          , micahcraft:dyeable/concrete
+concrete_powder   , micahcraft:dyeable/concrete_powder

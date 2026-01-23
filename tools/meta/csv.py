@@ -13,7 +13,19 @@ T = TypeVar("T")
 
 
 def read_dataclass_csv(path: Path, model: type[T]) -> list[T]:
-    """Read a CSV into a list of dataclass instances."""
+    """Read a CSV into a list of dataclass instances/scalers."""
+    reader = csv.reader(_iter_data_lines(path), skipinitialspace=True)
+    if model in (str, int, float, bool):
+        scalars: list[Any] = []
+        for row in reader:
+            row = [_.strip() for _ in row]
+            if not row or row[0] == "":
+                continue
+            if any(_ for _ in row[1:]):
+                raise ValueError(f"Expected 1 column, got {len(row)}: {row!r}")
+            scalars.append(_coerce(row[0], model))
+        return scalars
+
     if not is_dataclass(model):
         raise TypeError(f"{model!r} is not a dataclass type")
 
@@ -28,7 +40,6 @@ def read_dataclass_csv(path: Path, model: type[T]) -> list[T]:
     last_is_list, _ = _is_list(last_type)
 
     instances: list[T] = []
-    reader = csv.reader(_iter_data_lines(path), skipinitialspace=True)
 
     for row in reader:
         row = [_.strip() for _ in row]
@@ -69,7 +80,7 @@ def beet_default(ctx: Context) -> None:
         logger.info(f"Read {len(specs)} CSV files into ctx.meta")
 
 
-_COMMENT_PREFIXES = ("#", "//")
+_COMMENT_PREFIXES = ("//",)
 
 
 @dataclass(frozen=True)

@@ -1,5 +1,9 @@
-config/trims/materials.csv, tools.trims:Material  , trims/materials
-config/trims/patterns.csv , tools.trims:Pattern   , trims/patterns
-config/trims/palettes.csv , tools.trims:Palette   , trims/palettes
-config/trims/tools.csv    , tools.trims:Tool      , trims/tools
-config/trims/slices.csv   , tools.trims:SliceLayer, trims/slices
+config/colorable/colors.csv     , builtins:str                                 , 
+config/colorable/ingredients.csv, tools.colorable:RecolorIngredient            , colorable/ingredients
+config/stonecutter/wood.csv     , tools.stonecutter.woodcutter:WoodcutterRecipe, woodcutter
+config/recipe_advancements.csv  , tools.recipe_advancements:RecipeAdvancement  , 
+config/trims/materials.csv      , tools.trims:Material                         , trims/materials
+config/trims/patterns.csv       , tools.trims:Pattern                          , trims/patterns
+config/trims/palettes.csv       , tools.trims:Palette                          , trims/palettes
+config/trims/tools.csv          , tools.trims:Tool                             , trims/tools
+config/trims/slices.csv         , tools.trims:SliceLayer                       , trims/slices

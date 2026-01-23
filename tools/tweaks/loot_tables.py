@@ -123,15 +123,18 @@ def piglin_bartering(ctx: Context, vanilla: Vanilla):
 # Add mob heads for the Beheading enchantment
 def beheading(ctx: Context, vanilla: Vanilla):
     with ctx.inject(Logger).push("beheading") as logger:
-        logger.info("Building...")
         heads: dict[str, dict[str, str] | list[dict[str, str]]] = json.loads(pathlib.Path("./config/heads.json").read_text("utf-8"))
         translations = {}
+        table_count = 0
+        head_count = 0
         for id, options in heads.items():
             if isinstance(options, dict):
                 options = [options]
             if not options:
                 logger.warn(f"Head info for '{id}' was missing an entry; Skipping")
                 continue
+            head_count += len(options)
+            table_count += 1
             entries = []
             id_path = id.split(":")[-1]
             for option in options:
@@ -188,6 +191,7 @@ def beheading(ctx: Context, vanilla: Vanilla):
                 mob["pools"] = pools
                 ctx.data[table_path] = LootTable(mob)
         wither_skeleton_skull(ctx, vanilla)
+        logger.info(f"{table_count} tables, {head_count} heads")
         en_us = ctx.assets.languages["micahcraft:en_us"]
         en_us.data |= translations
 

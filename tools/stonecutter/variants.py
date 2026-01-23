@@ -6,7 +6,6 @@ from tools.logger import Logger
 
 def run(ctx: Context):
     with ctx.inject(Logger).push("variants") as logger:
-        logger.info("Building...")
         vanilla = ctx.inject(Vanilla)
         recipe_helper = ctx.inject(Recipes)
         recipes = [recipe for _, recipe in vanilla.data.recipes.items() if recipe.data.get("type") == "minecraft:stonecutting"]
@@ -55,6 +54,7 @@ def run(ctx: Context):
                     n.add(block)
             tags[k] = n
 
+        recipe_count = 0
         for tag, values in tags.items():
             name = tag.split(":")[-1]
             identifier = f"{ctx.project_id}:generated/variant/{name}"
@@ -63,3 +63,5 @@ def run(ctx: Context):
                 item_name = f"{identifier}/{item.split(":")[-1]}"
                 ctx.data[item_name] = recipe_helper.stonecutter(f"#{identifier}", item, 2 if item.endswith("_slab") else 1)
                 ctx.data[item_name] = recipe_helper.advancement(f"#{identifier}", identifier)
+                recipe_count += 1
+        logger.info(f"{len(tags)} block families, {recipe_count} recipes/advancements")

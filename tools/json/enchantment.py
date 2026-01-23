@@ -8,11 +8,13 @@ REPEAT_EFFECT_TYPE = "micahcraft:repeat"
 
 def run(ctx: Context):
     with ctx.inject(Logger).push("json.enchantment") as logger:
-        logger.info("Processing...")
+        modified = 0
         for id, enchant in ctx.data.enchantments.items():
             new_root, changed = _rewrite_repeat(enchant.data)
             if changed:
+                modified += 1
                 enchant.data = new_root
+        logger.info(f"{modified} enchants modified")
 
 
 def _rewrite_repeat(node: Any) -> tuple[Any, bool]:

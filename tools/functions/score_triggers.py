@@ -43,7 +43,7 @@ class ScoreValue:
 
 def run(ctx: Context):
     with ctx.inject(Logger).push("functions.score_triggers") as logger:
-        logger.info("Processing...")
+        modified = 0
         for id, function in ctx.data.functions.items():
             reading = False
             invalid: str | None = None
@@ -132,4 +132,6 @@ def run(ctx: Context):
             del function.lines[start:end]
             if reset:
                 function.lines.insert(0, f"advancement revoke @s only {path}")
+            modified += 1
             ctx.data[id] = function
+        logger.info(f"{modified} triggers")

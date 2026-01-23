@@ -16,7 +16,6 @@ REPORT_KEY = "unreachable_functions.txt"
 
 def run(ctx: Context):
     with ctx.inject(Logger).push("functions.unreachable") as logger:
-        logger.info("Processing...")
         tags = ctx.inject(Tags)
         functions = set(ctx.data.functions)
         function_tags = set(ctx.data.function_tags)
@@ -70,6 +69,7 @@ def write_unreachable_report(ctx: Context, unreachable: list[str], preview: int)
         report_path = cache.get_path(REPORT_KEY)
         if not unreachable:
             report_path.unlink(missing_ok=True)
+            logger.info("Found no unreachable functions")
             return
         report_path.parent.mkdir(parents=True, exist_ok=True)
         report_path.write_text("\n".join(unreachable) + "\n", encoding="utf-8")
