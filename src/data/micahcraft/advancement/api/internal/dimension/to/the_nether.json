@@ -1,0 +1,13 @@
+{
+    "criteria": {
+        "unlocked": {
+            "trigger": "minecraft:changed_dimension",
+            "conditions": {
+                "to": "minecraft:the_nether"
+            }
+        }
+    },
+    "rewards": {
+        "function": "micahcraft:api/internal/dimension/to/the_nether"
+    }
+}

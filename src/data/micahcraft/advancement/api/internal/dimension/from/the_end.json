@@ -1,0 +1,13 @@
+{
+    "criteria": {
+        "unlocked": {
+            "trigger": "minecraft:changed_dimension",
+            "conditions": {
+                "from": "minecraft:the_end"
+            }
+        }
+    },
+    "rewards": {
+        "function": "micahcraft:api/internal/dimension/from/the_end"
+    }
+}
