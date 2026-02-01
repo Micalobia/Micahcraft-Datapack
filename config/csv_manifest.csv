@@ -7,3 +7,5 @@ config/trims/patterns.csv       , tools.trims:Pattern                          ,
 config/trims/palettes.csv       , tools.trims:Palette                          , trims/palettes
 config/trims/tools.csv          , tools.trims:Tool                             , trims/tools
 config/trims/slices.csv         , tools.trims:SliceLayer                       , trims/slices
+config/veinmining/groups.csv    , tools.functions.veinmining:Group             , veinmining/groups
+config/veinmining/sounds.csv    , tools.functions.veinmining:SoundGroup        , veinmining/sounds

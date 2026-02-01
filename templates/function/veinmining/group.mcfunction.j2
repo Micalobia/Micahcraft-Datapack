@@ -1,0 +1,3 @@
+{% for group in groups|sort(attribute="priority") -%}
+execute if block ~ ~ ~ {{ group.name }} run return {% if group.skip %}-{% endif %}{{ loop.index }}
+{% endfor %}return 0

@@ -1,0 +1,4 @@
+execute if score @s mk.veinmining.sound matches 0 run return 0
+{% for group in groups|sort(attribute="priority") -%}
+execute if score @s mk.veinmining.sound matches {{ loop.index }} run return run playsound {{ group.sound }} block @a[distance=..16] ~ ~ ~ {{ group.volume }} {{ group.pitch }}
+{% endfor %}

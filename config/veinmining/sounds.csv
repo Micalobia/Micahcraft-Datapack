@@ -1,0 +1,16 @@
+// Accepts a priority in the fifth column if needed
+// I plan to phase this out once I get a mod to export this data for me
+#micahcraft:veinmining/sound/ancient_debris        , block.ancient_debris.break, 1.0 , 0.8
+#micahcraft:veinmining/sound/azalea_leaves         , block.azalea_leaves.break , 0.85, 0.768
+#micahcraft:veinmining/sound/cherry_leaves         , block.cherry_leaves.break , 1.0 , 0.8
+#micahcraft:veinmining/sound/cherry_wood           , block.cherry_wood.break   , 1.0 , 0.8
+#micahcraft:veinmining/sound/deepslate             , block.deepslate.break     , 1.0 , 0.8
+#micahcraft:veinmining/sound/glass                 , block.glass.break         , 1.0 , 0.8
+#micahcraft:veinmining/sound/grass                 , block.grass.break         , 1.0 , 0.8
+#micahcraft:veinmining/sound/gravel                , block.gravel.break        , 1.0 , 0.8
+#micahcraft:veinmining/sound/mangrove_roots        , block.mangrove_roots.break, 0.25, 0.96
+#micahcraft:veinmining/sound/nether_ore            , block.nether_ore.break    , 1.0 , 0.8
+#micahcraft:veinmining/sound/stem                  , block.stem.break          , 1.0 , 0.8
+#micahcraft:veinmining/sound/stone                 , block.stone.break         , 1.0 , 0.8
+#micahcraft:veinmining/sound/wart_block            , block.wart_block.break    , 1.0 , 0.8
+#micahcraft:veinmining/sound/wood                  , block.wood.break          , 1.0 , 0.8

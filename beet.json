@@ -26,6 +26,7 @@
         "tools.recipe_advancements.run",
         "tools.tweaks.main.run",
         "tools.functions.score_triggers.run",
+        "tools.functions.veinmining",
         "tools.json.enchantment.run",
         "tools.functions.unreachable.run",
         "tools.trims.run",
