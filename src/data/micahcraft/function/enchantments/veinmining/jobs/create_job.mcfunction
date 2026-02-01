@@ -13,4 +13,5 @@ scoreboard players set #mk.depth mk.math 0
 tag @s add mk.veinmining.job.active
 function micahcraft:enchantments/veinmining/jobs/create_neighbors
 tag @s remove mk.veinmining.job.active
-schedule function micahcraft:enchantments/veinmining/jobs/tick 1t replace
+execute if score @s mk.veinmining.group matches 1.. run schedule function micahcraft:enchantments/veinmining/jobs/tick 1t replace
+execute if score @s mk.veinmining.group matches ..-1 run function micahcraft:enchantments/veinmining/jobs/skip_animation

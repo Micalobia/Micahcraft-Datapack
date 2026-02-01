@@ -1,2 +1,2 @@
-execute as @e[type=armor_stand,tag=mk.veinmining.job] at @s run function micahcraft:enchantments/veinmining/jobs/job_tick
-execute if entity @e[type=armor_stand,tag=mk.veinmining.job] run schedule function micahcraft:enchantments/veinmining/jobs/tick 1t replace
+execute as @e[type=armor_stand,tag=mk.veinmining.job,scores={mk.veinmining.group=1..}] at @s run function micahcraft:enchantments/veinmining/jobs/job_tick
+execute if entity @e[type=armor_stand,tag=mk.veinmining.job,scores={mk.veinmining.group=1..}] run schedule function micahcraft:enchantments/veinmining/jobs/tick 1t replace

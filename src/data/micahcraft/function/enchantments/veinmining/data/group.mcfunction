@@ -1,3 +1,5 @@
+# If the id is negative, it will instantly veinmine instead of doing an animation
+execute if block ~ ~ ~ #micahcraft:veinmining/chorus run return -1
 execute if block ~ ~ ~ #lapis_ores run return 1
 execute if block ~ ~ ~ #coal_ores run return 2
 execute if block ~ ~ ~ #acacia_logs run return 3
