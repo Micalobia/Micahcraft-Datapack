@@ -1,0 +1,13 @@
+{
+    "asset_id": "micahcraft:map_art/blockbuster",
+    "width": 3,
+    "height": 2,
+    "author": {
+        "color": "gray",
+        "translate": "painting.micahcraft.blockbuster.author"
+    },
+    "title": {
+        "color": "yellow",
+        "translate": "painting.micahcraft.blockbuster.title"
+    }
+}
