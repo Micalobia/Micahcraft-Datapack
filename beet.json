@@ -11,7 +11,7 @@
     "minecraft": "1.21.11",
     "output": "build",
     "author": "Micalobia",
-    "version": "26.1.0",
+    "version": "26.1.1",
     "description": "Adds some vanilla+ recipes and features",
     "templates": ["templates"],
     "require": [],
