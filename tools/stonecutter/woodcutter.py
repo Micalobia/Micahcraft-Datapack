@@ -1,4 +1,4 @@
-from beet import Context, ItemTag
+from beet import Context, ItemTag, BlockTag
 from beet.contrib.vanilla import Vanilla
 from tools.utility import Recipes, Tags
 from tools.logger import Logger
@@ -24,7 +24,9 @@ def run(ctx: Context):
             name = match[1]
             wood = LogType(name, match[2])
             micahcraft[f"generated/wood/{name}"] = ItemTag({"values": [wood.wood, wood.stripped_wood]})
+            micahcraft[f"generated/wood/{name}"] = BlockTag({"values": [wood.wood, wood.stripped_wood]})
             micahcraft[f"generated/log/{name}"] = ItemTag({"values": [wood.log, wood.stripped_log]})
+            micahcraft[f"generated/log/{name}"] = BlockTag({"values": [wood.log, wood.stripped_log]})
             for recipe in woodcutter_recipes:
                 if recipe.log_only and wood.type != "log":
                     continue

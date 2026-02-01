@@ -1,7 +1,7 @@
 {
     "replace": false,
     "values": [
-        "#mangrove_logs",
+        "#micahcraft:generated/log/mangrove",
         "mangrove_roots"
     ]
 }
