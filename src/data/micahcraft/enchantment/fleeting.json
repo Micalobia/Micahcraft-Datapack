@@ -23,17 +23,17 @@
                     "amount": 1.0
                 },
                 "requirements": {
-                    "condition": "minecraft:all_of",
+                    "type": "minecraft:all_of",
                     "terms": [
                         {
-                            "condition": "random_chance",
+                            "type": "random_chance",
                             "chance": {
                                 "type": "minecraft:enchantment_level",
                                 "amount": 0.015
                             }
                         },
                         {
-                            "condition": "minecraft:entity_properties",
+                            "type": "minecraft:entity_properties",
                             "entity": "this",
                             "predicate": {
                                 "flags": {
@@ -68,7 +68,7 @@
                     }
                 },
                 "requirements": {
-                    "condition": "minecraft:entity_properties",
+                    "type": "minecraft:entity_properties",
                     "entity": "this",
                     "predicate": {
                         "flags": {

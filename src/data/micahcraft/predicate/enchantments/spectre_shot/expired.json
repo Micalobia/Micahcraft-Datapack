@@ -1,11 +1,11 @@
 {
-    "condition": "all_of",
+    "type": "all_of",
     "terms": [
         {
-            "condition": "any_of",
+            "type": "any_of",
             "terms": [
                 {
-                    "condition": "entity_scores",
+                    "type": "entity_scores",
                     "entity": "this",
                     "scores": {
                         "mk.spectre_shot.lifetime": {
@@ -14,7 +14,7 @@
                     }
                 },
                 {
-                    "condition": "entity_properties",
+                    "type": "entity_properties",
                     "entity": "this",
                     "predicate": {
                         "nbt": "{inGround:1b}"

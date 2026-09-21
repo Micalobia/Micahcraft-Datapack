@@ -1,8 +1,8 @@
 {
-    "function": "minecraft:sequence",
+    "type": "minecraft:sequence",
     "functions": [
         {
-            "function": "minecraft:set_attributes",
+            "type": "minecraft:set_attributes",
             "modifiers": [
                 {
                     "attribute": "minecraft:attack_speed",
@@ -13,18 +13,16 @@
                 }
             ],
             "replace": false,
-            "conditions": [
-                {
-                    "condition": "minecraft:entity_scores",
-                    "entity": "this",
-                    "scores": {
-                        "mk.phaethon.heat": 0
-                    }
+            "condition": {
+                "type": "minecraft:entity_scores",
+                "entity": "this",
+                "scores": {
+                    "mk.phaethon.heat": 0
                 }
-            ]
+            }
         },
         {
-            "function": "minecraft:set_attributes",
+            "type": "minecraft:set_attributes",
             "modifiers": [
                 {
                     "attribute": "minecraft:attack_speed",
@@ -35,18 +33,16 @@
                 }
             ],
             "replace": false,
-            "conditions": [
-                {
-                    "condition": "minecraft:entity_scores",
-                    "entity": "this",
-                    "scores": {
-                        "mk.phaethon.heat": 1
-                    }
+            "condition": {
+                "type": "minecraft:entity_scores",
+                "entity": "this",
+                "scores": {
+                    "mk.phaethon.heat": 1
                 }
-            ]
+            }
         },
         {
-            "function": "minecraft:set_attributes",
+            "type": "minecraft:set_attributes",
             "modifiers": [
                 {
                     "attribute": "minecraft:attack_speed",
@@ -57,18 +53,16 @@
                 }
             ],
             "replace": false,
-            "conditions": [
-                {
-                    "condition": "minecraft:entity_scores",
-                    "entity": "this",
-                    "scores": {
-                        "mk.phaethon.heat": 2
-                    }
+            "condition": {
+                "type": "minecraft:entity_scores",
+                "entity": "this",
+                "scores": {
+                    "mk.phaethon.heat": 2
                 }
-            ]
+            }
         },
         {
-            "function": "minecraft:set_attributes",
+            "type": "minecraft:set_attributes",
             "modifiers": [
                 {
                     "attribute": "minecraft:attack_speed",
@@ -79,18 +73,16 @@
                 }
             ],
             "replace": false,
-            "conditions": [
-                {
-                    "condition": "minecraft:entity_scores",
-                    "entity": "this",
-                    "scores": {
-                        "mk.phaethon.heat": 3
-                    }
+            "condition": {
+                "type": "minecraft:entity_scores",
+                "entity": "this",
+                "scores": {
+                    "mk.phaethon.heat": 3
                 }
-            ]
+            }
         },
         {
-            "function": "minecraft:set_attributes",
+            "type": "minecraft:set_attributes",
             "modifiers": [
                 {
                     "attribute": "minecraft:attack_speed",
@@ -101,18 +93,16 @@
                 }
             ],
             "replace": false,
-            "conditions": [
-                {
-                    "condition": "minecraft:entity_scores",
-                    "entity": "this",
-                    "scores": {
-                        "mk.phaethon.heat": 4
-                    }
+            "condition": {
+                "type": "minecraft:entity_scores",
+                "entity": "this",
+                "scores": {
+                    "mk.phaethon.heat": 4
                 }
-            ]
+            }
         },
         {
-            "function": "minecraft:set_attributes",
+            "type": "minecraft:set_attributes",
             "modifiers": [
                 {
                     "attribute": "minecraft:attack_speed",
@@ -123,18 +113,16 @@
                 }
             ],
             "replace": false,
-            "conditions": [
-                {
-                    "condition": "minecraft:entity_scores",
-                    "entity": "this",
-                    "scores": {
-                        "mk.phaethon.heat": 5
-                    }
+            "condition": {
+                "type": "minecraft:entity_scores",
+                "entity": "this",
+                "scores": {
+                    "mk.phaethon.heat": 5
                 }
-            ]
+            }
         },
         {
-            "function": "minecraft:set_attributes",
+            "type": "minecraft:set_attributes",
             "modifiers": [
                 {
                     "attribute": "minecraft:attack_speed",
@@ -145,18 +133,16 @@
                 }
             ],
             "replace": false,
-            "conditions": [
-                {
-                    "condition": "minecraft:entity_scores",
-                    "entity": "this",
-                    "scores": {
-                        "mk.phaethon.heat": 6
-                    }
+            "condition": {
+                "type": "minecraft:entity_scores",
+                "entity": "this",
+                "scores": {
+                    "mk.phaethon.heat": 6
                 }
-            ]
+            }
         },
         {
-            "function": "minecraft:set_attributes",
+            "type": "minecraft:set_attributes",
             "modifiers": [
                 {
                     "attribute": "minecraft:attack_speed",
@@ -167,18 +153,16 @@
                 }
             ],
             "replace": false,
-            "conditions": [
-                {
-                    "condition": "minecraft:entity_scores",
-                    "entity": "this",
-                    "scores": {
-                        "mk.phaethon.heat": 7
-                    }
+            "condition": {
+                "type": "minecraft:entity_scores",
+                "entity": "this",
+                "scores": {
+                    "mk.phaethon.heat": 7
                 }
-            ]
+            }
         },
         {
-            "function": "minecraft:set_attributes",
+            "type": "minecraft:set_attributes",
             "modifiers": [
                 {
                     "attribute": "minecraft:attack_speed",
@@ -189,18 +173,16 @@
                 }
             ],
             "replace": false,
-            "conditions": [
-                {
-                    "condition": "minecraft:entity_scores",
-                    "entity": "this",
-                    "scores": {
-                        "mk.phaethon.heat": 8
-                    }
+            "condition": {
+                "type": "minecraft:entity_scores",
+                "entity": "this",
+                "scores": {
+                    "mk.phaethon.heat": 8
                 }
-            ]
+            }
         },
         {
-            "function": "minecraft:set_attributes",
+            "type": "minecraft:set_attributes",
             "modifiers": [
                 {
                     "attribute": "minecraft:attack_speed",
@@ -211,18 +193,16 @@
                 }
             ],
             "replace": false,
-            "conditions": [
-                {
-                    "condition": "minecraft:entity_scores",
-                    "entity": "this",
-                    "scores": {
-                        "mk.phaethon.heat": 9
-                    }
+            "condition": {
+                "type": "minecraft:entity_scores",
+                "entity": "this",
+                "scores": {
+                    "mk.phaethon.heat": 9
                 }
-            ]
+            }
         },
         {
-            "function": "minecraft:set_attributes",
+            "type": "minecraft:set_attributes",
             "modifiers": [
                 {
                     "attribute": "minecraft:attack_speed",
@@ -233,15 +213,13 @@
                 }
             ],
             "replace": false,
-            "conditions": [
-                {
-                    "condition": "minecraft:entity_scores",
-                    "entity": "this",
-                    "scores": {
-                        "mk.phaethon.heat": 10
-                    }
+            "condition": {
+                "type": "minecraft:entity_scores",
+                "entity": "this",
+                "scores": {
+                    "mk.phaethon.heat": 10
                 }
-            ]
+            }
         }
     ]
 }

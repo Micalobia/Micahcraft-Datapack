@@ -1,5 +1,5 @@
 {
-    "function": "set_components",
+    "type": "set_components",
     "components": {
         "repair_cost": 0
     }

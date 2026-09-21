@@ -19,37 +19,40 @@ def run(ctx: Context, vanilla: Vanilla):
 
 # Add seed count changes for germination
 def germination(ctx: Context, vanilla: Vanilla):
-    reduce_count = {"function": "reference", "name": "micahcraft:enchantment/germination/reduce_count"}
-    conditionless = lambda x: "conditions" not in x
+    reduce_count = "micahcraft:enchantment/germination/reduce_count"
+    conditionless = lambda x: "condition" not in x
     with ctx.inject(Logger).push("germination") as logger:
         with logger.push("beetroots"):
             beetroots = deepcopy(vanilla.data.loot_tables["minecraft:blocks/beetroots"].data)
             pool = one(where(require(beetroots, "pools"), conditionless))
             entry = one(require(pool, "entries"))
             child = one(where(require(entry, "children"), conditionless))
-            child["functions"] = [reduce_count]
+            child["modifier"] = reduce_count
             ctx.data["minecraft:blocks/beetroots"] = LootTable(beetroots)
         with logger.push("carrots"):
             carrots = deepcopy(vanilla.data.loot_tables["minecraft:blocks/carrots"].data)
             pool = one(where(require(carrots, "pools"), conditionless))
-            pool["functions"] = [reduce_count]
+            pool["modifier"] = reduce_count
             ctx.data["minecraft:blocks/carrots"] = LootTable(carrots)
         with logger.push("nether_wart"):
             nether_wart = deepcopy(vanilla.data.loot_tables["minecraft:blocks/nether_wart"].data)
             pool = one(require(nether_wart, "pools"))
-            require(pool, "functions").append(reduce_count)
+            if require(pool, "modifier") is list:
+                pool["modifier"].append(reduce_count)
+            else:
+                pool["modifier"] = [pool["modifier"], reduce_count]
             ctx.data["minecraft:blocks/nether_wart"] = LootTable(nether_wart)
         with logger.push("potatoes"):
             potatoes = deepcopy(vanilla.data.loot_tables["minecraft:blocks/potatoes"].data)
             pool = one(where(require(potatoes, "pools"), conditionless))
-            pool["functions"] = [reduce_count]
+            pool["modifier"] = reduce_count
             ctx.data["minecraft:blocks/potatoes"] = LootTable(potatoes)
         with logger.push("wheat"):
             wheat = deepcopy(vanilla.data.loot_tables["minecraft:blocks/wheat"].data)
             pool = one(where(require(wheat, "pools"), conditionless))
             entry = one(require(pool, "entries"))
             child = one(where(require(entry, "children"), conditionless))
-            child["functions"] = [reduce_count]
+            child["modifier"] = reduce_count
             ctx.data["minecraft:blocks/wheat"] = LootTable(wheat)
 
 
@@ -62,7 +65,7 @@ def budding_amethyst(ctx: Context, vanilla: Vanilla):
         budding_amethyst["pools"] = [
             {
                 "rolls": 1,
-                "conditions": [{"condition": "minecraft:reference", "name": "micahcraft:used_silk"}],
+                "condition": "micahcraft:used_silk",
                 "entries": [{"type": "minecraft:item", "name": "minecraft:budding_amethyst"}],
             }
         ]
@@ -81,7 +84,7 @@ def dirt_path(ctx: Context, vanilla: Vanilla):
                 "children": [
                     {
                         "type": "minecraft:item",
-                        "conditions": [{"condition": "minecraft:reference", "name": "micahcraft:used_silk"}],
+                        "condition": "micahcraft:used_silk",
                         "name": "minecraft:dirt_path",
                     },
                     entry,
@@ -95,11 +98,12 @@ def dirt_path(ctx: Context, vanilla: Vanilla):
 def jungle_leaves(ctx: Context, vanilla: Vanilla):
     with ctx.inject(Logger).push("jungle_leaves"):
         jungle_leaves = deepcopy(vanilla.data.loot_tables["minecraft:blocks/jungle_leaves"].data)
-        pool = one(where(require(jungle_leaves, "pools"), lambda x: "conditions" not in x))
+        pool = one(where(require(jungle_leaves, "pools"), lambda x: "condition" not in x))
         entry = one(require(pool, "entries"))
         child = one(where(require(entry, "children"), lambda x: x["name"] == "minecraft:jungle_sapling"))
-        condition = one(where(require(child, "conditions"), lambda x: "chances" in x))
-        condition["chances"] = [0.05, 0.0625, 0.0833, 0.1]
+        condition = require(child, "condition")
+        term = one(where(require(condition, "terms"), lambda x: "chances" in x))
+        term["chances"] = [0.05, 0.0625, 0.0833, 0.1]
         ctx.data["minecraft:blocks/jungle_leaves"] = LootTable(jungle_leaves)
 
 
@@ -111,7 +115,7 @@ def piglin_bartering(ctx: Context, vanilla: Vanilla):
         require(pool, "entries").append(
             {
                 "type": "minecraft:item",
-                "functions": [{"add": False, "count": {"type": "minecraft:uniform", "max": 2.0, "min": 1.0}, "function": "minecraft:set_count"}],
+                "modifier": [{"add": False, "count": {"type": "minecraft:uniform", "max": 2.0, "min": 1.0}, "type": "minecraft:set_count"}],
                 "name": "minecraft:netherite_upgrade_smithing_template",
                 "weight": 3,
             }
@@ -140,15 +144,15 @@ def beheading(ctx: Context, vanilla: Vanilla):
                 match option:
                     case {"texture": texture, "sound": sound, "name": name}:
                         translation_key = f"item.micahcraft.{id_path}"
-                        if "condition" in option:
+                        if "type" in option:
                             suffix = "." + "_".join(name.split(" ")[:-1]).lower()
                             translation_key += suffix
                         entry = {
                             "type": "minecraft:item",
                             "name": "minecraft:player_head",
-                            "functions": [
+                            "modifier": [
                                 {
-                                    "function": "minecraft:set_components",
+                                    "type": "minecraft:set_components",
                                     "components": {
                                         "minecraft:note_block_sound": sound,
                                         "minecraft:profile": {"properties": [{"name": "textures", "value": texture}]},
@@ -165,7 +169,7 @@ def beheading(ctx: Context, vanilla: Vanilla):
                         logger.warn(f"Head info for '{id}' was malformed; Skipping")
                         break
                 if "condition" in option:
-                    entry["conditions"] = [{"condition": "entity_properties", "entity": "this", "predicate": option["condition"]}]
+                    entry["condition"] = {"type": "entity_properties", "entity": "this", "predicate": option["condition"]}
                 entries.append(entry)
             else:
                 table_path = ":entities/".join(id.split(":"))
@@ -176,15 +180,18 @@ def beheading(ctx: Context, vanilla: Vanilla):
                 pool = {
                     "rolls": 1,
                     "entries": entries,
-                    "conditions": [
-                        {"condition": "killed_by_player"},
-                        {
-                            "condition": "random_chance_with_enchanted_bonus",
-                            "enchantment": "micahcraft:beheading",
-                            "unenchanted_chance": 0,
-                            "enchanted_chance": {"type": "minecraft:linear", "base": 0.03334, "per_level_above_first": 0.03333},
-                        },
-                    ],
+                    "condition": {
+                        "type": "minecraft:all_of",
+                        "terms": [
+                            {"type": "killed_by_player"},
+                            {
+                                "type": "random_chance_with_enchanted_bonus",
+                                "enchantment": "micahcraft:beheading",
+                                "unenchanted_chance": 0,
+                                "enchanted_chance": {"type": "minecraft:linear", "base": 0.03334, "per_level_above_first": 0.03333},
+                            },
+                        ]
+                    },
                 }
                 pools.append(pool)
                 mob["pools"] = pools
@@ -196,15 +203,14 @@ def beheading(ctx: Context, vanilla: Vanilla):
 
 
 def wither_skeleton_skull(ctx: Context, vanilla: Vanilla):
-    with ctx.inject(Logger).push("wither_skeleton"):
+    with ctx.inject(Logger).push("wither_skeleton") as logger:
         wither_skeleton = deepcopy(vanilla.data.loot_tables["minecraft:entities/wither_skeleton"].data)
         pools = require(wither_skeleton, "pools")
         pool = one(
             where(pools, lambda x: one(x["entries"])["type"] == "minecraft:item" and x["entries"][0]["name"] == "minecraft:wither_skeleton_skull")
         )
-
-        pool_conditions = require(pool, "conditions")
-        looting_condition_predicate = lambda x: x["condition"] == "minecraft:random_chance_with_enchanted_bonus"
+        pool_conditions = require(require(pool, "condition"), "terms")
+        looting_condition_predicate = lambda x: x["type"] == "minecraft:random_chance_with_enchanted_bonus"
         looting_condition = one(remove_where(pool_conditions, looting_condition_predicate))
         beheading_condition = deepcopy(looting_condition)
         beheading_condition["enchantment"] = "micahcraft:beheading"
@@ -213,7 +219,7 @@ def wither_skeleton_skull(ctx: Context, vanilla: Vanilla):
         beheading_chance["per_level_above_first"] = 0.025
 
         has_beheading = {
-            "condition": "minecraft:entity_properties",
+            "type": "minecraft:entity_properties",
             "entity": "attacking_player",
             "predicate": {
                 "equipment": {
@@ -221,13 +227,13 @@ def wither_skeleton_skull(ctx: Context, vanilla: Vanilla):
                 }
             },
         }
-        no_beheading = {"condition": "minecraft:inverted", "term": has_beheading}
+        no_beheading = {"type": "minecraft:inverted", "term": has_beheading}
 
         entries = pool["entries"]
         looting_entry = one(entries)
         beheading_entry = deepcopy(looting_entry)
-        looting_entry["conditions"] = [looting_condition, no_beheading]
-        beheading_entry["conditions"] = [beheading_condition, has_beheading]
+        looting_entry["condition"] = {"type": "all_of", "terms":[looting_condition, no_beheading]}
+        beheading_entry["condition"] = {"type": "all_of", "terms":[beheading_condition, has_beheading]}
         entries[:] = [{"type": "minecraft:alternatives", "children": [looting_entry, beheading_entry]}]
 
         ctx.data["minecraft:entities/wither_skeleton"] = LootTable(wither_skeleton)

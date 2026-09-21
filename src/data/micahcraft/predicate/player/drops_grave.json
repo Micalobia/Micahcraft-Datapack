@@ -1,5 +1,5 @@
 {
-    "condition": "any_of",
+    "type": "any_of",
     "terms": [
         
     ]

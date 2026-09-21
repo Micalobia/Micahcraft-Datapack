@@ -7,31 +7,34 @@
                 {
                     "type": "item",
                     "name": "minecraft:player_head",
-                    "functions": [
+                    "modifier": [
                         {
-                            "function": "fill_player_head",
+                            "type": "fill_player_head",
                             "entity": "this"
                         }
                     ]
                 }
             ],
-            "conditions": [
-                {
-                    "condition": "killed_by_player"
-                },
-                {
-                    "condition": "inverted",
-                    "term": {
-                        "condition": "minecraft:entity_scores",
-                        "entity": "this",
-                        "scores": {
-                            "mk.settings.world.trigger": {
-                                "min": 4
+            "condition": {
+                "type": "all_of",
+                "terms": [
+                    {
+                        "type": "killed_by_player"
+                    },
+                    {
+                        "type": "inverted",
+                        "term": {
+                            "type": "minecraft:entity_scores",
+                            "entity": "this",
+                            "scores": {
+                                "mk.settings.world.trigger": {
+                                    "min": 4
+                                }
                             }
                         }
                     }
-                }
-            ]
+                ]
+            }
         }
     ]
 }

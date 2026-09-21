@@ -21,15 +21,15 @@
             {
                 "effect": {},
                 "requirements": {
-                    "condition": "minecraft:all_of",
+                    "type": "minecraft:all_of",
                     "terms": [
                         {
-                            "condition": "minecraft:damage_source_properties",
+                            "type": "minecraft:damage_source_properties",
                             "predicate": {
                                 "tags": [
                                     {
                                         "expected": true,
-                                        "id": "minecraft:is_lightning"
+                                        "id": "#minecraft:is_lightning"
                                     }
                                 ]
                             }
@@ -58,14 +58,14 @@
                     ]
                 },
                 "requirements": {
-                    "condition": "all_of",
+                    "type": "all_of",
                     "terms": [
                         {
-                            "condition": "minecraft:weather_check",
+                            "type": "minecraft:weather_check",
                             "raining": true
                         },
                         {
-                            "condition": "minecraft:entity_properties",
+                            "type": "minecraft:entity_properties",
                             "entity": "this",
                             "predicate": {
                                 "location": {
@@ -74,9 +74,9 @@
                             }
                         },
                         {
-                            "condition": "inverted",
+                            "type": "inverted",
                             "term": {
-                                "condition": "entity_properties",
+                                "type": "entity_properties",
                                 "entity": "direct_attacker",
                                 "predicate": {
                                     "effects": {
@@ -107,9 +107,9 @@
                     ]
                 },
                 "requirements": {
-                    "condition": "inverted",
+                    "type": "inverted",
                     "term": {
-                        "condition": "entity_properties",
+                        "type": "entity_properties",
                         "entity": "direct_attacker",
                         "predicate": {
                             "effects": {
@@ -148,14 +148,14 @@
                     ]
                 },
                 "requirements": {
-                    "condition": "minecraft:all_of",
+                    "type": "minecraft:all_of",
                     "terms": [
                         {
-                            "condition": "minecraft:weather_check",
+                            "type": "minecraft:weather_check",
                             "raining": true
                         },
                         {
-                            "condition": "minecraft:location_check",
+                            "type": "minecraft:location_check",
                             "predicate": {
                                 "block": {
                                     "blocks": "#minecraft:lightning_rods"
@@ -164,9 +164,9 @@
                             }
                         },
                         {
-                            "condition": "inverted",
+                            "type": "inverted",
                             "term": {
-                                "condition": "entity_properties",
+                                "type": "entity_properties",
                                 "entity": "this",
                                 "predicate": {
                                     "effects": {

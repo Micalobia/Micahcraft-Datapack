@@ -24,7 +24,7 @@ class Recipes:
                         "conditions": {"items": [{"items": item}]},
                     },
                     "has_the_recipe": {
-                        "conditions": {"recipe": recipe},
+                        "conditions": {"recipes": recipe},
                         "trigger": "minecraft:recipe_unlocked",
                     },
                 },

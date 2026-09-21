@@ -8,10 +8,10 @@
             {
                 "effect": {},
                 "requirements": {
-                    "condition": "all_of",
+                    "type": "all_of",
                     "terms": [
                         {
-                            "condition": "random_chance",
+                            "type": "random_chance",
                             "chance": {
                                 "type": "enchantment_level",
                                 "amount": {
@@ -22,12 +22,12 @@
                             }
                         },
                         {
-                            "condition": "damage_source_properties",
+                            "type": "damage_source_properties",
                             "predicate": {
                                 "tags": [
                                     {
                                         "expected": false,
-                                        "id": "minecraft:bypasses_invulnerability"
+                                        "id": "#minecraft:bypasses_invulnerability"
                                     }
                                 ]
                             }

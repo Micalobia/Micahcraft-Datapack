@@ -3,25 +3,28 @@
         "block": {
             "trigger": "minecraft:item_used_on_block",
             "conditions": {
-                "location": [
-                    {
-                        "condition": "match_tool",
-                        "predicate": {
-                            "items": "shears"
-                        }
+                "location": {
+                    "type": "match_tool",
+                    "predicate": {
+                        "items": "shears"
                     }
-                ]
+                }
             }
         },
         "entity": {
             "trigger": "player_interacted_with_entity",
             "conditions": {
                 "player": {
-                    "equipment": {
-                        "mainhand": {
-                            "items": "shears"
+                    "type": "entity_properties",
+                    "entity": "this",
+                    "predicate": {
+                        "equipment": {
+                            "mainhand": {
+                                "items": "shears"
+                            }
                         }
                     }
+
                 }
             }
         }

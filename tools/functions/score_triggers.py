@@ -34,9 +34,9 @@ class ScoreValue:
                 range["min"] = self.value[0]
             if self.value[1]:
                 range["max"] = self.value[1]
-        pred = {"condition": "minecraft:entity_scores", "entity": "this", "scores": {scoreboard: range}}
+        pred = {"type": "minecraft:entity_scores", "entity": "this", "scores": {scoreboard: range}}
         if self.inverted:
-            return {"condition": "minecraft:inverted", "term": pred}
+            return {"type": "minecraft:inverted", "term": pred}
         else:
             return pred
 
@@ -114,7 +114,7 @@ def run(ctx: Context):
                 continue
             if scoreboard and not value:
                 value = ScoreValue(0, True)
-            preds: list[dict[str, Any]] = [{"condition": "minecraft:reference", "name": _} for _ in predicates] if predicates else []
+            preds: list[dict[str, Any]] = [_ for _ in predicates] if predicates else []
             if value and scoreboard:
                 preds.append(value.predicate(scoreboard))
             path = ":score_triggers/".join(id.split(":"))
@@ -123,7 +123,7 @@ def run(ctx: Context):
                     "criteria": {
                         "unlocked": {
                             "trigger": "minecraft:tick",
-                            "conditions": {"player": preds},
+                            "conditions": {"player": preds[0] if len(preds) == 1 else {"type":"minecraft:all_of", "terms":preds}},
                         }
                     },
                     "rewards": {"function": id},

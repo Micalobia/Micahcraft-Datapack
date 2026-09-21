@@ -1,77 +1,48 @@
-[
-    {
-        "function": "set_damage",
-        "damage": -0.03125,
-        "add": true,
-        "conditions": [
-            {
-                "condition": "reference",
-                "name": "micahcraft:player/holding/material/gold"
-            }
-        ]
-    },
-    {
-        "function": "set_damage",
-        "damage": -0.0169491525,
-        "add": true,
-        "conditions": [
-            {
-                "condition": "reference",
-                "name": "micahcraft:player/holding/material/wood"
-            }
-        ]
-    },
-    {
-        "function": "set_damage",
-        "damage": -0.0076335878,
-        "add": true,
-        "conditions": [
-            {
-                "condition": "reference",
-                "name": "micahcraft:player/holding/material/stone"
-            }
-        ]
-    },
-    {
-        "function": "set_damage",
-        "damage": -0.004,
-        "add": true,
-        "conditions": [
-            {
-                "condition": "reference",
-                "name": "micahcraft:player/holding/material/iron"
-            }
-        ]
-    },
-    {
-        "function": "set_damage",
-        "damage": -0.0006406150,
-        "add": true,
-        "conditions": [
-            {
-                "condition": "reference",
-                "name": "micahcraft:player/holding/material/diamond"
-            }
-        ]
-    },
-    {
-        "function": "set_damage",
-        "damage": -0.0004923683,
-        "add": true,
-        "conditions": [
-            {
-                "condition": "reference",
-                "name": "micahcraft:player/holding/material/netherite"
-            }
-        ]
-    },
-    {
-        "function": "set_damage",
-        "damage": -0.015625,
-        "add": true,
-        "conditions": [
-            {
-                "condition": "entity_properties",
+{
+    "type": "minecraft:sequence",
+    "functions": [
+        {
+            "type": "set_damage",
+            "damage": -0.03125,
+            "add": true,
+            "condition": "micahcraft:player/holding/material/gold"
+        },
+        {
+            "type": "set_damage",
+            "damage": -0.0169491525,
+            "add": true,
+            "condition": "micahcraft:player/holding/material/wood"
+        },
+        {
+            "type": "set_damage",
+            "damage": -0.0076335878,
+            "add": true,
+            "condition": "micahcraft:player/holding/material/stone"
+        },
+        {
+            "type": "set_damage",
+            "damage": -0.004,
+            "add": true,
+            "condition": "micahcraft:player/holding/material/iron"
+        },
+        {
+            "type": "set_damage",
+            "damage": -0.0006406150,
+            "add": true,
+            "condition": "micahcraft:player/holding/material/diamond"
+        },
+        {
+            "type": "set_damage",
+            "damage": -0.0004923683,
+            "add": true,
+            "condition": "micahcraft:player/holding/material/netherite"
+        },
+        {
+            "type": "set_damage",
+            "damage": -0.015625,
+            "add": true,
+            "condition": {
+                "type": "entity_properties",
                 "entity": "this",
                 "predicate": {
                     "equipment": {
@@ -85,15 +56,13 @@
                     }
                 }
             }
-        ]
-    },
-    {
-        "function": "set_damage",
-        "damage": -0.04,
-        "add": true,
-        "conditions": [
-            {
-                "condition": "entity_properties",
+        },
+        {
+            "type": "set_damage",
+            "damage": -0.04,
+            "add": true,
+            "condition": {
+                "type": "entity_properties",
                 "entity": "this",
                 "predicate": {
                     "equipment": {
@@ -105,15 +74,13 @@
                     }
                 }
             }
-        ]
-    },
-    {
-        "function": "set_damage",
-        "damage": -0.01,
-        "add": true,
-        "conditions": [
-            {
-                "condition": "entity_properties",
+        },
+        {
+            "type": "set_damage",
+            "damage": -0.01,
+            "add": true,
+            "condition": {
+                "type": "entity_properties",
                 "entity": "this",
                 "predicate": {
                     "equipment": {
@@ -125,26 +92,19 @@
                     }
                 }
             }
-        ]
-    },
-    {
-        "function": "set_damage",
-        "damage": -0.0042016807,
-        "add": true,
-        "conditions": [
-            {
-                "condition": "reference",
-                "name": "micahcraft:player/holding/tool/shears"
-            }
-        ]
-    },
-    {
-        "function": "set_damage",
-        "damage": -0.0029761905,
-        "add": true,
-        "conditions": [
-            {
-                "condition": "entity_properties",
+        },
+        {
+            "type": "set_damage",
+            "damage": -0.0042016807,
+            "add": true,
+            "condition": "micahcraft:player/holding/tool/shears"
+        },
+        {
+            "type": "set_damage",
+            "damage": -0.0029761905,
+            "add": true,
+            "condition": {
+                "type": "entity_properties",
                 "entity": "this",
                 "predicate": {
                     "equipment": {
@@ -156,15 +116,13 @@
                     }
                 }
             }
-        ]
-    },
-    {
-        "function": "set_damage",
-        "damage": -0.0026041667,
-        "add": true,
-        "conditions": [
-            {
-                "condition": "entity_properties",
+        },
+        {
+            "type": "set_damage",
+            "damage": -0.0026041667,
+            "add": true,
+            "condition": {
+                "type": "entity_properties",
                 "entity": "this",
                 "predicate": {
                     "equipment": {
@@ -176,15 +134,13 @@
                     }
                 }
             }
-        ]
-    },
-    {
-        "function": "set_damage",
-        "damage": -0.004,
-        "add": true,
-        "conditions": [
-            {
-                "condition": "entity_properties",
+        },
+        {
+            "type": "set_damage",
+            "damage": -0.004,
+            "add": true,
+            "condition": {
+                "type": "entity_properties",
                 "entity": "this",
                 "predicate": {
                     "equipment": {
@@ -196,15 +152,13 @@
                     }
                 }
             }
-        ]
-    },
-    {
-        "function": "set_damage",
-        "damage": -0.0023148148,
-        "add": true,
-        "conditions": [
-            {
-                "condition": "entity_properties",
+        },
+        {
+            "type": "set_damage",
+            "damage": -0.0023148148,
+            "add": true,
+            "condition": {
+                "type": "entity_properties",
                 "entity": "this",
                 "predicate": {
                     "equipment": {
@@ -216,15 +170,13 @@
                     }
                 }
             }
-        ]
-    },
-    {
-        "function": "set_damage",
-        "damage": -0.0021505376,
-        "add": true,
-        "conditions": [
-            {
-                "condition": "entity_properties",
+        },
+        {
+            "type": "set_damage",
+            "damage": -0.0021505376,
+            "add": true,
+            "condition": {
+                "type": "entity_properties",
                 "entity": "this",
                 "predicate": {
                     "equipment": {
@@ -236,15 +188,13 @@
                     }
                 }
             }
-        ]
-    },
-    {
-        "function": "set_damage",
-        "damage": -0.002,
-        "add": true,
-        "conditions": [
-            {
-                "condition": "entity_properties",
+        },
+        {
+            "type": "set_damage",
+            "damage": -0.002,
+            "add": true,
+            "condition": {
+                "type": "entity_properties",
                 "entity": "this",
                 "predicate": {
                     "equipment": {
@@ -256,6 +206,6 @@
                     }
                 }
             }
-        ]
-    }
-]
+        }
+    ]
+}

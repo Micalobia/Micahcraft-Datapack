@@ -6,9 +6,9 @@
                 {
                     "type": "item",
                     "name": "totem_of_undying",
-                    "functions": [
+                    "modifier": [
                         {
-                            "function": "set_components",
+                            "type": "set_components",
                             "components": {
                                 "enchantment_glint_override": true
                             }

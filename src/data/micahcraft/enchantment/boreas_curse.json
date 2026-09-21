@@ -38,10 +38,10 @@
                     ]
                 },
                 "requirements": {
-                    "condition": "all_of",
+                    "type": "all_of",
                     "terms": [
                         {
-                            "condition": "entity_properties",
+                            "type": "entity_properties",
                             "entity": "this",
                             "predicate": {
                                 "nbt": "{FallFlying:1b}"

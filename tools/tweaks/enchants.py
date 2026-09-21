@@ -42,17 +42,17 @@ def impaling(ctx: Context, vanilla: Vanilla):
         effect = one(require(effects, "minecraft:damage"))
         original = require(effect, "requirements")
         effect["requirements"] = {
-            "condition": "minecraft:any_of",
+            "type": "minecraft:any_of",
             "terms": [
                 original,
                 {
-                    "condition": "minecraft:all_of",
+                    "type": "minecraft:all_of",
                     "terms": [
-                        {"condition": "minecraft:weather_check", "raining": True},
-                        {"condition": "minecraft:location_check", "predicate": {"can_see_sky": True}},
+                        {"type": "minecraft:weather_check", "raining": True},
+                        {"type": "minecraft:location_check", "predicate": {"can_see_sky": True}},
                     ],
                 },
-                {"condition": "minecraft:entity_properties", "entity": "this", "predicate": {"location": {"fluid": {"fluids": "minecraft:water"}}}},
+                {"type": "minecraft:entity_properties", "entity": "this", "predicate": {"location": {"fluid": {"fluids": "minecraft:water"}}}},
             ],
         }
         ctx.data["minecraft:impaling"] = Enchantment(impaling)
@@ -90,9 +90,9 @@ def protection(ctx: Context, vanilla: Vanilla):
         damage_protection = one(require(protection["effects"], "minecraft:damage_protection"))
         requirements = require(damage_protection, "requirements")
         match requirements:
-            case {"condition": "minecraft:damage_source_properties", "predicate": {"tags": tags}}:
+            case {"type": "minecraft:damage_source_properties", "predicate": {"tags": tags}}:
                 tag = one(tags)
-                tag["id"] = "micahcraft:bypasses_protection"
+                tag["id"] = "#micahcraft:bypasses_protection"
             case _:
                 logger.warn("Protection patch failed!")
         ctx.data["minecraft:protection"] = Enchantment(protection)
@@ -105,13 +105,9 @@ def fire_protection(ctx: Context, vanilla: Vanilla):
         damage_protection = one(require(fire_protection["effects"], "minecraft:damage_protection"))
         requirements = require(damage_protection, "requirements")
         match requirements:
-            case {"condition": "minecraft:all_of", "terms": terms}:
-                match one(terms):
-                    case {"condition": "minecraft:damage_source_properties", "predicate": {"tags": tags}}:
-                        tag = one(where(tags, lambda x: x["id"] == "minecraft:is_fire"))
-                        tag["id"] = "micahcraft:is_fire_adjacent"
-                    case _:
-                        logger.warn("Fire Protection patch failed!")
+            case {"type": "minecraft:damage_source_properties", "predicate": {"tags": tags}}:
+                tag = one(where(tags, lambda x: x["id"] == "#minecraft:is_fire"))
+                tag["id"] = "#micahcraft:is_fire_adjacent"
             case _:
                 logger.warn("Fire Protection patch failed!")
         ctx.data["minecraft:fire_protection"] = Enchantment(fire_protection)

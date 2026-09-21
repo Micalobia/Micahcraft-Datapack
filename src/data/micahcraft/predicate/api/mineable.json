@@ -1,13 +1,7 @@
 {
-    "condition": "all_of",
+    "type": "all_of",
     "terms": [
-        {
-            "condition": "reference",
-            "name": "micahcraft:api/mineable/material"
-        },
-        {
-            "condition": "reference",
-            "name": "micahcraft:api/mineable/tool"
-        }
+        "micahcraft:api/mineable/material",
+        "micahcraft:api/mineable/tool"
     ]
 }

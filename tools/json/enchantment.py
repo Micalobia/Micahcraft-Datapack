@@ -108,7 +108,7 @@ def _handle_play_note(ctx: Context, node: dict[str, Any], rec) -> Splice | None:
         }
 
     def gen_requirements(_tag_id: str, x: float, y: float, z: float):
-        _ret = {"condition": "minecraft:location_check", "predicate": {"block": {"blocks": f"#{_tag_id}"}}}
+        _ret = {"type": "minecraft:location_check", "predicate": {"block": {"blocks": f"#{_tag_id}"}}}
         if x != 0:
             _ret["offsetX"] = x
         if y != 0:
@@ -128,7 +128,7 @@ def _handle_play_note(ctx: Context, node: dict[str, Any], rec) -> Splice | None:
                 {
                     "effect": play_sound("minecraft:block.note_block.harp", pitch, volume),
                     "requirements": {
-                        "condition": "inverted",
+                        "type": "inverted",
                         "term": _merge_requirements(gen_requirements("micahcraft:note/any", x, y, z), original_requirements),
                     },
                 }
@@ -181,9 +181,9 @@ def _merge_requirements(left: dict[str, Any] | None, right: dict[str, Any] | Non
 
     def terms(x: dict[str, Any]) -> list[dict[str, Any]]:
         match x:
-            case {"condition": condition, "terms": terms}:
+            case {"type": condition, "terms": terms}:
                 if (condition == "minecraft:all_of" or condition == "all_of") and isinstance(terms, list):
                     return list(terms)
         return [x]
 
-    return {"condition": "minecraft:all_of", "terms": [*terms(left), *terms(right)]}
+    return {"type": "minecraft:all_of", "terms": [*terms(left), *terms(right)]}

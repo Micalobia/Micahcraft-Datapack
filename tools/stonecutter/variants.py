@@ -80,6 +80,6 @@ def run(ctx: Context):
             for item in all_outputs[tag]:
                 item_name = f"{identifier}/{item.split(":")[-1]}"
                 ctx.data[item_name] = recipe_helper.stonecutter(f"#{identifier}", item, 2 if item.endswith("_slab") else 1)
-                ctx.data[item_name] = recipe_helper.advancement(f"#{identifier}", identifier)
+                ctx.data[item_name] = recipe_helper.advancement(f"#{identifier}", item_name)
                 recipe_count += 1
         logger.info(f"{len(tags)} block families, {recipe_count} recipes/advancements")

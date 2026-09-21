@@ -36,7 +36,7 @@
                     ]
                 },
                 "requirements": {
-                    "condition": "entity_properties",
+                    "type": "entity_properties",
                     "entity": "this",
                     "predicate": {
                         "nbt": "{Health:0f}"

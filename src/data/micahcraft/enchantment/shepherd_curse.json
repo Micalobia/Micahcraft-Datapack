@@ -22,7 +22,7 @@
                     ]
                 },
                 "requirements": {
-                    "condition": "random_chance",
+                    "type": "random_chance",
                     "chance": {
                         "type": "enchantment_level",
                         "amount": {
