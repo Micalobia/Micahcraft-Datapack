@@ -3,14 +3,12 @@
         "unlocked": {
             "trigger": "minecraft:item_used_on_block",
             "conditions": {
-                "location": [
-                    {
-                        "condition": "match_tool",
-                        "predicate": {
-                            "items": "#hoes"
-                        }
+                "location": {
+                    "type": "match_tool",
+                    "predicate": {
+                        "items": "#hoes"
                     }
-                ]
+                }
             }
         }
     },

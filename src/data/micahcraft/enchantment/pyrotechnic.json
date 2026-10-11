@@ -8,7 +8,7 @@
             {
                 "effect": {},
                 "requirements": {
-                    "condition": "damage_source_properties",
+                    "type": "damage_source_properties",
                     "predicate": {
                         "direct_entity": {
                             "entity_type": "firework_rocket"

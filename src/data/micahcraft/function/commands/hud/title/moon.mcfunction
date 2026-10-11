@@ -1,4 +1,4 @@
-execute store result score #Day mk.math run time query day
+execute store result score #Day mk.math run time query day repetition
 scoreboard players operation #Day mk.math %= #8 mk.math
 $execute if score #Day mk.math matches 0 run data modify storage micahcraft:hud display append value {text:"Full Moon",color:"$(cyan)"}
 $execute if score #Day mk.math matches 1 run data modify storage micahcraft:hud display append value {text:"Waning gibbous",color:"$(cyan)"}

@@ -1,5 +1,5 @@
 {
-    "condition": "time_check",
+    "type": "time_check",
     "clock": "minecraft:overworld",
     "value": 1,
     "period": 24000

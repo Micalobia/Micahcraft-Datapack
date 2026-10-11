@@ -9,7 +9,7 @@
                         "predicates": {
                             "minecraft:enchantments": [
                                 {
-                                    "enchantment": "micahcraft:boreas",
+                                    "enchantments": "micahcraft:boreas_curse",
                                     "levels": { "min": 1 }
                                 }
                             ]
@@ -17,7 +17,11 @@
                     }
                 ],
                 "player": {
-                    "nbt": "{FallFlying:0b}"
+                    "type": "entity_properties",
+                    "entity": "this",
+                    "predicate": {
+                        "nbt": "{FallFlying:0b}"
+                    }
                 }
             }
         }

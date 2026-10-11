@@ -3,36 +3,34 @@
         "unlocked": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
-                "player": [
-                    {
-                        "condition": "minecraft:all_of",
-                        "terms": [
-                            {
-                                "condition": "minecraft:entity_properties",
-                                "entity": "this",
-                                "predicate": {
-                                    "slots": {
-                                        "armor.*": {
-                                            "count": {
-                                                "min": 1
-                                            }
+                "player": {
+                    "type": "minecraft:all_of",
+                    "terms": [
+                        {
+                            "type": "minecraft:entity_properties",
+                            "entity": "this",
+                            "predicate": {
+                                "slots": {
+                                    "armor.*": {
+                                        "count": {
+                                            "min": 1
                                         }
                                     }
                                 }
-                            },
-                            {
-                                "condition": "minecraft:inverted",
-                                "term": {
-                                    "condition": "minecraft:entity_properties",
-                                    "entity": "this",
-                                    "predicate": {
-                                        "nbt": "{Tags:['mk.invisible_armor.update']}"
-                                    }
+                            }
+                        },
+                        {
+                            "type": "minecraft:inverted",
+                            "term": {
+                                "type": "minecraft:entity_properties",
+                                "entity": "this",
+                                "predicate": {
+                                    "nbt": "{Tags:['mk.invisible_armor.update']}"
                                 }
                             }
-                        ]
-                    }
-                ]
+                        }
+                    ]
+                }
             }
         }
     },

@@ -1,8 +1,8 @@
 {
-    "condition": "any_of",
+    "type": "any_of",
     "terms": [
         {
-            "condition": "minecraft:entity_scores",
+            "type": "minecraft:entity_scores",
             "entity": "this",
             "scores": {
                 "mk.climb": {
@@ -11,7 +11,7 @@
             }
         },
         {
-            "condition": "minecraft:entity_scores",
+            "type": "minecraft:entity_scores",
             "entity": "this",
             "scores": {
                 "mk.crouch": {
@@ -20,7 +20,7 @@
             }
         },
         {
-            "condition": "minecraft:entity_scores",
+            "type": "minecraft:entity_scores",
             "entity": "this",
             "scores": {
                 "mk.fall": {
@@ -29,7 +29,7 @@
             }
         },
         {
-            "condition": "minecraft:entity_scores",
+            "type": "minecraft:entity_scores",
             "entity": "this",
             "scores": {
                 "mk.fly": {
@@ -38,7 +38,7 @@
             }
         },
         {
-            "condition": "minecraft:entity_scores",
+            "type": "minecraft:entity_scores",
             "entity": "this",
             "scores": {
                 "mk.sprint": {
@@ -47,7 +47,7 @@
             }
         },
         {
-            "condition": "minecraft:entity_scores",
+            "type": "minecraft:entity_scores",
             "entity": "this",
             "scores": {
                 "mk.swim": {
@@ -56,7 +56,7 @@
             }
         },
         {
-            "condition": "minecraft:entity_scores",
+            "type": "minecraft:entity_scores",
             "entity": "this",
             "scores": {
                 "mk.walk": {
@@ -65,7 +65,7 @@
             }
         },
         {
-            "condition": "minecraft:entity_scores",
+            "type": "minecraft:entity_scores",
             "entity": "this",
             "scores": {
                 "mk.walk_on_water": {
@@ -74,7 +74,7 @@
             }
         },
         {
-            "condition": "minecraft:entity_scores",
+            "type": "minecraft:entity_scores",
             "entity": "this",
             "scores": {
                 "mk.walk_under_water": {
@@ -83,7 +83,7 @@
             }
         },
         {
-            "condition": "minecraft:entity_scores",
+            "type": "minecraft:entity_scores",
             "entity": "this",
             "scores": {
                 "mk.boat": {
@@ -92,7 +92,7 @@
             }
         },
         {
-            "condition": "minecraft:entity_scores",
+            "type": "minecraft:entity_scores",
             "entity": "this",
             "scores": {
                 "mk.aviate": {
@@ -101,7 +101,7 @@
             }
         },
         {
-            "condition": "minecraft:entity_scores",
+            "type": "minecraft:entity_scores",
             "entity": "this",
             "scores": {
                 "mk.horse": {
@@ -110,7 +110,7 @@
             }
         },
         {
-            "condition": "minecraft:entity_scores",
+            "type": "minecraft:entity_scores",
             "entity": "this",
             "scores": {
                 "mk.minecart": {
@@ -119,7 +119,7 @@
             }
         },
         {
-            "condition": "minecraft:entity_scores",
+            "type": "minecraft:entity_scores",
             "entity": "this",
             "scores": {
                 "mk.pig": {
@@ -128,7 +128,7 @@
             }
         },
         {
-            "condition": "minecraft:entity_scores",
+            "type": "minecraft:entity_scores",
             "entity": "this",
             "scores": {
                 "mk.strider": {
@@ -137,7 +137,7 @@
             }
         },
         {
-            "condition": "minecraft:entity_scores",
+            "type": "minecraft:entity_scores",
             "entity": "this",
             "scores": {
                 "mk.jump": {
@@ -146,7 +146,7 @@
             }
         },
         {
-            "condition": "minecraft:entity_scores",
+            "type": "minecraft:entity_scores",
             "entity": "this",
             "scores": {
                 "mk.fishing_movement": {
@@ -155,7 +155,7 @@
             }
         },
         {
-            "condition": "minecraft:entity_scores",
+            "type": "minecraft:entity_scores",
             "entity": "this",
             "scores": {
                 "mk.ghast": {
@@ -164,7 +164,7 @@
             }
         },
         {
-            "condition": "minecraft:entity_scores",
+            "type": "minecraft:entity_scores",
             "entity": "this",
             "scores": {
                 "mk.nautilus": {

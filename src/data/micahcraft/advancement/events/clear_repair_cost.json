@@ -16,21 +16,19 @@
         "holding": {
             "trigger": "tick",
             "conditions": {
-                "player": [
-                    {
-                        "condition": "entity_properties",
-                        "entity": "this",
-                        "predicate": {
-                            "slots": {
-                                "player.cursor": {
-                                    "components": {
-                                        "repair_cost": 1
-                                    }
+                "player": {
+                    "type": "entity_properties",
+                    "entity": "this",
+                    "predicate": {
+                        "slots": {
+                            "player.cursor": {
+                                "components": {
+                                    "repair_cost": 1
                                 }
                             }
                         }
                     }
-                ]
+                }
             }
         }
     },

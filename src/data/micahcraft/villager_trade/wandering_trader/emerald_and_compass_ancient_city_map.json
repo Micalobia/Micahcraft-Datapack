@@ -2,41 +2,34 @@
   "additional_wants": {
     "id": "minecraft:compass"
   },
-  "given_item_modifiers": [
+  "given_item_modifier": [
     {
-      "decoration": "minecraft:blue_marker",
-      "destination": "micahcraft:on_ancient_city_maps",
-      "function": "minecraft:exploration_map",
+      "decoration": "minecraft:ancient_city",
+      "destination": "#minecraft:on_ancient_city_maps",
+      "type": "minecraft:exploration_map",
       "search_radius": 100,
       "skip_existing_chunks": true
     },
     {
-      "function": "minecraft:set_name",
-      "name": {
-        "translate": "misc.micahcraft.filled_map.ancient_city"
-      },
-      "target": "item_name"
-    },
-    {
-      "function": "minecraft:filtered",
+      "type": "minecraft:filtered",
       "item_filter": {
-        "items": "minecraft:filled_map",
         "predicates": {
           "minecraft:map_id": {}
         }
       },
       "on_fail": {
-        "function": "minecraft:discard"
+        "type": "minecraft:discard"
       }
     }
   ],
   "gives": {
-    "id": "minecraft:map"
+    "id": "minecraft:buried_ancient_city_map"
   },
   "max_uses": 1.0,
   "reputation_discount": 0.2,
   "wants": {
     "count": 20.0,
     "id": "minecraft:emerald"
-  }
+  },
+  "xp": 10
 }

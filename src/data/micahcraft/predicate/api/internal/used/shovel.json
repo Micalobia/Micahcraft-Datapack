@@ -1,8 +1,8 @@
 {
-    "condition": "any_of",
+    "type": "any_of",
     "terms": [
         {
-            "condition": "entity_scores",
+            "type": "entity_scores",
             "entity": "this",
             "scores": {
                 "mk.api.used.wooden_shovel": {
@@ -11,7 +11,7 @@
             }
         },
         {
-            "condition": "entity_scores",
+            "type": "entity_scores",
             "entity": "this",
             "scores": {
                 "mk.api.used.stone_shovel": {
@@ -20,7 +20,7 @@
             }
         },
         {
-            "condition": "entity_scores",
+            "type": "entity_scores",
             "entity": "this",
             "scores": {
                 "mk.api.used.copper_shovel": {
@@ -29,7 +29,7 @@
             }
         },
         {
-            "condition": "entity_scores",
+            "type": "entity_scores",
             "entity": "this",
             "scores": {
                 "mk.api.used.golden_shovel": {
@@ -38,7 +38,7 @@
             }
         },
         {
-            "condition": "entity_scores",
+            "type": "entity_scores",
             "entity": "this",
             "scores": {
                 "mk.api.used.iron_shovel": {
@@ -47,7 +47,7 @@
             }
         },
         {
-            "condition": "entity_scores",
+            "type": "entity_scores",
             "entity": "this",
             "scores": {
                 "mk.api.used.diamond_shovel": {
@@ -56,7 +56,7 @@
             }
         },
         {
-            "condition": "entity_scores",
+            "type": "entity_scores",
             "entity": "this",
             "scores": {
                 "mk.api.used.netherite_shovel": {

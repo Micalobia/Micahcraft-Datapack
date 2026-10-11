@@ -3,17 +3,15 @@
         "unlocked": {
             "trigger": "minecraft:item_used_on_block",
             "conditions": {
-                "location": [
-                    {
-                        "condition": "match_tool",
-                        "predicate": {
-                            "items": "#micahcraft:item_frames",
-                            "components": {
-                                "custom_data": { "mk.invisible": true }
-                            }
+                "location": {
+                    "type": "match_tool",
+                    "predicate": {
+                        "items": "#micahcraft:item_frames",
+                        "components": {
+                            "custom_data": { "mk.invisible": true }
                         }
                     }
-                ]
+                }
             }
         }
     },

@@ -22,16 +22,16 @@
                     ]
                 },
                 "requirements": {
-                    "condition": "all_of",
+                    "type": "all_of",
                     "terms": [
                         {
-                            "condition": "any_of",
+                            "type": "any_of",
                             "terms": [
                                 {
-                                    "condition": "all_of",
+                                    "type": "all_of",
                                     "terms": [
                                         {
-                                            "condition": "location_check",
+                                            "type": "location_check",
                                             "predicate": {
                                                 "can_see_sky": true,
                                                 "dimension": "overworld",
@@ -43,7 +43,7 @@
                                             }
                                         },
                                         {
-                                            "condition": "time_check",
+                                            "type": "time_check",
                                             "clock": "minecraft:overworld",
                                             "value": {
                                                 "min": 0,
@@ -54,7 +54,7 @@
                                     ]
                                 },
                                 {
-                                    "condition": "location_check",
+                                    "type": "location_check",
                                     "predicate": {
                                         "dimension": "the_nether"
                                     }
@@ -62,7 +62,7 @@
                             ]
                         },
                         {
-                            "condition": "entity_properties",
+                            "type": "entity_properties",
                             "entity": "this",
                             "predicate": {
                                 "flags": {

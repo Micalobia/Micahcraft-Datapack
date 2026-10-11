@@ -11,7 +11,7 @@
                     "function": "micahcraft:enchantments/spectre_shot/shot"
                 },
                 "requirements": {
-                    "condition": "entity_properties",
+                    "type": "entity_properties",
                     "entity": "this",
                     "predicate": {
                         "entity_type": "spectral_arrow"
@@ -26,10 +26,10 @@
                     "factor": 1.5
                 },
                 "requirements": {
-                    "condition": "all_of",
+                    "type": "all_of",
                     "terms": [
                         {
-                            "condition": "entity_properties",
+                            "type": "entity_properties",
                             "entity": "this",
                             "predicate": {
                                 "effects": {
@@ -38,7 +38,7 @@
                             }
                         },
                         {
-                            "condition": "entity_properties",
+                            "type": "entity_properties",
                             "entity": "direct_attacker",
                             "predicate": {
                                 "entity_type": "spectral_arrow",

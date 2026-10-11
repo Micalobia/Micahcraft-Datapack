@@ -22,9 +22,9 @@ def run(ctx: Context, vanilla: Vanilla):
 def is_enchant_function(enchant: str | None) -> Callable[[object], bool]:
     def predicate(f: object) -> bool:
         match f:
-            case {"function": "minecraft:enchant_randomly", "options": options}:
+            case {"type": "minecraft:enchant_randomly", "options": options}:
                 return enchant is None or enchant == options
-            case {"function": "minecraft:enchant_with_levels", "options": options}:
+            case {"type": "minecraft:enchant_with_levels", "options": options}:
                 return enchant is None or enchant == options
             case _:
                 return False
@@ -34,20 +34,20 @@ def is_enchant_function(enchant: str | None) -> Callable[[object], bool]:
 
 def replace_enchant_options(loot_table, from_enchant: str | None, to_enchant: str | list[str]):
     for pool in require(loot_table, "pools"):
-        for entry in where(pool["entries"], lambda x: "functions" in x):
-            for function in where(entry["functions"], is_enchant_function(from_enchant)):
+        for entry in where(pool["entries"], lambda x: "modifier" in x):
+            for function in where(entry["modifier"], is_enchant_function(from_enchant)):
                 function["options"] = to_enchant
 
 
 def add_enchant_option(loot_table, has_enchant: str | None, enchant: str | list[str]):
     def predicate(f: object) -> bool:
         match f:
-            case {"function": "minecraft:enchant_randomly", "options": options}:
+            case {"type": "minecraft:enchant_randomly", "options": options}:
                 if isinstance(options, list):
                     return has_enchant is None or has_enchant in options
                 else:
                     return has_enchant is None or has_enchant == options
-            case {"function": "minecraft:enchant_with_levels", "options": options}:
+            case {"type": "minecraft:enchant_with_levels", "options": options}:
                 if isinstance(options, list):
                     return has_enchant is None or has_enchant in options
                 else:
@@ -57,8 +57,8 @@ def add_enchant_option(loot_table, has_enchant: str | None, enchant: str | list[
 
     enchant_set = set(enchant) if isinstance(enchant, list) else {enchant}
     for pool in require(loot_table, "pools"):
-        for entry in where(pool["entries"], lambda x: "functions" in x):
-            for function in where(entry["functions"], predicate):
+        for entry in where(pool["entries"], lambda x: "modifier" in x):
+            for function in where(entry["modifier"], predicate):
                 options = function["options"]
                 if isinstance(options, list):
                     function["options"] = list(set(options) | enchant_set)
@@ -79,10 +79,10 @@ def ancient_city(ctx: Context, vanilla: Vanilla):
     with ctx.inject(Logger).push("ancient_city"):
         ancient_city = deepcopy(vanilla.data.loot_tables["minecraft:chests/ancient_city"].data)
         for pool in require(ancient_city, "pools"):
-            for entry in where(pool["entries"], lambda x: "functions" in x):
-                for function in where(entry["functions"], is_enchant_function("minecraft:swift_sneak")):
+            for entry in where(pool["entries"], lambda x: "modifier" in x):
+                for function in where(entry["modifier"], is_enchant_function("minecraft:swift_sneak")):
                     del function["options"]
-                    function["function"] = "minecraft:set_enchantments"
+                    function["type"] = "minecraft:set_enchantments"
                     function["enchantments"] = {"minecraft:swift_sneak": 3}
         ctx.data["minecraft:chests/ancient_city"] = LootTable(ancient_city)
 
@@ -99,9 +99,9 @@ def end_city_treasure(ctx: Context, vanilla: Vanilla):
                     {"type": "minecraft:empty", "weight": 4},
                     {
                         "type": "minecraft:item",
-                        "functions": [
+                        "modifier": [
                             {
-                                "function": "minecraft:set_enchantments",
+                                "type": "minecraft:set_enchantments",
                                 "enchantments": {"micahcraft:ender_reach": {"min": 1, "max": 3, "type": "uniform"}},
                             }
                         ],
@@ -128,8 +128,8 @@ def nether_bridge(ctx: Context, vanilla: Vanilla):
                     {
                         "type": "minecraft:item",
                         "name": "book",
-                        "functions": [
-                            {"function": "set_enchantments", "enchantments": {"micahcraft:satyr_step": {"type": "uniform", "min": 1, "max": 2}}}
+                        "modifier": [
+                            {"type": "set_enchantments", "enchantments": {"micahcraft:satyr_step": {"type": "uniform", "min": 1, "max": 2}}}
                         ],
                     },
                 ],

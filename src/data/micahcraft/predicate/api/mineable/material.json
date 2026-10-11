@@ -1,17 +1,14 @@
 {
-    "condition": "any_of",
+    "type": "any_of",
     "terms": [
         {
-            "condition": "all_of",
+            "type": "all_of",
             "terms": [
+                "micahcraft:api/holding/material/wood",
                 {
-                    "condition": "reference",
-                    "name": "micahcraft:api/holding/material/wood"
-                },
-                {
-                    "condition": "inverted",
+                    "type": "inverted",
                     "term": {
-                        "condition": "location_check",
+                        "type": "location_check",
                         "predicate": {
                             "block": {
                                 "blocks": "#incorrect_for_wooden_tool"
@@ -22,16 +19,13 @@
             ]
         },
         {
-            "condition": "all_of",
+            "type": "all_of",
             "terms": [
+                "micahcraft:api/holding/material/stone",
                 {
-                    "condition": "reference",
-                    "name": "micahcraft:api/holding/material/stone"
-                },
-                {
-                    "condition": "inverted",
+                    "type": "inverted",
                     "term": {
-                        "condition": "location_check",
+                        "type": "location_check",
                         "predicate": {
                             "block": {
                                 "blocks": "#incorrect_for_stone_tool"
@@ -42,16 +36,13 @@
             ]
         },
         {
-            "condition": "all_of",
+            "type": "all_of",
             "terms": [
+                "micahcraft:api/holding/material/copper",
                 {
-                    "condition": "reference",
-                    "name": "micahcraft:api/holding/material/copper"
-                },
-                {
-                    "condition": "inverted",
+                    "type": "inverted",
                     "term": {
-                        "condition": "location_check",
+                        "type": "location_check",
                         "predicate": {
                             "block": {
                                 "blocks": "#incorrect_for_copper_tool"
@@ -62,16 +53,13 @@
             ]
         },
         {
-            "condition": "all_of",
+            "type": "all_of",
             "terms": [
+                "micahcraft:api/holding/material/iron",
                 {
-                    "condition": "reference",
-                    "name": "micahcraft:api/holding/material/iron"
-                },
-                {
-                    "condition": "inverted",
+                    "type": "inverted",
                     "term": {
-                        "condition": "location_check",
+                        "type": "location_check",
                         "predicate": {
                             "block": {
                                 "blocks": "#incorrect_for_iron_tool"
@@ -82,16 +70,13 @@
             ]
         },
         {
-            "condition": "all_of",
+            "type": "all_of",
             "terms": [
+                "micahcraft:api/holding/material/gold",
                 {
-                    "condition": "reference",
-                    "name": "micahcraft:api/holding/material/gold"
-                },
-                {
-                    "condition": "inverted",
+                    "type": "inverted",
                     "term": {
-                        "condition": "location_check",
+                        "type": "location_check",
                         "predicate": {
                             "block": {
                                 "blocks": "#incorrect_for_gold_tool"
@@ -102,16 +87,13 @@
             ]
         },
         {
-            "condition": "all_of",
+            "type": "all_of",
             "terms": [
+                "micahcraft:api/holding/material/diamond",
                 {
-                    "condition": "reference",
-                    "name": "micahcraft:api/holding/material/diamond"
-                },
-                {
-                    "condition": "inverted",
+                    "type": "inverted",
                     "term": {
-                        "condition": "location_check",
+                        "type": "location_check",
                         "predicate": {
                             "block": {
                                 "blocks": "#incorrect_for_diamond_tool"
@@ -122,16 +104,13 @@
             ]
         },
         {
-            "condition": "all_of",
+            "type": "all_of",
             "terms": [
+                "micahcraft:api/holding/material/netherite",
                 {
-                    "condition": "reference",
-                    "name": "micahcraft:api/holding/material/netherite"
-                },
-                {
-                    "condition": "inverted",
+                    "type": "inverted",
                     "term": {
-                        "condition": "location_check",
+                        "type": "location_check",
                         "predicate": {
                             "block": {
                                 "blocks": "#incorrect_for_netherite_tool"

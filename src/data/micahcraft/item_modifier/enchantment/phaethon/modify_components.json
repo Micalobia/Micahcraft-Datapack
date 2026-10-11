@@ -1,5 +1,5 @@
 {
-    "function": "set_components",
+    "type": "set_components",
     "components": {
         "minecraft:damage_type": "micahcraft:phaethon_hit",
         "minecraft:kinetic_weapon": {

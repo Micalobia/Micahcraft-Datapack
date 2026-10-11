@@ -2,23 +2,23 @@
   "additional_wants": {
     "id": "minecraft:compass"
   },
-  "given_item_modifiers": [
+  "given_item_modifier": [
     {
       "decoration": "minecraft:jungle_temple",
-      "destination": "micahcraft:on_ruins_maps",
-      "function": "minecraft:exploration_map",
+      "destination": "#micahcraft:on_ruins_maps",
+      "type": "minecraft:exploration_map",
       "search_radius": 100,
       "skip_existing_chunks": true
     },
     {
-      "function": "minecraft:set_name",
+      "type": "minecraft:set_name",
       "name": {
         "translate": "misc.micahcraft.filled_map.ruins"
       },
       "target": "item_name"
     },
     {
-      "function": "minecraft:filtered",
+      "type": "minecraft:filtered",
       "item_filter": {
         "items": "minecraft:filled_map",
         "predicates": {
@@ -26,12 +26,12 @@
         }
       },
       "on_fail": {
-        "function": "minecraft:discard"
+        "type": "minecraft:discard"
       }
     }
   ],
   "gives": {
-    "id": "minecraft:map"
+    "id": "minecraft:filled_map"
   },
   "max_uses": 1.0,
   "reputation_discount": 0.2,
